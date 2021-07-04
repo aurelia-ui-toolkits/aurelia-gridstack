@@ -11,7 +11,7 @@
     "start": "cd packages/demo && npm start",
     "changelog": "cross-env conventional-changelog -p angular -i docs/CHANGELOG.md -s",
     "deploy": "cd packages/demo && npm run build:demo && cd ../.. && deploy.sh",
-    "publish:latest": "cd packages/aurelia-gridstack && npm run publish"
+    "publish:latest": "cd packages/aurelia-gridstack && npm publish"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.26.0",
