@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.build.json",
+  "compilerOptions": {
+    "baseUrl": "./packages",
+    "paths": {
+      "aurelia-gridstack": ["aurelia-gridstack/src"]
+    }
+  }
+}
