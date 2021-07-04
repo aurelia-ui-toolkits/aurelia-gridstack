@@ -1,5 +1,6 @@
 # aurelia-gridstack
 Aurelia wrapper for [gridstack](https://github.com/gridstack/gridstack.js)
+[Demo app](https://aurelia-ui-toolkits.github.io/aurelia-gridstack/)
 
 ## Installation
 
