@@ -10,7 +10,7 @@
     "build": "cd packages/aurelia-gridstack && npm run build",
     "start": "cd packages/demo && npm start",
     "changelog": "cross-env conventional-changelog -p angular -i docs/CHANGELOG.md -s",
-    "deploy": "cd packages/demo && npm run build:demo && cd ../.. && deploy.sh",
+    "deploy": "cd packages/demo && npm run build && cd ../.. && deploy.sh",
     "publish:latest": "cd packages/aurelia-gridstack && npm publish"
   },
   "devDependencies": {
