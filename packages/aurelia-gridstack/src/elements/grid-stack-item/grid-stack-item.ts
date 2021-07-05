@@ -1,17 +1,13 @@
-import { bindingMode } from 'aurelia-binding';
-import { inject } from 'aurelia-dependency-injection';
-import { PLATFORM } from 'aurelia-pal';
-import { customElement, useView } from 'aurelia-templating';
-import { bindable } from 'aurelia-typed-observable-plugin';
+import { bindable, BindingMode, customElement, inject } from 'aurelia';
+import { booleanAttr, number } from '../../interceptors';
 import { GridItemHTMLElement } from 'gridstack';
 
 @inject(Element)
 @customElement('grid-stack-item')
-@useView(PLATFORM.moduleName('./grid-stack-item.html'))
 export class GridStackItem {
   constructor(public root: IGridStackItemElement) { }
 
-  @bindable.number({ defaultBindingMode: bindingMode.twoWay })
+  @bindable({ set: number, mode: BindingMode.twoWay })
   x?: number;
   xChanged() {
     if (this.x !== undefined) {
@@ -21,7 +17,7 @@ export class GridStackItem {
     }
   }
 
-  @bindable.number({ defaultBindingMode: bindingMode.twoWay })
+  @bindable({ set: number, mode: BindingMode.twoWay })
   y?: number;
   yChanged() {
     if (this.y !== undefined) {
@@ -31,7 +27,7 @@ export class GridStackItem {
     }
   }
 
-  @bindable.number({ defaultBindingMode: bindingMode.twoWay })
+  @bindable({ set: number, mode: BindingMode.twoWay })
   w?: number;
   wChanged() {
     if (this.w !== undefined) {
@@ -41,7 +37,7 @@ export class GridStackItem {
     }
   }
 
-  @bindable.number({ defaultBindingMode: bindingMode.twoWay })
+  @bindable({ set: number, mode: BindingMode.twoWay })
   h?: number;
   hChanged() {
     if (this.h !== undefined) {
@@ -51,7 +47,7 @@ export class GridStackItem {
     }
   }
 
-  @bindable.booleanAttr
+  @bindable({ set: booleanAttr })
   noMove: boolean;
   noMoveChanged() {
     if (this.noMove) {
@@ -61,7 +57,7 @@ export class GridStackItem {
     }
   }
 
-  @bindable.booleanAttr
+  @bindable({ set: booleanAttr })
   noResize: boolean;
   noResizeChanged() {
     if (this.noResize) {
@@ -71,7 +67,7 @@ export class GridStackItem {
     }
   }
 
-  @bindable.booleanAttr
+  @bindable({ set: booleanAttr })
   locked: boolean;
   lockedChanged() {
     if (this.locked) {
@@ -80,11 +76,35 @@ export class GridStackItem {
       this.root.removeAttribute('gs-locked');
     }
   }
+
+  attached() {
+    if (this.x !== undefined) {
+      this.xChanged();
+    }
+    if (this.y !== undefined) {
+      this.yChanged();
+    }
+    if (this.w !== undefined) {
+      this.wChanged();
+    }
+    if (this.h !== undefined) {
+      this.hChanged();
+    }
+    if (this.noMove !== undefined) {
+      this.noMoveChanged();
+    }
+    if (this.noResize !== undefined) {
+      this.noResizeChanged();
+    }
+    if (this.locked !== undefined) {
+      this.lockedChanged();
+    }
+  }
 }
 
 export interface IGridStackItemElement extends GridItemHTMLElement {
-  au: {
-    controller: {
+  $au: {
+    'au:resource:custom-element': {
       viewModel: GridStackItem;
     };
   };

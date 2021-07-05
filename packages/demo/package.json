@@ -1,19 +1,20 @@
 {
   "name": "demo",
-  "version": "1.0.0",
+  "version": "1.0.0-au2",
   "private": true,
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --progress",
-    "prebuild": "rimraf dist",
-    "build": "webpack",
+    "start": "webpack serve --progress",
+    "prebuild": "rimraf dist/*.{js,css,map,html}",
+    "build:app": "npm run prebuild && webpack --progress",
+    "analyze": "npm run prebuild && webpack --env production --analyze",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "aurelia-gridstack": "^1.0.0"
+    "aurelia-gridstack": "1.0.0-au2"
   }
 }

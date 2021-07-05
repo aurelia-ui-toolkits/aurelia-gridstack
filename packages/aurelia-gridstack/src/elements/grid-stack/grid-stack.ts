@@ -1,33 +1,30 @@
-import { inject } from 'aurelia-dependency-injection';
-import { PLATFORM } from 'aurelia-pal';
-import { children, customElement, useView } from 'aurelia-templating';
-import { bindable } from 'aurelia-typed-observable-plugin';
+import { bindable, children, CustomElement, customElement, inject } from 'aurelia';
+import { booleanAttr, number } from '../../interceptors';
 import * as gs from 'gridstack';
 // eslint-disable-next-line import/no-unassigned-import
 import 'gridstack/dist/h5/gridstack-dd-native';
-import { GridStackItem, IGridStackItemElement } from '../grid-stack-item/grid-stack-item';
+import { GridStackItem } from '../grid-stack-item/grid-stack-item';
 
 @inject(Element)
 @customElement('grid-stack')
-@useView(PLATFORM.moduleName('./grid-stack.html'))
 export class GridStack {
   constructor(public root: HTMLElement) { }
 
   grid: gs.GridStack;
 
-  @bindable.number
+  @bindable({ set: number })
   minRow: number;
   minRowChanged() {
     this.root.setAttribute('gs-min-row', this.minRow.toString());
   }
 
-  @bindable.booleanAttr
+  @bindable({ set: booleanAttr })
   float: boolean;
   floatChanged() {
     this.grid?.float(this.float);
   }
 
-  @children('.grid-stack-item')
+  @children({ filter: (el: HTMLElement) => { return el.tagName === 'GRID-STACK-ITEM'; } })
   private items: GridStackItem[];
   itemsChanged() {
     if (!this.grid || !this.items) {
@@ -40,13 +37,13 @@ export class GridStack {
         this.updateNodeVmAttributes(x.gridstackNode);
       }
     });
-    const removed = this.grid.engine.nodes.filter(x => !this.items.find(y => y.root === x.el));
+    const removed = this.grid.engine.nodes.filter(x => !x.el?.classList.contains('grid-stack-placeholder') && !this.items.find(y => y.root === x.el));
     removed.forEach(x => this.grid.engine.removeNode(x, false, false));
   }
 
   attached() {
-    this.grid = gs.GridStack.init({ float: this.float }, this.root);
-    this.itemsChanged();
+    this.grid = gs.GridStack.init({ float: this.float, minRow: this.minRow }, this.root);
+    // this.itemsChanged();
   }
 
   detached() {
@@ -58,10 +55,12 @@ export class GridStack {
   }
 
   updateNodeVmAttributes(node: gs.GridStackNode) {
-    const itemVm = (node.el as IGridStackItemElement).au.controller.viewModel;
-    itemVm.x = node.x;
-    itemVm.y = node.y;
-    itemVm.w = node.w;
-    itemVm.h = node.h;
+    if (node.el) {
+      const itemVm = CustomElement.for<GridStackItem>(node.el).viewModel;
+      itemVm.x = node.x;
+      itemVm.y = node.y;
+      itemVm.w = node.w;
+      itemVm.h = node.h;
+    }
   }
 }

@@ -1,12 +1,8 @@
-import 'aurelia-bootstrapper';
-import { Aurelia, PLATFORM } from 'aurelia-framework';
+import Aurelia from 'aurelia';
+import { GridStackConfiguration } from 'aurelia-gridstack';
+import { App } from './app';
 
-export async function configure(aurelia: Aurelia): Promise<void> {
-  aurelia.use
-    .standardConfiguration()
-    .developmentLogging()
-    .plugin(PLATFORM.moduleName('aurelia-gridstack'));
-
-  await aurelia.start();
-  await aurelia.setRoot(PLATFORM.moduleName('app'));
-}
+Aurelia
+  .register(GridStackConfiguration)
+  .app(App)
+  .start();
