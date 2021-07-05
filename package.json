@@ -11,7 +11,7 @@
     "start": "cd packages/demo && npm start",
     "changelog": "cross-env conventional-changelog -p angular -i docs/CHANGELOG.md -s",
     "deploy": "cd packages/demo && npm run build && cd ../.. && deploy.sh",
-    "publish:latest": "cd packages/aurelia-gridstack && npm publish"
+    "publish:au2": "cd packages/aurelia-gridstack && npm run publish:au2"
   },
   "devDependencies": {
     "@aurelia/plugin-gulp": "^2.1.0-dev.202106282211",
