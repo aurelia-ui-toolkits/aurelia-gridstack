@@ -27,6 +27,9 @@ export class GridStack {
     this.grid?.float(this.float);
   }
 
+  @bindable
+  options: gs.GridStackOptions;
+
   @children('.grid-stack-item')
   private items: GridStackItem[];
   itemsChanged() {
@@ -45,7 +48,11 @@ export class GridStack {
   }
 
   attached() {
-    this.grid = gs.GridStack.init({ float: this.float }, this.root);
+    const options = this.options ?? {};
+    if (this.float !== undefined) {
+      options.float = this.float;
+    }
+    this.grid = gs.GridStack.init(options, this.root);
     this.itemsChanged();
   }
 
