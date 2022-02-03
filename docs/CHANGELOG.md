@@ -1,3 +1,16 @@
+# [1.2.0](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/compare/v1.1.0...v1.2.0) (2022-02-03)
+
+
+### Fixes
+
+* do not use booleanAttr for float ([51932a6](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/commit/7d4e2cbcec0b9700648c6f892291553b851932a6))
+
+### Features
+
+* upgrade to gridstack@5 ([d8ea264](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/commit/d8ea264255cd15fab8b1680f536d0a05f09cd09f))
+
+
+
 # [1.1.0](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/compare/v1.0.0...v1.1.0) (2021-12-09)
 
 
