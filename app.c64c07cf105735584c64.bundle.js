@@ -10,96 +10,96 @@
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "targetContext": () => (/* binding */ targetContext),
-/* harmony export */   "sourceContext": () => (/* binding */ sourceContext),
-/* harmony export */   "camelCase": () => (/* binding */ camelCase),
-/* harmony export */   "createOverrideContext": () => (/* binding */ createOverrideContext),
-/* harmony export */   "getContextFor": () => (/* binding */ getContextFor),
-/* harmony export */   "createScopeForTest": () => (/* binding */ createScopeForTest),
-/* harmony export */   "connectable": () => (/* binding */ connectable),
-/* harmony export */   "enqueueBindingConnect": () => (/* binding */ enqueueBindingConnect),
-/* harmony export */   "setConnectQueueThreshold": () => (/* binding */ setConnectQueueThreshold),
-/* harmony export */   "enableConnectQueue": () => (/* binding */ enableConnectQueue),
-/* harmony export */   "disableConnectQueue": () => (/* binding */ disableConnectQueue),
-/* harmony export */   "getConnectQueueSize": () => (/* binding */ getConnectQueueSize),
-/* harmony export */   "subscriberCollection": () => (/* binding */ subscriberCollection),
-/* harmony export */   "ExpressionObserver": () => (/* binding */ ExpressionObserver),
-/* harmony export */   "calcSplices": () => (/* binding */ calcSplices),
-/* harmony export */   "mergeSplice": () => (/* binding */ mergeSplice),
-/* harmony export */   "projectArraySplices": () => (/* binding */ projectArraySplices),
-/* harmony export */   "getChangeRecords": () => (/* binding */ getChangeRecords),
-/* harmony export */   "ModifyCollectionObserver": () => (/* binding */ ModifyCollectionObserver),
-/* harmony export */   "CollectionLengthObserver": () => (/* binding */ CollectionLengthObserver),
-/* harmony export */   "getArrayObserver": () => (/* binding */ getArrayObserver),
-/* harmony export */   "Expression": () => (/* binding */ Expression),
-/* harmony export */   "BindingBehavior": () => (/* binding */ BindingBehavior),
-/* harmony export */   "ValueConverter": () => (/* binding */ ValueConverter),
-/* harmony export */   "Assign": () => (/* binding */ Assign),
-/* harmony export */   "Conditional": () => (/* binding */ Conditional),
-/* harmony export */   "AccessThis": () => (/* binding */ AccessThis),
-/* harmony export */   "AccessScope": () => (/* binding */ AccessScope),
-/* harmony export */   "AccessMember": () => (/* binding */ AccessMember),
 /* harmony export */   "AccessKeyed": () => (/* binding */ AccessKeyed),
-/* harmony export */   "CallScope": () => (/* binding */ CallScope),
-/* harmony export */   "CallMember": () => (/* binding */ CallMember),
-/* harmony export */   "CallFunction": () => (/* binding */ CallFunction),
+/* harmony export */   "AccessMember": () => (/* binding */ AccessMember),
+/* harmony export */   "AccessScope": () => (/* binding */ AccessScope),
+/* harmony export */   "AccessThis": () => (/* binding */ AccessThis),
+/* harmony export */   "Assign": () => (/* binding */ Assign),
 /* harmony export */   "Binary": () => (/* binding */ Binary),
-/* harmony export */   "Unary": () => (/* binding */ Unary),
+/* harmony export */   "Binding": () => (/* binding */ Binding),
+/* harmony export */   "BindingBehavior": () => (/* binding */ BindingBehavior),
+/* harmony export */   "BindingBehaviorResource": () => (/* binding */ BindingBehaviorResource),
+/* harmony export */   "BindingEngine": () => (/* binding */ BindingEngine),
+/* harmony export */   "BindingExpression": () => (/* binding */ BindingExpression),
+/* harmony export */   "Call": () => (/* binding */ Call),
+/* harmony export */   "CallExpression": () => (/* binding */ CallExpression),
+/* harmony export */   "CallFunction": () => (/* binding */ CallFunction),
+/* harmony export */   "CallMember": () => (/* binding */ CallMember),
+/* harmony export */   "CallScope": () => (/* binding */ CallScope),
+/* harmony export */   "CheckedObserver": () => (/* binding */ CheckedObserver),
+/* harmony export */   "ClassObserver": () => (/* binding */ ClassObserver),
+/* harmony export */   "CollectionLengthObserver": () => (/* binding */ CollectionLengthObserver),
+/* harmony export */   "ComputedExpression": () => (/* binding */ ComputedExpression),
+/* harmony export */   "Conditional": () => (/* binding */ Conditional),
+/* harmony export */   "DataAttributeObserver": () => (/* binding */ DataAttributeObserver),
+/* harmony export */   "DirtyCheckProperty": () => (/* binding */ DirtyCheckProperty),
+/* harmony export */   "DirtyChecker": () => (/* binding */ DirtyChecker),
+/* harmony export */   "EventManager": () => (/* binding */ EventManager),
+/* harmony export */   "EventSubscriber": () => (/* binding */ EventSubscriber),
+/* harmony export */   "Expression": () => (/* binding */ Expression),
+/* harmony export */   "ExpressionCloner": () => (/* binding */ ExpressionCloner),
+/* harmony export */   "ExpressionObserver": () => (/* binding */ ExpressionObserver),
+/* harmony export */   "Listener": () => (/* binding */ Listener),
+/* harmony export */   "ListenerExpression": () => (/* binding */ ListenerExpression),
+/* harmony export */   "LiteralArray": () => (/* binding */ LiteralArray),
+/* harmony export */   "LiteralObject": () => (/* binding */ LiteralObject),
 /* harmony export */   "LiteralPrimitive": () => (/* binding */ LiteralPrimitive),
 /* harmony export */   "LiteralString": () => (/* binding */ LiteralString),
 /* harmony export */   "LiteralTemplate": () => (/* binding */ LiteralTemplate),
-/* harmony export */   "LiteralArray": () => (/* binding */ LiteralArray),
-/* harmony export */   "LiteralObject": () => (/* binding */ LiteralObject),
-/* harmony export */   "Unparser": () => (/* binding */ Unparser),
-/* harmony export */   "ExpressionCloner": () => (/* binding */ ExpressionCloner),
-/* harmony export */   "cloneExpression": () => (/* binding */ cloneExpression),
-/* harmony export */   "bindingMode": () => (/* binding */ bindingMode),
+/* harmony export */   "ModifyCollectionObserver": () => (/* binding */ ModifyCollectionObserver),
+/* harmony export */   "NameExpression": () => (/* binding */ NameExpression),
+/* harmony export */   "ObjectObservationAdapter": () => (/* binding */ ObjectObservationAdapter),
+/* harmony export */   "ObserverLocator": () => (/* binding */ ObserverLocator),
 /* harmony export */   "Parser": () => (/* binding */ Parser),
 /* harmony export */   "ParserImplementation": () => (/* binding */ ParserImplementation),
-/* harmony export */   "getMapObserver": () => (/* binding */ getMapObserver),
-/* harmony export */   "delegationStrategy": () => (/* binding */ delegationStrategy),
-/* harmony export */   "EventManager": () => (/* binding */ EventManager),
-/* harmony export */   "EventSubscriber": () => (/* binding */ EventSubscriber),
-/* harmony export */   "DirtyChecker": () => (/* binding */ DirtyChecker),
-/* harmony export */   "DirtyCheckProperty": () => (/* binding */ DirtyCheckProperty),
-/* harmony export */   "propertyAccessor": () => (/* binding */ propertyAccessor),
 /* harmony export */   "PrimitiveObserver": () => (/* binding */ PrimitiveObserver),
-/* harmony export */   "SetterObserver": () => (/* binding */ SetterObserver),
-/* harmony export */   "XLinkAttributeObserver": () => (/* binding */ XLinkAttributeObserver),
-/* harmony export */   "dataAttributeAccessor": () => (/* binding */ dataAttributeAccessor),
-/* harmony export */   "DataAttributeObserver": () => (/* binding */ DataAttributeObserver),
-/* harmony export */   "StyleObserver": () => (/* binding */ StyleObserver),
-/* harmony export */   "ValueAttributeObserver": () => (/* binding */ ValueAttributeObserver),
-/* harmony export */   "CheckedObserver": () => (/* binding */ CheckedObserver),
-/* harmony export */   "SelectValueObserver": () => (/* binding */ SelectValueObserver),
-/* harmony export */   "ClassObserver": () => (/* binding */ ClassObserver),
-/* harmony export */   "hasDeclaredDependencies": () => (/* binding */ hasDeclaredDependencies),
-/* harmony export */   "declarePropertyDependencies": () => (/* binding */ declarePropertyDependencies),
-/* harmony export */   "computedFrom": () => (/* binding */ computedFrom),
-/* harmony export */   "ComputedExpression": () => (/* binding */ ComputedExpression),
-/* harmony export */   "createComputedObserver": () => (/* binding */ createComputedObserver),
-/* harmony export */   "elements": () => (/* binding */ elements),
-/* harmony export */   "presentationElements": () => (/* binding */ presentationElements),
-/* harmony export */   "presentationAttributes": () => (/* binding */ presentationAttributes),
 /* harmony export */   "SVGAnalyzer": () => (/* binding */ SVGAnalyzer),
-/* harmony export */   "ObserverLocator": () => (/* binding */ ObserverLocator),
-/* harmony export */   "ObjectObservationAdapter": () => (/* binding */ ObjectObservationAdapter),
-/* harmony export */   "BindingExpression": () => (/* binding */ BindingExpression),
-/* harmony export */   "Binding": () => (/* binding */ Binding),
-/* harmony export */   "CallExpression": () => (/* binding */ CallExpression),
-/* harmony export */   "Call": () => (/* binding */ Call),
+/* harmony export */   "SelectValueObserver": () => (/* binding */ SelectValueObserver),
+/* harmony export */   "SetterObserver": () => (/* binding */ SetterObserver),
+/* harmony export */   "StyleObserver": () => (/* binding */ StyleObserver),
+/* harmony export */   "Unary": () => (/* binding */ Unary),
+/* harmony export */   "Unparser": () => (/* binding */ Unparser),
+/* harmony export */   "ValueAttributeObserver": () => (/* binding */ ValueAttributeObserver),
+/* harmony export */   "ValueConverter": () => (/* binding */ ValueConverter),
 /* harmony export */   "ValueConverterResource": () => (/* binding */ ValueConverterResource),
-/* harmony export */   "valueConverter": () => (/* binding */ valueConverter),
-/* harmony export */   "BindingBehaviorResource": () => (/* binding */ BindingBehaviorResource),
+/* harmony export */   "XLinkAttributeObserver": () => (/* binding */ XLinkAttributeObserver),
 /* harmony export */   "bindingBehavior": () => (/* binding */ bindingBehavior),
-/* harmony export */   "ListenerExpression": () => (/* binding */ ListenerExpression),
-/* harmony export */   "Listener": () => (/* binding */ Listener),
-/* harmony export */   "NameExpression": () => (/* binding */ NameExpression),
-/* harmony export */   "BindingEngine": () => (/* binding */ BindingEngine),
-/* harmony export */   "getSetObserver": () => (/* binding */ getSetObserver),
-/* harmony export */   "observable": () => (/* binding */ observable),
+/* harmony export */   "bindingMode": () => (/* binding */ bindingMode),
+/* harmony export */   "calcSplices": () => (/* binding */ calcSplices),
+/* harmony export */   "camelCase": () => (/* binding */ camelCase),
+/* harmony export */   "cloneExpression": () => (/* binding */ cloneExpression),
+/* harmony export */   "computedFrom": () => (/* binding */ computedFrom),
 /* harmony export */   "connectBindingToSignal": () => (/* binding */ connectBindingToSignal),
-/* harmony export */   "signalBindings": () => (/* binding */ signalBindings)
+/* harmony export */   "connectable": () => (/* binding */ connectable),
+/* harmony export */   "createComputedObserver": () => (/* binding */ createComputedObserver),
+/* harmony export */   "createOverrideContext": () => (/* binding */ createOverrideContext),
+/* harmony export */   "createScopeForTest": () => (/* binding */ createScopeForTest),
+/* harmony export */   "dataAttributeAccessor": () => (/* binding */ dataAttributeAccessor),
+/* harmony export */   "declarePropertyDependencies": () => (/* binding */ declarePropertyDependencies),
+/* harmony export */   "delegationStrategy": () => (/* binding */ delegationStrategy),
+/* harmony export */   "disableConnectQueue": () => (/* binding */ disableConnectQueue),
+/* harmony export */   "elements": () => (/* binding */ elements),
+/* harmony export */   "enableConnectQueue": () => (/* binding */ enableConnectQueue),
+/* harmony export */   "enqueueBindingConnect": () => (/* binding */ enqueueBindingConnect),
+/* harmony export */   "getArrayObserver": () => (/* binding */ getArrayObserver),
+/* harmony export */   "getChangeRecords": () => (/* binding */ getChangeRecords),
+/* harmony export */   "getConnectQueueSize": () => (/* binding */ getConnectQueueSize),
+/* harmony export */   "getContextFor": () => (/* binding */ getContextFor),
+/* harmony export */   "getMapObserver": () => (/* binding */ getMapObserver),
+/* harmony export */   "getSetObserver": () => (/* binding */ getSetObserver),
+/* harmony export */   "hasDeclaredDependencies": () => (/* binding */ hasDeclaredDependencies),
+/* harmony export */   "mergeSplice": () => (/* binding */ mergeSplice),
+/* harmony export */   "observable": () => (/* binding */ observable),
+/* harmony export */   "presentationAttributes": () => (/* binding */ presentationAttributes),
+/* harmony export */   "presentationElements": () => (/* binding */ presentationElements),
+/* harmony export */   "projectArraySplices": () => (/* binding */ projectArraySplices),
+/* harmony export */   "propertyAccessor": () => (/* binding */ propertyAccessor),
+/* harmony export */   "setConnectQueueThreshold": () => (/* binding */ setConnectQueueThreshold),
+/* harmony export */   "signalBindings": () => (/* binding */ signalBindings),
+/* harmony export */   "sourceContext": () => (/* binding */ sourceContext),
+/* harmony export */   "subscriberCollection": () => (/* binding */ subscriberCollection),
+/* harmony export */   "targetContext": () => (/* binding */ targetContext),
+/* harmony export */   "valueConverter": () => (/* binding */ valueConverter)
 /* harmony export */ });
 /* harmony import */ var aurelia_logging__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! aurelia-logging */ "../../node_modules/aurelia-logging/dist/es2015/aurelia-logging.js");
 /* harmony import */ var aurelia_pal__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! aurelia-pal */ "../../node_modules/aurelia-pal/dist/es2015/aurelia-pal.js");
@@ -5308,113 +5308,116 @@ __webpack_require__.r(__webpack_exports__);
 
 let bootstrapPromises = [];
 let startResolve;
-
 const startPromise = new Promise(resolve => startResolve = resolve);
 const host = aurelia_pal__WEBPACK_IMPORTED_MODULE_1__.PLATFORM.global;
 const isNodeLike = typeof process !== 'undefined' && !process.browser;
-
 function ready() {
-  if (!host.document || host.document.readyState === 'complete') {
-    return Promise.resolve();
-  }
-
-  return new Promise(resolve => {
-    host.document.addEventListener('DOMContentLoaded', completed);
-    host.addEventListener('load', completed);
-
-    function completed() {
-      host.document.removeEventListener('DOMContentLoaded', completed);
-      host.removeEventListener('load', completed);
-      resolve();
+    if (!host.document || host.document.readyState === 'complete') {
+        return Promise.resolve();
     }
-  });
-}
-
-function createLoader() {
-  if (aurelia_pal__WEBPACK_IMPORTED_MODULE_1__.PLATFORM.Loader) {
-    return Promise.resolve(new aurelia_pal__WEBPACK_IMPORTED_MODULE_1__.PLATFORM.Loader());
-  }
-
-  if (false) {}
-
-  return Promise.reject('No PLATFORM.Loader is defined and there is neither a System API (ES6) or a Require API (AMD) globally available to load your app.');
-}
-
-function initializePal(loader) {
-  if (aurelia_pal__WEBPACK_IMPORTED_MODULE_1__.isInitialized) return Promise.resolve();
-
-  let type;
-
-  const isRenderer = isNodeLike && (process.type === 'renderer' || process.versions['node-webkit']);
-
-  if (isNodeLike && !isRenderer) {
-    type = 'nodejs';
-  } else if (typeof window !== 'undefined') {
-    type = 'browser';
-  } else if (typeof self !== 'undefined') {
-    type = 'worker';
-  } else {
-    throw new Error('Could not determine platform implementation to load.');
-  }
-
-  return loader.loadModule('aurelia-pal-' + type).then(palModule => type === 'nodejs' && !aurelia_pal__WEBPACK_IMPORTED_MODULE_1__.isInitialized && palModule.globalize() || palModule.initialize());
-}
-
-function preparePlatform(loader) {
-  const map = (moduleId, relativeTo) => loader.normalize(moduleId, relativeTo).then(normalized => {
-    loader.map(moduleId, normalized);
-    return normalized;
-  });
-
-  return initializePal(loader).then(() => loader.normalize('aurelia-bootstrapper')).then(bootstrapperName => {
-    const frameworkPromise = map('aurelia-framework', bootstrapperName);
-
-    return Promise.all([frameworkPromise, frameworkPromise.then(frameworkName => map('aurelia-dependency-injection', frameworkName)), map('aurelia-router', bootstrapperName), map('aurelia-logging-console', bootstrapperName)]);
-  }).then(([frameworkName]) => loader.loadModule(frameworkName)).then(fx => startResolve(() => new fx.Aurelia(loader)));
-}
-
-function config(appHost, configModuleId, aurelia) {
-  aurelia.host = appHost;
-  aurelia.configModuleId = configModuleId || null;
-
-  if (configModuleId) {
-    return aurelia.loader.loadModule(configModuleId).then(customConfig => {
-      if (!customConfig.configure) {
-        throw new Error(`Cannot initialize module '${configModuleId}' without a configure function.`);
-      }
-
-      return customConfig.configure(aurelia);
+    return new Promise(resolve => {
+        host.document.addEventListener('DOMContentLoaded', completed);
+        host.addEventListener('load', completed);
+        function completed() {
+            host.document.removeEventListener('DOMContentLoaded', completed);
+            host.removeEventListener('load', completed);
+            resolve();
+        }
     });
-  }
-
-  aurelia.use.standardConfiguration().developmentLogging();
-
-  return aurelia.start().then(() => aurelia.setRoot());
 }
-
-function run() {
-  return ready().then(createLoader).then(preparePlatform).then(() => {
-    const appHosts = host.document.querySelectorAll('[aurelia-app],[data-aurelia-app]');
-    for (let i = 0, ii = appHosts.length; i < ii; ++i) {
-      const appHost = appHosts[i];
-      const moduleId = appHost.getAttribute('aurelia-app') || appHost.getAttribute('data-aurelia-app');
-      bootstrap(config.bind(null, appHost, moduleId));
+function createLoader() {
+    if (aurelia_pal__WEBPACK_IMPORTED_MODULE_1__.PLATFORM.Loader) {
+        return Promise.resolve(new aurelia_pal__WEBPACK_IMPORTED_MODULE_1__.PLATFORM.Loader());
     }
-
-    const toConsole = console.error.bind(console);
-    const bootstraps = bootstrapPromises.map(p => p.catch(toConsole));
-    bootstrapPromises = null;
-    return Promise.all(bootstraps);
-  });
+    if (false) {}
+    return Promise.reject('No PLATFORM.Loader is defined and there is neither a System API (ES6) or a Require API (AMD) globally available to load your app.');
 }
-
+function initializePal(loader) {
+    if (aurelia_pal__WEBPACK_IMPORTED_MODULE_1__.isInitialized)
+        return Promise.resolve();
+    let type;
+    const isRenderer = isNodeLike && (process.type === 'renderer' || process.versions['node-webkit']);
+    if (isNodeLike && !isRenderer) {
+        type = 'nodejs';
+    }
+    else if (typeof window !== 'undefined') {
+        type = 'browser';
+    }
+    else if (typeof self !== 'undefined') {
+        type = 'worker';
+    }
+    else {
+        throw new Error('Could not determine platform implementation to load.');
+    }
+    return loader.loadModule('aurelia-pal-' + type)
+        .then(palModule => type === 'nodejs' && !aurelia_pal__WEBPACK_IMPORTED_MODULE_1__.isInitialized && palModule.globalize() || palModule.initialize());
+}
+function preparePlatform(loader) {
+    const map = (moduleId, relativeTo) => loader.normalize(moduleId, relativeTo)
+        .then(normalized => {
+        loader.map(moduleId, normalized);
+        return normalized;
+    });
+    return initializePal(loader)
+        .then(() => loader.normalize('aurelia-bootstrapper'))
+        .then(bootstrapperName => {
+        const frameworkPromise = map('aurelia-framework', bootstrapperName);
+        return Promise.all([
+            frameworkPromise,
+            frameworkPromise.then(frameworkName => map('aurelia-dependency-injection', frameworkName)),
+            map('aurelia-router', bootstrapperName),
+            map('aurelia-logging-console', bootstrapperName)
+        ]);
+    })
+        .then(([frameworkName]) => loader.loadModule(frameworkName))
+        .then((fx) => startResolve(() => new fx.Aurelia(loader)));
+}
+function config(appHost, configModuleId, aurelia) {
+    aurelia.host = appHost;
+    aurelia.configModuleId = configModuleId || null;
+    if (configModuleId) {
+        return aurelia.loader
+            .loadModule(configModuleId)
+            .then(customConfig => {
+            if (!customConfig.configure) {
+                throw new Error(`Cannot initialize module '${configModuleId}' without a configure function.`);
+            }
+            return customConfig.configure(aurelia);
+        });
+    }
+    aurelia.use
+        .standardConfiguration()
+        .developmentLogging();
+    return aurelia.start().then(() => aurelia.setRoot());
+}
+function run() {
+    return ready()
+        .then(createLoader)
+        .then(preparePlatform)
+        .then(() => {
+        const appHosts = host.document.querySelectorAll('[aurelia-app],[data-aurelia-app]');
+        for (let i = 0, ii = appHosts.length; i < ii; ++i) {
+            const appHost = appHosts[i];
+            const mainModuleId = appHost.getAttribute('aurelia-app') || appHost.getAttribute('data-aurelia-app');
+            bootstrap(config.bind(null, appHost, mainModuleId));
+        }
+        const toConsole = console.error.bind(console);
+        const bootstraps = bootstrapPromises.map(p => p.catch(toConsole));
+        bootstrapPromises = null;
+        return Promise.all(bootstraps);
+    });
+}
 function bootstrap(configure) {
-  const p = startPromise.then(factory => configure(factory()));
-  if (bootstrapPromises) bootstrapPromises.push(p);
-  return p;
+    const p = startPromise.then(factory => configure(factory()));
+    if (bootstrapPromises)
+        bootstrapPromises.push(p);
+    return p;
 }
-
 const starting = run();
+
+
+//# sourceMappingURL=aurelia-bootstrapper.js.map
+
 
 /***/ }),
 
@@ -5427,35 +5430,35 @@ const starting = run();
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "_emptyParameters": () => (/* binding */ _emptyParameters),
-/* harmony export */   "InvocationHandler": () => (/* binding */ InvocationHandler),
-/* harmony export */   "Container": () => (/* binding */ Container),
-/* harmony export */   "autoinject": () => (/* binding */ autoinject),
-/* harmony export */   "inject": () => (/* binding */ inject),
-/* harmony export */   "invoker": () => (/* binding */ invoker),
-/* harmony export */   "invokeAsFactory": () => (/* binding */ invokeAsFactory),
-/* harmony export */   "FactoryInvoker": () => (/* binding */ FactoryInvoker),
-/* harmony export */   "registration": () => (/* binding */ registration),
-/* harmony export */   "transient": () => (/* binding */ transient),
-/* harmony export */   "singleton": () => (/* binding */ singleton),
-/* harmony export */   "TransientRegistration": () => (/* binding */ TransientRegistration),
-/* harmony export */   "SingletonRegistration": () => (/* binding */ SingletonRegistration),
-/* harmony export */   "resolver": () => (/* binding */ resolver),
-/* harmony export */   "Strategy": () => (/* binding */ Strategy),
-/* harmony export */   "StrategyResolver": () => (/* binding */ StrategyResolver),
-/* harmony export */   "Lazy": () => (/* binding */ Lazy),
 /* harmony export */   "All": () => (/* binding */ All),
+/* harmony export */   "Container": () => (/* binding */ Container),
+/* harmony export */   "Factory": () => (/* binding */ Factory),
+/* harmony export */   "FactoryInvoker": () => (/* binding */ FactoryInvoker),
+/* harmony export */   "InvocationHandler": () => (/* binding */ InvocationHandler),
+/* harmony export */   "Lazy": () => (/* binding */ Lazy),
+/* harmony export */   "NewInstance": () => (/* binding */ NewInstance),
 /* harmony export */   "Optional": () => (/* binding */ Optional),
 /* harmony export */   "Parent": () => (/* binding */ Parent),
-/* harmony export */   "Factory": () => (/* binding */ Factory),
-/* harmony export */   "NewInstance": () => (/* binding */ NewInstance),
-/* harmony export */   "getDecoratorDependencies": () => (/* binding */ getDecoratorDependencies),
-/* harmony export */   "lazy": () => (/* binding */ lazy),
+/* harmony export */   "SingletonRegistration": () => (/* binding */ SingletonRegistration),
+/* harmony export */   "Strategy": () => (/* binding */ Strategy),
+/* harmony export */   "StrategyResolver": () => (/* binding */ StrategyResolver),
+/* harmony export */   "TransientRegistration": () => (/* binding */ TransientRegistration),
+/* harmony export */   "_emptyParameters": () => (/* binding */ _emptyParameters),
 /* harmony export */   "all": () => (/* binding */ all),
+/* harmony export */   "autoinject": () => (/* binding */ autoinject),
+/* harmony export */   "factory": () => (/* binding */ factory),
+/* harmony export */   "getDecoratorDependencies": () => (/* binding */ getDecoratorDependencies),
+/* harmony export */   "inject": () => (/* binding */ inject),
+/* harmony export */   "invokeAsFactory": () => (/* binding */ invokeAsFactory),
+/* harmony export */   "invoker": () => (/* binding */ invoker),
+/* harmony export */   "lazy": () => (/* binding */ lazy),
+/* harmony export */   "newInstance": () => (/* binding */ newInstance),
 /* harmony export */   "optional": () => (/* binding */ optional),
 /* harmony export */   "parent": () => (/* binding */ parent),
-/* harmony export */   "factory": () => (/* binding */ factory),
-/* harmony export */   "newInstance": () => (/* binding */ newInstance)
+/* harmony export */   "registration": () => (/* binding */ registration),
+/* harmony export */   "resolver": () => (/* binding */ resolver),
+/* harmony export */   "singleton": () => (/* binding */ singleton),
+/* harmony export */   "transient": () => (/* binding */ transient)
 /* harmony export */ });
 /* harmony import */ var aurelia_metadata__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! aurelia-metadata */ "../../node_modules/aurelia-metadata/dist/es2015/aurelia-metadata.js");
 /* harmony import */ var aurelia_pal__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! aurelia-pal */ "../../node_modules/aurelia-pal/dist/es2015/aurelia-pal.js");
@@ -6071,8 +6074,8 @@ class SingletonRegistration {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "EventAggregator": () => (/* binding */ EventAggregator),
-/* harmony export */   "includeEventsIn": () => (/* binding */ includeEventsIn),
-/* harmony export */   "configure": () => (/* binding */ configure)
+/* harmony export */   "configure": () => (/* binding */ configure),
+/* harmony export */   "includeEventsIn": () => (/* binding */ includeEventsIn)
 /* harmony export */ });
 /* harmony import */ var aurelia_logging__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! aurelia-logging */ "../../node_modules/aurelia-logging/dist/es2015/aurelia-logging.js");
 
@@ -6214,164 +6217,114 @@ function configure(config) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Aurelia": () => (/* binding */ Aurelia),
-/* harmony export */   "FrameworkConfiguration": () => (/* binding */ FrameworkConfiguration),
-/* harmony export */   "All": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_1__.All),
-/* harmony export */   "Container": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_1__.Container),
-/* harmony export */   "Factory": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_1__.Factory),
-/* harmony export */   "FactoryInvoker": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_1__.FactoryInvoker),
-/* harmony export */   "InvocationHandler": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_1__.InvocationHandler),
-/* harmony export */   "Lazy": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_1__.Lazy),
-/* harmony export */   "NewInstance": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_1__.NewInstance),
-/* harmony export */   "Optional": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_1__.Optional),
-/* harmony export */   "Parent": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_1__.Parent),
-/* harmony export */   "SingletonRegistration": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_1__.SingletonRegistration),
-/* harmony export */   "Strategy": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_1__.Strategy),
-/* harmony export */   "StrategyResolver": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_1__.StrategyResolver),
-/* harmony export */   "TransientRegistration": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_1__.TransientRegistration),
-/* harmony export */   "_emptyParameters": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_1__._emptyParameters),
-/* harmony export */   "all": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_1__.all),
-/* harmony export */   "autoinject": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_1__.autoinject),
-/* harmony export */   "factory": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_1__.factory),
-/* harmony export */   "getDecoratorDependencies": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_1__.getDecoratorDependencies),
-/* harmony export */   "inject": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_1__.inject),
-/* harmony export */   "invokeAsFactory": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_1__.invokeAsFactory),
-/* harmony export */   "invoker": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_1__.invoker),
-/* harmony export */   "lazy": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_1__.lazy),
-/* harmony export */   "newInstance": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_1__.newInstance),
-/* harmony export */   "optional": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_1__.optional),
-/* harmony export */   "parent": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_1__.parent),
-/* harmony export */   "registration": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_1__.registration),
-/* harmony export */   "resolver": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_1__.resolver),
-/* harmony export */   "singleton": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_1__.singleton),
-/* harmony export */   "transient": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_1__.transient),
-/* harmony export */   "AccessKeyed": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.AccessKeyed),
-/* harmony export */   "AccessMember": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.AccessMember),
-/* harmony export */   "AccessScope": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.AccessScope),
-/* harmony export */   "AccessThis": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.AccessThis),
-/* harmony export */   "Assign": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.Assign),
-/* harmony export */   "Binary": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.Binary),
-/* harmony export */   "Binding": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.Binding),
-/* harmony export */   "BindingBehavior": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.BindingBehavior),
-/* harmony export */   "BindingBehaviorResource": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.BindingBehaviorResource),
-/* harmony export */   "BindingEngine": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.BindingEngine),
-/* harmony export */   "BindingExpression": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.BindingExpression),
-/* harmony export */   "Call": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.Call),
-/* harmony export */   "CallExpression": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.CallExpression),
-/* harmony export */   "CallFunction": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.CallFunction),
-/* harmony export */   "CallMember": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.CallMember),
-/* harmony export */   "CallScope": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.CallScope),
-/* harmony export */   "CheckedObserver": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.CheckedObserver),
-/* harmony export */   "ClassObserver": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.ClassObserver),
-/* harmony export */   "CollectionLengthObserver": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.CollectionLengthObserver),
-/* harmony export */   "ComputedExpression": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.ComputedExpression),
-/* harmony export */   "Conditional": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.Conditional),
-/* harmony export */   "DataAttributeObserver": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.DataAttributeObserver),
-/* harmony export */   "DirtyCheckProperty": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.DirtyCheckProperty),
-/* harmony export */   "DirtyChecker": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.DirtyChecker),
-/* harmony export */   "EventManager": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.EventManager),
-/* harmony export */   "EventSubscriber": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.EventSubscriber),
-/* harmony export */   "Expression": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.Expression),
-/* harmony export */   "ExpressionCloner": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.ExpressionCloner),
-/* harmony export */   "ExpressionObserver": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.ExpressionObserver),
-/* harmony export */   "Listener": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.Listener),
-/* harmony export */   "ListenerExpression": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.ListenerExpression),
-/* harmony export */   "LiteralArray": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.LiteralArray),
-/* harmony export */   "LiteralObject": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.LiteralObject),
-/* harmony export */   "LiteralPrimitive": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.LiteralPrimitive),
-/* harmony export */   "LiteralString": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.LiteralString),
-/* harmony export */   "LiteralTemplate": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.LiteralTemplate),
-/* harmony export */   "ModifyCollectionObserver": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.ModifyCollectionObserver),
-/* harmony export */   "NameExpression": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.NameExpression),
-/* harmony export */   "ObjectObservationAdapter": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.ObjectObservationAdapter),
-/* harmony export */   "ObserverLocator": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.ObserverLocator),
-/* harmony export */   "Parser": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.Parser),
-/* harmony export */   "ParserImplementation": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.ParserImplementation),
-/* harmony export */   "PrimitiveObserver": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.PrimitiveObserver),
-/* harmony export */   "SVGAnalyzer": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.SVGAnalyzer),
-/* harmony export */   "SelectValueObserver": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.SelectValueObserver),
-/* harmony export */   "SetterObserver": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.SetterObserver),
-/* harmony export */   "StyleObserver": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.StyleObserver),
-/* harmony export */   "Unary": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.Unary),
-/* harmony export */   "Unparser": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.Unparser),
-/* harmony export */   "ValueAttributeObserver": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.ValueAttributeObserver),
-/* harmony export */   "ValueConverter": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.ValueConverter),
-/* harmony export */   "ValueConverterResource": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.ValueConverterResource),
-/* harmony export */   "XLinkAttributeObserver": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.XLinkAttributeObserver),
-/* harmony export */   "bindingBehavior": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.bindingBehavior),
-/* harmony export */   "bindingMode": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.bindingMode),
-/* harmony export */   "calcSplices": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.calcSplices),
-/* harmony export */   "camelCase": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.camelCase),
-/* harmony export */   "cloneExpression": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.cloneExpression),
-/* harmony export */   "computedFrom": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.computedFrom),
-/* harmony export */   "connectBindingToSignal": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.connectBindingToSignal),
-/* harmony export */   "connectable": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.connectable),
-/* harmony export */   "createComputedObserver": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.createComputedObserver),
-/* harmony export */   "createOverrideContext": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.createOverrideContext),
-/* harmony export */   "createScopeForTest": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.createScopeForTest),
-/* harmony export */   "dataAttributeAccessor": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.dataAttributeAccessor),
-/* harmony export */   "declarePropertyDependencies": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.declarePropertyDependencies),
-/* harmony export */   "delegationStrategy": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.delegationStrategy),
-/* harmony export */   "disableConnectQueue": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.disableConnectQueue),
-/* harmony export */   "elements": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.elements),
-/* harmony export */   "enableConnectQueue": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.enableConnectQueue),
-/* harmony export */   "enqueueBindingConnect": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.enqueueBindingConnect),
-/* harmony export */   "getArrayObserver": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.getArrayObserver),
-/* harmony export */   "getChangeRecords": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.getChangeRecords),
-/* harmony export */   "getConnectQueueSize": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.getConnectQueueSize),
-/* harmony export */   "getContextFor": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.getContextFor),
-/* harmony export */   "getMapObserver": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.getMapObserver),
-/* harmony export */   "getSetObserver": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.getSetObserver),
-/* harmony export */   "hasDeclaredDependencies": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.hasDeclaredDependencies),
-/* harmony export */   "mergeSplice": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.mergeSplice),
-/* harmony export */   "observable": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.observable),
-/* harmony export */   "presentationAttributes": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.presentationAttributes),
-/* harmony export */   "presentationElements": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.presentationElements),
-/* harmony export */   "projectArraySplices": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.projectArraySplices),
-/* harmony export */   "propertyAccessor": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.propertyAccessor),
-/* harmony export */   "setConnectQueueThreshold": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.setConnectQueueThreshold),
-/* harmony export */   "signalBindings": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.signalBindings),
-/* harmony export */   "sourceContext": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.sourceContext),
-/* harmony export */   "subscriberCollection": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.subscriberCollection),
-/* harmony export */   "targetContext": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.targetContext),
-/* harmony export */   "valueConverter": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_6__.valueConverter),
-/* harmony export */   "Origin": () => (/* reexport safe */ aurelia_metadata__WEBPACK_IMPORTED_MODULE_7__.Origin),
-/* harmony export */   "decorators": () => (/* reexport safe */ aurelia_metadata__WEBPACK_IMPORTED_MODULE_7__.decorators),
-/* harmony export */   "deprecated": () => (/* reexport safe */ aurelia_metadata__WEBPACK_IMPORTED_MODULE_7__.deprecated),
-/* harmony export */   "metadata": () => (/* reexport safe */ aurelia_metadata__WEBPACK_IMPORTED_MODULE_7__.metadata),
-/* harmony export */   "mixin": () => (/* reexport safe */ aurelia_metadata__WEBPACK_IMPORTED_MODULE_7__.mixin),
-/* harmony export */   "protocol": () => (/* reexport safe */ aurelia_metadata__WEBPACK_IMPORTED_MODULE_7__.protocol),
+/* harmony export */   "AccessKeyed": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.AccessKeyed),
+/* harmony export */   "AccessMember": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.AccessMember),
+/* harmony export */   "AccessScope": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.AccessScope),
+/* harmony export */   "AccessThis": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.AccessThis),
+/* harmony export */   "AggregateError": () => (/* reexport safe */ aurelia_pal__WEBPACK_IMPORTED_MODULE_7__.AggregateError),
+/* harmony export */   "All": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_0__.All),
 /* harmony export */   "Animator": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.Animator),
+/* harmony export */   "Assign": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.Assign),
+/* harmony export */   "Aurelia": () => (/* binding */ Aurelia),
 /* harmony export */   "BehaviorInstruction": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.BehaviorInstruction),
 /* harmony export */   "BehaviorPropertyObserver": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.BehaviorPropertyObserver),
+/* harmony export */   "Binary": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.Binary),
 /* harmony export */   "BindableProperty": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.BindableProperty),
+/* harmony export */   "Binding": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.Binding),
+/* harmony export */   "BindingBehavior": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.BindingBehavior),
+/* harmony export */   "BindingBehaviorResource": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.BindingBehaviorResource),
+/* harmony export */   "BindingEngine": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.BindingEngine),
+/* harmony export */   "BindingExpression": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.BindingExpression),
 /* harmony export */   "BindingLanguage": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.BindingLanguage),
 /* harmony export */   "BoundViewFactory": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.BoundViewFactory),
+/* harmony export */   "Call": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.Call),
+/* harmony export */   "CallExpression": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.CallExpression),
+/* harmony export */   "CallFunction": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.CallFunction),
+/* harmony export */   "CallMember": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.CallMember),
+/* harmony export */   "CallScope": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.CallScope),
+/* harmony export */   "CheckedObserver": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.CheckedObserver),
+/* harmony export */   "ClassObserver": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.ClassObserver),
+/* harmony export */   "CollectionLengthObserver": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.CollectionLengthObserver),
 /* harmony export */   "CompositionEngine": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.CompositionEngine),
 /* harmony export */   "CompositionTransaction": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.CompositionTransaction),
 /* harmony export */   "CompositionTransactionNotifier": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.CompositionTransactionNotifier),
 /* harmony export */   "CompositionTransactionOwnershipToken": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.CompositionTransactionOwnershipToken),
+/* harmony export */   "ComputedExpression": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.ComputedExpression),
+/* harmony export */   "Conditional": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.Conditional),
+/* harmony export */   "Container": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_0__.Container),
 /* harmony export */   "Controller": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.Controller),
 /* harmony export */   "ConventionalViewStrategy": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.ConventionalViewStrategy),
+/* harmony export */   "DOM": () => (/* reexport safe */ aurelia_pal__WEBPACK_IMPORTED_MODULE_7__.DOM),
+/* harmony export */   "DataAttributeObserver": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.DataAttributeObserver),
+/* harmony export */   "DirtyCheckProperty": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.DirtyCheckProperty),
+/* harmony export */   "DirtyChecker": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.DirtyChecker),
 /* harmony export */   "ElementConfigResource": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.ElementConfigResource),
 /* harmony export */   "ElementEvents": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.ElementEvents),
+/* harmony export */   "EventManager": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.EventManager),
+/* harmony export */   "EventSubscriber": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.EventSubscriber),
+/* harmony export */   "Expression": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.Expression),
+/* harmony export */   "ExpressionCloner": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.ExpressionCloner),
+/* harmony export */   "ExpressionObserver": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.ExpressionObserver),
+/* harmony export */   "FEATURE": () => (/* reexport safe */ aurelia_pal__WEBPACK_IMPORTED_MODULE_7__.FEATURE),
+/* harmony export */   "Factory": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_0__.Factory),
+/* harmony export */   "FactoryInvoker": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_0__.FactoryInvoker),
+/* harmony export */   "FrameworkConfiguration": () => (/* binding */ FrameworkConfiguration),
 /* harmony export */   "HtmlBehaviorResource": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.HtmlBehaviorResource),
 /* harmony export */   "InlineViewStrategy": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.InlineViewStrategy),
+/* harmony export */   "InvocationHandler": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_0__.InvocationHandler),
+/* harmony export */   "Lazy": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_0__.Lazy),
+/* harmony export */   "Listener": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.Listener),
+/* harmony export */   "ListenerExpression": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.ListenerExpression),
+/* harmony export */   "LiteralArray": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.LiteralArray),
+/* harmony export */   "LiteralObject": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.LiteralObject),
+/* harmony export */   "LiteralPrimitive": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.LiteralPrimitive),
+/* harmony export */   "LiteralString": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.LiteralString),
+/* harmony export */   "LiteralTemplate": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.LiteralTemplate),
+/* harmony export */   "Loader": () => (/* reexport safe */ aurelia_loader__WEBPACK_IMPORTED_MODULE_4__.Loader),
+/* harmony export */   "LogManager": () => (/* reexport module object */ aurelia_logging__WEBPACK_IMPORTED_MODULE_8__),
+/* harmony export */   "ModifyCollectionObserver": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.ModifyCollectionObserver),
 /* harmony export */   "ModuleAnalyzer": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.ModuleAnalyzer),
+/* harmony export */   "NameExpression": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.NameExpression),
+/* harmony export */   "NewInstance": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_0__.NewInstance),
 /* harmony export */   "NoViewStrategy": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.NoViewStrategy),
+/* harmony export */   "ObjectObservationAdapter": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.ObjectObservationAdapter),
+/* harmony export */   "ObserverLocator": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.ObserverLocator),
+/* harmony export */   "Optional": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_0__.Optional),
+/* harmony export */   "Origin": () => (/* reexport safe */ aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.Origin),
+/* harmony export */   "PLATFORM": () => (/* reexport safe */ aurelia_pal__WEBPACK_IMPORTED_MODULE_7__.PLATFORM),
+/* harmony export */   "Parent": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_0__.Parent),
+/* harmony export */   "Parser": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.Parser),
+/* harmony export */   "ParserImplementation": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.ParserImplementation),
 /* harmony export */   "PassThroughSlot": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.PassThroughSlot),
+/* harmony export */   "PrimitiveObserver": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.PrimitiveObserver),
 /* harmony export */   "RelativeViewStrategy": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.RelativeViewStrategy),
 /* harmony export */   "ResourceDescription": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.ResourceDescription),
 /* harmony export */   "ResourceLoadContext": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.ResourceLoadContext),
 /* harmony export */   "ResourceModule": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.ResourceModule),
+/* harmony export */   "SVGAnalyzer": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.SVGAnalyzer),
+/* harmony export */   "SelectValueObserver": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.SelectValueObserver),
+/* harmony export */   "SetterObserver": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.SetterObserver),
 /* harmony export */   "ShadowDOM": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.ShadowDOM),
 /* harmony export */   "ShadowSlot": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.ShadowSlot),
+/* harmony export */   "SingletonRegistration": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_0__.SingletonRegistration),
 /* harmony export */   "SlotCustomAttribute": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.SlotCustomAttribute),
 /* harmony export */   "StaticViewStrategy": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.StaticViewStrategy),
+/* harmony export */   "Strategy": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_0__.Strategy),
+/* harmony export */   "StrategyResolver": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_0__.StrategyResolver),
+/* harmony export */   "StyleObserver": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.StyleObserver),
 /* harmony export */   "SwapStrategies": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.SwapStrategies),
 /* harmony export */   "TargetInstruction": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.TargetInstruction),
+/* harmony export */   "TaskQueue": () => (/* reexport safe */ aurelia_task_queue__WEBPACK_IMPORTED_MODULE_5__.TaskQueue),
+/* harmony export */   "TemplateDependency": () => (/* reexport safe */ aurelia_loader__WEBPACK_IMPORTED_MODULE_4__.TemplateDependency),
+/* harmony export */   "TemplateRegistryEntry": () => (/* reexport safe */ aurelia_loader__WEBPACK_IMPORTED_MODULE_4__.TemplateRegistryEntry),
 /* harmony export */   "TemplateRegistryViewStrategy": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.TemplateRegistryViewStrategy),
 /* harmony export */   "TemplatingEngine": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.TemplatingEngine),
+/* harmony export */   "TransientRegistration": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_0__.TransientRegistration),
+/* harmony export */   "Unary": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.Unary),
+/* harmony export */   "Unparser": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.Unparser),
+/* harmony export */   "ValueAttributeObserver": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.ValueAttributeObserver),
+/* harmony export */   "ValueConverter": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.ValueConverter),
+/* harmony export */   "ValueConverterResource": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.ValueConverterResource),
 /* harmony export */   "View": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.View),
 /* harmony export */   "ViewCompileInstruction": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.ViewCompileInstruction),
 /* harmony export */   "ViewCompiler": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.ViewCompiler),
@@ -6381,542 +6334,520 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ViewLocator": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.ViewLocator),
 /* harmony export */   "ViewResources": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.ViewResources),
 /* harmony export */   "ViewSlot": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.ViewSlot),
+/* harmony export */   "XLinkAttributeObserver": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.XLinkAttributeObserver),
+/* harmony export */   "_emptyParameters": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_0__._emptyParameters),
 /* harmony export */   "_hyphenate": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__._hyphenate),
 /* harmony export */   "_isAllWhitespace": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__._isAllWhitespace),
+/* harmony export */   "all": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_0__.all),
 /* harmony export */   "animationEvent": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.animationEvent),
+/* harmony export */   "autoinject": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_0__.autoinject),
 /* harmony export */   "behavior": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.behavior),
 /* harmony export */   "bindable": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.bindable),
+/* harmony export */   "bindingBehavior": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.bindingBehavior),
+/* harmony export */   "bindingMode": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.bindingMode),
+/* harmony export */   "buildQueryString": () => (/* reexport safe */ aurelia_path__WEBPACK_IMPORTED_MODULE_6__.buildQueryString),
+/* harmony export */   "calcSplices": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.calcSplices),
+/* harmony export */   "camelCase": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.camelCase),
 /* harmony export */   "child": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.child),
 /* harmony export */   "children": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.children),
+/* harmony export */   "cloneExpression": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.cloneExpression),
+/* harmony export */   "computedFrom": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.computedFrom),
+/* harmony export */   "connectBindingToSignal": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.connectBindingToSignal),
+/* harmony export */   "connectable": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.connectable),
 /* harmony export */   "containerless": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.containerless),
+/* harmony export */   "createComputedObserver": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.createComputedObserver),
+/* harmony export */   "createOverrideContext": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.createOverrideContext),
+/* harmony export */   "createScopeForTest": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.createScopeForTest),
 /* harmony export */   "customAttribute": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.customAttribute),
 /* harmony export */   "customElement": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.customElement),
+/* harmony export */   "dataAttributeAccessor": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.dataAttributeAccessor),
+/* harmony export */   "declarePropertyDependencies": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.declarePropertyDependencies),
+/* harmony export */   "decorators": () => (/* reexport safe */ aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.decorators),
+/* harmony export */   "delegationStrategy": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.delegationStrategy),
+/* harmony export */   "deprecated": () => (/* reexport safe */ aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.deprecated),
+/* harmony export */   "disableConnectQueue": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.disableConnectQueue),
 /* harmony export */   "dynamicOptions": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.dynamicOptions),
 /* harmony export */   "elementConfig": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.elementConfig),
+/* harmony export */   "elements": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.elements),
+/* harmony export */   "enableConnectQueue": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.enableConnectQueue),
+/* harmony export */   "enqueueBindingConnect": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.enqueueBindingConnect),
+/* harmony export */   "factory": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_0__.factory),
+/* harmony export */   "getArrayObserver": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.getArrayObserver),
+/* harmony export */   "getChangeRecords": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.getChangeRecords),
+/* harmony export */   "getConnectQueueSize": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.getConnectQueueSize),
+/* harmony export */   "getContextFor": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.getContextFor),
+/* harmony export */   "getDecoratorDependencies": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_0__.getDecoratorDependencies),
+/* harmony export */   "getMapObserver": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.getMapObserver),
+/* harmony export */   "getSetObserver": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.getSetObserver),
+/* harmony export */   "hasDeclaredDependencies": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.hasDeclaredDependencies),
+/* harmony export */   "initializePAL": () => (/* reexport safe */ aurelia_pal__WEBPACK_IMPORTED_MODULE_7__.initializePAL),
+/* harmony export */   "inject": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_0__.inject),
 /* harmony export */   "inlineView": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.inlineView),
+/* harmony export */   "invokeAsFactory": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_0__.invokeAsFactory),
+/* harmony export */   "invoker": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_0__.invoker),
+/* harmony export */   "isInitialized": () => (/* reexport safe */ aurelia_pal__WEBPACK_IMPORTED_MODULE_7__.isInitialized),
+/* harmony export */   "join": () => (/* reexport safe */ aurelia_path__WEBPACK_IMPORTED_MODULE_6__.join),
+/* harmony export */   "lazy": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_0__.lazy),
+/* harmony export */   "mergeSplice": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.mergeSplice),
+/* harmony export */   "metadata": () => (/* reexport safe */ aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata),
+/* harmony export */   "mixin": () => (/* reexport safe */ aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.mixin),
+/* harmony export */   "newInstance": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_0__.newInstance),
 /* harmony export */   "noView": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.noView),
+/* harmony export */   "observable": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.observable),
+/* harmony export */   "optional": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_0__.optional),
+/* harmony export */   "parent": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_0__.parent),
+/* harmony export */   "parseQueryString": () => (/* reexport safe */ aurelia_path__WEBPACK_IMPORTED_MODULE_6__.parseQueryString),
+/* harmony export */   "presentationAttributes": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.presentationAttributes),
+/* harmony export */   "presentationElements": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.presentationElements),
 /* harmony export */   "processAttributes": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.processAttributes),
 /* harmony export */   "processContent": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.processContent),
+/* harmony export */   "projectArraySplices": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.projectArraySplices),
+/* harmony export */   "propertyAccessor": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.propertyAccessor),
+/* harmony export */   "protocol": () => (/* reexport safe */ aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.protocol),
+/* harmony export */   "registration": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_0__.registration),
+/* harmony export */   "relativeToFile": () => (/* reexport safe */ aurelia_path__WEBPACK_IMPORTED_MODULE_6__.relativeToFile),
+/* harmony export */   "reset": () => (/* reexport safe */ aurelia_pal__WEBPACK_IMPORTED_MODULE_7__.reset),
+/* harmony export */   "resolver": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_0__.resolver),
 /* harmony export */   "resource": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.resource),
+/* harmony export */   "setConnectQueueThreshold": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.setConnectQueueThreshold),
+/* harmony export */   "signalBindings": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.signalBindings),
+/* harmony export */   "singleton": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_0__.singleton),
+/* harmony export */   "sourceContext": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.sourceContext),
+/* harmony export */   "subscriberCollection": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.subscriberCollection),
+/* harmony export */   "targetContext": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.targetContext),
 /* harmony export */   "templateController": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.templateController),
+/* harmony export */   "transient": () => (/* reexport safe */ aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_0__.transient),
 /* harmony export */   "useShadowDOM": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.useShadowDOM),
 /* harmony export */   "useView": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.useView),
 /* harmony export */   "useViewStrategy": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.useViewStrategy),
 /* harmony export */   "validateBehaviorName": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.validateBehaviorName),
+/* harmony export */   "valueConverter": () => (/* reexport safe */ aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.valueConverter),
 /* harmony export */   "view": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.view),
 /* harmony export */   "viewEngineHooks": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.viewEngineHooks),
 /* harmony export */   "viewResources": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.viewResources),
-/* harmony export */   "viewStrategy": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.viewStrategy),
-/* harmony export */   "Loader": () => (/* reexport safe */ aurelia_loader__WEBPACK_IMPORTED_MODULE_2__.Loader),
-/* harmony export */   "TemplateDependency": () => (/* reexport safe */ aurelia_loader__WEBPACK_IMPORTED_MODULE_2__.TemplateDependency),
-/* harmony export */   "TemplateRegistryEntry": () => (/* reexport safe */ aurelia_loader__WEBPACK_IMPORTED_MODULE_2__.TemplateRegistryEntry),
-/* harmony export */   "TaskQueue": () => (/* reexport safe */ aurelia_task_queue__WEBPACK_IMPORTED_MODULE_8__.TaskQueue),
-/* harmony export */   "buildQueryString": () => (/* reexport safe */ aurelia_path__WEBPACK_IMPORTED_MODULE_5__.buildQueryString),
-/* harmony export */   "join": () => (/* reexport safe */ aurelia_path__WEBPACK_IMPORTED_MODULE_5__.join),
-/* harmony export */   "parseQueryString": () => (/* reexport safe */ aurelia_path__WEBPACK_IMPORTED_MODULE_5__.parseQueryString),
-/* harmony export */   "relativeToFile": () => (/* reexport safe */ aurelia_path__WEBPACK_IMPORTED_MODULE_5__.relativeToFile),
-/* harmony export */   "AggregateError": () => (/* reexport safe */ aurelia_pal__WEBPACK_IMPORTED_MODULE_4__.AggregateError),
-/* harmony export */   "DOM": () => (/* reexport safe */ aurelia_pal__WEBPACK_IMPORTED_MODULE_4__.DOM),
-/* harmony export */   "FEATURE": () => (/* reexport safe */ aurelia_pal__WEBPACK_IMPORTED_MODULE_4__.FEATURE),
-/* harmony export */   "PLATFORM": () => (/* reexport safe */ aurelia_pal__WEBPACK_IMPORTED_MODULE_4__.PLATFORM),
-/* harmony export */   "initializePAL": () => (/* reexport safe */ aurelia_pal__WEBPACK_IMPORTED_MODULE_4__.initializePAL),
-/* harmony export */   "isInitialized": () => (/* reexport safe */ aurelia_pal__WEBPACK_IMPORTED_MODULE_4__.isInitialized),
-/* harmony export */   "reset": () => (/* reexport safe */ aurelia_pal__WEBPACK_IMPORTED_MODULE_4__.reset),
-/* harmony export */   "LogManager": () => (/* binding */ LogManager)
+/* harmony export */   "viewStrategy": () => (/* reexport safe */ aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.viewStrategy)
 /* harmony export */ });
-/* harmony import */ var aurelia_logging__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! aurelia-logging */ "../../node_modules/aurelia-logging/dist/es2015/aurelia-logging.js");
-/* harmony import */ var aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! aurelia-dependency-injection */ "../../node_modules/aurelia-dependency-injection/dist/es2015/aurelia-dependency-injection.js");
-/* harmony import */ var aurelia_loader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! aurelia-loader */ "../../node_modules/aurelia-loader/dist/es2015/aurelia-loader.js");
+/* harmony import */ var aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! aurelia-dependency-injection */ "../../node_modules/aurelia-dependency-injection/dist/es2015/aurelia-dependency-injection.js");
+/* harmony import */ var aurelia_binding__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! aurelia-binding */ "../../node_modules/aurelia-binding/dist/es2015/aurelia-binding.js");
+/* harmony import */ var aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! aurelia-metadata */ "../../node_modules/aurelia-metadata/dist/es2015/aurelia-metadata.js");
 /* harmony import */ var aurelia_templating__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! aurelia-templating */ "../../node_modules/aurelia-templating/dist/es2015/aurelia-templating.js");
-/* harmony import */ var aurelia_pal__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! aurelia-pal */ "../../node_modules/aurelia-pal/dist/es2015/aurelia-pal.js");
-/* harmony import */ var aurelia_path__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! aurelia-path */ "../../node_modules/aurelia-path/dist/es2015/aurelia-path.js");
-/* harmony import */ var aurelia_binding__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! aurelia-binding */ "../../node_modules/aurelia-binding/dist/es2015/aurelia-binding.js");
-/* harmony import */ var aurelia_metadata__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! aurelia-metadata */ "../../node_modules/aurelia-metadata/dist/es2015/aurelia-metadata.js");
-/* harmony import */ var aurelia_task_queue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! aurelia-task-queue */ "../../node_modules/aurelia-task-queue/dist/es2015/aurelia-task-queue.js");
+/* harmony import */ var aurelia_loader__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! aurelia-loader */ "../../node_modules/aurelia-loader/dist/es2015/aurelia-loader.js");
+/* harmony import */ var aurelia_task_queue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! aurelia-task-queue */ "../../node_modules/aurelia-task-queue/dist/es2015/aurelia-task-queue.js");
+/* harmony import */ var aurelia_path__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! aurelia-path */ "../../node_modules/aurelia-path/dist/es2015/aurelia-path.js");
+/* harmony import */ var aurelia_pal__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! aurelia-pal */ "../../node_modules/aurelia-pal/dist/es2015/aurelia-pal.js");
+/* harmony import */ var aurelia_logging__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! aurelia-logging */ "../../node_modules/aurelia-logging/dist/es2015/aurelia-logging.js");
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+const logger = aurelia_logging__WEBPACK_IMPORTED_MODULE_8__.getLogger('aurelia');
+const extPattern = /\.[^/.]+$/;
+function runTasks(config, tasks) {
+    let current;
+    let next = () => {
+        current = tasks.shift();
+        if (current) {
+            return Promise.resolve(current(config)).then(next);
+        }
+        return Promise.resolve();
+    };
+    return next();
+}
+function loadPlugin(fwConfig, loader, info) {
+    logger.debug(`Loading plugin ${info.moduleId}.`);
+    if (typeof info.moduleId === 'string') {
+        fwConfig.resourcesRelativeTo = info.resourcesRelativeTo;
+        let id = info.moduleId;
+        if (info.resourcesRelativeTo.length > 1) {
+            return loader.normalize(info.moduleId, info.resourcesRelativeTo[1])
+                .then(normalizedId => _loadPlugin(normalizedId));
+        }
+        return _loadPlugin(id);
+    }
+    else if (typeof info.configure === 'function') {
+        if (fwConfig.configuredPlugins.indexOf(info.configure) !== -1) {
+            return Promise.resolve();
+        }
+        fwConfig.configuredPlugins.push(info.configure);
+        return Promise.resolve(info.configure.call(null, fwConfig, info.config || {}));
+    }
+    throw new Error(invalidConfigMsg(info.moduleId || info.configure, 'plugin'));
+    function _loadPlugin(moduleId) {
+        return loader.loadModule(moduleId).then(m => {
+            if ('configure' in m) {
+                if (fwConfig.configuredPlugins.indexOf(m.configure) !== -1) {
+                    return Promise.resolve();
+                }
+                return Promise.resolve(m.configure(fwConfig, info.config || {})).then(() => {
+                    fwConfig.configuredPlugins.push(m.configure);
+                    fwConfig.resourcesRelativeTo = null;
+                    logger.debug(`Configured plugin ${info.moduleId}.`);
+                });
+            }
+            fwConfig.resourcesRelativeTo = null;
+            logger.debug(`Loaded plugin ${info.moduleId}.`);
+        });
+    }
+}
+function loadResources(aurelia, resourcesToLoad, appResources) {
+    if (Object.keys(resourcesToLoad).length === 0) {
+        return Promise.resolve();
+    }
+    let viewEngine = aurelia.container.get(aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.ViewEngine);
+    return Promise.all(Object.keys(resourcesToLoad).map(n => _normalize(resourcesToLoad[n])))
+        .then(loads => {
+        let names = [];
+        let importIds = [];
+        loads.forEach(l => {
+            names.push(undefined);
+            importIds.push(l.importId);
+        });
+        return viewEngine.importViewResources(importIds, names, appResources);
+    });
+    function _normalize(load) {
+        let moduleId = load.moduleId;
+        let ext = getExt(moduleId);
+        if (isOtherResource(moduleId)) {
+            moduleId = removeExt(moduleId);
+        }
+        return aurelia.loader.normalize(moduleId, load.relativeTo)
+            .then(normalized => {
+            return {
+                name: load.moduleId,
+                importId: isOtherResource(load.moduleId) ? addOriginalExt(normalized, ext) : normalized
+            };
+        });
+    }
+    function isOtherResource(name) {
+        let ext = getExt(name);
+        if (!ext)
+            return false;
+        if (ext === '')
+            return false;
+        if (ext === '.js' || ext === '.ts')
+            return false;
+        return true;
+    }
+    function removeExt(name) {
+        return name.replace(extPattern, '');
+    }
+    function addOriginalExt(normalized, ext) {
+        return removeExt(normalized) + '.' + ext;
+    }
+}
+function getExt(name) {
+    let match = name.match(extPattern);
+    if (match && match.length > 0) {
+        return (match[0].split('.'))[1];
+    }
+}
+function loadBehaviors(config) {
+    return Promise.all(config.behaviorsToLoad.map(m => m.load(config.container, m.target))).then(() => {
+        config.behaviorsToLoad = null;
+    });
+}
+function assertProcessed(plugins) {
+    if (plugins.processed) {
+        throw new Error('This config instance has already been applied. To load more plugins or global resources, create a new FrameworkConfiguration instance.');
+    }
+}
+function invalidConfigMsg(cfg, type) {
+    return `Invalid ${type} [${cfg}], ${type} must be specified as functions or relative module IDs.`;
+}
+class FrameworkConfiguration {
+    constructor(aurelia) {
+        this.aurelia = aurelia;
+        this.container = aurelia.container;
+        this.info = [];
+        this.processed = false;
+        this.preTasks = [];
+        this.postTasks = [];
+        this.behaviorsToLoad = [];
+        this.configuredPlugins = [];
+        this.resourcesToLoad = {};
+        this.preTask(() => aurelia.loader.normalize('aurelia-bootstrapper', undefined)
+            .then(name => this.bootstrapperName = name));
+        this.postTask(() => loadResources(aurelia, this.resourcesToLoad, aurelia.resources));
+    }
+    instance(type, instance) {
+        this.container.registerInstance(type, instance);
+        return this;
+    }
+    singleton(type, implementation) {
+        this.container.registerSingleton(type, implementation);
+        return this;
+    }
+    transient(type, implementation) {
+        this.container.registerTransient(type, implementation);
+        return this;
+    }
+    preTask(task) {
+        assertProcessed(this);
+        this.preTasks.push(task);
+        return this;
+    }
+    postTask(task) {
+        assertProcessed(this);
+        this.postTasks.push(task);
+        return this;
+    }
+    feature(plugin, config = {}) {
+        switch (typeof plugin) {
+            case 'string':
+                let hasIndex = /\/index$/i.test(plugin);
+                let moduleId = hasIndex || getExt(plugin) ? plugin : plugin + '/index';
+                let root = hasIndex ? plugin.slice(0, -6) : plugin;
+                this.info.push({ moduleId, resourcesRelativeTo: [root, ''], config });
+                break;
+            case 'function':
+                this.info.push({ configure: plugin, config: config || {} });
+                break;
+            default:
+                throw new Error(invalidConfigMsg(plugin, 'feature'));
+        }
+        return this;
+    }
+    globalResources(resources) {
+        assertProcessed(this);
+        let toAdd = Array.isArray(resources) ? resources : arguments;
+        let resource;
+        let resourcesRelativeTo = this.resourcesRelativeTo || ['', ''];
+        for (let i = 0, ii = toAdd.length; i < ii; ++i) {
+            resource = toAdd[i];
+            switch (typeof resource) {
+                case 'string':
+                    let parent = resourcesRelativeTo[0];
+                    let grandParent = resourcesRelativeTo[1];
+                    let name = resource;
+                    if ((resource.startsWith('./') || resource.startsWith('../')) && parent !== '') {
+                        name = (0,aurelia_path__WEBPACK_IMPORTED_MODULE_6__.join)(parent, resource);
+                    }
+                    this.resourcesToLoad[name] = { moduleId: name, relativeTo: grandParent };
+                    break;
+                case 'function':
+                    let meta = this.aurelia.resources.autoRegister(this.container, resource);
+                    if (meta instanceof aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.HtmlBehaviorResource && meta.elementName !== null) {
+                        if (this.behaviorsToLoad.push(meta) === 1) {
+                            this.postTask(() => loadBehaviors(this));
+                        }
+                    }
+                    break;
+                default:
+                    throw new Error(invalidConfigMsg(resource, 'resource'));
+            }
+        }
+        return this;
+    }
+    globalName(resourcePath, newName) {
+        assertProcessed(this);
+        this.resourcesToLoad[resourcePath] = { moduleId: newName, relativeTo: '' };
+        return this;
+    }
+    plugin(plugin, pluginConfig) {
+        assertProcessed(this);
+        let info;
+        switch (typeof plugin) {
+            case 'string':
+                info = { moduleId: plugin, resourcesRelativeTo: [plugin, ''], config: pluginConfig || {} };
+                break;
+            case 'function':
+                info = { configure: plugin, config: pluginConfig || {} };
+                break;
+            default:
+                throw new Error(invalidConfigMsg(plugin, 'plugin'));
+        }
+        this.info.push(info);
+        return this;
+    }
+    _addNormalizedPlugin(name, config) {
+        let plugin = { moduleId: name, resourcesRelativeTo: [name, ''], config: config || {} };
+        this.info.push(plugin);
+        this.preTask(() => {
+            let relativeTo = [name, this.bootstrapperName];
+            plugin.moduleId = name;
+            plugin.resourcesRelativeTo = relativeTo;
+            return Promise.resolve();
+        });
+        return this;
+    }
+    defaultBindingLanguage() {
+        return this._addNormalizedPlugin('aurelia-templating-binding');
+    }
+    router() {
+        return this._addNormalizedPlugin('aurelia-templating-router');
+    }
+    history() {
+        return this._addNormalizedPlugin('aurelia-history-browser');
+    }
+    defaultResources() {
+        return this._addNormalizedPlugin('aurelia-templating-resources');
+    }
+    eventAggregator() {
+        return this._addNormalizedPlugin('aurelia-event-aggregator');
+    }
+    basicConfiguration() {
+        return this.defaultBindingLanguage().defaultResources().eventAggregator();
+    }
+    standardConfiguration() {
+        return this.basicConfiguration().history().router();
+    }
+    developmentLogging(level) {
+        let logLevel = level ? aurelia_logging__WEBPACK_IMPORTED_MODULE_8__.logLevel[level] : undefined;
+        if (logLevel === undefined) {
+            logLevel = aurelia_logging__WEBPACK_IMPORTED_MODULE_8__.logLevel.debug;
+        }
+        this.preTask(() => {
+            return this.aurelia.loader.normalize('aurelia-logging-console', this.bootstrapperName).then(name => {
+                return this.aurelia.loader.loadModule(name).then(m => {
+                    aurelia_logging__WEBPACK_IMPORTED_MODULE_8__.addAppender(new m.ConsoleAppender());
+                    aurelia_logging__WEBPACK_IMPORTED_MODULE_8__.setLevel(logLevel);
+                });
+            });
+        });
+        return this;
+    }
+    apply() {
+        if (this.processed) {
+            return Promise.resolve();
+        }
+        return runTasks(this, this.preTasks).then(() => {
+            let loader = this.aurelia.loader;
+            let info = this.info;
+            let current;
+            let next = () => {
+                current = info.shift();
+                if (current) {
+                    return loadPlugin(this, loader, current).then(next);
+                }
+                this.processed = true;
+                this.configuredPlugins = null;
+                return Promise.resolve();
+            };
+            return next().then(() => runTasks(this, this.postTasks));
+        });
+    }
+}
 
 function preventActionlessFormSubmit() {
-  aurelia_pal__WEBPACK_IMPORTED_MODULE_4__.DOM.addEventListener('submit', evt => {
-    const target = evt.target;
-    const action = target.action;
-
-    if (target.tagName.toLowerCase() === 'form' && !action) {
-      evt.preventDefault();
-    }
-  });
-}
-
-let Aurelia = class Aurelia {
-  constructor(loader, container, resources) {
-    this.loader = loader || new aurelia_pal__WEBPACK_IMPORTED_MODULE_4__.PLATFORM.Loader();
-    this.container = container || new aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_1__.Container().makeGlobal();
-    this.resources = resources || new aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.ViewResources();
-    this.use = new FrameworkConfiguration(this);
-    this.logger = aurelia_logging__WEBPACK_IMPORTED_MODULE_0__.getLogger('aurelia');
-    this.hostConfigured = false;
-    this.host = null;
-
-    this.use.instance(Aurelia, this);
-    this.use.instance(aurelia_loader__WEBPACK_IMPORTED_MODULE_2__.Loader, this.loader);
-    this.use.instance(aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.ViewResources, this.resources);
-  }
-
-  start() {
-    if (this._started) {
-      return this._started;
-    }
-
-    this.logger.info('Aurelia Starting');
-    return this._started = this.use.apply().then(() => {
-      preventActionlessFormSubmit();
-
-      if (!this.container.hasResolver(aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.BindingLanguage)) {
-        let message = 'You must configure Aurelia with a BindingLanguage implementation.';
-        this.logger.error(message);
-        throw new Error(message);
-      }
-
-      this.logger.info('Aurelia Started');
-      let evt = aurelia_pal__WEBPACK_IMPORTED_MODULE_4__.DOM.createCustomEvent('aurelia-started', { bubbles: true, cancelable: true });
-      aurelia_pal__WEBPACK_IMPORTED_MODULE_4__.DOM.dispatchEvent(evt);
-      return this;
-    });
-  }
-
-  enhance(bindingContext = {}, applicationHost = null) {
-    this._configureHost(applicationHost || aurelia_pal__WEBPACK_IMPORTED_MODULE_4__.DOM.querySelectorAll('body')[0]);
-
-    return new Promise(resolve => {
-      let engine = this.container.get(aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.TemplatingEngine);
-      this.root = engine.enhance({ container: this.container, element: this.host, resources: this.resources, bindingContext: bindingContext });
-      this.root.attached();
-      this._onAureliaComposed();
-      resolve(this);
-    });
-  }
-
-  setRoot(root = null, applicationHost = null) {
-    let instruction = {};
-
-    if (this.root && this.root.viewModel && this.root.viewModel.router) {
-      this.root.viewModel.router.deactivate();
-      this.root.viewModel.router.reset();
-    }
-
-    this._configureHost(applicationHost);
-
-    let engine = this.container.get(aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.TemplatingEngine);
-    let transaction = this.container.get(aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.CompositionTransaction);
-    delete transaction.initialComposition;
-
-    if (!root) {
-      if (this.configModuleId) {
-        root = (0,aurelia_path__WEBPACK_IMPORTED_MODULE_5__.relativeToFile)('./app', this.configModuleId);
-      } else {
-        root = 'app';
-      }
-    }
-
-    instruction.viewModel = root;
-    instruction.container = instruction.childContainer = this.container;
-    instruction.viewSlot = this.hostSlot;
-    instruction.host = this.host;
-
-    return engine.compose(instruction).then(r => {
-      this.root = r;
-      instruction.viewSlot.attached();
-      this._onAureliaComposed();
-      return this;
-    });
-  }
-
-  _configureHost(applicationHost) {
-    if (this.hostConfigured) {
-      return;
-    }
-    applicationHost = applicationHost || this.host;
-
-    if (!applicationHost || typeof applicationHost === 'string') {
-      this.host = aurelia_pal__WEBPACK_IMPORTED_MODULE_4__.DOM.getElementById(applicationHost || 'applicationHost');
-    } else {
-      this.host = applicationHost;
-    }
-
-    if (!this.host) {
-      throw new Error('No applicationHost was specified.');
-    }
-
-    this.hostConfigured = true;
-    this.host.aurelia = this;
-    this.hostSlot = new aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.ViewSlot(this.host, true);
-    this.hostSlot.transformChildNodesIntoView();
-    this.container.registerInstance(aurelia_pal__WEBPACK_IMPORTED_MODULE_4__.DOM.boundary, this.host);
-  }
-
-  _onAureliaComposed() {
-    let evt = aurelia_pal__WEBPACK_IMPORTED_MODULE_4__.DOM.createCustomEvent('aurelia-composed', { bubbles: true, cancelable: true });
-    setTimeout(() => aurelia_pal__WEBPACK_IMPORTED_MODULE_4__.DOM.dispatchEvent(evt), 1);
-  }
-};
-
-const logger = aurelia_logging__WEBPACK_IMPORTED_MODULE_0__.getLogger('aurelia');
-const extPattern = /\.[^/.]+$/;
-
-function runTasks(config, tasks) {
-  let current;
-  let next = () => {
-    current = tasks.shift();
-    if (current) {
-      return Promise.resolve(current(config)).then(next);
-    }
-
-    return Promise.resolve();
-  };
-
-  return next();
-}
-
-function loadPlugin(fwConfig, loader, info) {
-  logger.debug(`Loading plugin ${info.moduleId}.`);
-  if (typeof info.moduleId === 'string') {
-    fwConfig.resourcesRelativeTo = info.resourcesRelativeTo;
-
-    let id = info.moduleId;
-
-    if (info.resourcesRelativeTo.length > 1) {
-      return loader.normalize(info.moduleId, info.resourcesRelativeTo[1]).then(normalizedId => _loadPlugin(normalizedId));
-    }
-
-    return _loadPlugin(id);
-  } else if (typeof info.configure === 'function') {
-    if (fwConfig.configuredPlugins.indexOf(info.configure) !== -1) {
-      return Promise.resolve();
-    }
-    fwConfig.configuredPlugins.push(info.configure);
-
-    return Promise.resolve(info.configure.call(null, fwConfig, info.config || {}));
-  }
-  throw new Error(invalidConfigMsg(info.moduleId || info.configure, 'plugin'));
-
-  function _loadPlugin(moduleId) {
-    return loader.loadModule(moduleId).then(m => {
-      if ('configure' in m) {
-        if (fwConfig.configuredPlugins.indexOf(m.configure) !== -1) {
-          return Promise.resolve();
+    aurelia_pal__WEBPACK_IMPORTED_MODULE_7__.DOM.addEventListener('submit', evt => {
+        const target = evt.target;
+        const action = target.action;
+        if (target.tagName.toLowerCase() === 'form' && !action) {
+            evt.preventDefault();
         }
-        return Promise.resolve(m.configure(fwConfig, info.config || {})).then(() => {
-          fwConfig.configuredPlugins.push(m.configure);
-          fwConfig.resourcesRelativeTo = null;
-          logger.debug(`Configured plugin ${info.moduleId}.`);
-        });
-      }
-
-      fwConfig.resourcesRelativeTo = null;
-      logger.debug(`Loaded plugin ${info.moduleId}.`);
-    });
-  }
+    }, false);
 }
-
-function loadResources(aurelia, resourcesToLoad, appResources) {
-  if (Object.keys(resourcesToLoad).length === 0) {
-    return Promise.resolve();
-  }
-  let viewEngine = aurelia.container.get(aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.ViewEngine);
-
-  return Promise.all(Object.keys(resourcesToLoad).map(n => _normalize(resourcesToLoad[n]))).then(loads => {
-    let names = [];
-    let importIds = [];
-
-    loads.forEach(l => {
-      names.push(undefined);
-      importIds.push(l.importId);
-    });
-
-    return viewEngine.importViewResources(importIds, names, appResources);
-  });
-
-  function _normalize(load) {
-    let moduleId = load.moduleId;
-    let ext = getExt(moduleId);
-
-    if (isOtherResource(moduleId)) {
-      moduleId = removeExt(moduleId);
+class Aurelia {
+    constructor(loader, container, resources) {
+        this.loader = loader || new aurelia_pal__WEBPACK_IMPORTED_MODULE_7__.PLATFORM.Loader();
+        this.container = container || (new aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_0__.Container()).makeGlobal();
+        this.resources = resources || new aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.ViewResources();
+        this.use = new FrameworkConfiguration(this);
+        this.logger = aurelia_logging__WEBPACK_IMPORTED_MODULE_8__.getLogger('aurelia');
+        this.hostConfigured = false;
+        this.host = null;
+        this.use.instance(Aurelia, this);
+        this.use.instance(aurelia_loader__WEBPACK_IMPORTED_MODULE_4__.Loader, this.loader);
+        this.use.instance(aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.ViewResources, this.resources);
     }
-
-    return aurelia.loader.normalize(moduleId, load.relativeTo).then(normalized => {
-      return {
-        name: load.moduleId,
-        importId: isOtherResource(load.moduleId) ? addOriginalExt(normalized, ext) : normalized
-      };
-    });
-  }
-
-  function isOtherResource(name) {
-    let ext = getExt(name);
-    if (!ext) return false;
-    if (ext === '') return false;
-    if (ext === '.js' || ext === '.ts') return false;
-    return true;
-  }
-
-  function removeExt(name) {
-    return name.replace(extPattern, '');
-  }
-
-  function addOriginalExt(normalized, ext) {
-    return removeExt(normalized) + '.' + ext;
-  }
-}
-
-function getExt(name) {
-  let match = name.match(extPattern);
-  if (match && match.length > 0) {
-    return match[0].split('.')[1];
-  }
-}
-
-function loadBehaviors(config) {
-  return Promise.all(config.behaviorsToLoad.map(m => m.load(config.container, m.target))).then(() => {
-    config.behaviorsToLoad = null;
-  });
-}
-
-function assertProcessed(plugins) {
-  if (plugins.processed) {
-    throw new Error('This config instance has already been applied. To load more plugins or global resources, create a new FrameworkConfiguration instance.');
-  }
-}
-
-function invalidConfigMsg(cfg, type) {
-  return `Invalid ${type} [${cfg}], ${type} must be specified as functions or relative module IDs.`;
-}
-
-let FrameworkConfiguration = class FrameworkConfiguration {
-  constructor(aurelia) {
-    this.aurelia = aurelia;
-    this.container = aurelia.container;
-
-    this.info = [];
-    this.processed = false;
-    this.preTasks = [];
-    this.postTasks = [];
-
-    this.behaviorsToLoad = [];
-
-    this.configuredPlugins = [];
-    this.resourcesToLoad = {};
-    this.preTask(() => aurelia.loader.normalize('aurelia-bootstrapper').then(name => this.bootstrapperName = name));
-    this.postTask(() => loadResources(aurelia, this.resourcesToLoad, aurelia.resources));
-  }
-
-  instance(type, instance) {
-    this.container.registerInstance(type, instance);
-    return this;
-  }
-
-  singleton(type, implementation) {
-    this.container.registerSingleton(type, implementation);
-    return this;
-  }
-
-  transient(type, implementation) {
-    this.container.registerTransient(type, implementation);
-    return this;
-  }
-
-  preTask(task) {
-    assertProcessed(this);
-    this.preTasks.push(task);
-    return this;
-  }
-
-  postTask(task) {
-    assertProcessed(this);
-    this.postTasks.push(task);
-    return this;
-  }
-
-  feature(plugin, config = {}) {
-    switch (typeof plugin) {
-      case 'string':
-        let hasIndex = /\/index$/i.test(plugin);
-        let moduleId = hasIndex || getExt(plugin) ? plugin : plugin + '/index';
-        let root = hasIndex ? plugin.substr(0, plugin.length - 6) : plugin;
-        this.info.push({ moduleId, resourcesRelativeTo: [root, ''], config });
-        break;
-
-      case 'function':
-        this.info.push({ configure: plugin, config: config || {} });
-        break;
-      default:
-        throw new Error(invalidConfigMsg(plugin, 'feature'));
-    }
-    return this;
-  }
-
-  globalResources(resources) {
-    assertProcessed(this);
-
-    let toAdd = Array.isArray(resources) ? resources : arguments;
-    let resource;
-    let resourcesRelativeTo = this.resourcesRelativeTo || ['', ''];
-
-    for (let i = 0, ii = toAdd.length; i < ii; ++i) {
-      resource = toAdd[i];
-      switch (typeof resource) {
-        case 'string':
-          let parent = resourcesRelativeTo[0];
-          let grandParent = resourcesRelativeTo[1];
-          let name = resource;
-
-          if ((resource.startsWith('./') || resource.startsWith('../')) && parent !== '') {
-            name = (0,aurelia_path__WEBPACK_IMPORTED_MODULE_5__.join)(parent, resource);
-          }
-
-          this.resourcesToLoad[name] = { moduleId: name, relativeTo: grandParent };
-          break;
-        case 'function':
-          let meta = this.aurelia.resources.autoRegister(this.container, resource);
-          if (meta instanceof aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.HtmlBehaviorResource && meta.elementName !== null) {
-            if (this.behaviorsToLoad.push(meta) === 1) {
-              this.postTask(() => loadBehaviors(this));
+    start() {
+        if (this._started) {
+            return this._started;
+        }
+        this.logger.info('Aurelia Starting');
+        return this._started = this.use.apply().then(() => {
+            preventActionlessFormSubmit();
+            if (!this.container.hasResolver(aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.BindingLanguage)) {
+                let message = 'You must configure Aurelia with a BindingLanguage implementation.';
+                this.logger.error(message);
+                throw new Error(message);
             }
-          }
-          break;
-        default:
-          throw new Error(invalidConfigMsg(resource, 'resource'));
-      }
-    }
-
-    return this;
-  }
-
-  globalName(resourcePath, newName) {
-    assertProcessed(this);
-    this.resourcesToLoad[resourcePath] = { moduleId: newName, relativeTo: '' };
-    return this;
-  }
-
-  plugin(plugin, pluginConfig) {
-    assertProcessed(this);
-
-    let info;
-    switch (typeof plugin) {
-      case 'string':
-        info = { moduleId: plugin, resourcesRelativeTo: [plugin, ''], config: pluginConfig || {} };
-        break;
-      case 'function':
-        info = { configure: plugin, config: pluginConfig || {} };
-        break;
-      default:
-        throw new Error(invalidConfigMsg(plugin, 'plugin'));
-    }
-    this.info.push(info);
-    return this;
-  }
-
-  _addNormalizedPlugin(name, config) {
-    let plugin = { moduleId: name, resourcesRelativeTo: [name, ''], config: config || {} };
-    this.info.push(plugin);
-
-    this.preTask(() => {
-      let relativeTo = [name, this.bootstrapperName];
-      plugin.moduleId = name;
-      plugin.resourcesRelativeTo = relativeTo;
-      return Promise.resolve();
-    });
-
-    return this;
-  }
-
-  defaultBindingLanguage() {
-    return this._addNormalizedPlugin('aurelia-templating-binding');
-  }
-
-  router() {
-    return this._addNormalizedPlugin('aurelia-templating-router');
-  }
-
-  history() {
-    return this._addNormalizedPlugin('aurelia-history-browser');
-  }
-
-  defaultResources() {
-    return this._addNormalizedPlugin('aurelia-templating-resources');
-  }
-
-  eventAggregator() {
-    return this._addNormalizedPlugin('aurelia-event-aggregator');
-  }
-
-  basicConfiguration() {
-    return this.defaultBindingLanguage().defaultResources().eventAggregator();
-  }
-
-  standardConfiguration() {
-    return this.basicConfiguration().history().router();
-  }
-
-  developmentLogging(level) {
-    let logLevel = level ? aurelia_logging__WEBPACK_IMPORTED_MODULE_0__.logLevel[level] : undefined;
-
-    if (logLevel === undefined) {
-      logLevel = aurelia_logging__WEBPACK_IMPORTED_MODULE_0__.logLevel.debug;
-    }
-
-    this.preTask(() => {
-      return this.aurelia.loader.normalize('aurelia-logging-console', this.bootstrapperName).then(name => {
-        return this.aurelia.loader.loadModule(name).then(m => {
-          aurelia_logging__WEBPACK_IMPORTED_MODULE_0__.addAppender(new m.ConsoleAppender());
-          aurelia_logging__WEBPACK_IMPORTED_MODULE_0__.setLevel(logLevel);
+            this.logger.info('Aurelia Started');
+            let evt = aurelia_pal__WEBPACK_IMPORTED_MODULE_7__.DOM.createCustomEvent('aurelia-started', { bubbles: true, cancelable: true });
+            aurelia_pal__WEBPACK_IMPORTED_MODULE_7__.DOM.dispatchEvent(evt);
+            return this;
         });
-      });
-    });
-
-    return this;
-  }
-
-  apply() {
-    if (this.processed) {
-      return Promise.resolve();
     }
-
-    return runTasks(this, this.preTasks).then(() => {
-      let loader = this.aurelia.loader;
-      let info = this.info;
-      let current;
-
-      let next = () => {
-        current = info.shift();
-        if (current) {
-          return loadPlugin(this, loader, current).then(next);
+    enhance(bindingContext = {}, applicationHost = null) {
+        this._configureHost(applicationHost || aurelia_pal__WEBPACK_IMPORTED_MODULE_7__.DOM.querySelectorAll('body')[0]);
+        return new Promise(resolve => {
+            let engine = this.container.get(aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.TemplatingEngine);
+            this.root = engine.enhance({ container: this.container, element: this.host, resources: this.resources, bindingContext: bindingContext });
+            this.root.attached();
+            this._onAureliaComposed();
+            resolve(this);
+        });
+    }
+    setRoot(root = null, applicationHost = null) {
+        let instruction = {};
+        if (this.root && this.root.viewModel && this.root.viewModel.router) {
+            this.root.viewModel.router.deactivate();
+            this.root.viewModel.router.reset();
         }
+        this._configureHost(applicationHost);
+        let engine = this.container.get(aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.TemplatingEngine);
+        let transaction = this.container.get(aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.CompositionTransaction);
+        delete transaction.initialComposition;
+        if (!root) {
+            if (this.configModuleId) {
+                root = (0,aurelia_path__WEBPACK_IMPORTED_MODULE_6__.relativeToFile)('./app', this.configModuleId);
+            }
+            else {
+                root = 'app';
+            }
+        }
+        instruction.viewModel = root;
+        instruction.container = instruction.childContainer = this.container;
+        instruction.viewSlot = this.hostSlot;
+        instruction.host = this.host;
+        return engine.compose(instruction).then((r) => {
+            this.root = r;
+            instruction.viewSlot.attached();
+            this._onAureliaComposed();
+            return this;
+        });
+    }
+    _configureHost(applicationHost) {
+        if (this.hostConfigured) {
+            return;
+        }
+        applicationHost = applicationHost || this.host;
+        if (!applicationHost || typeof applicationHost === 'string') {
+            this.host = aurelia_pal__WEBPACK_IMPORTED_MODULE_7__.DOM.getElementById(applicationHost || 'applicationHost');
+        }
+        else {
+            this.host = applicationHost;
+        }
+        if (!this.host) {
+            throw new Error('No applicationHost was specified.');
+        }
+        this.hostConfigured = true;
+        this.host.aurelia = this;
+        this.hostSlot = new aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.ViewSlot(this.host, true);
+        this.hostSlot.transformChildNodesIntoView();
+        this.container.registerInstance(aurelia_pal__WEBPACK_IMPORTED_MODULE_7__.DOM.boundary, this.host);
+    }
+    _onAureliaComposed() {
+        let evt = aurelia_pal__WEBPACK_IMPORTED_MODULE_7__.DOM.createCustomEvent('aurelia-composed', { bubbles: true, cancelable: true });
+        setTimeout(() => aurelia_pal__WEBPACK_IMPORTED_MODULE_7__.DOM.dispatchEvent(evt), 1);
+    }
+}
 
-        this.processed = true;
-        this.configuredPlugins = null;
-        return Promise.resolve();
-      };
 
-      return next().then(() => runTasks(this, this.postTasks));
-    });
-  }
-};
+//# sourceMappingURL=aurelia-framework.js.map
 
-
-
-
-
-
-
-
-
-
-const LogManager = aurelia_logging__WEBPACK_IMPORTED_MODULE_0__;
 
 /***/ }),
 
@@ -7520,9 +7451,9 @@ aurelia_pal__WEBPACK_IMPORTED_MODULE_2__.PLATFORM.Loader = WebpackLoader;
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Loader": () => (/* binding */ Loader),
 /* harmony export */   "TemplateDependency": () => (/* binding */ TemplateDependency),
-/* harmony export */   "TemplateRegistryEntry": () => (/* binding */ TemplateRegistryEntry),
-/* harmony export */   "Loader": () => (/* binding */ Loader)
+/* harmony export */   "TemplateRegistryEntry": () => (/* binding */ TemplateRegistryEntry)
 /* harmony export */ });
 /* harmony import */ var aurelia_path__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! aurelia-path */ "../../node_modules/aurelia-path/dist/es2015/aurelia-path.js");
 /* harmony import */ var aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! aurelia-metadata */ "../../node_modules/aurelia-metadata/dist/es2015/aurelia-metadata.js");
@@ -7687,17 +7618,17 @@ let ConsoleAppender = class ConsoleAppender {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "logLevel": () => (/* binding */ logLevel),
-/* harmony export */   "getLogger": () => (/* binding */ getLogger),
+/* harmony export */   "Logger": () => (/* binding */ Logger),
 /* harmony export */   "addAppender": () => (/* binding */ addAppender),
-/* harmony export */   "removeAppender": () => (/* binding */ removeAppender),
-/* harmony export */   "getAppenders": () => (/* binding */ getAppenders),
-/* harmony export */   "clearAppenders": () => (/* binding */ clearAppenders),
 /* harmony export */   "addCustomLevel": () => (/* binding */ addCustomLevel),
-/* harmony export */   "removeCustomLevel": () => (/* binding */ removeCustomLevel),
-/* harmony export */   "setLevel": () => (/* binding */ setLevel),
+/* harmony export */   "clearAppenders": () => (/* binding */ clearAppenders),
+/* harmony export */   "getAppenders": () => (/* binding */ getAppenders),
 /* harmony export */   "getLevel": () => (/* binding */ getLevel),
-/* harmony export */   "Logger": () => (/* binding */ Logger)
+/* harmony export */   "getLogger": () => (/* binding */ getLogger),
+/* harmony export */   "logLevel": () => (/* binding */ logLevel),
+/* harmony export */   "removeAppender": () => (/* binding */ removeAppender),
+/* harmony export */   "removeCustomLevel": () => (/* binding */ removeCustomLevel),
+/* harmony export */   "setLevel": () => (/* binding */ setLevel)
 /* harmony export */ });
 
 const logLevel = {
@@ -7881,10 +7812,10 @@ let Logger = class Logger {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "metadata": () => (/* binding */ metadata),
 /* harmony export */   "Origin": () => (/* binding */ Origin),
 /* harmony export */   "decorators": () => (/* binding */ decorators),
 /* harmony export */   "deprecated": () => (/* binding */ deprecated),
+/* harmony export */   "metadata": () => (/* binding */ metadata),
 /* harmony export */   "mixin": () => (/* binding */ mixin),
 /* harmony export */   "protocol": () => (/* binding */ protocol)
 /* harmony export */ });
@@ -8148,9 +8079,9 @@ protocol.create = function (name, options) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "_PLATFORM": () => (/* binding */ _PLATFORM),
-/* harmony export */   "_FEATURE": () => (/* binding */ _FEATURE),
 /* harmony export */   "_DOM": () => (/* binding */ _DOM),
+/* harmony export */   "_FEATURE": () => (/* binding */ _FEATURE),
+/* harmony export */   "_PLATFORM": () => (/* binding */ _PLATFORM),
 /* harmony export */   "initialize": () => (/* binding */ initialize)
 /* harmony export */ });
 /* harmony import */ var aurelia_pal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! aurelia-pal */ "../../node_modules/aurelia-pal/dist/es2015/aurelia-pal.js");
@@ -8728,11 +8659,11 @@ function initialize() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "AggregateError": () => (/* binding */ AggregateError),
+/* harmony export */   "DOM": () => (/* binding */ DOM),
 /* harmony export */   "FEATURE": () => (/* binding */ FEATURE),
 /* harmony export */   "PLATFORM": () => (/* binding */ PLATFORM),
-/* harmony export */   "DOM": () => (/* binding */ DOM),
-/* harmony export */   "isInitialized": () => (/* binding */ isInitialized),
 /* harmony export */   "initializePAL": () => (/* binding */ initializePAL),
+/* harmony export */   "isInitialized": () => (/* binding */ isInitialized),
 /* harmony export */   "reset": () => (/* binding */ reset)
 /* harmony export */ });
 
@@ -9911,12 +9842,12 @@ if (typeof FEATURE_NO_ESNEXT === 'undefined') {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "State": () => (/* binding */ State),
-/* harmony export */   "StaticSegment": () => (/* binding */ StaticSegment),
 /* harmony export */   "DynamicSegment": () => (/* binding */ DynamicSegment),
-/* harmony export */   "StarSegment": () => (/* binding */ StarSegment),
 /* harmony export */   "EpsilonSegment": () => (/* binding */ EpsilonSegment),
-/* harmony export */   "RouteRecognizer": () => (/* binding */ RouteRecognizer)
+/* harmony export */   "RouteRecognizer": () => (/* binding */ RouteRecognizer),
+/* harmony export */   "StarSegment": () => (/* binding */ StarSegment),
+/* harmony export */   "State": () => (/* binding */ State),
+/* harmony export */   "StaticSegment": () => (/* binding */ StaticSegment)
 /* harmony export */ });
 /* harmony import */ var aurelia_path__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! aurelia-path */ "../../node_modules/aurelia-path/dist/es2015/aurelia-path.js");
 
@@ -12823,832 +12754,774 @@ function filterFlushStack(stack) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "AttributeMap": () => (/* binding */ AttributeMap),
-/* harmony export */   "InterpolationBindingExpression": () => (/* binding */ InterpolationBindingExpression),
-/* harmony export */   "InterpolationBinding": () => (/* binding */ InterpolationBinding),
 /* harmony export */   "ChildInterpolationBinding": () => (/* binding */ ChildInterpolationBinding),
-/* harmony export */   "LetExpression": () => (/* binding */ LetExpression),
+/* harmony export */   "InterpolationBinding": () => (/* binding */ InterpolationBinding),
+/* harmony export */   "InterpolationBindingExpression": () => (/* binding */ InterpolationBindingExpression),
 /* harmony export */   "LetBinding": () => (/* binding */ LetBinding),
-/* harmony export */   "LetInterpolationBindingExpression": () => (/* binding */ LetInterpolationBindingExpression),
+/* harmony export */   "LetExpression": () => (/* binding */ LetExpression),
 /* harmony export */   "LetInterpolationBinding": () => (/* binding */ LetInterpolationBinding),
+/* harmony export */   "LetInterpolationBindingExpression": () => (/* binding */ LetInterpolationBindingExpression),
 /* harmony export */   "SyntaxInterpreter": () => (/* binding */ SyntaxInterpreter),
 /* harmony export */   "TemplatingBindingLanguage": () => (/* binding */ TemplatingBindingLanguage),
 /* harmony export */   "configure": () => (/* binding */ configure)
 /* harmony export */ });
-/* harmony import */ var aurelia_logging__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! aurelia-logging */ "../../node_modules/aurelia-logging/dist/es2015/aurelia-logging.js");
+/* harmony import */ var aurelia_templating__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! aurelia-templating */ "../../node_modules/aurelia-templating/dist/es2015/aurelia-templating.js");
 /* harmony import */ var aurelia_binding__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! aurelia-binding */ "../../node_modules/aurelia-binding/dist/es2015/aurelia-binding.js");
-/* harmony import */ var aurelia_templating__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! aurelia-templating */ "../../node_modules/aurelia-templating/dist/es2015/aurelia-templating.js");
-var _class, _temp, _dec, _class2, _dec2, _class3, _class4, _temp2, _class5, _temp3;
+/* harmony import */ var aurelia_logging__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! aurelia-logging */ "../../node_modules/aurelia-logging/dist/es2015/aurelia-logging.js");
 
 
 
 
-
-let AttributeMap = (_temp = _class = class AttributeMap {
-
-  constructor(svg) {
-    this.elements = Object.create(null);
-    this.allElements = Object.create(null);
-
-    this.svg = svg;
-
-    this.registerUniversal('accesskey', 'accessKey');
-    this.registerUniversal('contenteditable', 'contentEditable');
-    this.registerUniversal('tabindex', 'tabIndex');
-    this.registerUniversal('textcontent', 'textContent');
-    this.registerUniversal('innerhtml', 'innerHTML');
-    this.registerUniversal('scrolltop', 'scrollTop');
-    this.registerUniversal('scrollleft', 'scrollLeft');
-    this.registerUniversal('readonly', 'readOnly');
-
-    this.register('label', 'for', 'htmlFor');
-
-    this.register('img', 'usemap', 'useMap');
-
-    this.register('input', 'maxlength', 'maxLength');
-    this.register('input', 'minlength', 'minLength');
-    this.register('input', 'formaction', 'formAction');
-    this.register('input', 'formenctype', 'formEncType');
-    this.register('input', 'formmethod', 'formMethod');
-    this.register('input', 'formnovalidate', 'formNoValidate');
-    this.register('input', 'formtarget', 'formTarget');
-
-    this.register('textarea', 'maxlength', 'maxLength');
-
-    this.register('td', 'rowspan', 'rowSpan');
-    this.register('td', 'colspan', 'colSpan');
-    this.register('th', 'rowspan', 'rowSpan');
-    this.register('th', 'colspan', 'colSpan');
-  }
-
-  register(elementName, attributeName, propertyName) {
-    elementName = elementName.toLowerCase();
-    attributeName = attributeName.toLowerCase();
-    const element = this.elements[elementName] = this.elements[elementName] || Object.create(null);
-    element[attributeName] = propertyName;
-  }
-
-  registerUniversal(attributeName, propertyName) {
-    attributeName = attributeName.toLowerCase();
-    this.allElements[attributeName] = propertyName;
-  }
-
-  map(elementName, attributeName) {
-    if (this.svg.isStandardSvgAttribute(elementName, attributeName)) {
-      return attributeName;
+class AttributeMap {
+    constructor(svg) {
+        this.elements = Object.create(null);
+        this.allElements = Object.create(null);
+        this.svg = svg;
+        this.registerUniversal('accesskey', 'accessKey');
+        this.registerUniversal('contenteditable', 'contentEditable');
+        this.registerUniversal('tabindex', 'tabIndex');
+        this.registerUniversal('textcontent', 'textContent');
+        this.registerUniversal('innerhtml', 'innerHTML');
+        this.registerUniversal('scrolltop', 'scrollTop');
+        this.registerUniversal('scrollleft', 'scrollLeft');
+        this.registerUniversal('readonly', 'readOnly');
+        this.register('label', 'for', 'htmlFor');
+        this.register('img', 'usemap', 'useMap');
+        this.register('input', 'maxlength', 'maxLength');
+        this.register('input', 'minlength', 'minLength');
+        this.register('input', 'formaction', 'formAction');
+        this.register('input', 'formenctype', 'formEncType');
+        this.register('input', 'formmethod', 'formMethod');
+        this.register('input', 'formnovalidate', 'formNoValidate');
+        this.register('input', 'formtarget', 'formTarget');
+        this.register('textarea', 'maxlength', 'maxLength');
+        this.register('td', 'rowspan', 'rowSpan');
+        this.register('td', 'colspan', 'colSpan');
+        this.register('th', 'rowspan', 'rowSpan');
+        this.register('th', 'colspan', 'colSpan');
     }
-    elementName = elementName.toLowerCase();
-    attributeName = attributeName.toLowerCase();
-    const element = this.elements[elementName];
-    if (element !== undefined && attributeName in element) {
-      return element[attributeName];
+    register(elementName, attributeName, propertyName) {
+        elementName = elementName.toLowerCase();
+        attributeName = attributeName.toLowerCase();
+        const element = this.elements[elementName] = (this.elements[elementName] || Object.create(null));
+        element[attributeName] = propertyName;
     }
-    if (attributeName in this.allElements) {
-      return this.allElements[attributeName];
+    registerUniversal(attributeName, propertyName) {
+        attributeName = attributeName.toLowerCase();
+        this.allElements[attributeName] = propertyName;
     }
-
-    if (/(?:^data-)|(?:^aria-)|:/.test(attributeName)) {
-      return attributeName;
+    map(elementName, attributeName) {
+        if (this.svg.isStandardSvgAttribute(elementName, attributeName)) {
+            return attributeName;
+        }
+        elementName = elementName.toLowerCase();
+        attributeName = attributeName.toLowerCase();
+        const element = this.elements[elementName];
+        if (element !== undefined && attributeName in element) {
+            return element[attributeName];
+        }
+        if (attributeName in this.allElements) {
+            return this.allElements[attributeName];
+        }
+        if (/(?:^data-)|(?:^aria-)|:/.test(attributeName)) {
+            return attributeName;
+        }
+        return (0,aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.camelCase)(attributeName);
     }
-    return (0,aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.camelCase)(attributeName);
-  }
-}, _class.inject = [aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.SVGAnalyzer], _temp);
+}
+AttributeMap.inject = [aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.SVGAnalyzer];
 
-let InterpolationBindingExpression = class InterpolationBindingExpression {
-  constructor(observerLocator, targetProperty, parts, mode, lookupFunctions, attribute) {
-    this.observerLocator = observerLocator;
-    this.targetProperty = targetProperty;
-    this.parts = parts;
-    this.mode = mode;
-    this.lookupFunctions = lookupFunctions;
-    this.attribute = this.attrToRemove = attribute;
-    this.discrete = false;
-  }
+/*! *****************************************************************************
+Copyright (c) Microsoft Corporation.
 
-  createBinding(target) {
-    if (this.parts.length === 3) {
-      return new ChildInterpolationBinding(target, this.observerLocator, this.parts[1], this.mode, this.lookupFunctions, this.targetProperty, this.parts[0], this.parts[2]);
-    }
-    return new InterpolationBinding(this.observerLocator, this.parts, target, this.targetProperty, this.mode, this.lookupFunctions);
-  }
-};
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted.
 
-function validateTarget(target, propertyName) {
-  if (propertyName === 'style') {
-    aurelia_logging__WEBPACK_IMPORTED_MODULE_0__.getLogger('templating-binding').info('Internet Explorer does not support interpolation in "style" attributes.  Use the style attribute\'s alias, "css" instead.');
-  } else if (target.parentElement && target.parentElement.nodeName === 'TEXTAREA' && propertyName === 'textContent') {
-    throw new Error('Interpolation binding cannot be used in the content of a textarea element.  Use <textarea value.bind="expression"></textarea> instead.');
-  }
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+***************************************************************************** */
+
+function __decorate(decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
 }
 
-let InterpolationBinding = class InterpolationBinding {
-  constructor(observerLocator, parts, target, targetProperty, mode, lookupFunctions) {
-    validateTarget(target, targetProperty);
-    this.observerLocator = observerLocator;
-    this.parts = parts;
-    this.target = target;
-    this.targetProperty = targetProperty;
-    this.targetAccessor = observerLocator.getAccessor(target, targetProperty);
-    this.mode = mode;
-    this.lookupFunctions = lookupFunctions;
-  }
-
-  interpolate() {
-    if (this.isBound) {
-      let value = '';
-      let parts = this.parts;
-      for (let i = 0, ii = parts.length; i < ii; i++) {
-        value += i % 2 === 0 ? parts[i] : this[`childBinding${i}`].value;
-      }
-      this.targetAccessor.setValue(value, this.target, this.targetProperty);
+class InterpolationBindingExpression {
+    constructor(observerLocator, targetProperty, parts, mode, lookupFunctions, attribute) {
+        this.observerLocator = observerLocator;
+        this.targetProperty = targetProperty;
+        this.parts = parts;
+        this.mode = mode;
+        this.lookupFunctions = lookupFunctions;
+        this.attribute = this.attrToRemove = attribute;
+        this.discrete = false;
     }
-  }
-
-  updateOneTimeBindings() {
-    for (let i = 1, ii = this.parts.length; i < ii; i += 2) {
-      let child = this[`childBinding${i}`];
-      if (child.mode === aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.bindingMode.oneTime) {
-        child.call();
-      }
+    createBinding(target) {
+        if (this.parts.length === 3) {
+            return new ChildInterpolationBinding(target, this.observerLocator, this.parts[1], this.mode, this.lookupFunctions, this.targetProperty, this.parts[0], this.parts[2]);
+        }
+        return new InterpolationBinding(this.observerLocator, this.parts, target, this.targetProperty, this.mode, this.lookupFunctions);
     }
-  }
-
-  bind(source) {
-    if (this.isBound) {
-      if (this.source === source) {
-        return;
-      }
-      this.unbind();
+}
+function validateTarget(target, propertyName) {
+    if (propertyName === 'style') {
+        aurelia_logging__WEBPACK_IMPORTED_MODULE_2__.getLogger('templating-binding')
+            .info('Internet Explorer does not support interpolation in "style" attributes.  Use the style attribute\'s alias, "css" instead.');
     }
-    this.source = source;
-
-    let parts = this.parts;
-    for (let i = 1, ii = parts.length; i < ii; i += 2) {
-      let binding = new ChildInterpolationBinding(this, this.observerLocator, parts[i], this.mode, this.lookupFunctions);
-      binding.bind(source);
-      this[`childBinding${i}`] = binding;
+    else if (target.parentElement && target.parentElement.nodeName === 'TEXTAREA' && propertyName === 'textContent') {
+        throw new Error('Interpolation binding cannot be used in the content of a textarea element.  Use <textarea value.bind="expression"></textarea> instead.');
     }
-
-    this.isBound = true;
-    this.interpolate();
-  }
-
-  unbind() {
-    if (!this.isBound) {
-      return;
+}
+class InterpolationBinding {
+    constructor(observerLocator, parts, target, targetProperty, mode, lookupFunctions) {
+        validateTarget(target, targetProperty);
+        this.observerLocator = observerLocator;
+        this.parts = parts;
+        this.target = target;
+        this.targetProperty = targetProperty;
+        this.targetAccessor = observerLocator.getAccessor(target, targetProperty);
+        this.mode = mode;
+        this.lookupFunctions = lookupFunctions;
     }
-    this.isBound = false;
-    this.source = null;
-    let parts = this.parts;
-    for (let i = 1, ii = parts.length; i < ii; i += 2) {
-      let name = `childBinding${i}`;
-      this[name].unbind();
+    interpolate() {
+        if (this.isBound) {
+            let value = '';
+            let parts = this.parts;
+            for (let i = 0, ii = parts.length; i < ii; i++) {
+                value += (i % 2 === 0 ? parts[i] : this[`childBinding${i}`].value);
+            }
+            this.targetAccessor.setValue(value, this.target, this.targetProperty);
+        }
     }
-  }
+    updateOneTimeBindings() {
+        for (let i = 1, ii = this.parts.length; i < ii; i += 2) {
+            let child = this[`childBinding${i}`];
+            if (child.mode === aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.bindingMode.oneTime) {
+                child.call();
+            }
+        }
+    }
+    bind(source) {
+        if (this.isBound) {
+            if (this.source === source) {
+                return;
+            }
+            this.unbind();
+        }
+        this.source = source;
+        let parts = this.parts;
+        for (let i = 1, ii = parts.length; i < ii; i += 2) {
+            let binding = new ChildInterpolationBinding(this, this.observerLocator, parts[i], this.mode, this.lookupFunctions);
+            binding.bind(source);
+            this[`childBinding${i}`] = binding;
+        }
+        this.isBound = true;
+        this.interpolate();
+    }
+    unbind() {
+        if (!this.isBound) {
+            return;
+        }
+        this.isBound = false;
+        this.source = null;
+        let parts = this.parts;
+        for (let i = 1, ii = parts.length; i < ii; i += 2) {
+            let name = `childBinding${i}`;
+            this[name].unbind();
+        }
+    }
+}
+let ChildInterpolationBinding = class ChildInterpolationBinding {
+    constructor(target, observerLocator, sourceExpression, mode, lookupFunctions, targetProperty, left, right) {
+        if (target instanceof InterpolationBinding) {
+            this.parent = target;
+        }
+        else {
+            validateTarget(target, targetProperty);
+            this.target = target;
+            this.targetProperty = targetProperty;
+            this.targetAccessor = observerLocator.getAccessor(target, targetProperty);
+        }
+        this.observerLocator = observerLocator;
+        this.sourceExpression = sourceExpression;
+        this.mode = mode;
+        this.lookupFunctions = lookupFunctions;
+        this.left = left;
+        this.right = right;
+    }
+    updateTarget(value) {
+        value = value === null || value === undefined ? '' : value.toString();
+        if (value !== this.value) {
+            this.value = value;
+            if (this.parent) {
+                this.parent.interpolate();
+            }
+            else {
+                this.targetAccessor.setValue(this.left + value + this.right, this.target, this.targetProperty);
+            }
+        }
+    }
+    call() {
+        if (!this.isBound) {
+            return;
+        }
+        this.rawValue = this.sourceExpression.evaluate(this.source, this.lookupFunctions);
+        this.updateTarget(this.rawValue);
+        if (this.mode !== aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.bindingMode.oneTime) {
+            this._version++;
+            this.sourceExpression.connect(this, this.source);
+            if (this.rawValue instanceof Array) {
+                this.observeArray(this.rawValue);
+            }
+            this.unobserve(false);
+        }
+    }
+    bind(source) {
+        if (this.isBound) {
+            if (this.source === source) {
+                return;
+            }
+            this.unbind();
+        }
+        this.isBound = true;
+        this.source = source;
+        let sourceExpression = this.sourceExpression;
+        if (sourceExpression.bind) {
+            sourceExpression.bind(this, source, this.lookupFunctions);
+        }
+        this.rawValue = sourceExpression.evaluate(source, this.lookupFunctions);
+        this.updateTarget(this.rawValue);
+        if (this.mode === aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.bindingMode.oneWay) {
+            (0,aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.enqueueBindingConnect)(this);
+        }
+    }
+    unbind() {
+        if (!this.isBound) {
+            return;
+        }
+        this.isBound = false;
+        let sourceExpression = this.sourceExpression;
+        if (sourceExpression.unbind) {
+            sourceExpression.unbind(this, this.source);
+        }
+        this.source = null;
+        this.value = null;
+        this.rawValue = null;
+        this.unobserve(true);
+    }
+    connect(evaluate) {
+        if (!this.isBound) {
+            return;
+        }
+        if (evaluate) {
+            this.rawValue = this.sourceExpression.evaluate(this.source, this.lookupFunctions);
+            this.updateTarget(this.rawValue);
+        }
+        this.sourceExpression.connect(this, this.source);
+        if (this.rawValue instanceof Array) {
+            this.observeArray(this.rawValue);
+        }
+    }
 };
+ChildInterpolationBinding = __decorate([
+    (0,aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.connectable)()
+], ChildInterpolationBinding);
 
-let ChildInterpolationBinding = (_dec = (0,aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.connectable)(), _dec(_class2 = class ChildInterpolationBinding {
-  constructor(target, observerLocator, sourceExpression, mode, lookupFunctions, targetProperty, left, right) {
-    if (target instanceof InterpolationBinding) {
-      this.parent = target;
-    } else {
-      validateTarget(target, targetProperty);
-      this.target = target;
-      this.targetProperty = targetProperty;
-      this.targetAccessor = observerLocator.getAccessor(target, targetProperty);
+class LetExpression {
+    constructor(observerLocator, targetProperty, sourceExpression, lookupFunctions, toBindingContext) {
+        this.observerLocator = observerLocator;
+        this.sourceExpression = sourceExpression;
+        this.targetProperty = targetProperty;
+        this.lookupFunctions = lookupFunctions;
+        this.toBindingContext = toBindingContext;
     }
-    this.observerLocator = observerLocator;
-    this.sourceExpression = sourceExpression;
-    this.mode = mode;
-    this.lookupFunctions = lookupFunctions;
-    this.left = left;
-    this.right = right;
-  }
-
-  updateTarget(value) {
-    value = value === null || value === undefined ? '' : value.toString();
-    if (value !== this.value) {
-      this.value = value;
-      if (this.parent) {
-        this.parent.interpolate();
-      } else {
-        this.targetAccessor.setValue(this.left + value + this.right, this.target, this.targetProperty);
-      }
+    createBinding() {
+        return new LetBinding(this.observerLocator, this.sourceExpression, this.targetProperty, this.lookupFunctions, this.toBindingContext);
     }
-  }
-
-  call() {
-    if (!this.isBound) {
-      return;
+}
+let LetBinding = class LetBinding {
+    constructor(observerLocator, sourceExpression, targetProperty, lookupFunctions, toBindingContext) {
+        this.observerLocator = observerLocator;
+        this.sourceExpression = sourceExpression;
+        this.targetProperty = targetProperty;
+        this.lookupFunctions = lookupFunctions;
+        this.source = null;
+        this.target = null;
+        this.toBindingContext = toBindingContext;
     }
-
-    this.rawValue = this.sourceExpression.evaluate(this.source, this.lookupFunctions);
-    this.updateTarget(this.rawValue);
-
-    if (this.mode !== aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.bindingMode.oneTime) {
-      this._version++;
-      this.sourceExpression.connect(this, this.source);
-      if (this.rawValue instanceof Array) {
-        this.observeArray(this.rawValue);
-      }
-      this.unobserve(false);
+    updateTarget() {
+        const value = this.sourceExpression.evaluate(this.source, this.lookupFunctions);
+        this.target[this.targetProperty] = value;
     }
-  }
-
-  bind(source) {
-    if (this.isBound) {
-      if (this.source === source) {
-        return;
-      }
-      this.unbind();
+    call(context) {
+        if (!this.isBound) {
+            return;
+        }
+        if (context === aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.sourceContext) {
+            this.updateTarget();
+            return;
+        }
+        throw new Error(`Unexpected call context ${context}`);
     }
-    this.isBound = true;
-    this.source = source;
-
-    let sourceExpression = this.sourceExpression;
-    if (sourceExpression.bind) {
-      sourceExpression.bind(this, source, this.lookupFunctions);
+    bind(source) {
+        if (this.isBound) {
+            if (this.source === source) {
+                return;
+            }
+            this.unbind();
+        }
+        this.isBound = true;
+        this.source = source;
+        this.target = this.toBindingContext ? source.bindingContext : source.overrideContext;
+        if (this.sourceExpression.bind) {
+            this.sourceExpression.bind(this, source, this.lookupFunctions);
+        }
+        (0,aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.enqueueBindingConnect)(this);
     }
-
-    this.rawValue = sourceExpression.evaluate(source, this.lookupFunctions);
-    this.updateTarget(this.rawValue);
-
-    if (this.mode === aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.bindingMode.oneWay) {
-      (0,aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.enqueueBindingConnect)(this);
+    unbind() {
+        if (!this.isBound) {
+            return;
+        }
+        this.isBound = false;
+        if (this.sourceExpression.unbind) {
+            this.sourceExpression.unbind(this, this.source);
+        }
+        this.source = null;
+        this.target = null;
+        this.unobserve(true);
     }
-  }
-
-  unbind() {
-    if (!this.isBound) {
-      return;
+    unobserve(arg0) {
+        throw new Error('Method not implemented.');
     }
-    this.isBound = false;
-    let sourceExpression = this.sourceExpression;
-    if (sourceExpression.unbind) {
-      sourceExpression.unbind(this, this.source);
+    connect() {
+        if (!this.isBound) {
+            return;
+        }
+        this.updateTarget();
+        this.sourceExpression.connect(this, this.source);
     }
-    this.source = null;
-    this.value = null;
-    this.rawValue = null;
-    this.unobserve(true);
-  }
-
-  connect(evaluate) {
-    if (!this.isBound) {
-      return;
-    }
-    if (evaluate) {
-      this.rawValue = this.sourceExpression.evaluate(this.source, this.lookupFunctions);
-      this.updateTarget(this.rawValue);
-    }
-    this.sourceExpression.connect(this, this.source);
-    if (this.rawValue instanceof Array) {
-      this.observeArray(this.rawValue);
-    }
-  }
-}) || _class2);
-
-let LetExpression = class LetExpression {
-  constructor(observerLocator, targetProperty, sourceExpression, lookupFunctions, toBindingContext) {
-    this.observerLocator = observerLocator;
-    this.sourceExpression = sourceExpression;
-    this.targetProperty = targetProperty;
-    this.lookupFunctions = lookupFunctions;
-    this.toBindingContext = toBindingContext;
-  }
-
-  createBinding() {
-    return new LetBinding(this.observerLocator, this.sourceExpression, this.targetProperty, this.lookupFunctions, this.toBindingContext);
-  }
 };
+LetBinding = __decorate([
+    (0,aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.connectable)()
+], LetBinding);
 
-let LetBinding = (_dec2 = (0,aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.connectable)(), _dec2(_class3 = class LetBinding {
-  constructor(observerLocator, sourceExpression, targetProperty, lookupFunctions, toBindingContext) {
-    this.observerLocator = observerLocator;
-    this.sourceExpression = sourceExpression;
-    this.targetProperty = targetProperty;
-    this.lookupFunctions = lookupFunctions;
-    this.source = null;
-    this.target = null;
-    this.toBindingContext = toBindingContext;
-  }
-
-  updateTarget() {
-    const value = this.sourceExpression.evaluate(this.source, this.lookupFunctions);
-    this.target[this.targetProperty] = value;
-  }
-
-  call(context) {
-    if (!this.isBound) {
-      return;
+class LetInterpolationBindingExpression {
+    constructor(observerLocator, targetProperty, parts, lookupFunctions, toBindingContext) {
+        this.observerLocator = observerLocator;
+        this.targetProperty = targetProperty;
+        this.parts = parts;
+        this.lookupFunctions = lookupFunctions;
+        this.toBindingContext = toBindingContext;
     }
-    if (context === aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.sourceContext) {
-      this.updateTarget();
-      return;
+    createBinding() {
+        return new LetInterpolationBinding(this.observerLocator, this.targetProperty, this.parts, this.lookupFunctions, this.toBindingContext);
     }
-    throw new Error(`Unexpected call context ${context}`);
-  }
-
-  bind(source) {
-    if (this.isBound) {
-      if (this.source === source) {
-        return;
-      }
-      this.unbind();
+}
+class LetInterpolationBinding {
+    constructor(observerLocator, targetProperty, parts, lookupFunctions, toBindingContext) {
+        this.observerLocator = observerLocator;
+        this.parts = parts;
+        this.targetProperty = targetProperty;
+        this.lookupFunctions = lookupFunctions;
+        this.toBindingContext = toBindingContext;
+        this.target = null;
     }
-
-    this.isBound = true;
-    this.source = source;
-    this.target = this.toBindingContext ? source.bindingContext : source.overrideContext;
-
-    if (this.sourceExpression.bind) {
-      this.sourceExpression.bind(this, source, this.lookupFunctions);
+    bind(source) {
+        if (this.isBound) {
+            if (this.source === source) {
+                return;
+            }
+            this.unbind();
+        }
+        this.isBound = true;
+        this.source = source;
+        this.target = this.toBindingContext ? source.bindingContext : source.overrideContext;
+        this.interpolationBinding = this.createInterpolationBinding();
+        this.interpolationBinding.bind(source);
     }
-
-    (0,aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.enqueueBindingConnect)(this);
-  }
-
-  unbind() {
-    if (!this.isBound) {
-      return;
+    unbind() {
+        if (!this.isBound) {
+            return;
+        }
+        this.isBound = false;
+        this.source = null;
+        this.target = null;
+        this.interpolationBinding.unbind();
+        this.interpolationBinding = null;
     }
-    this.isBound = false;
-    if (this.sourceExpression.unbind) {
-      this.sourceExpression.unbind(this, this.source);
+    createInterpolationBinding() {
+        if (this.parts.length === 3) {
+            return new ChildInterpolationBinding(this.target, this.observerLocator, this.parts[1], aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.bindingMode.toView, this.lookupFunctions, this.targetProperty, this.parts[0], this.parts[2]);
+        }
+        return new InterpolationBinding(this.observerLocator, this.parts, this.target, this.targetProperty, aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.bindingMode.toView, this.lookupFunctions);
     }
-    this.source = null;
-    this.target = null;
-    this.unobserve(true);
-  }
+}
 
-  connect() {
-    if (!this.isBound) {
-      return;
+class SyntaxInterpreter {
+    constructor(parser, observerLocator, eventManager, attributeMap) {
+        this.parser = parser;
+        this.observerLocator = observerLocator;
+        this.eventManager = eventManager;
+        this.attributeMap = attributeMap;
     }
-    this.updateTarget();
-    this.sourceExpression.connect(this, this.source);
-  }
-}) || _class3);
-
-let LetInterpolationBindingExpression = class LetInterpolationBindingExpression {
-  constructor(observerLocator, targetProperty, parts, lookupFunctions, toBindingContext) {
-    this.observerLocator = observerLocator;
-    this.targetProperty = targetProperty;
-    this.parts = parts;
-    this.lookupFunctions = lookupFunctions;
-    this.toBindingContext = toBindingContext;
-  }
-
-  createBinding() {
-    return new LetInterpolationBinding(this.observerLocator, this.targetProperty, this.parts, this.lookupFunctions, this.toBindingContext);
-  }
-};
-
-let LetInterpolationBinding = class LetInterpolationBinding {
-  constructor(observerLocator, targetProperty, parts, lookupFunctions, toBindingContext) {
-    this.observerLocator = observerLocator;
-    this.parts = parts;
-    this.targetProperty = targetProperty;
-    this.lookupFunctions = lookupFunctions;
-    this.toBindingContext = toBindingContext;
-    this.target = null;
-  }
-
-  bind(source) {
-    if (this.isBound) {
-      if (this.source === source) {
-        return;
-      }
-      this.unbind();
+    interpret(resources, element, info, existingInstruction, context) {
+        if (info.command in this) {
+            return this[info.command](resources, element, info, existingInstruction, context);
+        }
+        return this.handleUnknownCommand(resources, element, info, existingInstruction, context);
     }
-
-    this.isBound = true;
-    this.source = source;
-    this.target = this.toBindingContext ? source.bindingContext : source.overrideContext;
-
-    this.interpolationBinding = this.createInterpolationBinding();
-    this.interpolationBinding.bind(source);
-  }
-
-  unbind() {
-    if (!this.isBound) {
-      return;
+    handleUnknownCommand(resources, element, info, existingInstruction, context) {
+        aurelia_logging__WEBPACK_IMPORTED_MODULE_2__.getLogger('templating-binding').warn('Unknown binding command.', info);
+        return existingInstruction;
     }
-    this.isBound = false;
-    this.source = null;
-    this.target = null;
-    this.interpolationBinding.unbind();
-    this.interpolationBinding = null;
-  }
-
-  createInterpolationBinding() {
-    if (this.parts.length === 3) {
-      return new ChildInterpolationBinding(this.target, this.observerLocator, this.parts[1], aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.bindingMode.oneWay, this.lookupFunctions, this.targetProperty, this.parts[0], this.parts[2]);
+    determineDefaultBindingMode(element, attrName, context) {
+        let tagName = element.tagName.toLowerCase();
+        if (tagName === 'input' && (attrName === 'value' || attrName === 'files') && element.type !== 'checkbox' && element.type !== 'radio'
+            || tagName === 'input' && attrName === 'checked' && (element.type === 'checkbox' || element.type === 'radio')
+            || (tagName === 'textarea' || tagName === 'select') && attrName === 'value'
+            || (attrName === 'textcontent' || attrName === 'innerhtml') && element.contentEditable === 'true'
+            || attrName === 'scrolltop'
+            || attrName === 'scrollleft') {
+            return aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.bindingMode.twoWay;
+        }
+        if (context
+            && attrName in context.attributes
+            && context.attributes[attrName]
+            && context.attributes[attrName].defaultBindingMode >= aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.bindingMode.oneTime) {
+            return context.attributes[attrName].defaultBindingMode;
+        }
+        return aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.bindingMode.toView;
     }
-    return new InterpolationBinding(this.observerLocator, this.parts, this.target, this.targetProperty, aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.bindingMode.oneWay, this.lookupFunctions);
-  }
-};
-
-let SyntaxInterpreter = (_temp2 = _class4 = class SyntaxInterpreter {
-
-  constructor(parser, observerLocator, eventManager, attributeMap) {
-    this.parser = parser;
-    this.observerLocator = observerLocator;
-    this.eventManager = eventManager;
-    this.attributeMap = attributeMap;
-  }
-
-  interpret(resources, element, info, existingInstruction, context) {
-    if (info.command in this) {
-      return this[info.command](resources, element, info, existingInstruction, context);
+    bind(resources, element, info, existingInstruction, context) {
+        let instruction = existingInstruction || aurelia_templating__WEBPACK_IMPORTED_MODULE_0__.BehaviorInstruction.attribute(info.attrName);
+        instruction.attributes[info.attrName] = new aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.BindingExpression(this.observerLocator, this.attributeMap.map(element.tagName, info.attrName), this.parser.parse(info.attrValue), info.defaultBindingMode === undefined || info.defaultBindingMode === null
+            ? this.determineDefaultBindingMode(element, info.attrName, context)
+            : info.defaultBindingMode, resources.lookupFunctions);
+        return instruction;
     }
-
-    return this.handleUnknownCommand(resources, element, info, existingInstruction, context);
-  }
-
-  handleUnknownCommand(resources, element, info, existingInstruction, context) {
-    aurelia_logging__WEBPACK_IMPORTED_MODULE_0__.getLogger('templating-binding').warn('Unknown binding command.', info);
-    return existingInstruction;
-  }
-
-  determineDefaultBindingMode(element, attrName, context) {
-    let tagName = element.tagName.toLowerCase();
-
-    if (tagName === 'input' && (attrName === 'value' || attrName === 'files') && element.type !== 'checkbox' && element.type !== 'radio' || tagName === 'input' && attrName === 'checked' && (element.type === 'checkbox' || element.type === 'radio') || (tagName === 'textarea' || tagName === 'select') && attrName === 'value' || (attrName === 'textcontent' || attrName === 'innerhtml') && element.contentEditable === 'true' || attrName === 'scrolltop' || attrName === 'scrollleft') {
-      return aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.bindingMode.twoWay;
+    trigger(resources, element, info) {
+        return new aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.ListenerExpression(this.eventManager, info.attrName, this.parser.parse(info.attrValue), aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.delegationStrategy.none, true, resources.lookupFunctions);
     }
-
-    if (context && attrName in context.attributes && context.attributes[attrName] && context.attributes[attrName].defaultBindingMode >= aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.bindingMode.oneTime) {
-      return context.attributes[attrName].defaultBindingMode;
+    capture(resources, element, info) {
+        return new aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.ListenerExpression(this.eventManager, info.attrName, this.parser.parse(info.attrValue), aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.delegationStrategy.capturing, true, resources.lookupFunctions);
     }
-
-    return aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.bindingMode.oneWay;
-  }
-
-  bind(resources, element, info, existingInstruction, context) {
-    let instruction = existingInstruction || aurelia_templating__WEBPACK_IMPORTED_MODULE_2__.BehaviorInstruction.attribute(info.attrName);
-
-    instruction.attributes[info.attrName] = new aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.BindingExpression(this.observerLocator, this.attributeMap.map(element.tagName, info.attrName), this.parser.parse(info.attrValue), info.defaultBindingMode === undefined || info.defaultBindingMode === null ? this.determineDefaultBindingMode(element, info.attrName, context) : info.defaultBindingMode, resources.lookupFunctions);
-
-    return instruction;
-  }
-
-  trigger(resources, element, info) {
-    return new aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.ListenerExpression(this.eventManager, info.attrName, this.parser.parse(info.attrValue), aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.delegationStrategy.none, true, resources.lookupFunctions);
-  }
-
-  capture(resources, element, info) {
-    return new aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.ListenerExpression(this.eventManager, info.attrName, this.parser.parse(info.attrValue), aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.delegationStrategy.capturing, true, resources.lookupFunctions);
-  }
-
-  delegate(resources, element, info) {
-    return new aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.ListenerExpression(this.eventManager, info.attrName, this.parser.parse(info.attrValue), aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.delegationStrategy.bubbling, true, resources.lookupFunctions);
-  }
-
-  call(resources, element, info, existingInstruction) {
-    let instruction = existingInstruction || aurelia_templating__WEBPACK_IMPORTED_MODULE_2__.BehaviorInstruction.attribute(info.attrName);
-
-    instruction.attributes[info.attrName] = new aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.CallExpression(this.observerLocator, info.attrName, this.parser.parse(info.attrValue), resources.lookupFunctions);
-
-    return instruction;
-  }
-
-  options(resources, element, info, existingInstruction, context) {
-    let instruction = existingInstruction || aurelia_templating__WEBPACK_IMPORTED_MODULE_2__.BehaviorInstruction.attribute(info.attrName);
-    let attrValue = info.attrValue;
-    let language = this.language;
-    let name = null;
-    let target = '';
-    let current;
-    let i;
-    let ii;
-    let inString = false;
-    let inEscape = false;
-    let foundName = false;
-
-    for (i = 0, ii = attrValue.length; i < ii; ++i) {
-      current = attrValue[i];
-
-      if (current === ';' && !inString) {
+    delegate(resources, element, info) {
+        return new aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.ListenerExpression(this.eventManager, info.attrName, this.parser.parse(info.attrValue), aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.delegationStrategy.bubbling, true, resources.lookupFunctions);
+    }
+    call(resources, element, info, existingInstruction) {
+        let instruction = existingInstruction || aurelia_templating__WEBPACK_IMPORTED_MODULE_0__.BehaviorInstruction.attribute(info.attrName);
+        instruction.attributes[info.attrName] = new aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.CallExpression(this.observerLocator, info.attrName, this.parser.parse(info.attrValue), resources.lookupFunctions);
+        return instruction;
+    }
+    options(resources, element, info, existingInstruction, context) {
+        let instruction = existingInstruction || aurelia_templating__WEBPACK_IMPORTED_MODULE_0__.BehaviorInstruction.attribute(info.attrName);
+        let attrValue = info.attrValue;
+        let language = this.language;
+        let name = null;
+        let target = '';
+        let current;
+        let i;
+        let ii;
+        let inString = false;
+        let inEscape = false;
+        let foundName = false;
+        for (i = 0, ii = attrValue.length; i < ii; ++i) {
+            current = attrValue[i];
+            if (current === ';' && !inString) {
+                if (!foundName) {
+                    name = this._getPrimaryPropertyName(resources, context);
+                }
+                info = language.inspectAttribute(resources, '?', name, target.trim());
+                language.createAttributeInstruction(resources, element, info, instruction, context);
+                if (!instruction.attributes[info.attrName]) {
+                    instruction.attributes[info.attrName] = info.attrValue;
+                }
+                target = '';
+                name = null;
+            }
+            else if (current === ':' && name === null) {
+                foundName = true;
+                name = target.trim();
+                target = '';
+            }
+            else if (current === '\\') {
+                target += current;
+                inEscape = true;
+                continue;
+            }
+            else {
+                target += current;
+                if (name !== null && inEscape === false && current === '\'') {
+                    inString = !inString;
+                }
+            }
+            inEscape = false;
+        }
         if (!foundName) {
-          name = this._getPrimaryPropertyName(resources, context);
+            name = this._getPrimaryPropertyName(resources, context);
         }
-        info = language.inspectAttribute(resources, '?', name, target.trim());
-        language.createAttributeInstruction(resources, element, info, instruction, context);
-
-        if (!instruction.attributes[info.attrName]) {
-          instruction.attributes[info.attrName] = info.attrValue;
+        if (name !== null) {
+            info = language.inspectAttribute(resources, '?', name, target.trim());
+            language.createAttributeInstruction(resources, element, info, instruction, context);
+            if (!instruction.attributes[info.attrName]) {
+                instruction.attributes[info.attrName] = info.attrValue;
+            }
         }
-
-        target = '';
-        name = null;
-      } else if (current === ':' && name === null) {
-        foundName = true;
-        name = target.trim();
-        target = '';
-      } else if (current === '\\') {
-        target += current;
-        inEscape = true;
-        continue;
-      } else {
-        target += current;
-
-        if (name !== null && inEscape === false && current === '\'') {
-          inString = !inString;
+        return instruction;
+    }
+    _getPrimaryPropertyName(resources, context) {
+        let type = resources.getAttribute(context.attributeName);
+        if (type && type.primaryProperty) {
+            return type.primaryProperty.attribute;
         }
-      }
-
-      inEscape = false;
+        return null;
     }
-
-    if (!foundName) {
-      name = this._getPrimaryPropertyName(resources, context);
+    'for'(resources, element, info, existingInstruction) {
+        let parts;
+        let keyValue;
+        let instruction;
+        let attrValue;
+        let isDestructuring;
+        attrValue = info.attrValue;
+        isDestructuring = attrValue.match(/^ *[[].+[\]]/);
+        parts = isDestructuring ? attrValue.split('of ') : attrValue.split(' of ');
+        if (parts.length !== 2) {
+            throw new Error('Incorrect syntax for "for". The form is: "$local of $items" or "[$key, $value] of $items".');
+        }
+        instruction = existingInstruction || aurelia_templating__WEBPACK_IMPORTED_MODULE_0__.BehaviorInstruction.attribute(info.attrName);
+        if (isDestructuring) {
+            keyValue = parts[0].replace(/[[\]]/g, '').replace(/,/g, ' ').replace(/\s+/g, ' ').trim().split(' ');
+            instruction.attributes.key = keyValue[0];
+            instruction.attributes.value = keyValue[1];
+        }
+        else {
+            instruction.attributes.local = parts[0];
+        }
+        instruction.attributes.items = new aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.BindingExpression(this.observerLocator, 'items', this.parser.parse(parts[1]), aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.bindingMode.toView, resources.lookupFunctions);
+        return instruction;
     }
-
-    if (name !== null) {
-      info = language.inspectAttribute(resources, '?', name, target.trim());
-      language.createAttributeInstruction(resources, element, info, instruction, context);
-
-      if (!instruction.attributes[info.attrName]) {
-        instruction.attributes[info.attrName] = info.attrValue;
-      }
+    'two-way'(resources, element, info, existingInstruction) {
+        let instruction = existingInstruction || aurelia_templating__WEBPACK_IMPORTED_MODULE_0__.BehaviorInstruction.attribute(info.attrName);
+        instruction.attributes[info.attrName] = new aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.BindingExpression(this.observerLocator, this.attributeMap.map(element.tagName, info.attrName), this.parser.parse(info.attrValue), aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.bindingMode.twoWay, resources.lookupFunctions);
+        return instruction;
     }
-
-    return instruction;
-  }
-
-  _getPrimaryPropertyName(resources, context) {
-    let type = resources.getAttribute(context.attributeName);
-    if (type && type.primaryProperty) {
-      return type.primaryProperty.attribute;
+    'to-view'(resources, element, info, existingInstruction) {
+        let instruction = existingInstruction || aurelia_templating__WEBPACK_IMPORTED_MODULE_0__.BehaviorInstruction.attribute(info.attrName);
+        instruction.attributes[info.attrName] = new aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.BindingExpression(this.observerLocator, this.attributeMap.map(element.tagName, info.attrName), this.parser.parse(info.attrValue), aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.bindingMode.toView, resources.lookupFunctions);
+        return instruction;
     }
-    return null;
-  }
-
-  'for'(resources, element, info, existingInstruction) {
-    let parts;
-    let keyValue;
-    let instruction;
-    let attrValue;
-    let isDestructuring;
-
-    attrValue = info.attrValue;
-    isDestructuring = attrValue.match(/^ *[[].+[\]]/);
-    parts = isDestructuring ? attrValue.split('of ') : attrValue.split(' of ');
-
-    if (parts.length !== 2) {
-      throw new Error('Incorrect syntax for "for". The form is: "$local of $items" or "[$key, $value] of $items".');
+    'from-view'(resources, element, info, existingInstruction) {
+        let instruction = existingInstruction || aurelia_templating__WEBPACK_IMPORTED_MODULE_0__.BehaviorInstruction.attribute(info.attrName);
+        instruction.attributes[info.attrName] = new aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.BindingExpression(this.observerLocator, this.attributeMap.map(element.tagName, info.attrName), this.parser.parse(info.attrValue), aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.bindingMode.fromView, resources.lookupFunctions);
+        return instruction;
     }
-
-    instruction = existingInstruction || aurelia_templating__WEBPACK_IMPORTED_MODULE_2__.BehaviorInstruction.attribute(info.attrName);
-
-    if (isDestructuring) {
-      keyValue = parts[0].replace(/[[\]]/g, '').replace(/,/g, ' ').replace(/\s+/g, ' ').trim().split(' ');
-      instruction.attributes.key = keyValue[0];
-      instruction.attributes.value = keyValue[1];
-    } else {
-      instruction.attributes.local = parts[0];
+    'one-time'(resources, element, info, existingInstruction) {
+        let instruction = existingInstruction || aurelia_templating__WEBPACK_IMPORTED_MODULE_0__.BehaviorInstruction.attribute(info.attrName);
+        instruction.attributes[info.attrName] = new aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.BindingExpression(this.observerLocator, this.attributeMap.map(element.tagName, info.attrName), this.parser.parse(info.attrValue), aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.bindingMode.oneTime, resources.lookupFunctions);
+        return instruction;
     }
-
-    instruction.attributes.items = new aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.BindingExpression(this.observerLocator, 'items', this.parser.parse(parts[1]), aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.bindingMode.oneWay, resources.lookupFunctions);
-
-    return instruction;
-  }
-
-  'two-way'(resources, element, info, existingInstruction) {
-    let instruction = existingInstruction || aurelia_templating__WEBPACK_IMPORTED_MODULE_2__.BehaviorInstruction.attribute(info.attrName);
-
-    instruction.attributes[info.attrName] = new aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.BindingExpression(this.observerLocator, this.attributeMap.map(element.tagName, info.attrName), this.parser.parse(info.attrValue), aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.bindingMode.twoWay, resources.lookupFunctions);
-
-    return instruction;
-  }
-
-  'to-view'(resources, element, info, existingInstruction) {
-    let instruction = existingInstruction || aurelia_templating__WEBPACK_IMPORTED_MODULE_2__.BehaviorInstruction.attribute(info.attrName);
-
-    instruction.attributes[info.attrName] = new aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.BindingExpression(this.observerLocator, this.attributeMap.map(element.tagName, info.attrName), this.parser.parse(info.attrValue), aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.bindingMode.toView, resources.lookupFunctions);
-
-    return instruction;
-  }
-
-  'from-view'(resources, element, info, existingInstruction) {
-    let instruction = existingInstruction || aurelia_templating__WEBPACK_IMPORTED_MODULE_2__.BehaviorInstruction.attribute(info.attrName);
-
-    instruction.attributes[info.attrName] = new aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.BindingExpression(this.observerLocator, this.attributeMap.map(element.tagName, info.attrName), this.parser.parse(info.attrValue), aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.bindingMode.fromView, resources.lookupFunctions);
-
-    return instruction;
-  }
-
-  'one-time'(resources, element, info, existingInstruction) {
-    let instruction = existingInstruction || aurelia_templating__WEBPACK_IMPORTED_MODULE_2__.BehaviorInstruction.attribute(info.attrName);
-
-    instruction.attributes[info.attrName] = new aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.BindingExpression(this.observerLocator, this.attributeMap.map(element.tagName, info.attrName), this.parser.parse(info.attrValue), aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.bindingMode.oneTime, resources.lookupFunctions);
-
-    return instruction;
-  }
-}, _class4.inject = [aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.Parser, aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.ObserverLocator, aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.EventManager, AttributeMap], _temp2);
-
-SyntaxInterpreter.prototype['one-way'] = SyntaxInterpreter.prototype['to-view'];
+}
+SyntaxInterpreter.inject = [aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.Parser, aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.ObserverLocator, aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.EventManager, AttributeMap];
+Object.defineProperty(SyntaxInterpreter.prototype, 'one-way', Object.getOwnPropertyDescriptor(SyntaxInterpreter.prototype, 'to-view'));
 
 let info = {};
-
-let TemplatingBindingLanguage = (_temp3 = _class5 = class TemplatingBindingLanguage extends aurelia_templating__WEBPACK_IMPORTED_MODULE_2__.BindingLanguage {
-
-  constructor(parser, observerLocator, syntaxInterpreter, attributeMap) {
-    super();
-    this.parser = parser;
-    this.observerLocator = observerLocator;
-    this.syntaxInterpreter = syntaxInterpreter;
-    this.emptyStringExpression = this.parser.parse('\'\'');
-    syntaxInterpreter.language = this;
-    this.attributeMap = attributeMap;
-    this.toBindingContextAttr = 'to-binding-context';
-  }
-
-  inspectAttribute(resources, elementName, attrName, attrValue) {
-    let parts = attrName.split('.');
-
-    info.defaultBindingMode = null;
-
-    if (parts.length === 2) {
-      info.attrName = parts[0].trim();
-      info.attrValue = attrValue;
-      info.command = parts[1].trim();
-
-      if (info.command === 'ref') {
-        info.expression = new aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.NameExpression(this.parser.parse(attrValue), info.attrName, resources.lookupFunctions);
-        info.command = null;
-        info.attrName = 'ref';
-      } else {
-        info.expression = null;
-      }
-    } else if (attrName === 'ref') {
-      info.attrName = attrName;
-      info.attrValue = attrValue;
-      info.command = null;
-      info.expression = new aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.NameExpression(this.parser.parse(attrValue), 'element', resources.lookupFunctions);
-    } else {
-      info.attrName = attrName;
-      info.attrValue = attrValue;
-      info.command = null;
-      const interpolationParts = this.parseInterpolation(resources, attrValue);
-      if (interpolationParts === null) {
-        info.expression = null;
-      } else {
-        info.expression = new InterpolationBindingExpression(this.observerLocator, this.attributeMap.map(elementName, attrName), interpolationParts, aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.bindingMode.oneWay, resources.lookupFunctions, attrName);
-      }
+class TemplatingBindingLanguage extends aurelia_templating__WEBPACK_IMPORTED_MODULE_0__.BindingLanguage {
+    constructor(parser, observerLocator, syntaxInterpreter, attributeMap) {
+        super();
+        this.parser = parser;
+        this.observerLocator = observerLocator;
+        this.syntaxInterpreter = syntaxInterpreter;
+        this.emptyStringExpression = this.parser.parse('\'\'');
+        syntaxInterpreter.language = this;
+        this.attributeMap = attributeMap;
+        this.toBindingContextAttr = 'to-binding-context';
     }
-
-    return info;
-  }
-
-  createAttributeInstruction(resources, element, theInfo, existingInstruction, context) {
-    let instruction;
-
-    if (theInfo.expression) {
-      if (theInfo.attrName === 'ref') {
-        return theInfo.expression;
-      }
-
-      instruction = existingInstruction || aurelia_templating__WEBPACK_IMPORTED_MODULE_2__.BehaviorInstruction.attribute(theInfo.attrName);
-      instruction.attributes[theInfo.attrName] = theInfo.expression;
-    } else if (theInfo.command) {
-      instruction = this.syntaxInterpreter.interpret(resources, element, theInfo, existingInstruction, context);
-    }
-
-    return instruction;
-  }
-
-  createLetExpressions(resources, letElement) {
-    let expressions = [];
-    let attributes = letElement.attributes;
-
-    let attr;
-
-    let parts;
-    let attrName;
-    let attrValue;
-    let command;
-    let toBindingContextAttr = this.toBindingContextAttr;
-    let toBindingContext = letElement.hasAttribute(toBindingContextAttr);
-    for (let i = 0, ii = attributes.length; ii > i; ++i) {
-      attr = attributes[i];
-      attrName = attr.name;
-      attrValue = attr.nodeValue;
-      parts = attrName.split('.');
-
-      if (attrName === toBindingContextAttr) {
-        continue;
-      }
-
-      if (parts.length === 2) {
-        command = parts[1];
-        if (command !== 'bind') {
-          aurelia_logging__WEBPACK_IMPORTED_MODULE_0__.getLogger('templating-binding-language').warn(`Detected invalid let command. Expected "${parts[0]}.bind", given "${attrName}"`);
-          continue;
+    inspectAttribute(resources, elementName, attrName, attrValue) {
+        let parts = attrName.split('.');
+        info.defaultBindingMode = null;
+        if (parts.length === 2) {
+            info.attrName = parts[0].trim();
+            info.attrValue = attrValue;
+            info.command = parts[1].trim();
+            if (info.command === 'ref') {
+                info.expression = new aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.NameExpression(this.parser.parse(attrValue), info.attrName, resources.lookupFunctions);
+                info.command = null;
+                info.attrName = 'ref';
+            }
+            else {
+                info.expression = null;
+            }
         }
-        expressions.push(new LetExpression(this.observerLocator, (0,aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.camelCase)(parts[0]), this.parser.parse(attrValue), resources.lookupFunctions, toBindingContext));
-      } else {
-        attrName = (0,aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.camelCase)(attrName);
-        parts = this.parseInterpolation(resources, attrValue);
+        else if (attrName === 'ref') {
+            info.attrName = attrName;
+            info.attrValue = attrValue;
+            info.command = null;
+            info.expression = new aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.NameExpression(this.parser.parse(attrValue), 'element', resources.lookupFunctions);
+        }
+        else {
+            info.attrName = attrName;
+            info.attrValue = attrValue;
+            info.command = null;
+            const interpolationParts = this.parseInterpolation(resources, attrValue);
+            if (interpolationParts === null) {
+                info.expression = null;
+            }
+            else {
+                info.expression = new InterpolationBindingExpression(this.observerLocator, this.attributeMap.map(elementName, attrName), interpolationParts, aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.bindingMode.toView, resources.lookupFunctions, attrName);
+            }
+        }
+        return info;
+    }
+    createAttributeInstruction(resources, element, theInfo, existingInstruction, context) {
+        let instruction;
+        if (theInfo.expression) {
+            if (theInfo.attrName === 'ref') {
+                return theInfo.expression;
+            }
+            instruction = existingInstruction || aurelia_templating__WEBPACK_IMPORTED_MODULE_0__.BehaviorInstruction.attribute(theInfo.attrName);
+            instruction.attributes[theInfo.attrName] = theInfo.expression;
+        }
+        else if (theInfo.command) {
+            instruction = this.syntaxInterpreter.interpret(resources, element, theInfo, existingInstruction, context);
+        }
+        return instruction;
+    }
+    createLetExpressions(resources, letElement) {
+        let expressions = [];
+        let attributes = letElement.attributes;
+        let attr;
+        let parts;
+        let attrName;
+        let attrValue;
+        let command;
+        let toBindingContextAttr = this.toBindingContextAttr;
+        let toBindingContext = letElement.hasAttribute(toBindingContextAttr);
+        for (let i = 0, ii = attributes.length; ii > i; ++i) {
+            attr = attributes[i];
+            attrName = attr.name;
+            attrValue = attr.nodeValue;
+            parts = attrName.split('.');
+            if (attrName === toBindingContextAttr) {
+                continue;
+            }
+            if (parts.length === 2) {
+                command = parts[1];
+                if (command !== 'bind') {
+                    aurelia_logging__WEBPACK_IMPORTED_MODULE_2__.getLogger('templating-binding-language')
+                        .warn(`Detected invalid let command. Expected "${parts[0]}.bind", given "${attrName}"`);
+                    continue;
+                }
+                expressions.push(new LetExpression(this.observerLocator, (0,aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.camelCase)(parts[0]), this.parser.parse(attrValue), resources.lookupFunctions, toBindingContext));
+            }
+            else {
+                attrName = (0,aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.camelCase)(attrName);
+                parts = this.parseInterpolation(resources, attrValue);
+                if (parts === null) {
+                    aurelia_logging__WEBPACK_IMPORTED_MODULE_2__.getLogger('templating-binding-language')
+                        .warn(`Detected string literal in let bindings. Did you mean "${attrName}.bind=${attrValue}" or "${attrName}=\${${attrValue}}" ?`);
+                }
+                if (parts) {
+                    expressions.push(new LetInterpolationBindingExpression(this.observerLocator, attrName, parts, resources.lookupFunctions, toBindingContext));
+                }
+                else {
+                    expressions.push(new LetExpression(this.observerLocator, attrName, new aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.LiteralString(attrValue), resources.lookupFunctions, toBindingContext));
+                }
+            }
+        }
+        return expressions;
+    }
+    inspectTextContent(resources, value) {
+        const parts = this.parseInterpolation(resources, value);
         if (parts === null) {
-          aurelia_logging__WEBPACK_IMPORTED_MODULE_0__.getLogger('templating-binding-language').warn(`Detected string literal in let bindings. Did you mean "${attrName}.bind=${attrValue}" or "${attrName}=\${${attrValue}}" ?`);
+            return null;
         }
-        if (parts) {
-          expressions.push(new LetInterpolationBindingExpression(this.observerLocator, attrName, parts, resources.lookupFunctions, toBindingContext));
-        } else {
-          expressions.push(new LetExpression(this.observerLocator, attrName, new aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.LiteralString(attrValue), resources.lookupFunctions, toBindingContext));
-        }
-      }
+        return new InterpolationBindingExpression(this.observerLocator, 'textContent', parts, aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.bindingMode.toView, resources.lookupFunctions, 'textContent');
     }
-    return expressions;
-  }
-
-  inspectTextContent(resources, value) {
-    const parts = this.parseInterpolation(resources, value);
-    if (parts === null) {
-      return null;
+    parseInterpolation(resources, value) {
+        let i = value.indexOf('${', 0);
+        let ii = value.length;
+        let char;
+        let pos = 0;
+        let open = 0;
+        let quote = null;
+        let interpolationStart;
+        let parts;
+        let partIndex = 0;
+        while (i >= 0 && i < ii - 2) {
+            open = 1;
+            interpolationStart = i;
+            i += 2;
+            do {
+                char = value[i];
+                i++;
+                if (char === "'" || char === '"') {
+                    if (quote === null) {
+                        quote = char;
+                    }
+                    else if (quote === char) {
+                        quote = null;
+                    }
+                    continue;
+                }
+                if (char === '\\') {
+                    i++;
+                    continue;
+                }
+                if (quote !== null) {
+                    continue;
+                }
+                if (char === '{') {
+                    open++;
+                }
+                else if (char === '}') {
+                    open--;
+                }
+            } while (open > 0 && i < ii);
+            if (open === 0) {
+                parts = parts || [];
+                if (value[interpolationStart - 1] === '\\' && value[interpolationStart - 2] !== '\\') {
+                    parts[partIndex] = value.substring(pos, interpolationStart - 1) + value.substring(interpolationStart, i);
+                    partIndex++;
+                    parts[partIndex] = this.emptyStringExpression;
+                    partIndex++;
+                }
+                else {
+                    parts[partIndex] = value.substring(pos, interpolationStart);
+                    partIndex++;
+                    parts[partIndex] = this.parser.parse(value.substring(interpolationStart + 2, i - 1));
+                    partIndex++;
+                }
+                pos = i;
+                i = value.indexOf('${', i);
+            }
+            else {
+                break;
+            }
+        }
+        if (partIndex === 0) {
+            return null;
+        }
+        parts[partIndex] = value.substr(pos);
+        return parts;
     }
-    return new InterpolationBindingExpression(this.observerLocator, 'textContent', parts, aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.bindingMode.oneWay, resources.lookupFunctions, 'textContent');
-  }
-
-  parseInterpolation(resources, value) {
-    let i = value.indexOf('${', 0);
-    let ii = value.length;
-    let char;
-    let pos = 0;
-    let open = 0;
-    let quote = null;
-    let interpolationStart;
-    let parts;
-    let partIndex = 0;
-
-    while (i >= 0 && i < ii - 2) {
-      open = 1;
-      interpolationStart = i;
-      i += 2;
-
-      do {
-        char = value[i];
-        i++;
-
-        if (char === "'" || char === '"') {
-          if (quote === null) {
-            quote = char;
-          } else if (quote === char) {
-            quote = null;
-          }
-          continue;
-        }
-
-        if (char === '\\') {
-          i++;
-          continue;
-        }
-
-        if (quote !== null) {
-          continue;
-        }
-
-        if (char === '{') {
-          open++;
-        } else if (char === '}') {
-          open--;
-        }
-      } while (open > 0 && i < ii);
-
-      if (open === 0) {
-        parts = parts || [];
-        if (value[interpolationStart - 1] === '\\' && value[interpolationStart - 2] !== '\\') {
-          parts[partIndex] = value.substring(pos, interpolationStart - 1) + value.substring(interpolationStart, i);
-          partIndex++;
-          parts[partIndex] = this.emptyStringExpression;
-          partIndex++;
-        } else {
-          parts[partIndex] = value.substring(pos, interpolationStart);
-          partIndex++;
-          parts[partIndex] = this.parser.parse(value.substring(interpolationStart + 2, i - 1));
-          partIndex++;
-        }
-        pos = i;
-        i = value.indexOf('${', i);
-      } else {
-        break;
-      }
-    }
-
-    if (partIndex === 0) {
-      return null;
-    }
-
-    parts[partIndex] = value.substr(pos);
-    return parts;
-  }
-}, _class5.inject = [aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.Parser, aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.ObserverLocator, SyntaxInterpreter, AttributeMap], _temp3);
+}
+TemplatingBindingLanguage.inject = [aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.Parser, aurelia_binding__WEBPACK_IMPORTED_MODULE_1__.ObserverLocator, SyntaxInterpreter, AttributeMap];
 
 function configure(config) {
-  config.container.registerSingleton(aurelia_templating__WEBPACK_IMPORTED_MODULE_2__.BindingLanguage, TemplatingBindingLanguage);
-  config.container.registerAlias(aurelia_templating__WEBPACK_IMPORTED_MODULE_2__.BindingLanguage, TemplatingBindingLanguage);
+    config.container.registerSingleton(aurelia_templating__WEBPACK_IMPORTED_MODULE_0__.BindingLanguage, TemplatingBindingLanguage);
+    config.container.registerAlias(aurelia_templating__WEBPACK_IMPORTED_MODULE_0__.BindingLanguage, TemplatingBindingLanguage);
 }
+
+
+//# sourceMappingURL=aurelia-templating-binding.js.map
+
 
 /***/ }),
 
@@ -13691,7 +13564,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "TwoWayBindingBehavior": () => (/* binding */ TwoWayBindingBehavior),
 /* harmony export */   "UpdateTriggerBindingBehavior": () => (/* binding */ UpdateTriggerBindingBehavior),
 /* harmony export */   "With": () => (/* binding */ With),
-/* harmony export */   "configure": () => (/* binding */ configure$1),
+/* harmony export */   "configure": () => (/* binding */ configure),
 /* harmony export */   "createFullOverrideContext": () => (/* binding */ createFullOverrideContext),
 /* harmony export */   "getItemsSourceExpression": () => (/* binding */ getItemsSourceExpression),
 /* harmony export */   "isOneTime": () => (/* binding */ isOneTime),
@@ -13705,10 +13578,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var aurelia_task_queue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! aurelia-task-queue */ "../../node_modules/aurelia-task-queue/dist/es2015/aurelia-task-queue.js");
 /* harmony import */ var aurelia_templating__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! aurelia-templating */ "../../node_modules/aurelia-templating/dist/es2015/aurelia-templating.js");
 /* harmony import */ var aurelia_binding__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! aurelia-binding */ "../../node_modules/aurelia-binding/dist/es2015/aurelia-binding.js");
-/* harmony import */ var aurelia_logging__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! aurelia-logging */ "../../node_modules/aurelia-logging/dist/es2015/aurelia-logging.js");
-/* harmony import */ var aurelia_loader__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! aurelia-loader */ "../../node_modules/aurelia-loader/dist/es2015/aurelia-loader.js");
-/* harmony import */ var aurelia_path__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! aurelia-path */ "../../node_modules/aurelia-path/dist/es2015/aurelia-path.js");
-/* harmony import */ var aurelia_metadata__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! aurelia-metadata */ "../../node_modules/aurelia-metadata/dist/es2015/aurelia-metadata.js");
+/* harmony import */ var aurelia_loader__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! aurelia-loader */ "../../node_modules/aurelia-loader/dist/es2015/aurelia-loader.js");
+/* harmony import */ var aurelia_path__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! aurelia-path */ "../../node_modules/aurelia-path/dist/es2015/aurelia-path.js");
+/* harmony import */ var aurelia_metadata__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! aurelia-metadata */ "../../node_modules/aurelia-metadata/dist/es2015/aurelia-metadata.js");
+/* harmony import */ var aurelia_logging__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! aurelia-logging */ "../../node_modules/aurelia-logging/dist/es2015/aurelia-logging.js");
 
 
 
@@ -13720,18 +13593,18 @@ __webpack_require__.r(__webpack_exports__);
 
 
 /*! *****************************************************************************
-Copyright (c) Microsoft Corporation. All rights reserved.
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use
-this file except in compliance with the License. You may obtain a copy of the
-License at http://www.apache.org/licenses/LICENSE-2.0
+Copyright (c) Microsoft Corporation.
 
-THIS CODE IS PROVIDED ON AN *AS IS* BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED
-WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE,
-MERCHANTABLITY OR NON-INFRINGEMENT.
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted.
 
-See the Apache Version 2.0 License for specific language governing permissions
-and limitations under the License.
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
 ***************************************************************************** */
 
 function __decorate(decorators, target, key, desc) {
@@ -15004,18 +14877,10 @@ Hide = __decorate([
     (0,aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.customAttribute)('hide')
 ], Hide);
 
-const SCRIPT_REGEX = /<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi;
-let needsToWarn = true;
 class HTMLSanitizer {
     sanitize(input) {
-        if (needsToWarn) {
-            needsToWarn = false;
-            (0,aurelia_logging__WEBPACK_IMPORTED_MODULE_5__.getLogger)('html-sanitizer')
-                .warn(`CAUTION: The default HTMLSanitizer does NOT provide security against a wide variety of sophisticated XSS attacks,
-and should not be relied on for sanitizing input from unknown sources.
+        throw new Error(`To protect the application against a wide variety of sophisticated XSS attacks.
 Please see https://aurelia.io/docs/binding/basics#element-content for instructions on how to use a secure solution like DOMPurify or sanitize-html.`);
-        }
-        return input.replace(SCRIPT_REGEX, '');
     }
 }
 
@@ -15068,7 +14933,7 @@ let Focus = class Focus {
     static inject() {
         return [aurelia_pal__WEBPACK_IMPORTED_MODULE_1__.DOM.Element, aurelia_task_queue__WEBPACK_IMPORTED_MODULE_2__.TaskQueue];
     }
-    valueChanged(newValue) {
+    valueChanged() {
         if (this.isAttached) {
             this._apply();
         }
@@ -15125,7 +14990,7 @@ function fixupCSSUrls(address, css) {
         if (quote === '\'' || quote === '"') {
             p1 = p1.substr(1, p1.length - 2);
         }
-        return 'url(\'' + (0,aurelia_path__WEBPACK_IMPORTED_MODULE_7__.relativeToFile)(p1, address) + '\')';
+        return 'url(\'' + (0,aurelia_path__WEBPACK_IMPORTED_MODULE_6__.relativeToFile)(p1, address) + '\')';
     });
 }
 class CSSResource {
@@ -15147,9 +15012,9 @@ class CSSResource {
         }
     }
     load(container) {
-        return container.get(aurelia_loader__WEBPACK_IMPORTED_MODULE_6__.Loader)
+        return container.get(aurelia_loader__WEBPACK_IMPORTED_MODULE_5__.Loader)
             .loadText(this.address)
-            .catch(err => null)
+            .catch(() => null)
             .then(text => {
             text = fixupCSSUrls(this.address, text);
             this._scoped.css = text;
@@ -15157,6 +15022,7 @@ class CSSResource {
                 this._alreadyGloballyInjected = true;
                 aurelia_pal__WEBPACK_IMPORTED_MODULE_1__.DOM.injectStyles(text);
             }
+            return this;
         });
     }
 }
@@ -15215,7 +15081,7 @@ let OneTimeBindingBehavior = class OneTimeBindingBehavior {
     }
 };
 OneTimeBindingBehavior = __decorate([
-    (0,aurelia_metadata__WEBPACK_IMPORTED_MODULE_8__.mixin)(modeBindingBehavior),
+    (0,aurelia_metadata__WEBPACK_IMPORTED_MODULE_7__.mixin)(modeBindingBehavior),
     (0,aurelia_binding__WEBPACK_IMPORTED_MODULE_4__.bindingBehavior)('oneTime')
 ], OneTimeBindingBehavior);
 let OneWayBindingBehavior = class OneWayBindingBehavior {
@@ -15224,7 +15090,7 @@ let OneWayBindingBehavior = class OneWayBindingBehavior {
     }
 };
 OneWayBindingBehavior = __decorate([
-    (0,aurelia_metadata__WEBPACK_IMPORTED_MODULE_8__.mixin)(modeBindingBehavior),
+    (0,aurelia_metadata__WEBPACK_IMPORTED_MODULE_7__.mixin)(modeBindingBehavior),
     (0,aurelia_binding__WEBPACK_IMPORTED_MODULE_4__.bindingBehavior)('oneWay')
 ], OneWayBindingBehavior);
 let ToViewBindingBehavior = class ToViewBindingBehavior {
@@ -15233,7 +15099,7 @@ let ToViewBindingBehavior = class ToViewBindingBehavior {
     }
 };
 ToViewBindingBehavior = __decorate([
-    (0,aurelia_metadata__WEBPACK_IMPORTED_MODULE_8__.mixin)(modeBindingBehavior),
+    (0,aurelia_metadata__WEBPACK_IMPORTED_MODULE_7__.mixin)(modeBindingBehavior),
     (0,aurelia_binding__WEBPACK_IMPORTED_MODULE_4__.bindingBehavior)('toView')
 ], ToViewBindingBehavior);
 let FromViewBindingBehavior = class FromViewBindingBehavior {
@@ -15242,7 +15108,7 @@ let FromViewBindingBehavior = class FromViewBindingBehavior {
     }
 };
 FromViewBindingBehavior = __decorate([
-    (0,aurelia_metadata__WEBPACK_IMPORTED_MODULE_8__.mixin)(modeBindingBehavior),
+    (0,aurelia_metadata__WEBPACK_IMPORTED_MODULE_7__.mixin)(modeBindingBehavior),
     (0,aurelia_binding__WEBPACK_IMPORTED_MODULE_4__.bindingBehavior)('fromView')
 ], FromViewBindingBehavior);
 let TwoWayBindingBehavior = class TwoWayBindingBehavior {
@@ -15251,7 +15117,7 @@ let TwoWayBindingBehavior = class TwoWayBindingBehavior {
     }
 };
 TwoWayBindingBehavior = __decorate([
-    (0,aurelia_metadata__WEBPACK_IMPORTED_MODULE_8__.mixin)(modeBindingBehavior),
+    (0,aurelia_metadata__WEBPACK_IMPORTED_MODULE_7__.mixin)(modeBindingBehavior),
     (0,aurelia_binding__WEBPACK_IMPORTED_MODULE_4__.bindingBehavior)('twoWay')
 ], TwoWayBindingBehavior);
 
@@ -15507,7 +15373,7 @@ function _createDynamicElement({ name, viewUrl, bindableNames, useShadowDOMmode 
         case null:
             break;
         default:
-            (0,aurelia_logging__WEBPACK_IMPORTED_MODULE_5__.getLogger)('aurelia-html-only-element')
+            (0,aurelia_logging__WEBPACK_IMPORTED_MODULE_8__.getLogger)('aurelia-html-only-element')
                 .warn(`Expected 'use-shadow-dom' value to be "close", "open" or "", received ${useShadowDOMmode}`);
             break;
     }
@@ -15517,7 +15383,7 @@ function _createDynamicElement({ name, viewUrl, bindableNames, useShadowDOMmode 
 function getElementName(address) {
     return /([^\/^\?]+)\.html/i.exec(address)[1].toLowerCase();
 }
-function configure(config) {
+function configure$1(config) {
     const viewEngine = config.container.get(aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.ViewEngine);
     const loader = config.aurelia.loader;
     viewEngine.addResourcePlugin('.html', {
@@ -15539,10 +15405,10 @@ function configure(config) {
     });
 }
 
-function configure$1(config) {
+function configure(config) {
     injectAureliaHideStyleAtHead();
     config.globalResources(Compose, If, Else, With, Repeat, Show, Hide, Replaceable, Focus, SanitizeHTMLValueConverter, OneTimeBindingBehavior, OneWayBindingBehavior, ToViewBindingBehavior, FromViewBindingBehavior, TwoWayBindingBehavior, ThrottleBindingBehavior, DebounceBindingBehavior, SelfBindingBehavior, SignalBindingBehavior, UpdateTriggerBindingBehavior, AttrBindingBehavior);
-    configure(config);
+    configure$1(config);
     let viewEngine = config.container.get(aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.ViewEngine);
     let styleResourcePlugin = {
         fetch(address) {
@@ -15569,6 +15435,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "RouteHref": () => (/* binding */ RouteHref),
 /* harmony export */   "RouterView": () => (/* binding */ RouterView),
+/* harmony export */   "RouterViewLocator": () => (/* binding */ RouterViewLocator),
 /* harmony export */   "TemplatingRouteLoader": () => (/* binding */ TemplatingRouteLoader),
 /* harmony export */   "configure": () => (/* binding */ configure)
 /* harmony export */ });
@@ -15591,9 +15458,6 @@ __webpack_require__.r(__webpack_exports__);
 
 class EmptyLayoutViewModel {
 }
-/**
- * Implementation of Aurelia Router ViewPort. Responsible for loading route, composing and swapping routes views
- */
 class RouterView {
     constructor(element, container, viewSlot, router, viewLocator, compositionTransaction, compositionEngine) {
         this.element = element;
@@ -15603,21 +15467,12 @@ class RouterView {
         this.viewLocator = viewLocator;
         this.compositionTransaction = compositionTransaction;
         this.compositionEngine = compositionEngine;
-        // add this <router-view/> to router view ports lookup based on name attribute
-        // when this router is the root router-view
-        // also trigger AppRouter registerViewPort extra flow
         this.router.registerViewPort(this, this.element.getAttribute('name'));
-        // Each <router-view/> process its instruction as a composition transaction
-        // there are differences between intial composition and subsequent compositions
-        // also there are differences between root composition and child <router-view/> composition
-        // mark the first composition transaction with a property initialComposition to distinguish it
-        // when the root <router-view/> gets new instruction for the first time
         if (!('initialComposition' in compositionTransaction)) {
             compositionTransaction.initialComposition = true;
             this.compositionTransactionNotifier = compositionTransaction.enlist();
         }
     }
-    /**@internal */
     static inject() {
         return [aurelia_pal__WEBPACK_IMPORTED_MODULE_6__.DOM.Element, aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_4__.Container, aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.ViewSlot, aurelia_router__WEBPACK_IMPORTED_MODULE_0__.Router, aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.ViewLocator, aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.CompositionTransaction, aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.CompositionEngine];
     }
@@ -15625,16 +15480,10 @@ class RouterView {
         this.owningView = owningView;
     }
     bind(bindingContext, overrideContext) {
-        // router needs to get access to view model of current route parent
-        // doing it in generic way via viewModel property on container
         this.container.viewModel = bindingContext;
         this.overrideContext = overrideContext;
     }
-    /**
-     * Implementation of `aurelia-router` ViewPort interface, responsible for templating related part in routing Pipeline
-     */
     process($viewPortInstruction, waitToSwap) {
-        // have strong typings without exposing it in public typings, this is to ensure maximum backward compat
         const viewPortInstruction = $viewPortInstruction;
         const component = viewPortInstruction.component;
         const childContainer = component.childContainer;
@@ -15644,7 +15493,6 @@ class RouterView {
         const config = component.router.currentInstruction.config;
         const viewPortConfig = config.viewPorts ? (config.viewPorts[viewPortInstruction.name] || {}) : {};
         childContainer.get(RouterViewLocator)._notify(this);
-        // layoutInstruction is our layout viewModel
         const layoutInstruction = {
             viewModel: viewPortConfig.layoutViewModel || config.layoutViewModel || this.layoutViewModel,
             view: viewPortConfig.layoutView || config.layoutView || this.layoutView,
@@ -15653,24 +15501,13 @@ class RouterView {
             childContainer: childContainer,
             viewSlot: this.viewSlot
         };
-        // viewport will be a thin wrapper around composition engine
-        // to process instruction/configuration from users
-        // preparing all information related to a composition process
-        // first by getting view strategy of a ViewPortComponent View
         const viewStrategy = this.viewLocator.getViewStrategy(component.view || viewModel);
         if (viewStrategy && component.view) {
             viewStrategy.makeRelativeTo(aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.Origin.get(component.router.container.viewModel.constructor).moduleId);
         }
-        // using metadata of a custom element view model to load appropriate view-factory instance
         return metadata
             .load(childContainer, viewModelResource.value, null, viewStrategy, true)
-            // for custom element, viewFactory typing is always ViewFactory
-            // for custom attribute, it will be HtmlBehaviorResource
             .then((viewFactory) => {
-            // if this is not the first time that this <router-view/> is composing its instruction
-            // try to capture ownership of the composition transaction
-            // child <router-view/> will not be able to capture, since root <router-view/> typically captures
-            // the ownership token
             if (!this.compositionTransactionNotifier) {
                 this.compositionTransactionOwnershipToken = this.compositionTransaction.tryCapture();
             }
@@ -15686,12 +15523,10 @@ class RouterView {
         });
     }
     swap($viewPortInstruction) {
-        // have strong typings without exposing it in public typings, this is to ensure maximum backward compat
         const viewPortInstruction = $viewPortInstruction;
         const viewPortController = viewPortInstruction.controller;
         const layoutInstruction = viewPortInstruction.layoutInstruction;
         const previousView = this.view;
-        // Final step of swapping a <router-view/> ViewPortComponent
         const work = () => {
             const swapStrategy = aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.SwapStrategies[this.swapOrder] || aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.SwapStrategies.after;
             const viewSlot = this.viewSlot;
@@ -15699,14 +15534,9 @@ class RouterView {
                 this._notify();
             });
         };
-        // Ensure all users setups have been completed
         const ready = (owningView_or_layoutView) => {
             viewPortController.automate(this.overrideContext, owningView_or_layoutView);
             const transactionOwnerShipToken = this.compositionTransactionOwnershipToken;
-            // if this router-view is the root <router-view/> of a normal startup via aurelia.setRoot
-            // attemp to take control of the transaction
-            // if ownership can be taken
-            // wait for transaction to complete before swapping
             if (transactionOwnerShipToken) {
                 return transactionOwnerShipToken
                     .waitForCompositionComplete()
@@ -15715,28 +15545,17 @@ class RouterView {
                     return work();
                 });
             }
-            // otherwise, just swap
             return work();
         };
-        // If there is layout instruction, new to compose layout before processing ViewPortComponent
-        // layout controller/view/view-model is composed using composition engine APIs
         if (layoutInstruction) {
             if (!layoutInstruction.viewModel) {
-                // createController chokes if there's no viewmodel, so create a dummy one
-                // but avoid using a POJO as it creates unwanted metadata in Object constructor
                 layoutInstruction.viewModel = new EmptyLayoutViewModel();
             }
-            // using composition engine to create compose layout
             return this.compositionEngine
-                // first create controller from layoutInstruction
-                // and treat it as CompositionContext
-                // then emulate slot projection with ViewPortComponent view
                 .createController(layoutInstruction)
                 .then((layoutController) => {
                 const layoutView = layoutController.view;
                 aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.ShadowDOM.distributeView(viewPortController.view, layoutController.slots || layoutView.slots);
-                // when there is a layout
-                // view hierarchy is: <router-view/> owner view -> layout view -> ViewPortComponent view
                 layoutController.automate((0,aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.createOverrideContext)(layoutInstruction.viewModel), this.owningView);
                 layoutView.children.push(viewPortController.view);
                 return layoutView || layoutController;
@@ -15746,18 +15565,9 @@ class RouterView {
                 return ready(newView);
             });
         }
-        // if there is no layout, then get ViewPortComponent view ready as view property
-        // and process controller/swapping
-        // when there is no layout
-        // view hierarchy is: <router-view/> owner view -> ViewPortComponent view
         this.view = viewPortController.view;
         return ready(this.owningView);
     }
-    /**
-     * Notify composition transaction that this router has finished processing
-     * Happens when this <router-view/> is the root router-view
-     * @internal
-     */
     _notify() {
         const notifier = this.compositionTransactionNotifier;
         if (notifier) {
@@ -15766,60 +15576,31 @@ class RouterView {
         }
     }
 }
-/**
- * @internal Actively avoid using decorator to reduce the amount of code generated
- *
- * There is no view to compose by default in a router view
- * This custom element is responsible for composing its own view, based on current config
- */
 RouterView.$view = null;
-/**
- * @internal Actively avoid using decorator to reduce the amount of code generated
- */
 RouterView.$resource = {
     name: 'router-view',
     bindables: ['swapOrder', 'layoutView', 'layoutViewModel', 'layoutModel', 'inherit-binding-context']
 };
-/**
-* Locator which finds the nearest RouterView, relative to the current dependency injection container.
-*/
 class RouterViewLocator {
-    /**
-    * Creates an instance of the RouterViewLocator class.
-    */
     constructor() {
         this.promise = new Promise((resolve) => this.resolve = resolve);
     }
-    /**
-    * Finds the nearest RouterView instance.
-    * @returns A promise that will be resolved with the located RouterView instance.
-    */
     findNearest() {
         return this.promise;
     }
-    /**@internal */
     _notify(routerView) {
         this.resolve(routerView);
     }
 }
 
-/**@internal exported for unit testing */
 class EmptyClass {
 }
 (0,aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.inlineView)('<template></template>')(EmptyClass);
-/**
- * Default implementation of `RouteLoader` used for loading component based on a route config
- */
 class TemplatingRouteLoader extends aurelia_router__WEBPACK_IMPORTED_MODULE_0__.RouteLoader {
     constructor(compositionEngine) {
         super();
         this.compositionEngine = compositionEngine;
     }
-    /**
-     * Resolve a view model from a RouteConfig
-     * Throws when there is neither "moduleId" nor "viewModel" property
-     * @internal
-     */
     resolveViewModel(router, config) {
         return new Promise((resolve, reject) => {
             let viewModel;
@@ -15829,9 +15610,6 @@ class TemplatingRouteLoader extends aurelia_router__WEBPACK_IMPORTED_MODULE_0__.
                     viewModel = EmptyClass;
                 }
                 else {
-                    // this requires container of router has passes a certain point
-                    // where a view model has been setup on the container
-                    // it will fail in enhance scenario because no viewport has been registered
                     moduleId = (0,aurelia_path__WEBPACK_IMPORTED_MODULE_2__.relativeToFile)(moduleId, aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.Origin.get(router.container.viewModel.constructor).moduleId);
                     if (/\.html/i.test(moduleId)) {
                         viewModel = createDynamicClass(moduleId);
@@ -15842,15 +15620,9 @@ class TemplatingRouteLoader extends aurelia_router__WEBPACK_IMPORTED_MODULE_0__.
                 }
                 return resolve(viewModel);
             }
-            // todo: add if ('viewModel' in config) to support static view model resolution
             reject(new Error('Invalid route config. No "moduleId" found.'));
         });
     }
-    /**
-     * Create child container based on a router container
-     * Also ensures that child router are properly constructed in the newly created child container
-     * @internal
-     */
     createChildContainer(router) {
         const childContainer = router.container.createChild();
         childContainer.registerSingleton(RouterViewLocator);
@@ -15861,10 +15633,7 @@ class TemplatingRouteLoader extends aurelia_router__WEBPACK_IMPORTED_MODULE_0__.
         };
         return childContainer;
     }
-    /**
-     * Load corresponding component of a route config of a navigation instruction
-     */
-    loadRoute(router, config, _navInstruction) {
+    loadRoute(router, config, navInstruction) {
         return this
             .resolveViewModel(router, config)
             .then(viewModel => this.compositionEngine.ensureViewModel({
@@ -15875,9 +15644,7 @@ class TemplatingRouteLoader extends aurelia_router__WEBPACK_IMPORTED_MODULE_0__.
         }));
     }
 }
-/**@internal */
 TemplatingRouteLoader.inject = [aurelia_templating__WEBPACK_IMPORTED_MODULE_3__.CompositionEngine];
-/**@internal exported for unit testing */
 function createDynamicClass(moduleId) {
     const name = /([^\/^\?]+)\.html/i.exec(moduleId)[1];
     class DynamicClass {
@@ -15890,17 +15657,13 @@ function createDynamicClass(moduleId) {
     return DynamicClass;
 }
 
-const logger = (0,aurelia_logging__WEBPACK_IMPORTED_MODULE_7__.getLogger)('route-href');
-/**
- * Helper custom attribute to help associate an element with a route by name
- */
+const logger = aurelia_logging__WEBPACK_IMPORTED_MODULE_7__.getLogger('route-href');
 class RouteHref {
     constructor(router, element) {
         this.router = router;
         this.element = element;
         this.attribute = 'href';
     }
-    /*@internal */
     static inject() {
         return [aurelia_router__WEBPACK_IMPORTED_MODULE_0__.Router, aurelia_pal__WEBPACK_IMPORTED_MODULE_6__.DOM.Element];
     }
@@ -15922,7 +15685,6 @@ class RouteHref {
             .ensureConfigured()
             .then(() => {
             if (!this.isActive) {
-                // returning null to avoid Bluebird warning
                 return null;
             }
             const element = this.element;
@@ -15933,7 +15695,6 @@ class RouteHref {
             else {
                 element.setAttribute(this.attribute, href);
             }
-            // returning null to avoid Bluebird warning
             return null;
         })
             .catch((reason) => {
@@ -15941,9 +15702,6 @@ class RouteHref {
         });
     }
 }
-/**
- * @internal Actively avoid using decorator to reduce the amount of code generated
- */
 RouteHref.$resource = {
     type: 'attribute',
     name: 'route-href',
@@ -15951,7 +15709,7 @@ RouteHref.$resource = {
         { name: 'route', changeHandler: 'processChange', primaryProperty: true },
         { name: 'params', changeHandler: 'processChange' },
         'attribute'
-    ] // type definition of Aurelia templating is wrong
+    ]
 };
 
 function configure(config) {
@@ -15977,82 +15735,81 @@ function configure(config) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "animationEvent": () => (/* binding */ animationEvent),
 /* harmony export */   "Animator": () => (/* binding */ Animator),
-/* harmony export */   "CompositionTransactionNotifier": () => (/* binding */ CompositionTransactionNotifier),
-/* harmony export */   "CompositionTransactionOwnershipToken": () => (/* binding */ CompositionTransactionOwnershipToken),
-/* harmony export */   "CompositionTransaction": () => (/* binding */ CompositionTransaction),
-/* harmony export */   "_hyphenate": () => (/* binding */ _hyphenate),
-/* harmony export */   "_isAllWhitespace": () => (/* binding */ _isAllWhitespace),
-/* harmony export */   "ViewEngineHooksResource": () => (/* binding */ ViewEngineHooksResource),
-/* harmony export */   "viewEngineHooks": () => (/* binding */ viewEngineHooks),
-/* harmony export */   "ElementEvents": () => (/* binding */ ElementEvents),
-/* harmony export */   "ResourceLoadContext": () => (/* binding */ ResourceLoadContext),
-/* harmony export */   "ViewCompileInstruction": () => (/* binding */ ViewCompileInstruction),
 /* harmony export */   "BehaviorInstruction": () => (/* binding */ BehaviorInstruction),
-/* harmony export */   "TargetInstruction": () => (/* binding */ TargetInstruction),
-/* harmony export */   "viewStrategy": () => (/* binding */ viewStrategy),
-/* harmony export */   "RelativeViewStrategy": () => (/* binding */ RelativeViewStrategy),
-/* harmony export */   "ConventionalViewStrategy": () => (/* binding */ ConventionalViewStrategy),
-/* harmony export */   "NoViewStrategy": () => (/* binding */ NoViewStrategy),
-/* harmony export */   "TemplateRegistryViewStrategy": () => (/* binding */ TemplateRegistryViewStrategy),
-/* harmony export */   "InlineViewStrategy": () => (/* binding */ InlineViewStrategy),
-/* harmony export */   "StaticViewStrategy": () => (/* binding */ StaticViewStrategy),
-/* harmony export */   "ViewLocator": () => (/* binding */ ViewLocator),
-/* harmony export */   "BindingLanguage": () => (/* binding */ BindingLanguage),
-/* harmony export */   "SlotCustomAttribute": () => (/* binding */ SlotCustomAttribute),
-/* harmony export */   "PassThroughSlot": () => (/* binding */ PassThroughSlot),
-/* harmony export */   "ShadowSlot": () => (/* binding */ ShadowSlot),
-/* harmony export */   "ShadowDOM": () => (/* binding */ ShadowDOM),
-/* harmony export */   "validateBehaviorName": () => (/* binding */ validateBehaviorName),
-/* harmony export */   "ViewResources": () => (/* binding */ ViewResources),
-/* harmony export */   "View": () => (/* binding */ View),
-/* harmony export */   "ViewSlot": () => (/* binding */ ViewSlot),
-/* harmony export */   "BoundViewFactory": () => (/* binding */ BoundViewFactory),
-/* harmony export */   "ViewFactory": () => (/* binding */ ViewFactory),
-/* harmony export */   "ViewCompiler": () => (/* binding */ ViewCompiler),
-/* harmony export */   "ResourceModule": () => (/* binding */ ResourceModule),
-/* harmony export */   "ResourceDescription": () => (/* binding */ ResourceDescription),
-/* harmony export */   "ModuleAnalyzer": () => (/* binding */ ModuleAnalyzer),
-/* harmony export */   "ViewEngine": () => (/* binding */ ViewEngine),
-/* harmony export */   "Controller": () => (/* binding */ Controller),
 /* harmony export */   "BehaviorPropertyObserver": () => (/* binding */ BehaviorPropertyObserver),
 /* harmony export */   "BindableProperty": () => (/* binding */ BindableProperty),
-/* harmony export */   "HtmlBehaviorResource": () => (/* binding */ HtmlBehaviorResource),
-/* harmony export */   "children": () => (/* binding */ children),
-/* harmony export */   "child": () => (/* binding */ child),
-/* harmony export */   "SwapStrategies": () => (/* binding */ SwapStrategies),
+/* harmony export */   "BindingLanguage": () => (/* binding */ BindingLanguage),
+/* harmony export */   "BoundViewFactory": () => (/* binding */ BoundViewFactory),
 /* harmony export */   "CompositionEngine": () => (/* binding */ CompositionEngine),
+/* harmony export */   "CompositionTransaction": () => (/* binding */ CompositionTransaction),
+/* harmony export */   "CompositionTransactionNotifier": () => (/* binding */ CompositionTransactionNotifier),
+/* harmony export */   "CompositionTransactionOwnershipToken": () => (/* binding */ CompositionTransactionOwnershipToken),
+/* harmony export */   "Controller": () => (/* binding */ Controller),
+/* harmony export */   "ConventionalViewStrategy": () => (/* binding */ ConventionalViewStrategy),
 /* harmony export */   "ElementConfigResource": () => (/* binding */ ElementConfigResource),
-/* harmony export */   "resource": () => (/* binding */ resource),
+/* harmony export */   "ElementEvents": () => (/* binding */ ElementEvents),
+/* harmony export */   "HtmlBehaviorResource": () => (/* binding */ HtmlBehaviorResource),
+/* harmony export */   "InlineViewStrategy": () => (/* binding */ InlineViewStrategy),
+/* harmony export */   "ModuleAnalyzer": () => (/* binding */ ModuleAnalyzer),
+/* harmony export */   "NoViewStrategy": () => (/* binding */ NoViewStrategy),
+/* harmony export */   "PassThroughSlot": () => (/* binding */ PassThroughSlot),
+/* harmony export */   "RelativeViewStrategy": () => (/* binding */ RelativeViewStrategy),
+/* harmony export */   "ResourceDescription": () => (/* binding */ ResourceDescription),
+/* harmony export */   "ResourceLoadContext": () => (/* binding */ ResourceLoadContext),
+/* harmony export */   "ResourceModule": () => (/* binding */ ResourceModule),
+/* harmony export */   "ShadowDOM": () => (/* binding */ ShadowDOM),
+/* harmony export */   "ShadowSlot": () => (/* binding */ ShadowSlot),
+/* harmony export */   "SlotCustomAttribute": () => (/* binding */ SlotCustomAttribute),
+/* harmony export */   "StaticViewStrategy": () => (/* binding */ StaticViewStrategy),
+/* harmony export */   "SwapStrategies": () => (/* binding */ SwapStrategies),
+/* harmony export */   "TargetInstruction": () => (/* binding */ TargetInstruction),
+/* harmony export */   "TemplateRegistryViewStrategy": () => (/* binding */ TemplateRegistryViewStrategy),
+/* harmony export */   "TemplatingEngine": () => (/* binding */ TemplatingEngine),
+/* harmony export */   "View": () => (/* binding */ View),
+/* harmony export */   "ViewCompileInstruction": () => (/* binding */ ViewCompileInstruction),
+/* harmony export */   "ViewCompiler": () => (/* binding */ ViewCompiler),
+/* harmony export */   "ViewEngine": () => (/* binding */ ViewEngine),
+/* harmony export */   "ViewEngineHooksResource": () => (/* binding */ ViewEngineHooksResource),
+/* harmony export */   "ViewFactory": () => (/* binding */ ViewFactory),
+/* harmony export */   "ViewLocator": () => (/* binding */ ViewLocator),
+/* harmony export */   "ViewResources": () => (/* binding */ ViewResources),
+/* harmony export */   "ViewSlot": () => (/* binding */ ViewSlot),
+/* harmony export */   "_hyphenate": () => (/* binding */ _hyphenate),
+/* harmony export */   "_isAllWhitespace": () => (/* binding */ _isAllWhitespace),
+/* harmony export */   "animationEvent": () => (/* binding */ animationEvent),
 /* harmony export */   "behavior": () => (/* binding */ behavior),
-/* harmony export */   "customElement": () => (/* binding */ customElement),
-/* harmony export */   "customAttribute": () => (/* binding */ customAttribute),
-/* harmony export */   "templateController": () => (/* binding */ templateController),
 /* harmony export */   "bindable": () => (/* binding */ bindable),
-/* harmony export */   "dynamicOptions": () => (/* binding */ dynamicOptions),
-/* harmony export */   "useShadowDOM": () => (/* binding */ useShadowDOM),
-/* harmony export */   "processAttributes": () => (/* binding */ processAttributes),
-/* harmony export */   "processContent": () => (/* binding */ processContent),
+/* harmony export */   "child": () => (/* binding */ child),
+/* harmony export */   "children": () => (/* binding */ children),
 /* harmony export */   "containerless": () => (/* binding */ containerless),
-/* harmony export */   "useViewStrategy": () => (/* binding */ useViewStrategy),
-/* harmony export */   "useView": () => (/* binding */ useView),
+/* harmony export */   "customAttribute": () => (/* binding */ customAttribute),
+/* harmony export */   "customElement": () => (/* binding */ customElement),
+/* harmony export */   "dynamicOptions": () => (/* binding */ dynamicOptions),
+/* harmony export */   "elementConfig": () => (/* binding */ elementConfig),
 /* harmony export */   "inlineView": () => (/* binding */ inlineView),
 /* harmony export */   "noView": () => (/* binding */ noView),
+/* harmony export */   "processAttributes": () => (/* binding */ processAttributes),
+/* harmony export */   "processContent": () => (/* binding */ processContent),
+/* harmony export */   "resource": () => (/* binding */ resource),
+/* harmony export */   "templateController": () => (/* binding */ templateController),
+/* harmony export */   "useShadowDOM": () => (/* binding */ useShadowDOM),
+/* harmony export */   "useView": () => (/* binding */ useView),
+/* harmony export */   "useViewStrategy": () => (/* binding */ useViewStrategy),
+/* harmony export */   "validateBehaviorName": () => (/* binding */ validateBehaviorName),
 /* harmony export */   "view": () => (/* binding */ view),
-/* harmony export */   "elementConfig": () => (/* binding */ elementConfig),
+/* harmony export */   "viewEngineHooks": () => (/* binding */ viewEngineHooks),
 /* harmony export */   "viewResources": () => (/* binding */ viewResources),
-/* harmony export */   "TemplatingEngine": () => (/* binding */ TemplatingEngine)
+/* harmony export */   "viewStrategy": () => (/* binding */ viewStrategy)
 /* harmony export */ });
-/* harmony import */ var aurelia_logging__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! aurelia-logging */ "../../node_modules/aurelia-logging/dist/es2015/aurelia-logging.js");
-/* harmony import */ var aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! aurelia-metadata */ "../../node_modules/aurelia-metadata/dist/es2015/aurelia-metadata.js");
-/* harmony import */ var aurelia_pal__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! aurelia-pal */ "../../node_modules/aurelia-pal/dist/es2015/aurelia-pal.js");
-/* harmony import */ var aurelia_loader__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! aurelia-loader */ "../../node_modules/aurelia-loader/dist/es2015/aurelia-loader.js");
-/* harmony import */ var aurelia_path__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! aurelia-path */ "../../node_modules/aurelia-path/dist/es2015/aurelia-path.js");
+/* harmony import */ var aurelia_pal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! aurelia-pal */ "../../node_modules/aurelia-pal/dist/es2015/aurelia-pal.js");
+/* harmony import */ var aurelia_loader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! aurelia-loader */ "../../node_modules/aurelia-loader/dist/es2015/aurelia-loader.js");
+/* harmony import */ var aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! aurelia-metadata */ "../../node_modules/aurelia-metadata/dist/es2015/aurelia-metadata.js");
+/* harmony import */ var aurelia_path__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! aurelia-path */ "../../node_modules/aurelia-path/dist/es2015/aurelia-path.js");
+/* harmony import */ var aurelia_logging__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! aurelia-logging */ "../../node_modules/aurelia-logging/dist/es2015/aurelia-logging.js");
 /* harmony import */ var aurelia_binding__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! aurelia-binding */ "../../node_modules/aurelia-binding/dist/es2015/aurelia-binding.js");
 /* harmony import */ var aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! aurelia-dependency-injection */ "../../node_modules/aurelia-dependency-injection/dist/es2015/aurelia-dependency-injection.js");
 /* harmony import */ var aurelia_task_queue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! aurelia-task-queue */ "../../node_modules/aurelia-task-queue/dist/es2015/aurelia-task-queue.js");
-var _class, _temp, _class2, _temp2, _dec, _class3, _dec2, _class4, _dec3, _class5, _dec4, _class6, _dec5, _class7, _dec6, _class8, _class9, _temp3, _class10, _temp4, _class12, _class14, _temp5, _dec7, _class15, _dec8, _class16, _dec9, _class17;
 
 
 
@@ -16062,343 +15819,155 @@ var _class, _temp, _class2, _temp2, _dec, _class3, _dec2, _class4, _dec3, _class
 
 
 
-
-const animationEvent = {
-  enterBegin: 'animation:enter:begin',
-  enterActive: 'animation:enter:active',
-  enterDone: 'animation:enter:done',
-  enterTimeout: 'animation:enter:timeout',
-
-  leaveBegin: 'animation:leave:begin',
-  leaveActive: 'animation:leave:active',
-  leaveDone: 'animation:leave:done',
-  leaveTimeout: 'animation:leave:timeout',
-
-  staggerNext: 'animation:stagger:next',
-
-  removeClassBegin: 'animation:remove-class:begin',
-  removeClassActive: 'animation:remove-class:active',
-  removeClassDone: 'animation:remove-class:done',
-  removeClassTimeout: 'animation:remove-class:timeout',
-
-  addClassBegin: 'animation:add-class:begin',
-  addClassActive: 'animation:add-class:active',
-  addClassDone: 'animation:add-class:done',
-  addClassTimeout: 'animation:add-class:timeout',
-
-  animateBegin: 'animation:animate:begin',
-  animateActive: 'animation:animate:active',
-  animateDone: 'animation:animate:done',
-  animateTimeout: 'animation:animate:timeout',
-
-  sequenceBegin: 'animation:sequence:begin',
-  sequenceDone: 'animation:sequence:done'
-};
-
-let Animator = class Animator {
-  enter(element) {
-    return Promise.resolve(false);
-  }
-
-  leave(element) {
-    return Promise.resolve(false);
-  }
-
-  removeClass(element, className) {
-    element.classList.remove(className);
-    return Promise.resolve(false);
-  }
-
-  addClass(element, className) {
-    element.classList.add(className);
-    return Promise.resolve(false);
-  }
-
-  animate(element, className) {
-    return Promise.resolve(false);
-  }
-
-  runSequence(animations) {}
-
-  registerEffect(effectName, properties) {}
-
-  unregisterEffect(effectName) {}
-};
-
-let CompositionTransactionNotifier = class CompositionTransactionNotifier {
-  constructor(owner) {
-    this.owner = owner;
-    this.owner._compositionCount++;
-  }
-
-  done() {
-    this.owner._compositionCount--;
-    this.owner._tryCompleteTransaction();
-  }
-};
-
-let CompositionTransactionOwnershipToken = class CompositionTransactionOwnershipToken {
-  constructor(owner) {
-    this.owner = owner;
-    this.owner._ownershipToken = this;
-    this.thenable = this._createThenable();
-  }
-
-  waitForCompositionComplete() {
-    this.owner._tryCompleteTransaction();
-    return this.thenable;
-  }
-
-  resolve() {
-    this._resolveCallback();
-  }
-
-  _createThenable() {
-    return new Promise((resolve, reject) => {
-      this._resolveCallback = resolve;
-    });
-  }
-};
-
-let CompositionTransaction = class CompositionTransaction {
-  constructor() {
-    this._ownershipToken = null;
-    this._compositionCount = 0;
-  }
-
-  tryCapture() {
-    return this._ownershipToken === null ? new CompositionTransactionOwnershipToken(this) : null;
-  }
-
-  enlist() {
-    return new CompositionTransactionNotifier(this);
-  }
-
-  _tryCompleteTransaction() {
-    if (this._compositionCount <= 0) {
-      this._compositionCount = 0;
-
-      if (this._ownershipToken !== null) {
-        let token = this._ownershipToken;
-        this._ownershipToken = null;
-        token.resolve();
-      }
+class ElementEvents {
+    constructor(element) {
+        this.element = element;
+        this.subscriptions = {};
     }
-  }
-};
-
-const capitalMatcher = /([A-Z])/g;
-
-function addHyphenAndLower(char) {
-  return '-' + char.toLowerCase();
-}
-
-function _hyphenate(name) {
-  return (name.charAt(0).toLowerCase() + name.slice(1)).replace(capitalMatcher, addHyphenAndLower);
-}
-
-function _isAllWhitespace(node) {
-  return !(node.auInterpolationTarget || /[^\t\n\r ]/.test(node.textContent));
-}
-
-let ViewEngineHooksResource = class ViewEngineHooksResource {
-  constructor() {}
-
-  initialize(container, target) {
-    this.instance = container.get(target);
-  }
-
-  register(registry, name) {
-    registry.registerViewEngineHooks(this.instance);
-  }
-
-  load(container, target) {}
-
-  static convention(name) {
-    if (name.endsWith('ViewEngineHooks')) {
-      return new ViewEngineHooksResource();
+    _enqueueHandler(handler) {
+        this.subscriptions[handler.eventName] = this.subscriptions[handler.eventName] || [];
+        this.subscriptions[handler.eventName].push(handler);
     }
-  }
-};
-
-function viewEngineHooks(target) {
-  let deco = function (t) {
-    aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.define(aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.resource, new ViewEngineHooksResource(), t);
-  };
-
-  return target ? deco(target) : deco;
-}
-
-let ElementEvents = (_temp = _class = class ElementEvents {
-
-  constructor(element) {
-    this.element = element;
-    this.subscriptions = {};
-  }
-
-  _enqueueHandler(handler) {
-    this.subscriptions[handler.eventName] = this.subscriptions[handler.eventName] || [];
-    this.subscriptions[handler.eventName].push(handler);
-  }
-
-  _dequeueHandler(handler) {
-    let index;
-    let subscriptions = this.subscriptions[handler.eventName];
-    if (subscriptions) {
-      index = subscriptions.indexOf(handler);
-      if (index > -1) {
-        subscriptions.splice(index, 1);
-      }
-    }
-    return handler;
-  }
-
-  publish(eventName, detail = {}, bubbles = true, cancelable = true) {
-    let event = aurelia_pal__WEBPACK_IMPORTED_MODULE_2__.DOM.createCustomEvent(eventName, { cancelable, bubbles, detail });
-    this.element.dispatchEvent(event);
-  }
-
-  subscribe(eventName, handler, captureOrOptions) {
-    if (typeof handler === 'function') {
-      if (captureOrOptions === undefined) {
-        captureOrOptions = ElementEvents.defaultListenerOptions;
-      }
-      const eventHandler = new EventHandlerImpl(this, eventName, handler, captureOrOptions, false);
-      return eventHandler;
-    }
-
-    return undefined;
-  }
-
-  subscribeOnce(eventName, handler, captureOrOptions) {
-    if (typeof handler === 'function') {
-      if (captureOrOptions === undefined) {
-        captureOrOptions = ElementEvents.defaultListenerOptions;
-      }
-      const eventHandler = new EventHandlerImpl(this, eventName, handler, captureOrOptions, true);
-      return eventHandler;
-    }
-
-    return undefined;
-  }
-
-  dispose(eventName) {
-    if (eventName && typeof eventName === 'string') {
-      let subscriptions = this.subscriptions[eventName];
-      if (subscriptions) {
-        while (subscriptions.length) {
-          let subscription = subscriptions.pop();
-          if (subscription) {
-            subscription.dispose();
-          }
+    _dequeueHandler(handler) {
+        let index;
+        let subscriptions = this.subscriptions[handler.eventName];
+        if (subscriptions) {
+            index = subscriptions.indexOf(handler);
+            if (index > -1) {
+                subscriptions.splice(index, 1);
+            }
         }
-      }
-    } else {
-      this.disposeAll();
+        return handler;
     }
-  }
-
-  disposeAll() {
-    for (let key in this.subscriptions) {
-      this.dispose(key);
+    publish(eventName, detail = {}, bubbles = true, cancelable = true) {
+        let event = aurelia_pal__WEBPACK_IMPORTED_MODULE_0__.DOM.createCustomEvent(eventName, { cancelable, bubbles, detail });
+        this.element.dispatchEvent(event);
     }
-  }
-}, _class.defaultListenerOptions = true, _temp);
-
-let EventHandlerImpl = class EventHandlerImpl {
-  constructor(owner, eventName, handler, captureOrOptions, once) {
-    this.owner = owner;
-    this.eventName = eventName;
-    this.handler = handler;
-
-    this.capture = typeof captureOrOptions === 'boolean' ? captureOrOptions : captureOrOptions.capture;
-    this.bubbles = !this.capture;
-    this.captureOrOptions = captureOrOptions;
-    this.once = once;
-    owner.element.addEventListener(eventName, this, captureOrOptions);
-    owner._enqueueHandler(this);
-  }
-
-  handleEvent(e) {
-    const fn = this.handler;
-    fn(e);
-    if (this.once) {
-      this.dispose();
+    subscribe(eventName, handler, captureOrOptions) {
+        if (typeof handler === 'function') {
+            if (captureOrOptions === undefined) {
+                captureOrOptions = ElementEvents.defaultListenerOptions;
+            }
+            const eventHandler = new EventHandlerImpl(this, eventName, handler, captureOrOptions, false);
+            return eventHandler;
+        }
+        return undefined;
     }
-  }
+    subscribeOnce(eventName, handler, captureOrOptions) {
+        if (typeof handler === 'function') {
+            if (captureOrOptions === undefined) {
+                captureOrOptions = ElementEvents.defaultListenerOptions;
+            }
+            const eventHandler = new EventHandlerImpl(this, eventName, handler, captureOrOptions, true);
+            return eventHandler;
+        }
+        return undefined;
+    }
+    dispose(eventName) {
+        if (eventName && typeof eventName === 'string') {
+            let subscriptions = this.subscriptions[eventName];
+            if (subscriptions) {
+                while (subscriptions.length) {
+                    let subscription = subscriptions.pop();
+                    if (subscription) {
+                        subscription.dispose();
+                    }
+                }
+            }
+        }
+        else {
+            this.disposeAll();
+        }
+    }
+    disposeAll() {
+        for (let key in this.subscriptions) {
+            this.dispose(key);
+        }
+    }
+}
+ElementEvents.defaultListenerOptions = true;
+class EventHandlerImpl {
+    constructor(owner, eventName, handler, captureOrOptions, once) {
+        this.owner = owner;
+        this.eventName = eventName;
+        this.handler = handler;
+        this.capture = typeof captureOrOptions === 'boolean' ? captureOrOptions : captureOrOptions.capture;
+        this.bubbles = !this.capture;
+        this.captureOrOptions = captureOrOptions;
+        this.once = once;
+        owner.element.addEventListener(eventName, this, captureOrOptions);
+        owner._enqueueHandler(this);
+    }
+    handleEvent(e) {
+        const fn = this.handler;
+        fn(e);
+        if (this.once) {
+            this.dispose();
+        }
+    }
+    dispose() {
+        this.owner.element.removeEventListener(this.eventName, this, this.captureOrOptions);
+        this.owner._dequeueHandler(this);
+        this.owner = this.handler = null;
+    }
+}
 
-  dispose() {
-    this.owner.element.removeEventListener(this.eventName, this, this.captureOrOptions);
-    this.owner._dequeueHandler(this);
-    this.owner = this.handler = null;
-  }
-};
-
-let ResourceLoadContext = class ResourceLoadContext {
-  constructor() {
-    this.dependencies = {};
-  }
-
-  addDependency(url) {
-    this.dependencies[url] = true;
-  }
-
-  hasDependency(url) {
-    return url in this.dependencies;
-  }
-};
-
-let ViewCompileInstruction = class ViewCompileInstruction {
-  constructor(targetShadowDOM = false, compileSurrogate = false) {
-    this.targetShadowDOM = targetShadowDOM;
-    this.compileSurrogate = compileSurrogate;
-    this.associatedModuleId = null;
-  }
-};
-
+class ResourceLoadContext {
+    constructor() {
+        this.dependencies = {};
+    }
+    addDependency(url) {
+        this.dependencies[url] = true;
+    }
+    hasDependency(url) {
+        return url in this.dependencies;
+    }
+}
+class ViewCompileInstruction {
+    constructor(targetShadowDOM = false, compileSurrogate = false) {
+        this.targetShadowDOM = targetShadowDOM;
+        this.compileSurrogate = compileSurrogate;
+        this.associatedModuleId = null;
+    }
+}
 ViewCompileInstruction.normal = new ViewCompileInstruction();
-
-let BehaviorInstruction = class BehaviorInstruction {
-  static enhance() {
-    let instruction = new BehaviorInstruction();
-    instruction.enhance = true;
-    return instruction;
-  }
-
-  static unitTest(type, attributes) {
-    let instruction = new BehaviorInstruction();
-    instruction.type = type;
-    instruction.attributes = attributes || {};
-    return instruction;
-  }
-
-  static element(node, type) {
-    let instruction = new BehaviorInstruction();
-    instruction.type = type;
-    instruction.attributes = {};
-    instruction.anchorIsContainer = !(node.hasAttribute('containerless') || type.containerless);
-    instruction.initiatedByBehavior = true;
-    return instruction;
-  }
-
-  static attribute(attrName, type) {
-    let instruction = new BehaviorInstruction();
-    instruction.attrName = attrName;
-    instruction.type = type || null;
-    instruction.attributes = {};
-    return instruction;
-  }
-
-  static dynamic(host, viewModel, viewFactory) {
-    let instruction = new BehaviorInstruction();
-    instruction.host = host;
-    instruction.viewModel = viewModel;
-    instruction.viewFactory = viewFactory;
-    instruction.inheritBindingContext = true;
-    return instruction;
-  }
-};
-
+class BehaviorInstruction {
+    static enhance() {
+        let instruction = new BehaviorInstruction();
+        instruction.enhance = true;
+        return instruction;
+    }
+    static unitTest(type, attributes) {
+        let instruction = new BehaviorInstruction();
+        instruction.type = type;
+        instruction.attributes = attributes || {};
+        return instruction;
+    }
+    static element(node, type) {
+        let instruction = new BehaviorInstruction();
+        instruction.type = type;
+        instruction.attributes = {};
+        instruction.anchorIsContainer = !(node.hasAttribute('containerless') || type.containerless);
+        instruction.initiatedByBehavior = true;
+        return instruction;
+    }
+    static attribute(attrName, type) {
+        let instruction = new BehaviorInstruction();
+        instruction.attrName = attrName;
+        instruction.type = type || null;
+        instruction.attributes = {};
+        return instruction;
+    }
+    static dynamic(host, viewModel, viewFactory) {
+        let instruction = new BehaviorInstruction();
+        instruction.host = host;
+        instruction.viewModel = viewModel;
+        instruction.viewFactory = viewFactory;
+        instruction.inheritBindingContext = true;
+        return instruction;
+    }
+}
+BehaviorInstruction.normal = new BehaviorInstruction();
 const biProto = BehaviorInstruction.prototype;
 biProto.initiatedByBehavior = false;
 biProto.enhance = false;
@@ -16414,4585 +15983,4084 @@ biProto.attributes = null;
 biProto.type = null;
 biProto.attrName = null;
 biProto.inheritBindingContext = false;
-
-BehaviorInstruction.normal = new BehaviorInstruction();
-
-let TargetInstruction = (_temp2 = _class2 = class TargetInstruction {
-  static shadowSlot(parentInjectorId) {
-    let instruction = new TargetInstruction();
-    instruction.parentInjectorId = parentInjectorId;
-    instruction.shadowSlot = true;
-    return instruction;
-  }
-
-  static contentExpression(expression) {
-    let instruction = new TargetInstruction();
-    instruction.contentExpression = expression;
-    return instruction;
-  }
-
-  static letElement(expressions) {
-    let instruction = new TargetInstruction();
-    instruction.expressions = expressions;
-    instruction.letElement = true;
-    return instruction;
-  }
-
-  static lifting(parentInjectorId, liftingInstruction) {
-    let instruction = new TargetInstruction();
-    instruction.parentInjectorId = parentInjectorId;
-    instruction.expressions = TargetInstruction.noExpressions;
-    instruction.behaviorInstructions = [liftingInstruction];
-    instruction.viewFactory = liftingInstruction.viewFactory;
-    instruction.providers = [liftingInstruction.type.target];
-    instruction.lifting = true;
-    return instruction;
-  }
-
-  static normal(injectorId, parentInjectorId, providers, behaviorInstructions, expressions, elementInstruction) {
-    let instruction = new TargetInstruction();
-    instruction.injectorId = injectorId;
-    instruction.parentInjectorId = parentInjectorId;
-    instruction.providers = providers;
-    instruction.behaviorInstructions = behaviorInstructions;
-    instruction.expressions = expressions;
-    instruction.anchorIsContainer = elementInstruction ? elementInstruction.anchorIsContainer : true;
-    instruction.elementInstruction = elementInstruction;
-    return instruction;
-  }
-
-  static surrogate(providers, behaviorInstructions, expressions, values) {
-    let instruction = new TargetInstruction();
-    instruction.expressions = expressions;
-    instruction.behaviorInstructions = behaviorInstructions;
-    instruction.providers = providers;
-    instruction.values = values;
-    return instruction;
-  }
-}, _class2.noExpressions = Object.freeze([]), _temp2);
-
+class TargetInstruction {
+    static shadowSlot(parentInjectorId) {
+        let instruction = new TargetInstruction();
+        instruction.parentInjectorId = parentInjectorId;
+        instruction.shadowSlot = true;
+        return instruction;
+    }
+    static contentExpression(expression) {
+        let instruction = new TargetInstruction();
+        instruction.contentExpression = expression;
+        return instruction;
+    }
+    static letElement(expressions) {
+        let instruction = new TargetInstruction();
+        instruction.expressions = expressions;
+        instruction.letElement = true;
+        return instruction;
+    }
+    static lifting(parentInjectorId, liftingInstruction) {
+        let instruction = new TargetInstruction();
+        instruction.parentInjectorId = parentInjectorId;
+        instruction.expressions = TargetInstruction.noExpressions;
+        instruction.behaviorInstructions = [liftingInstruction];
+        instruction.viewFactory = liftingInstruction.viewFactory;
+        instruction.providers = [liftingInstruction.type.target];
+        instruction.lifting = true;
+        return instruction;
+    }
+    static normal(injectorId, parentInjectorId, providers, behaviorInstructions, expressions, elementInstruction) {
+        let instruction = new TargetInstruction();
+        instruction.injectorId = injectorId;
+        instruction.parentInjectorId = parentInjectorId;
+        instruction.providers = providers;
+        instruction.behaviorInstructions = behaviorInstructions;
+        instruction.expressions = expressions;
+        instruction.anchorIsContainer = elementInstruction ? elementInstruction.anchorIsContainer : true;
+        instruction.elementInstruction = elementInstruction;
+        return instruction;
+    }
+    static surrogate(providers, behaviorInstructions, expressions, values) {
+        let instruction = new TargetInstruction();
+        instruction.expressions = expressions;
+        instruction.behaviorInstructions = behaviorInstructions;
+        instruction.providers = providers;
+        instruction.values = values;
+        return instruction;
+    }
+}
+TargetInstruction.noExpressions = Object.freeze([]);
 const tiProto = TargetInstruction.prototype;
-
 tiProto.injectorId = null;
 tiProto.parentInjectorId = null;
-
 tiProto.shadowSlot = false;
 tiProto.slotName = null;
 tiProto.slotFallbackFactory = null;
-
 tiProto.contentExpression = null;
 tiProto.letElement = false;
-
 tiProto.expressions = null;
 tiProto.expressions = null;
 tiProto.providers = null;
-
 tiProto.viewFactory = null;
-
 tiProto.anchorIsContainer = false;
 tiProto.elementInstruction = null;
 tiProto.lifting = false;
-
 tiProto.values = null;
 
-const viewStrategy = aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.protocol.create('aurelia:view-strategy', {
-  validate(target) {
-    if (!(typeof target.loadViewFactory === 'function')) {
-      return 'View strategies must implement: loadViewFactory(viewEngine: ViewEngine, compileInstruction: ViewCompileInstruction, loadContext?: ResourceLoadContext): Promise<ViewFactory>';
+/*! *****************************************************************************
+Copyright (c) Microsoft Corporation.
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+***************************************************************************** */
+
+function __decorate(decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+}
+
+const capitalMatcher = /([A-Z])/g;
+function addHyphenAndLower(char) {
+    return '-' + char.toLowerCase();
+}
+function _hyphenate(name) {
+    return (name.charAt(0).toLowerCase() + name.slice(1)).replace(capitalMatcher, addHyphenAndLower);
+}
+function _isAllWhitespace(node) {
+    return !(node.auInterpolationTarget || (/[^\t\n\r ]/.test(node.textContent)));
+}
+
+let BehaviorPropertyObserver = class BehaviorPropertyObserver {
+    constructor(taskQueue, obj, propertyName, selfSubscriber, initialValue) {
+        this.taskQueue = taskQueue;
+        this.obj = obj;
+        this.propertyName = propertyName;
+        this.notqueued = true;
+        this.publishing = false;
+        this.selfSubscriber = selfSubscriber;
+        this.currentValue = this.oldValue = initialValue;
     }
-
-    return true;
-  },
-  compose(target) {
-    if (!(typeof target.makeRelativeTo === 'function')) {
-      target.makeRelativeTo = aurelia_pal__WEBPACK_IMPORTED_MODULE_2__.PLATFORM.noop;
+    getValue() {
+        return this.currentValue;
     }
-  }
-});
-
-let RelativeViewStrategy = (_dec = viewStrategy(), _dec(_class3 = class RelativeViewStrategy {
-  constructor(path) {
-    this.path = path;
-    this.absolutePath = null;
-  }
-
-  loadViewFactory(viewEngine, compileInstruction, loadContext, target) {
-    if (this.absolutePath === null && this.moduleId) {
-      this.absolutePath = (0,aurelia_path__WEBPACK_IMPORTED_MODULE_4__.relativeToFile)(this.path, this.moduleId);
-    }
-
-    compileInstruction.associatedModuleId = this.moduleId;
-    return viewEngine.loadViewFactory(this.absolutePath || this.path, compileInstruction, loadContext, target);
-  }
-
-  makeRelativeTo(file) {
-    if (this.absolutePath === null) {
-      this.absolutePath = (0,aurelia_path__WEBPACK_IMPORTED_MODULE_4__.relativeToFile)(this.path, file);
-    }
-  }
-}) || _class3);
-
-let ConventionalViewStrategy = (_dec2 = viewStrategy(), _dec2(_class4 = class ConventionalViewStrategy {
-  constructor(viewLocator, origin) {
-    this.moduleId = origin.moduleId;
-    this.viewUrl = viewLocator.convertOriginToViewUrl(origin);
-  }
-
-  loadViewFactory(viewEngine, compileInstruction, loadContext, target) {
-    compileInstruction.associatedModuleId = this.moduleId;
-    return viewEngine.loadViewFactory(this.viewUrl, compileInstruction, loadContext, target);
-  }
-}) || _class4);
-
-let NoViewStrategy = (_dec3 = viewStrategy(), _dec3(_class5 = class NoViewStrategy {
-  constructor(dependencies, dependencyBaseUrl) {
-    this.dependencies = dependencies || null;
-    this.dependencyBaseUrl = dependencyBaseUrl || '';
-  }
-
-  loadViewFactory(viewEngine, compileInstruction, loadContext, target) {
-    let entry = this.entry;
-    let dependencies = this.dependencies;
-
-    if (entry && entry.factoryIsReady) {
-      return Promise.resolve(null);
-    }
-
-    this.entry = entry = new aurelia_loader__WEBPACK_IMPORTED_MODULE_3__.TemplateRegistryEntry(this.moduleId || this.dependencyBaseUrl);
-
-    entry.dependencies = [];
-    entry.templateIsLoaded = true;
-
-    if (dependencies !== null) {
-      for (let i = 0, ii = dependencies.length; i < ii; ++i) {
-        let current = dependencies[i];
-
-        if (typeof current === 'string' || typeof current === 'function') {
-          entry.addDependency(current);
-        } else {
-          entry.addDependency(current.from, current.as);
-        }
-      }
-    }
-
-    compileInstruction.associatedModuleId = this.moduleId;
-
-    return viewEngine.loadViewFactory(entry, compileInstruction, loadContext, target);
-  }
-}) || _class5);
-
-let TemplateRegistryViewStrategy = (_dec4 = viewStrategy(), _dec4(_class6 = class TemplateRegistryViewStrategy {
-  constructor(moduleId, entry) {
-    this.moduleId = moduleId;
-    this.entry = entry;
-  }
-
-  loadViewFactory(viewEngine, compileInstruction, loadContext, target) {
-    let entry = this.entry;
-
-    if (entry.factoryIsReady) {
-      return Promise.resolve(entry.factory);
-    }
-
-    compileInstruction.associatedModuleId = this.moduleId;
-    return viewEngine.loadViewFactory(entry, compileInstruction, loadContext, target);
-  }
-}) || _class6);
-
-let InlineViewStrategy = (_dec5 = viewStrategy(), _dec5(_class7 = class InlineViewStrategy {
-  constructor(markup, dependencies, dependencyBaseUrl) {
-    this.markup = markup;
-    this.dependencies = dependencies || null;
-    this.dependencyBaseUrl = dependencyBaseUrl || '';
-  }
-
-  loadViewFactory(viewEngine, compileInstruction, loadContext, target) {
-    let entry = this.entry;
-    let dependencies = this.dependencies;
-
-    if (entry && entry.factoryIsReady) {
-      return Promise.resolve(entry.factory);
-    }
-
-    this.entry = entry = new aurelia_loader__WEBPACK_IMPORTED_MODULE_3__.TemplateRegistryEntry(this.moduleId || this.dependencyBaseUrl);
-    entry.template = aurelia_pal__WEBPACK_IMPORTED_MODULE_2__.DOM.createTemplateFromMarkup(this.markup);
-
-    if (dependencies !== null) {
-      for (let i = 0, ii = dependencies.length; i < ii; ++i) {
-        let current = dependencies[i];
-
-        if (typeof current === 'string' || typeof current === 'function') {
-          entry.addDependency(current);
-        } else {
-          entry.addDependency(current.from, current.as);
-        }
-      }
-    }
-
-    compileInstruction.associatedModuleId = this.moduleId;
-    return viewEngine.loadViewFactory(entry, compileInstruction, loadContext, target);
-  }
-}) || _class7);
-
-let StaticViewStrategy = (_dec6 = viewStrategy(), _dec6(_class8 = class StaticViewStrategy {
-
-  constructor(config) {
-    if (typeof config === 'string' || config instanceof aurelia_pal__WEBPACK_IMPORTED_MODULE_2__.DOM.Element && config.tagName === 'TEMPLATE') {
-      config = {
-        template: config
-      };
-    }
-    this.template = config.template;
-    this.dependencies = config.dependencies || [];
-    this.factoryIsReady = false;
-    this.onReady = null;
-    this.moduleId = 'undefined';
-  }
-
-  loadViewFactory(viewEngine, compileInstruction, loadContext, target) {
-    if (this.factoryIsReady) {
-      return Promise.resolve(this.factory);
-    }
-    let deps = this.dependencies;
-    deps = typeof deps === 'function' ? deps() : deps;
-    deps = deps ? deps : [];
-    deps = Array.isArray(deps) ? deps : [deps];
-
-    return Promise.all(deps).then(dependencies => {
-      const container = viewEngine.container;
-      const appResources = viewEngine.appResources;
-      const viewCompiler = viewEngine.viewCompiler;
-      const viewResources = new ViewResources(appResources);
-
-      let resource;
-      let elDeps = [];
-
-      if (target) {
-        viewResources.autoRegister(container, target);
-      }
-
-      for (let dep of dependencies) {
-        if (typeof dep === 'function') {
-          resource = viewResources.autoRegister(container, dep);
-          if (resource.elementName !== null) {
-            elDeps.push(resource);
-          }
-        } else if (dep && typeof dep === 'object') {
-          for (let key in dep) {
-            let exported = dep[key];
-            if (typeof exported === 'function') {
-              resource = viewResources.autoRegister(container, exported);
-              if (resource.elementName !== null) {
-                elDeps.push(resource);
-              }
+    setValue(newValue) {
+        let oldValue = this.currentValue;
+        if (!Object.is(newValue, oldValue)) {
+            this.oldValue = oldValue;
+            this.currentValue = newValue;
+            if (this.publishing && this.notqueued) {
+                if (this.taskQueue.flushing) {
+                    this.call();
+                }
+                else {
+                    this.notqueued = false;
+                    this.taskQueue.queueMicroTask(this);
+                }
             }
-          }
-        } else {
-          throw new Error(`dependency neither function nor object. Received: "${typeof dep}"`);
         }
-      }
-
-      return Promise.all(elDeps.map(el => el.load(container, el.target))).then(() => {
-        const factory = this.template !== null ? viewCompiler.compile(this.template, viewResources, compileInstruction) : null;
-        this.factoryIsReady = true;
-        this.factory = factory;
-        return factory;
-      });
-    });
-  }
-}) || _class8);
-
-let ViewLocator = (_temp3 = _class9 = class ViewLocator {
-  getViewStrategy(value) {
-    if (!value) {
-      return null;
     }
-
-    if (typeof value === 'object' && 'getViewStrategy' in value) {
-      let origin = aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.Origin.get(value.constructor);
-
-      value = value.getViewStrategy();
-
-      if (typeof value === 'string') {
-        value = new RelativeViewStrategy(value);
-      }
-
-      viewStrategy.assert(value);
-
-      if (origin.moduleId) {
-        value.makeRelativeTo(origin.moduleId);
-      }
-
-      return value;
+    call() {
+        let oldValue = this.oldValue;
+        let newValue = this.currentValue;
+        this.notqueued = true;
+        if (Object.is(newValue, oldValue)) {
+            return;
+        }
+        if (this.selfSubscriber) {
+            this.selfSubscriber(newValue, oldValue);
+        }
+        this.callSubscribers(newValue, oldValue);
+        this.oldValue = newValue;
     }
-
-    if (typeof value === 'string') {
-      value = new RelativeViewStrategy(value);
+    callSubscribers(newValue, oldValue) {
+        throw new Error('Method not implemented.');
     }
-
-    if (viewStrategy.validate(value)) {
-      return value;
+    subscribe(context, callable) {
+        this.addSubscriber(context, callable);
     }
-
-    if (typeof value !== 'function') {
-      value = value.constructor;
+    addSubscriber(context, callable) {
+        throw new Error('Method not implemented.');
     }
-
-    if ('$view' in value) {
-      let c = value.$view;
-      let view;
-      c = typeof c === 'function' ? c.call(value) : c;
-      if (c === null) {
-        view = new NoViewStrategy();
-      } else {
-        view = c instanceof StaticViewStrategy ? c : new StaticViewStrategy(c);
-      }
-      aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.define(ViewLocator.viewStrategyMetadataKey, view, value);
-      return view;
+    unsubscribe(context, callable) {
+        this.removeSubscriber(context, callable);
     }
-
-    let origin = aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.Origin.get(value);
-    let strategy = aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.get(ViewLocator.viewStrategyMetadataKey, value);
-
-    if (!strategy) {
-      if (!origin.moduleId) {
-        throw new Error('Cannot determine default view strategy for object.', value);
-      }
-
-      strategy = this.createFallbackViewStrategy(origin);
-    } else if (origin.moduleId) {
-      strategy.moduleId = origin.moduleId;
+    removeSubscriber(context, callable) {
+        throw new Error('Method not implemented.');
     }
-
-    return strategy;
-  }
-
-  createFallbackViewStrategy(origin) {
-    return new ConventionalViewStrategy(this, origin);
-  }
-
-  convertOriginToViewUrl(origin) {
-    let moduleId = origin.moduleId;
-    let id = moduleId.endsWith('.js') || moduleId.endsWith('.ts') ? moduleId.substring(0, moduleId.length - 3) : moduleId;
-    return id + '.html';
-  }
-}, _class9.viewStrategyMetadataKey = 'aurelia:view-strategy', _temp3);
-
-function mi(name) {
-  throw new Error(`BindingLanguage must implement ${name}().`);
-}
-
-let BindingLanguage = class BindingLanguage {
-  inspectAttribute(resources, elementName, attrName, attrValue) {
-    mi('inspectAttribute');
-  }
-
-  createAttributeInstruction(resources, element, info, existingInstruction) {
-    mi('createAttributeInstruction');
-  }
-
-  createLetExpressions(resources, element) {
-    mi('createLetExpressions');
-  }
-
-  inspectTextContent(resources, value) {
-    mi('inspectTextContent');
-  }
 };
-
-let noNodes = Object.freeze([]);
-
-let SlotCustomAttribute = class SlotCustomAttribute {
-  static inject() {
-    return [aurelia_pal__WEBPACK_IMPORTED_MODULE_2__.DOM.Element];
-  }
-
-  constructor(element) {
-    this.element = element;
-    this.element.auSlotAttribute = this;
-  }
-
-  valueChanged(newValue, oldValue) {}
-};
-
-let PassThroughSlot = class PassThroughSlot {
-  constructor(anchor, name, destinationName, fallbackFactory) {
-    this.anchor = anchor;
-    this.anchor.viewSlot = this;
-    this.name = name;
-    this.destinationName = destinationName;
-    this.fallbackFactory = fallbackFactory;
-    this.destinationSlot = null;
-
-    this.projections = 0;
-
-    this.contentView = null;
-
-    let attr = new SlotCustomAttribute(this.anchor);
-    attr.value = this.destinationName;
-  }
-
-  get needsFallbackRendering() {
-    return this.fallbackFactory && this.projections === 0;
-  }
-
-  renderFallbackContent(view, nodes, projectionSource, index) {
-    if (this.contentView === null) {
-      this.contentView = this.fallbackFactory.create(this.ownerView.container);
-      this.contentView.bind(this.ownerView.bindingContext, this.ownerView.overrideContext);
-
-      let slots = Object.create(null);
-      slots[this.destinationSlot.name] = this.destinationSlot;
-
-      ShadowDOM.distributeView(this.contentView, slots, projectionSource, index, this.destinationSlot.name);
-    }
-  }
-
-  passThroughTo(destinationSlot) {
-    this.destinationSlot = destinationSlot;
-  }
-
-  addNode(view, node, projectionSource, index) {
-    if (this.contentView !== null) {
-      this.contentView.removeNodes();
-      this.contentView.detached();
-      this.contentView.unbind();
-      this.contentView = null;
-    }
-
-    if (node.viewSlot instanceof PassThroughSlot) {
-      node.viewSlot.passThroughTo(this);
-      return;
-    }
-
-    this.projections++;
-    this.destinationSlot.addNode(view, node, projectionSource, index);
-  }
-
-  removeView(view, projectionSource) {
-    this.projections--;
-    this.destinationSlot.removeView(view, projectionSource);
-
-    if (this.needsFallbackRendering) {
-      this.renderFallbackContent(null, noNodes, projectionSource);
-    }
-  }
-
-  removeAll(projectionSource) {
-    this.projections = 0;
-    this.destinationSlot.removeAll(projectionSource);
-
-    if (this.needsFallbackRendering) {
-      this.renderFallbackContent(null, noNodes, projectionSource);
-    }
-  }
-
-  projectFrom(view, projectionSource) {
-    this.destinationSlot.projectFrom(view, projectionSource);
-  }
-
-  created(ownerView) {
-    this.ownerView = ownerView;
-  }
-
-  bind(view) {
-    if (this.contentView) {
-      this.contentView.bind(view.bindingContext, view.overrideContext);
-    }
-  }
-
-  attached() {
-    if (this.contentView) {
-      this.contentView.attached();
-    }
-  }
-
-  detached() {
-    if (this.contentView) {
-      this.contentView.detached();
-    }
-  }
-
-  unbind() {
-    if (this.contentView) {
-      this.contentView.unbind();
-    }
-  }
-};
-
-let ShadowSlot = class ShadowSlot {
-  constructor(anchor, name, fallbackFactory) {
-    this.anchor = anchor;
-    this.anchor.isContentProjectionSource = true;
-    this.anchor.viewSlot = this;
-    this.name = name;
-    this.fallbackFactory = fallbackFactory;
-    this.contentView = null;
-    this.projections = 0;
-
-    this.children = [];
-    this.projectFromAnchors = null;
-    this.destinationSlots = null;
-  }
-
-  get needsFallbackRendering() {
-    return this.fallbackFactory && this.projections === 0;
-  }
-
-  addNode(view, node, projectionSource, index, destination) {
-    if (this.contentView !== null) {
-      this.contentView.removeNodes();
-      this.contentView.detached();
-      this.contentView.unbind();
-      this.contentView = null;
-    }
-
-    if (node.viewSlot instanceof PassThroughSlot) {
-      node.viewSlot.passThroughTo(this);
-      return;
-    }
-
-    if (this.destinationSlots !== null) {
-      ShadowDOM.distributeNodes(view, [node], this.destinationSlots, this, index);
-    } else {
-      node.auOwnerView = view;
-      node.auProjectionSource = projectionSource;
-      node.auAssignedSlot = this;
-
-      let anchor = this._findAnchor(view, node, projectionSource, index);
-      let parent = anchor.parentNode;
-
-      parent.insertBefore(node, anchor);
-      this.children.push(node);
-      this.projections++;
-    }
-  }
-
-  removeView(view, projectionSource) {
-    if (this.destinationSlots !== null) {
-      ShadowDOM.undistributeView(view, this.destinationSlots, this);
-    } else if (this.contentView && this.contentView.hasSlots) {
-      ShadowDOM.undistributeView(view, this.contentView.slots, projectionSource);
-    } else {
-      let found = this.children.find(x => x.auSlotProjectFrom === projectionSource);
-      if (found) {
-        let children = found.auProjectionChildren;
-        let ownChildren = this.children;
-
-        for (let i = 0, ii = children.length; i < ii; ++i) {
-          let child = children[i];
-
-          if (child.auOwnerView === view) {
-            children.splice(i, 1);
-            view.fragment.appendChild(child);
-            i--;ii--;
-
-            this.projections--;
-            let idx = ownChildren.indexOf(child);
-            if (idx > -1) {
-              ownChildren.splice(idx, 1);
-            }
-          }
-        }
-
-        if (this.needsFallbackRendering) {
-          this.renderFallbackContent(view, noNodes, projectionSource);
-        }
-      }
-    }
-  }
-
-  removeAll(projectionSource) {
-    if (this.destinationSlots !== null) {
-      ShadowDOM.undistributeAll(this.destinationSlots, this);
-    } else if (this.contentView && this.contentView.hasSlots) {
-      ShadowDOM.undistributeAll(this.contentView.slots, projectionSource);
-    } else {
-      let found = this.children.find(x => x.auSlotProjectFrom === projectionSource);
-
-      if (found) {
-        let children = found.auProjectionChildren;
-        let ownChildren = this.children;
-
-        for (let i = 0, ii = children.length; i < ii; ++i) {
-          let child = children[i];
-          child.auOwnerView.fragment.appendChild(child);
-
-          this.projections--;
-          let idx = ownChildren.indexOf(child);
-          if (idx > -1) {
-            ownChildren.splice(idx, 1);
-          }
-        }
-
-        found.auProjectionChildren = [];
-
-        if (this.needsFallbackRendering) {
-          this.renderFallbackContent(null, noNodes, projectionSource);
-        }
-      }
-    }
-  }
-
-  _findAnchor(view, node, projectionSource, index) {
-    if (projectionSource) {
-      let found = this.children.find(x => x.auSlotProjectFrom === projectionSource);
-      if (found) {
-        if (index !== undefined) {
-          let children = found.auProjectionChildren;
-          let viewIndex = -1;
-          let lastView;
-
-          for (let i = 0, ii = children.length; i < ii; ++i) {
-            let current = children[i];
-
-            if (current.auOwnerView !== lastView) {
-              viewIndex++;
-              lastView = current.auOwnerView;
-
-              if (viewIndex >= index && lastView !== view) {
-                children.splice(i, 0, node);
-                return current;
-              }
-            }
-          }
-        }
-
-        found.auProjectionChildren.push(node);
-        return found;
-      }
-    }
-
-    return this.anchor;
-  }
-
-  projectTo(slots) {
-    this.destinationSlots = slots;
-  }
-
-  projectFrom(view, projectionSource) {
-    let anchor = aurelia_pal__WEBPACK_IMPORTED_MODULE_2__.DOM.createComment('anchor');
-    let parent = this.anchor.parentNode;
-    anchor.auSlotProjectFrom = projectionSource;
-    anchor.auOwnerView = view;
-    anchor.auProjectionChildren = [];
-    parent.insertBefore(anchor, this.anchor);
-    this.children.push(anchor);
-
-    if (this.projectFromAnchors === null) {
-      this.projectFromAnchors = [];
-    }
-
-    this.projectFromAnchors.push(anchor);
-  }
-
-  renderFallbackContent(view, nodes, projectionSource, index) {
-    if (this.contentView === null) {
-      this.contentView = this.fallbackFactory.create(this.ownerView.container);
-      this.contentView.bind(this.ownerView.bindingContext, this.ownerView.overrideContext);
-      this.contentView.insertNodesBefore(this.anchor);
-    }
-
-    if (this.contentView.hasSlots) {
-      let slots = this.contentView.slots;
-      let projectFromAnchors = this.projectFromAnchors;
-
-      if (projectFromAnchors !== null) {
-        for (let slotName in slots) {
-          let slot = slots[slotName];
-
-          for (let i = 0, ii = projectFromAnchors.length; i < ii; ++i) {
-            let anchor = projectFromAnchors[i];
-            slot.projectFrom(anchor.auOwnerView, anchor.auSlotProjectFrom);
-          }
-        }
-      }
-
-      this.fallbackSlots = slots;
-      ShadowDOM.distributeNodes(view, nodes, slots, projectionSource, index);
-    }
-  }
-
-  created(ownerView) {
-    this.ownerView = ownerView;
-  }
-
-  bind(view) {
-    if (this.contentView) {
-      this.contentView.bind(view.bindingContext, view.overrideContext);
-    }
-  }
-
-  attached() {
-    if (this.contentView) {
-      this.contentView.attached();
-    }
-  }
-
-  detached() {
-    if (this.contentView) {
-      this.contentView.detached();
-    }
-  }
-
-  unbind() {
-    if (this.contentView) {
-      this.contentView.unbind();
-    }
-  }
-};
-
-let ShadowDOM = (_temp4 = _class10 = class ShadowDOM {
-
-  static getSlotName(node) {
-    if (node.auSlotAttribute === undefined) {
-      return ShadowDOM.defaultSlotKey;
-    }
-
-    return node.auSlotAttribute.value;
-  }
-
-  static distributeView(view, slots, projectionSource, index, destinationOverride) {
-    let nodes;
-
-    if (view === null) {
-      nodes = noNodes;
-    } else {
-      let childNodes = view.fragment.childNodes;
-      let ii = childNodes.length;
-      nodes = new Array(ii);
-
-      for (let i = 0; i < ii; ++i) {
-        nodes[i] = childNodes[i];
-      }
-    }
-
-    ShadowDOM.distributeNodes(view, nodes, slots, projectionSource, index, destinationOverride);
-  }
-
-  static undistributeView(view, slots, projectionSource) {
-    for (let slotName in slots) {
-      slots[slotName].removeView(view, projectionSource);
-    }
-  }
-
-  static undistributeAll(slots, projectionSource) {
-    for (let slotName in slots) {
-      slots[slotName].removeAll(projectionSource);
-    }
-  }
-
-  static distributeNodes(view, nodes, slots, projectionSource, index, destinationOverride) {
-    for (let i = 0, ii = nodes.length; i < ii; ++i) {
-      let currentNode = nodes[i];
-      let nodeType = currentNode.nodeType;
-
-      if (currentNode.isContentProjectionSource) {
-        currentNode.viewSlot.projectTo(slots);
-
-        for (let slotName in slots) {
-          slots[slotName].projectFrom(view, currentNode.viewSlot);
-        }
-
-        nodes.splice(i, 1);
-        ii--;i--;
-      } else if (nodeType === 1 || nodeType === 3 || currentNode.viewSlot instanceof PassThroughSlot) {
-        if (nodeType === 3 && _isAllWhitespace(currentNode)) {
-          nodes.splice(i, 1);
-          ii--;i--;
-        } else {
-          let found = slots[destinationOverride || ShadowDOM.getSlotName(currentNode)];
-
-          if (found) {
-            found.addNode(view, currentNode, projectionSource, index);
-            nodes.splice(i, 1);
-            ii--;i--;
-          }
-        }
-      } else {
-        nodes.splice(i, 1);
-        ii--;i--;
-      }
-    }
-
-    for (let slotName in slots) {
-      let slot = slots[slotName];
-
-      if (slot.needsFallbackRendering) {
-        slot.renderFallbackContent(view, nodes, projectionSource, index);
-      }
-    }
-  }
-}, _class10.defaultSlotKey = '__au-default-slot-key__', _temp4);
-
-function register(lookup, name, resource, type) {
-  if (!name) {
-    return;
-  }
-
-  let existing = lookup[name];
-  if (existing) {
-    if (existing !== resource) {
-      throw new Error(`Attempted to register ${type} when one with the same name already exists. Name: ${name}.`);
-    }
-
-    return;
-  }
-
-  lookup[name] = resource;
-}
-
-function validateBehaviorName(name, type) {
-  if (/[A-Z]/.test(name)) {
-    let newName = _hyphenate(name);
-    aurelia_logging__WEBPACK_IMPORTED_MODULE_0__.getLogger('templating').warn(`'${name}' is not a valid ${type} name and has been converted to '${newName}'. Upper-case letters are not allowed because the DOM is not case-sensitive.`);
-    return newName;
-  }
-  return name;
-}
-
-const conventionMark = '__au_resource__';
-
-let ViewResources = class ViewResources {
-  static convention(target, existing) {
-    let resource;
-
-    if (existing && conventionMark in existing) {
-      return existing;
-    }
-    if ('$resource' in target) {
-      let config = target.$resource;
-
-      if (typeof config === 'string') {
-        resource = existing || new HtmlBehaviorResource();
-        resource[conventionMark] = true;
-        if (!resource.elementName) {
-          resource.elementName = validateBehaviorName(config, 'custom element');
-        }
-      } else {
-        if (typeof config === 'function') {
-          config = config.call(target);
-        }
-        if (typeof config === 'string') {
-          config = { name: config };
-        }
-
-        config = Object.assign({}, config);
-
-        let resourceType = config.type || 'element';
-
-        let name = config.name;
-        switch (resourceType) {
-          case 'element':case 'attribute':
-            resource = existing || new HtmlBehaviorResource();
-            resource[conventionMark] = true;
-            if (resourceType === 'element') {
-              if (!resource.elementName) {
-                resource.elementName = name ? validateBehaviorName(name, 'custom element') : _hyphenate(target.name);
-              }
-            } else {
-              if (!resource.attributeName) {
-                resource.attributeName = name ? validateBehaviorName(name, 'custom attribute') : _hyphenate(target.name);
-              }
-            }
-            if ('templateController' in config) {
-              config.liftsContent = config.templateController;
-              delete config.templateController;
-            }
-            if ('defaultBindingMode' in config && resource.attributeDefaultBindingMode !== undefined) {
-              config.attributeDefaultBindingMode = config.defaultBindingMode;
-              delete config.defaultBindingMode;
-            }
-
-            delete config.name;
-
-            Object.assign(resource, config);
-            break;
-          case 'valueConverter':
-            resource = new aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.ValueConverterResource((0,aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.camelCase)(name || target.name));
-            break;
-          case 'bindingBehavior':
-            resource = new aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.BindingBehaviorResource((0,aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.camelCase)(name || target.name));
-            break;
-          case 'viewEngineHooks':
-            resource = new ViewEngineHooksResource();
-            break;
-        }
-      }
-
-      if (resource instanceof HtmlBehaviorResource) {
-        let bindables = typeof config === 'string' ? undefined : config.bindables;
-        let currentProps = resource.properties;
-        if (Array.isArray(bindables)) {
-          for (let i = 0, ii = bindables.length; ii > i; ++i) {
-            let prop = bindables[i];
-            if (!prop || typeof prop !== 'string' && !prop.name) {
-              throw new Error(`Invalid bindable property at "${i}" for class "${target.name}". Expected either a string or an object with "name" property.`);
-            }
-            let newProp = new BindableProperty(prop);
-
-            let existed = false;
-            for (let j = 0, jj = currentProps.length; jj > j; ++j) {
-              if (currentProps[j].name === newProp.name) {
-                existed = true;
-                break;
-              }
-            }
-            if (existed) {
-              continue;
-            }
-            newProp.registerWith(target, resource);
-          }
-        }
-      }
-    }
-    return resource;
-  }
-
-  constructor(parent, viewUrl) {
-    this.bindingLanguage = null;
-
-    this.parent = parent || null;
-    this.hasParent = this.parent !== null;
-    this.viewUrl = viewUrl || '';
-    this.lookupFunctions = {
-      valueConverters: this.getValueConverter.bind(this),
-      bindingBehaviors: this.getBindingBehavior.bind(this)
-    };
-    this.attributes = Object.create(null);
-    this.elements = Object.create(null);
-    this.valueConverters = Object.create(null);
-    this.bindingBehaviors = Object.create(null);
-    this.attributeMap = Object.create(null);
-    this.values = Object.create(null);
-    this.beforeCompile = this.afterCompile = this.beforeCreate = this.afterCreate = this.beforeBind = this.beforeUnbind = false;
-  }
-
-  _tryAddHook(obj, name) {
-    if (typeof obj[name] === 'function') {
-      let func = obj[name].bind(obj);
-      let counter = 1;
-      let callbackName;
-
-      while (this[callbackName = name + counter.toString()] !== undefined) {
-        counter++;
-      }
-
-      this[name] = true;
-      this[callbackName] = func;
-    }
-  }
-
-  _invokeHook(name, one, two, three, four) {
-    if (this.hasParent) {
-      this.parent._invokeHook(name, one, two, three, four);
-    }
-
-    if (this[name]) {
-      this[name + '1'](one, two, three, four);
-
-      let callbackName = name + '2';
-      if (this[callbackName]) {
-        this[callbackName](one, two, three, four);
-
-        callbackName = name + '3';
-        if (this[callbackName]) {
-          this[callbackName](one, two, three, four);
-
-          let counter = 4;
-
-          while (this[callbackName = name + counter.toString()] !== undefined) {
-            this[callbackName](one, two, three, four);
-            counter++;
-          }
-        }
-      }
-    }
-  }
-
-  registerViewEngineHooks(hooks) {
-    this._tryAddHook(hooks, 'beforeCompile');
-    this._tryAddHook(hooks, 'afterCompile');
-    this._tryAddHook(hooks, 'beforeCreate');
-    this._tryAddHook(hooks, 'afterCreate');
-    this._tryAddHook(hooks, 'beforeBind');
-    this._tryAddHook(hooks, 'beforeUnbind');
-  }
-
-  getBindingLanguage(bindingLanguageFallback) {
-    return this.bindingLanguage || (this.bindingLanguage = bindingLanguageFallback);
-  }
-
-  patchInParent(newParent) {
-    let originalParent = this.parent;
-
-    this.parent = newParent || null;
-    this.hasParent = this.parent !== null;
-
-    if (newParent.parent === null) {
-      newParent.parent = originalParent;
-      newParent.hasParent = originalParent !== null;
-    }
-  }
-
-  relativeToView(path) {
-    return (0,aurelia_path__WEBPACK_IMPORTED_MODULE_4__.relativeToFile)(path, this.viewUrl);
-  }
-
-  registerElement(tagName, behavior) {
-    register(this.elements, tagName, behavior, 'an Element');
-  }
-
-  getElement(tagName) {
-    return this.elements[tagName] || (this.hasParent ? this.parent.getElement(tagName) : null);
-  }
-
-  mapAttribute(attribute) {
-    return this.attributeMap[attribute] || (this.hasParent ? this.parent.mapAttribute(attribute) : null);
-  }
-
-  registerAttribute(attribute, behavior, knownAttribute) {
-    this.attributeMap[attribute] = knownAttribute;
-    register(this.attributes, attribute, behavior, 'an Attribute');
-  }
-
-  getAttribute(attribute) {
-    return this.attributes[attribute] || (this.hasParent ? this.parent.getAttribute(attribute) : null);
-  }
-
-  registerValueConverter(name, valueConverter) {
-    register(this.valueConverters, name, valueConverter, 'a ValueConverter');
-  }
-
-  getValueConverter(name) {
-    return this.valueConverters[name] || (this.hasParent ? this.parent.getValueConverter(name) : null);
-  }
-
-  registerBindingBehavior(name, bindingBehavior) {
-    register(this.bindingBehaviors, name, bindingBehavior, 'a BindingBehavior');
-  }
-
-  getBindingBehavior(name) {
-    return this.bindingBehaviors[name] || (this.hasParent ? this.parent.getBindingBehavior(name) : null);
-  }
-
-  registerValue(name, value) {
-    register(this.values, name, value, 'a value');
-  }
-
-  getValue(name) {
-    return this.values[name] || (this.hasParent ? this.parent.getValue(name) : null);
-  }
-
-  autoRegister(container, impl) {
-    let resourceTypeMeta = aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.getOwn(aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.resource, impl);
-    if (resourceTypeMeta) {
-      if (resourceTypeMeta instanceof HtmlBehaviorResource) {
-        ViewResources.convention(impl, resourceTypeMeta);
-
-        if (resourceTypeMeta.attributeName === null && resourceTypeMeta.elementName === null) {
-          HtmlBehaviorResource.convention(impl.name, resourceTypeMeta);
-        }
-        if (resourceTypeMeta.attributeName === null && resourceTypeMeta.elementName === null) {
-          resourceTypeMeta.elementName = _hyphenate(impl.name);
-        }
-      }
-    } else {
-      resourceTypeMeta = ViewResources.convention(impl) || HtmlBehaviorResource.convention(impl.name) || aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.ValueConverterResource.convention(impl.name) || aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.BindingBehaviorResource.convention(impl.name) || ViewEngineHooksResource.convention(impl.name);
-      if (!resourceTypeMeta) {
-        resourceTypeMeta = new HtmlBehaviorResource();
-        resourceTypeMeta.elementName = _hyphenate(impl.name);
-      }
-      aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.define(aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.resource, resourceTypeMeta, impl);
-    }
-    resourceTypeMeta.initialize(container, impl);
-    resourceTypeMeta.register(this);
-    return resourceTypeMeta;
-  }
-};
-
-let View = class View {
-  constructor(container, viewFactory, fragment, controllers, bindings, children, slots) {
-    this.container = container;
-    this.viewFactory = viewFactory;
-    this.resources = viewFactory.resources;
-    this.fragment = fragment;
-    this.firstChild = fragment.firstChild;
-    this.lastChild = fragment.lastChild;
-    this.controllers = controllers;
-    this.bindings = bindings;
-    this.children = children;
-    this.slots = slots;
-    this.hasSlots = false;
-    this.fromCache = false;
-    this.isBound = false;
-    this.isAttached = false;
-    this.bindingContext = null;
-    this.overrideContext = null;
-    this.controller = null;
-    this.viewModelScope = null;
-    this.animatableElement = undefined;
-    this._isUserControlled = false;
-    this.contentView = null;
-
-    for (let key in slots) {
-      this.hasSlots = true;
-      break;
-    }
-  }
-
-  returnToCache() {
-    this.viewFactory.returnViewToCache(this);
-  }
-
-  created() {
-    let i;
-    let ii;
-    let controllers = this.controllers;
-
-    for (i = 0, ii = controllers.length; i < ii; ++i) {
-      controllers[i].created(this);
-    }
-  }
-
-  bind(bindingContext, overrideContext, _systemUpdate) {
-    let controllers;
-    let bindings;
-    let children;
-    let i;
-    let ii;
-
-    if (_systemUpdate && this._isUserControlled) {
-      return;
-    }
-
-    if (this.isBound) {
-      if (this.bindingContext === bindingContext) {
-        return;
-      }
-
-      this.unbind();
-    }
-
-    this.isBound = true;
-    this.bindingContext = bindingContext;
-    this.overrideContext = overrideContext || (0,aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.createOverrideContext)(bindingContext);
-
-    this.resources._invokeHook('beforeBind', this);
-
-    bindings = this.bindings;
-    for (i = 0, ii = bindings.length; i < ii; ++i) {
-      bindings[i].bind(this);
-    }
-
-    if (this.viewModelScope !== null) {
-      bindingContext.bind(this.viewModelScope.bindingContext, this.viewModelScope.overrideContext);
-      this.viewModelScope = null;
-    }
-
-    controllers = this.controllers;
-    for (i = 0, ii = controllers.length; i < ii; ++i) {
-      controllers[i].bind(this);
-    }
-
-    children = this.children;
-    for (i = 0, ii = children.length; i < ii; ++i) {
-      children[i].bind(bindingContext, overrideContext, true);
-    }
-
-    if (this.hasSlots) {
-      ShadowDOM.distributeView(this.contentView, this.slots);
-    }
-  }
-
-  addBinding(binding) {
-    this.bindings.push(binding);
-
-    if (this.isBound) {
-      binding.bind(this);
-    }
-  }
-
-  unbind() {
-    let controllers;
-    let bindings;
-    let children;
-    let i;
-    let ii;
-
-    if (this.isBound) {
-      this.isBound = false;
-      this.resources._invokeHook('beforeUnbind', this);
-
-      if (this.controller !== null) {
-        this.controller.unbind();
-      }
-
-      bindings = this.bindings;
-      for (i = 0, ii = bindings.length; i < ii; ++i) {
-        bindings[i].unbind();
-      }
-
-      controllers = this.controllers;
-      for (i = 0, ii = controllers.length; i < ii; ++i) {
-        controllers[i].unbind();
-      }
-
-      children = this.children;
-      for (i = 0, ii = children.length; i < ii; ++i) {
-        children[i].unbind();
-      }
-
-      this.bindingContext = null;
-      this.overrideContext = null;
-    }
-  }
-
-  insertNodesBefore(refNode) {
-    refNode.parentNode.insertBefore(this.fragment, refNode);
-  }
-
-  appendNodesTo(parent) {
-    parent.appendChild(this.fragment);
-  }
-
-  removeNodes() {
-    let fragment = this.fragment;
-    let current = this.firstChild;
-    let end = this.lastChild;
-    let next;
-
-    while (current) {
-      next = current.nextSibling;
-      fragment.appendChild(current);
-
-      if (current === end) {
-        break;
-      }
-
-      current = next;
-    }
-  }
-
-  attached() {
-    let controllers;
-    let children;
-    let i;
-    let ii;
-
-    if (this.isAttached) {
-      return;
-    }
-
-    this.isAttached = true;
-
-    if (this.controller !== null) {
-      this.controller.attached();
-    }
-
-    controllers = this.controllers;
-    for (i = 0, ii = controllers.length; i < ii; ++i) {
-      controllers[i].attached();
-    }
-
-    children = this.children;
-    for (i = 0, ii = children.length; i < ii; ++i) {
-      children[i].attached();
-    }
-  }
-
-  detached() {
-    let controllers;
-    let children;
-    let i;
-    let ii;
-
-    if (this.isAttached) {
-      this.isAttached = false;
-
-      if (this.controller !== null) {
-        this.controller.detached();
-      }
-
-      controllers = this.controllers;
-      for (i = 0, ii = controllers.length; i < ii; ++i) {
-        controllers[i].detached();
-      }
-
-      children = this.children;
-      for (i = 0, ii = children.length; i < ii; ++i) {
-        children[i].detached();
-      }
-    }
-  }
-};
-
-function getAnimatableElement(view) {
-  if (view.animatableElement !== undefined) {
-    return view.animatableElement;
-  }
-
-  let current = view.firstChild;
-
-  while (current && current.nodeType !== 1) {
-    current = current.nextSibling;
-  }
-
-  if (current && current.nodeType === 1) {
-    return view.animatableElement = current.classList.contains('au-animate') ? current : null;
-  }
-
-  return view.animatableElement = null;
-}
-
-let ViewSlot = class ViewSlot {
-  constructor(anchor, anchorIsContainer, animator = Animator.instance) {
-    this.anchor = anchor;
-    this.anchorIsContainer = anchorIsContainer;
-    this.bindingContext = null;
-    this.overrideContext = null;
-    this.animator = animator;
-    this.children = [];
-    this.isBound = false;
-    this.isAttached = false;
-    this.contentSelectors = null;
-    anchor.viewSlot = this;
-    anchor.isContentProjectionSource = false;
-  }
-
-  animateView(view, direction = 'enter') {
-    let animatableElement = getAnimatableElement(view);
-
-    if (animatableElement !== null) {
-      switch (direction) {
-        case 'enter':
-          return this.animator.enter(animatableElement);
-        case 'leave':
-          return this.animator.leave(animatableElement);
-        default:
-          throw new Error('Invalid animation direction: ' + direction);
-      }
-    }
-  }
-
-  transformChildNodesIntoView() {
-    let parent = this.anchor;
-
-    this.children.push({
-      fragment: parent,
-      firstChild: parent.firstChild,
-      lastChild: parent.lastChild,
-      returnToCache() {},
-      removeNodes() {
-        let last;
-
-        while (last = parent.lastChild) {
-          parent.removeChild(last);
-        }
-      },
-      created() {},
-      bind() {},
-      unbind() {},
-      attached() {},
-      detached() {}
-    });
-  }
-
-  bind(bindingContext, overrideContext) {
-    let i;
-    let ii;
-    let children;
-
-    if (this.isBound) {
-      if (this.bindingContext === bindingContext) {
-        return;
-      }
-
-      this.unbind();
-    }
-
-    this.isBound = true;
-    this.bindingContext = bindingContext = bindingContext || this.bindingContext;
-    this.overrideContext = overrideContext = overrideContext || this.overrideContext;
-
-    children = this.children;
-    for (i = 0, ii = children.length; i < ii; ++i) {
-      children[i].bind(bindingContext, overrideContext, true);
-    }
-  }
-
-  unbind() {
-    if (this.isBound) {
-      let i;
-      let ii;
-      let children = this.children;
-
-      this.isBound = false;
-      this.bindingContext = null;
-      this.overrideContext = null;
-
-      for (i = 0, ii = children.length; i < ii; ++i) {
-        children[i].unbind();
-      }
-    }
-  }
-
-  add(view) {
-    if (this.anchorIsContainer) {
-      view.appendNodesTo(this.anchor);
-    } else {
-      view.insertNodesBefore(this.anchor);
-    }
-
-    this.children.push(view);
-
-    if (this.isAttached) {
-      view.attached();
-      return this.animateView(view, 'enter');
-    }
-  }
-
-  insert(index, view) {
-    let children = this.children;
-    let length = children.length;
-
-    if (index === 0 && length === 0 || index >= length) {
-      return this.add(view);
-    }
-
-    view.insertNodesBefore(children[index].firstChild);
-    children.splice(index, 0, view);
-
-    if (this.isAttached) {
-      view.attached();
-      return this.animateView(view, 'enter');
-    }
-  }
-
-  move(sourceIndex, targetIndex) {
-    if (sourceIndex === targetIndex) {
-      return;
-    }
-
-    const children = this.children;
-    const view = children[sourceIndex];
-
-    view.removeNodes();
-    view.insertNodesBefore(children[targetIndex].firstChild);
-    children.splice(sourceIndex, 1);
-    children.splice(targetIndex, 0, view);
-  }
-
-  remove(view, returnToCache, skipAnimation) {
-    return this.removeAt(this.children.indexOf(view), returnToCache, skipAnimation);
-  }
-
-  removeMany(viewsToRemove, returnToCache, skipAnimation) {
-    const children = this.children;
-    let ii = viewsToRemove.length;
-    let i;
-    let rmPromises = [];
-
-    viewsToRemove.forEach(child => {
-      if (skipAnimation) {
-        child.removeNodes();
-        return;
-      }
-
-      let animation = this.animateView(child, 'leave');
-      if (animation) {
-        rmPromises.push(animation.then(() => child.removeNodes()));
-      } else {
-        child.removeNodes();
-      }
-    });
-
-    let removeAction = () => {
-      if (this.isAttached) {
-        for (i = 0; i < ii; ++i) {
-          viewsToRemove[i].detached();
-        }
-      }
-
-      if (returnToCache) {
-        for (i = 0; i < ii; ++i) {
-          viewsToRemove[i].returnToCache();
-        }
-      }
-
-      for (i = 0; i < ii; ++i) {
-        const index = children.indexOf(viewsToRemove[i]);
-        if (index >= 0) {
-          children.splice(index, 1);
-        }
-      }
-    };
-
-    if (rmPromises.length > 0) {
-      return Promise.all(rmPromises).then(() => removeAction());
-    }
-
-    return removeAction();
-  }
-
-  removeAt(index, returnToCache, skipAnimation) {
-    let view = this.children[index];
-
-    let removeAction = () => {
-      index = this.children.indexOf(view);
-      view.removeNodes();
-      this.children.splice(index, 1);
-
-      if (this.isAttached) {
-        view.detached();
-      }
-
-      if (returnToCache) {
-        view.returnToCache();
-      }
-
-      return view;
-    };
-
-    if (!skipAnimation) {
-      let animation = this.animateView(view, 'leave');
-      if (animation) {
-        return animation.then(() => removeAction());
-      }
-    }
-
-    return removeAction();
-  }
-
-  removeAll(returnToCache, skipAnimation) {
-    let children = this.children;
-    let ii = children.length;
-    let i;
-    let rmPromises = [];
-
-    children.forEach(child => {
-      if (skipAnimation) {
-        child.removeNodes();
-        return;
-      }
-
-      let animation = this.animateView(child, 'leave');
-      if (animation) {
-        rmPromises.push(animation.then(() => child.removeNodes()));
-      } else {
-        child.removeNodes();
-      }
-    });
-
-    let removeAction = () => {
-      if (this.isAttached) {
-        for (i = 0; i < ii; ++i) {
-          children[i].detached();
-        }
-      }
-
-      if (returnToCache) {
-        for (i = 0; i < ii; ++i) {
-          const child = children[i];
-
-          if (child) {
-            child.returnToCache();
-          }
-        }
-      }
-
-      this.children = [];
-    };
-
-    if (rmPromises.length > 0) {
-      return Promise.all(rmPromises).then(() => removeAction());
-    }
-
-    return removeAction();
-  }
-
-  attached() {
-    let i;
-    let ii;
-    let children;
-    let child;
-
-    if (this.isAttached) {
-      return;
-    }
-
-    this.isAttached = true;
-
-    children = this.children;
-    for (i = 0, ii = children.length; i < ii; ++i) {
-      child = children[i];
-      child.attached();
-      this.animateView(child, 'enter');
-    }
-  }
-
-  detached() {
-    let i;
-    let ii;
-    let children;
-
-    if (this.isAttached) {
-      this.isAttached = false;
-      children = this.children;
-      for (i = 0, ii = children.length; i < ii; ++i) {
-        children[i].detached();
-      }
-    }
-  }
-
-  projectTo(slots) {
-    this.projectToSlots = slots;
-    this.add = this._projectionAdd;
-    this.insert = this._projectionInsert;
-    this.move = this._projectionMove;
-    this.remove = this._projectionRemove;
-    this.removeAt = this._projectionRemoveAt;
-    this.removeMany = this._projectionRemoveMany;
-    this.removeAll = this._projectionRemoveAll;
-    this.children.forEach(view => ShadowDOM.distributeView(view, slots, this));
-  }
-
-  _projectionAdd(view) {
-    ShadowDOM.distributeView(view, this.projectToSlots, this);
-
-    this.children.push(view);
-
-    if (this.isAttached) {
-      view.attached();
-    }
-  }
-
-  _projectionInsert(index, view) {
-    if (index === 0 && !this.children.length || index >= this.children.length) {
-      this.add(view);
-    } else {
-      ShadowDOM.distributeView(view, this.projectToSlots, this, index);
-
-      this.children.splice(index, 0, view);
-
-      if (this.isAttached) {
-        view.attached();
-      }
-    }
-  }
-
-  _projectionMove(sourceIndex, targetIndex) {
-    if (sourceIndex === targetIndex) {
-      return;
-    }
-
-    const children = this.children;
-    const view = children[sourceIndex];
-
-    ShadowDOM.undistributeView(view, this.projectToSlots, this);
-    ShadowDOM.distributeView(view, this.projectToSlots, this, targetIndex);
-
-    children.splice(sourceIndex, 1);
-    children.splice(targetIndex, 0, view);
-  }
-
-  _projectionRemove(view, returnToCache) {
-    ShadowDOM.undistributeView(view, this.projectToSlots, this);
-    this.children.splice(this.children.indexOf(view), 1);
-
-    if (this.isAttached) {
-      view.detached();
-    }
-    if (returnToCache) {
-      view.returnToCache();
-    }
-  }
-
-  _projectionRemoveAt(index, returnToCache) {
-    let view = this.children[index];
-
-    ShadowDOM.undistributeView(view, this.projectToSlots, this);
-    this.children.splice(index, 1);
-
-    if (this.isAttached) {
-      view.detached();
-    }
-    if (returnToCache) {
-      view.returnToCache();
-    }
-  }
-
-  _projectionRemoveMany(viewsToRemove, returnToCache) {
-    viewsToRemove.forEach(view => this.remove(view, returnToCache));
-  }
-
-  _projectionRemoveAll(returnToCache) {
-    ShadowDOM.undistributeAll(this.projectToSlots, this);
-
-    let children = this.children;
-    let ii = children.length;
-
-    for (let i = 0; i < ii; ++i) {
-      if (returnToCache) {
-        children[i].returnToCache();
-      } else if (this.isAttached) {
-        children[i].detached();
-      }
-    }
-
-    this.children = [];
-  }
-};
-
-let ProviderResolver = (0,aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_6__.resolver)(_class12 = class ProviderResolver {
-  get(container, key) {
-    let id = key.__providerId__;
-    return id in container ? container[id] : container[id] = container.invoke(key);
-  }
-}) || _class12;
-
-let providerResolverInstance = new ProviderResolver();
-
-function elementContainerGet(key) {
-  if (key === aurelia_pal__WEBPACK_IMPORTED_MODULE_2__.DOM.Element) {
-    return this.element;
-  }
-
-  if (key === BoundViewFactory) {
-    if (this.boundViewFactory) {
-      return this.boundViewFactory;
-    }
-
-    let factory = this.instruction.viewFactory;
-    let partReplacements = this.partReplacements;
-
-    if (partReplacements) {
-      factory = partReplacements[factory.part] || factory;
-    }
-
-    this.boundViewFactory = new BoundViewFactory(this, factory, partReplacements);
-    return this.boundViewFactory;
-  }
-
-  if (key === ViewSlot) {
-    if (this.viewSlot === undefined) {
-      this.viewSlot = new ViewSlot(this.element, this.instruction.anchorIsContainer);
-      this.element.isContentProjectionSource = this.instruction.lifting;
-      this.children.push(this.viewSlot);
-    }
-
-    return this.viewSlot;
-  }
-
-  if (key === ElementEvents) {
-    return this.elementEvents || (this.elementEvents = new ElementEvents(this.element));
-  }
-
-  if (key === CompositionTransaction) {
-    return this.compositionTransaction || (this.compositionTransaction = this.parent.get(key));
-  }
-
-  if (key === ViewResources) {
-    return this.viewResources;
-  }
-
-  if (key === TargetInstruction) {
-    return this.instruction;
-  }
-
-  return this.superGet(key);
-}
-
-function createElementContainer(parent, element, instruction, children, partReplacements, resources) {
-  let container = parent.createChild();
-  let providers;
-  let i;
-
-  container.element = element;
-  container.instruction = instruction;
-  container.children = children;
-  container.viewResources = resources;
-  container.partReplacements = partReplacements;
-
-  providers = instruction.providers;
-  i = providers.length;
-
-  while (i--) {
-    container._resolvers.set(providers[i], providerResolverInstance);
-  }
-
-  container.superGet = container.get;
-  container.get = elementContainerGet;
-
-  return container;
-}
-
-function hasAttribute(name) {
-  return this._element.hasAttribute(name);
-}
-
-function getAttribute(name) {
-  return this._element.getAttribute(name);
-}
-
-function setAttribute(name, value) {
-  this._element.setAttribute(name, value);
-}
-
-function makeElementIntoAnchor(element, elementInstruction) {
-  let anchor = aurelia_pal__WEBPACK_IMPORTED_MODULE_2__.DOM.createComment('anchor');
-
-  if (elementInstruction) {
-    let firstChild = element.firstChild;
-
-    if (firstChild && firstChild.tagName === 'AU-CONTENT') {
-      anchor.contentElement = firstChild;
-    }
-
-    anchor._element = element;
-
-    anchor.hasAttribute = hasAttribute;
-    anchor.getAttribute = getAttribute;
-    anchor.setAttribute = setAttribute;
-  }
-
-  aurelia_pal__WEBPACK_IMPORTED_MODULE_2__.DOM.replaceNode(anchor, element);
-
-  return anchor;
-}
-
-function applyInstructions(containers, element, instruction, controllers, bindings, children, shadowSlots, partReplacements, resources) {
-  let behaviorInstructions = instruction.behaviorInstructions;
-  let expressions = instruction.expressions;
-  let elementContainer;
-  let i;
-  let ii;
-  let current;
-  let instance;
-
-  if (instruction.contentExpression) {
-    bindings.push(instruction.contentExpression.createBinding(element.nextSibling));
-    element.nextSibling.auInterpolationTarget = true;
-    element.parentNode.removeChild(element);
-    return;
-  }
-
-  if (instruction.shadowSlot) {
-    let commentAnchor = aurelia_pal__WEBPACK_IMPORTED_MODULE_2__.DOM.createComment('slot');
-    let slot;
-
-    if (instruction.slotDestination) {
-      slot = new PassThroughSlot(commentAnchor, instruction.slotName, instruction.slotDestination, instruction.slotFallbackFactory);
-    } else {
-      slot = new ShadowSlot(commentAnchor, instruction.slotName, instruction.slotFallbackFactory);
-    }
-
-    aurelia_pal__WEBPACK_IMPORTED_MODULE_2__.DOM.replaceNode(commentAnchor, element);
-    shadowSlots[instruction.slotName] = slot;
-    controllers.push(slot);
-    return;
-  }
-
-  if (instruction.letElement) {
-    for (i = 0, ii = expressions.length; i < ii; ++i) {
-      bindings.push(expressions[i].createBinding());
-    }
-    element.parentNode.removeChild(element);
-    return;
-  }
-
-  if (behaviorInstructions.length) {
-    if (!instruction.anchorIsContainer) {
-      element = makeElementIntoAnchor(element, instruction.elementInstruction);
-    }
-
-    containers[instruction.injectorId] = elementContainer = createElementContainer(containers[instruction.parentInjectorId], element, instruction, children, partReplacements, resources);
-
-    for (i = 0, ii = behaviorInstructions.length; i < ii; ++i) {
-      current = behaviorInstructions[i];
-      instance = current.type.create(elementContainer, current, element, bindings);
-      controllers.push(instance);
-    }
-  }
-
-  for (i = 0, ii = expressions.length; i < ii; ++i) {
-    bindings.push(expressions[i].createBinding(element));
-  }
-}
-
-function styleStringToObject(style, target) {
-  let attributes = style.split(';');
-  let firstIndexOfColon;
-  let i;
-  let current;
-  let key;
-  let value;
-
-  target = target || {};
-
-  for (i = 0; i < attributes.length; i++) {
-    current = attributes[i];
-    firstIndexOfColon = current.indexOf(':');
-    key = current.substring(0, firstIndexOfColon).trim();
-    value = current.substring(firstIndexOfColon + 1).trim();
-    target[key] = value;
-  }
-
-  return target;
-}
-
-function styleObjectToString(obj) {
-  let result = '';
-
-  for (let key in obj) {
-    result += key + ':' + obj[key] + ';';
-  }
-
-  return result;
-}
-
-function applySurrogateInstruction(container, element, instruction, controllers, bindings, children) {
-  let behaviorInstructions = instruction.behaviorInstructions;
-  let expressions = instruction.expressions;
-  let providers = instruction.providers;
-  let values = instruction.values;
-  let i;
-  let ii;
-  let current;
-  let instance;
-  let currentAttributeValue;
-
-  i = providers.length;
-  while (i--) {
-    container._resolvers.set(providers[i], providerResolverInstance);
-  }
-
-  for (let key in values) {
-    currentAttributeValue = element.getAttribute(key);
-
-    if (currentAttributeValue) {
-      if (key === 'class') {
-        element.setAttribute('class', currentAttributeValue + ' ' + values[key]);
-      } else if (key === 'style') {
-        let styleObject = styleStringToObject(values[key]);
-        styleStringToObject(currentAttributeValue, styleObject);
-        element.setAttribute('style', styleObjectToString(styleObject));
-      }
-    } else {
-      element.setAttribute(key, values[key]);
-    }
-  }
-
-  if (behaviorInstructions.length) {
-    for (i = 0, ii = behaviorInstructions.length; i < ii; ++i) {
-      current = behaviorInstructions[i];
-      instance = current.type.create(container, current, element, bindings);
-
-      if (instance.contentView) {
-        children.push(instance.contentView);
-      }
-
-      controllers.push(instance);
-    }
-  }
-
-  for (i = 0, ii = expressions.length; i < ii; ++i) {
-    bindings.push(expressions[i].createBinding(element));
-  }
-}
-
-let BoundViewFactory = class BoundViewFactory {
-  constructor(parentContainer, viewFactory, partReplacements) {
-    this.parentContainer = parentContainer;
-    this.viewFactory = viewFactory;
-    this.factoryCreateInstruction = { partReplacements: partReplacements };
-  }
-
-  create() {
-    let view = this.viewFactory.create(this.parentContainer.createChild(), this.factoryCreateInstruction);
-    view._isUserControlled = true;
-    return view;
-  }
-
-  get isCaching() {
-    return this.viewFactory.isCaching;
-  }
-
-  setCacheSize(size, doNotOverrideIfAlreadySet) {
-    this.viewFactory.setCacheSize(size, doNotOverrideIfAlreadySet);
-  }
-
-  getCachedView() {
-    return this.viewFactory.getCachedView();
-  }
-
-  returnViewToCache(view) {
-    this.viewFactory.returnViewToCache(view);
-  }
-};
-
-let ViewFactory = class ViewFactory {
-  constructor(template, instructions, resources) {
-    this.isCaching = false;
-
-    this.template = template;
-    this.instructions = instructions;
-    this.resources = resources;
-    this.cacheSize = -1;
-    this.cache = null;
-  }
-
-  setCacheSize(size, doNotOverrideIfAlreadySet) {
-    if (size) {
-      if (size === '*') {
-        size = Number.MAX_VALUE;
-      } else if (typeof size === 'string') {
-        size = parseInt(size, 10);
-      }
-    }
-
-    if (this.cacheSize === -1 || !doNotOverrideIfAlreadySet) {
-      this.cacheSize = size;
-    }
-
-    if (this.cacheSize > 0) {
-      this.cache = [];
-    } else {
-      this.cache = null;
-    }
-
-    this.isCaching = this.cacheSize > 0;
-  }
-
-  getCachedView() {
-    return this.cache !== null ? this.cache.pop() || null : null;
-  }
-
-  returnViewToCache(view) {
-    if (view.isAttached) {
-      view.detached();
-    }
-
-    if (view.isBound) {
-      view.unbind();
-    }
-
-    if (this.cache !== null && this.cache.length < this.cacheSize) {
-      view.fromCache = true;
-      this.cache.push(view);
-    }
-  }
-
-  create(container, createInstruction, element) {
-    createInstruction = createInstruction || BehaviorInstruction.normal;
-
-    let cachedView = this.getCachedView();
-    if (cachedView !== null) {
-      return cachedView;
-    }
-
-    let fragment = createInstruction.enhance ? this.template : this.template.cloneNode(true);
-    let instructables = fragment.querySelectorAll('.au-target');
-    let instructions = this.instructions;
-    let resources = this.resources;
-    let controllers = [];
-    let bindings = [];
-    let children = [];
-    let shadowSlots = Object.create(null);
-    let containers = { root: container };
-    let partReplacements = createInstruction.partReplacements;
-    let i;
-    let ii;
-    let view;
-    let instructable;
-    let instruction;
-
-    this.resources._invokeHook('beforeCreate', this, container, fragment, createInstruction);
-
-    if (element && this.surrogateInstruction !== null) {
-      applySurrogateInstruction(container, element, this.surrogateInstruction, controllers, bindings, children);
-    }
-
-    if (createInstruction.enhance && fragment.hasAttribute('au-target-id')) {
-      instructable = fragment;
-      instruction = instructions[instructable.getAttribute('au-target-id')];
-      applyInstructions(containers, instructable, instruction, controllers, bindings, children, shadowSlots, partReplacements, resources);
-    }
-
-    for (i = 0, ii = instructables.length; i < ii; ++i) {
-      instructable = instructables[i];
-      instruction = instructions[instructable.getAttribute('au-target-id')];
-      applyInstructions(containers, instructable, instruction, controllers, bindings, children, shadowSlots, partReplacements, resources);
-    }
-
-    view = new View(container, this, fragment, controllers, bindings, children, shadowSlots);
-
-    if (!createInstruction.initiatedByBehavior) {
-      view.created();
-    }
-
-    this.resources._invokeHook('afterCreate', view);
-
-    return view;
-  }
-};
-
-let nextInjectorId = 0;
-function getNextInjectorId() {
-  return ++nextInjectorId;
-}
-
-let lastAUTargetID = 0;
-function getNextAUTargetID() {
-  return (++lastAUTargetID).toString();
-}
-
-function makeIntoInstructionTarget(element) {
-  let value = element.getAttribute('class');
-  let auTargetID = getNextAUTargetID();
-
-  element.setAttribute('class', value ? value + ' au-target' : 'au-target');
-  element.setAttribute('au-target-id', auTargetID);
-
-  return auTargetID;
-}
-
-function makeShadowSlot(compiler, resources, node, instructions, parentInjectorId) {
-  let auShadowSlot = aurelia_pal__WEBPACK_IMPORTED_MODULE_2__.DOM.createElement('au-shadow-slot');
-  aurelia_pal__WEBPACK_IMPORTED_MODULE_2__.DOM.replaceNode(auShadowSlot, node);
-
-  let auTargetID = makeIntoInstructionTarget(auShadowSlot);
-  let instruction = TargetInstruction.shadowSlot(parentInjectorId);
-
-  instruction.slotName = node.getAttribute('name') || ShadowDOM.defaultSlotKey;
-  instruction.slotDestination = node.getAttribute('slot');
-
-  if (node.innerHTML.trim()) {
-    let fragment = aurelia_pal__WEBPACK_IMPORTED_MODULE_2__.DOM.createDocumentFragment();
-    let child;
-
-    while (child = node.firstChild) {
-      fragment.appendChild(child);
-    }
-
-    instruction.slotFallbackFactory = compiler.compile(fragment, resources);
-  }
-
-  instructions[auTargetID] = instruction;
-
-  return auShadowSlot;
-}
-
-const defaultLetHandler = BindingLanguage.prototype.createLetExpressions;
-
-let ViewCompiler = class ViewCompiler {
-
-  static inject() {
-    return [BindingLanguage, ViewResources];
-  }
-
-  constructor(bindingLanguage, resources) {
-    this.bindingLanguage = bindingLanguage;
-    this.resources = resources;
-  }
-
-  compile(source, resources, compileInstruction) {
-    resources = resources || this.resources;
-    compileInstruction = compileInstruction || ViewCompileInstruction.normal;
-    source = typeof source === 'string' ? aurelia_pal__WEBPACK_IMPORTED_MODULE_2__.DOM.createTemplateFromMarkup(source) : source;
-
-    let content;
-    let part;
-    let cacheSize;
-
-    if (source.content) {
-      part = source.getAttribute('part');
-      cacheSize = source.getAttribute('view-cache');
-      content = aurelia_pal__WEBPACK_IMPORTED_MODULE_2__.DOM.adoptNode(source.content);
-    } else {
-      content = source;
-    }
-
-    compileInstruction.targetShadowDOM = compileInstruction.targetShadowDOM && aurelia_pal__WEBPACK_IMPORTED_MODULE_2__.FEATURE.shadowDOM;
-    resources._invokeHook('beforeCompile', content, resources, compileInstruction);
-
-    let instructions = {};
-    this._compileNode(content, resources, instructions, source, 'root', !compileInstruction.targetShadowDOM);
-
-    let firstChild = content.firstChild;
-    if (firstChild && firstChild.nodeType === 1) {
-      let targetId = firstChild.getAttribute('au-target-id');
-      if (targetId) {
-        let ins = instructions[targetId];
-
-        if (ins.shadowSlot || ins.lifting || ins.elementInstruction && !ins.elementInstruction.anchorIsContainer) {
-          content.insertBefore(aurelia_pal__WEBPACK_IMPORTED_MODULE_2__.DOM.createComment('view'), firstChild);
-        }
-      }
-    }
-
-    let factory = new ViewFactory(content, instructions, resources);
-
-    factory.surrogateInstruction = compileInstruction.compileSurrogate ? this._compileSurrogate(source, resources) : null;
-    factory.part = part;
-
-    if (cacheSize) {
-      factory.setCacheSize(cacheSize);
-    }
-
-    resources._invokeHook('afterCompile', factory);
-
-    return factory;
-  }
-
-  _compileNode(node, resources, instructions, parentNode, parentInjectorId, targetLightDOM) {
-    switch (node.nodeType) {
-      case 1:
-        return this._compileElement(node, resources, instructions, parentNode, parentInjectorId, targetLightDOM);
-      case 3:
-        let expression = resources.getBindingLanguage(this.bindingLanguage).inspectTextContent(resources, node.wholeText);
-        if (expression) {
-          let marker = aurelia_pal__WEBPACK_IMPORTED_MODULE_2__.DOM.createElement('au-marker');
-          let auTargetID = makeIntoInstructionTarget(marker);
-          (node.parentNode || parentNode).insertBefore(marker, node);
-          node.textContent = ' ';
-          instructions[auTargetID] = TargetInstruction.contentExpression(expression);
-
-          while (node.nextSibling && node.nextSibling.nodeType === 3) {
-            (node.parentNode || parentNode).removeChild(node.nextSibling);
-          }
-        } else {
-          while (node.nextSibling && node.nextSibling.nodeType === 3) {
-            node = node.nextSibling;
-          }
-        }
-        return node.nextSibling;
-      case 11:
-        let currentChild = node.firstChild;
-        while (currentChild) {
-          currentChild = this._compileNode(currentChild, resources, instructions, node, parentInjectorId, targetLightDOM);
-        }
-        break;
-      default:
-        break;
-    }
-
-    return node.nextSibling;
-  }
-
-  _compileSurrogate(node, resources) {
-    let tagName = node.tagName.toLowerCase();
-    let attributes = node.attributes;
-    let bindingLanguage = resources.getBindingLanguage(this.bindingLanguage);
-    let knownAttribute;
-    let property;
-    let instruction;
-    let i;
-    let ii;
-    let attr;
-    let attrName;
-    let attrValue;
-    let info;
-    let type;
-    let expressions = [];
-    let expression;
-    let behaviorInstructions = [];
-    let values = {};
-    let hasValues = false;
-    let providers = [];
-
-    for (i = 0, ii = attributes.length; i < ii; ++i) {
-      attr = attributes[i];
-      attrName = attr.name;
-      attrValue = attr.value;
-
-      info = bindingLanguage.inspectAttribute(resources, tagName, attrName, attrValue);
-      type = resources.getAttribute(info.attrName);
-
-      if (type) {
-        knownAttribute = resources.mapAttribute(info.attrName);
-        if (knownAttribute) {
-          property = type.attributes[knownAttribute];
-
-          if (property) {
-            info.defaultBindingMode = property.defaultBindingMode;
-
-            if (!info.command && !info.expression) {
-              info.command = property.hasOptions ? 'options' : null;
-            }
-
-            if (info.command && info.command !== 'options' && type.primaryProperty) {
-              const primaryProperty = type.primaryProperty;
-              attrName = info.attrName = primaryProperty.attribute;
-
-              info.defaultBindingMode = primaryProperty.defaultBindingMode;
-            }
-          }
-        }
-      }
-
-      instruction = bindingLanguage.createAttributeInstruction(resources, node, info, undefined, type);
-
-      if (instruction) {
-        if (instruction.alteredAttr) {
-          type = resources.getAttribute(instruction.attrName);
-        }
-
-        if (instruction.discrete) {
-          expressions.push(instruction);
-        } else {
-          if (type) {
-            instruction.type = type;
-            this._configureProperties(instruction, resources);
-
-            if (type.liftsContent) {
-              throw new Error('You cannot place a template controller on a surrogate element.');
-            } else {
-              behaviorInstructions.push(instruction);
-            }
-          } else {
-            expressions.push(instruction.attributes[instruction.attrName]);
-          }
-        }
-      } else {
-        if (type) {
-          instruction = BehaviorInstruction.attribute(attrName, type);
-          instruction.attributes[resources.mapAttribute(attrName)] = attrValue;
-
-          if (type.liftsContent) {
-            throw new Error('You cannot place a template controller on a surrogate element.');
-          } else {
-            behaviorInstructions.push(instruction);
-          }
-        } else if (attrName !== 'id' && attrName !== 'part' && attrName !== 'replace-part') {
-          hasValues = true;
-          values[attrName] = attrValue;
-        }
-      }
-    }
-
-    if (expressions.length || behaviorInstructions.length || hasValues) {
-      for (i = 0, ii = behaviorInstructions.length; i < ii; ++i) {
-        instruction = behaviorInstructions[i];
-        instruction.type.compile(this, resources, node, instruction);
-        providers.push(instruction.type.target);
-      }
-
-      for (i = 0, ii = expressions.length; i < ii; ++i) {
-        expression = expressions[i];
-        if (expression.attrToRemove !== undefined) {
-          node.removeAttribute(expression.attrToRemove);
-        }
-      }
-
-      return TargetInstruction.surrogate(providers, behaviorInstructions, expressions, values);
-    }
-
-    return null;
-  }
-
-  _compileElement(node, resources, instructions, parentNode, parentInjectorId, targetLightDOM) {
-    let tagName = node.tagName.toLowerCase();
-    let attributes = node.attributes;
-    let expressions = [];
-    let expression;
-    let behaviorInstructions = [];
-    let providers = [];
-    let bindingLanguage = resources.getBindingLanguage(this.bindingLanguage);
-    let liftingInstruction;
-    let viewFactory;
-    let type;
-    let elementInstruction;
-    let elementProperty;
-    let i;
-    let ii;
-    let attr;
-    let attrName;
-    let attrValue;
-    let originalAttrName;
-    let instruction;
-    let info;
-    let property;
-    let knownAttribute;
-    let auTargetID;
-    let injectorId;
-
-    if (tagName === 'slot') {
-      if (targetLightDOM) {
-        node = makeShadowSlot(this, resources, node, instructions, parentInjectorId);
-      }
-      return node.nextSibling;
-    } else if (tagName === 'template') {
-      if (!('content' in node)) {
-        throw new Error('You cannot place a template element within ' + node.namespaceURI + ' namespace');
-      }
-      viewFactory = this.compile(node, resources);
-      viewFactory.part = node.getAttribute('part');
-    } else {
-      type = resources.getElement(node.getAttribute('as-element') || tagName);
-
-      if (tagName === 'let' && !type && bindingLanguage.createLetExpressions !== defaultLetHandler) {
-        expressions = bindingLanguage.createLetExpressions(resources, node);
-        auTargetID = makeIntoInstructionTarget(node);
-        instructions[auTargetID] = TargetInstruction.letElement(expressions);
-        return node.nextSibling;
-      }
-      if (type) {
-        elementInstruction = BehaviorInstruction.element(node, type);
-        type.processAttributes(this, resources, node, attributes, elementInstruction);
-        behaviorInstructions.push(elementInstruction);
-      }
-    }
-
-    for (i = 0, ii = attributes.length; i < ii; ++i) {
-      attr = attributes[i];
-      originalAttrName = attrName = attr.name;
-      attrValue = attr.value;
-      info = bindingLanguage.inspectAttribute(resources, tagName, attrName, attrValue);
-
-      if (targetLightDOM && info.attrName === 'slot') {
-        info.attrName = attrName = 'au-slot';
-      }
-
-      type = resources.getAttribute(info.attrName);
-      elementProperty = null;
-
-      if (type) {
-        knownAttribute = resources.mapAttribute(info.attrName);
-        if (knownAttribute) {
-          property = type.attributes[knownAttribute];
-
-          if (property) {
-            info.defaultBindingMode = property.defaultBindingMode;
-
-            if (!info.command && !info.expression) {
-              info.command = property.hasOptions ? 'options' : null;
-            }
-
-            if (info.command && info.command !== 'options' && type.primaryProperty) {
-              const primaryProperty = type.primaryProperty;
-              attrName = info.attrName = primaryProperty.attribute;
-
-              info.defaultBindingMode = primaryProperty.defaultBindingMode;
-            }
-          }
-        }
-      } else if (elementInstruction) {
-        elementProperty = elementInstruction.type.attributes[info.attrName];
-        if (elementProperty) {
-          info.defaultBindingMode = elementProperty.defaultBindingMode;
-        }
-      }
-
-      if (elementProperty) {
-        instruction = bindingLanguage.createAttributeInstruction(resources, node, info, elementInstruction);
-      } else {
-        instruction = bindingLanguage.createAttributeInstruction(resources, node, info, undefined, type);
-      }
-
-      if (instruction) {
-        if (instruction.alteredAttr) {
-          type = resources.getAttribute(instruction.attrName);
-        }
-
-        if (instruction.discrete) {
-          expressions.push(instruction);
-        } else {
-          if (type) {
-            instruction.type = type;
-            this._configureProperties(instruction, resources);
-
-            if (type.liftsContent) {
-              instruction.originalAttrName = originalAttrName;
-              liftingInstruction = instruction;
-              break;
-            } else {
-              behaviorInstructions.push(instruction);
-            }
-          } else if (elementProperty) {
-            elementInstruction.attributes[info.attrName].targetProperty = elementProperty.name;
-          } else {
-            expressions.push(instruction.attributes[instruction.attrName]);
-          }
-        }
-      } else {
-        if (type) {
-          instruction = BehaviorInstruction.attribute(attrName, type);
-          instruction.attributes[resources.mapAttribute(attrName)] = attrValue;
-
-          if (type.liftsContent) {
-            instruction.originalAttrName = originalAttrName;
-            liftingInstruction = instruction;
-            break;
-          } else {
-            behaviorInstructions.push(instruction);
-          }
-        } else if (elementProperty) {
-          elementInstruction.attributes[attrName] = attrValue;
-        }
-      }
-    }
-
-    if (liftingInstruction) {
-      liftingInstruction.viewFactory = viewFactory;
-      node = liftingInstruction.type.compile(this, resources, node, liftingInstruction, parentNode);
-      auTargetID = makeIntoInstructionTarget(node);
-      instructions[auTargetID] = TargetInstruction.lifting(parentInjectorId, liftingInstruction);
-    } else {
-      let skipContentProcessing = false;
-
-      if (expressions.length || behaviorInstructions.length) {
-        injectorId = behaviorInstructions.length ? getNextInjectorId() : false;
-
-        for (i = 0, ii = behaviorInstructions.length; i < ii; ++i) {
-          instruction = behaviorInstructions[i];
-          instruction.type.compile(this, resources, node, instruction, parentNode);
-          providers.push(instruction.type.target);
-          skipContentProcessing = skipContentProcessing || instruction.skipContentProcessing;
-        }
-
-        for (i = 0, ii = expressions.length; i < ii; ++i) {
-          expression = expressions[i];
-          if (expression.attrToRemove !== undefined) {
-            node.removeAttribute(expression.attrToRemove);
-          }
-        }
-
-        auTargetID = makeIntoInstructionTarget(node);
-        instructions[auTargetID] = TargetInstruction.normal(injectorId, parentInjectorId, providers, behaviorInstructions, expressions, elementInstruction);
-      }
-
-      if (skipContentProcessing) {
-        return node.nextSibling;
-      }
-
-      let currentChild = node.firstChild;
-      while (currentChild) {
-        currentChild = this._compileNode(currentChild, resources, instructions, node, injectorId || parentInjectorId, targetLightDOM);
-      }
-    }
-
-    return node.nextSibling;
-  }
-
-  _configureProperties(instruction, resources) {
-    let type = instruction.type;
-    let attrName = instruction.attrName;
-    let attributes = instruction.attributes;
-    let property;
-    let key;
-    let value;
-
-    let knownAttribute = resources.mapAttribute(attrName);
-    if (knownAttribute && attrName in attributes && knownAttribute !== attrName) {
-      attributes[knownAttribute] = attributes[attrName];
-      delete attributes[attrName];
-    }
-
-    for (key in attributes) {
-      value = attributes[key];
-
-      if (value !== null && typeof value === 'object') {
-        property = type.attributes[key];
-
-        if (property !== undefined) {
-          value.targetProperty = property.name;
-        } else {
-          value.targetProperty = key;
-        }
-      }
-    }
-  }
-};
-
-let ResourceModule = class ResourceModule {
-  constructor(moduleId) {
-    this.id = moduleId;
-    this.moduleInstance = null;
-    this.mainResource = null;
-    this.resources = null;
-    this.viewStrategy = null;
-    this.isInitialized = false;
-    this.onLoaded = null;
-    this.loadContext = null;
-  }
-
-  initialize(container) {
-    let current = this.mainResource;
-    let resources = this.resources;
-    let vs = this.viewStrategy;
-
-    if (this.isInitialized) {
-      return;
-    }
-
-    this.isInitialized = true;
-
-    if (current !== undefined) {
-      current.metadata.viewStrategy = vs;
-      current.initialize(container);
-    }
-
-    for (let i = 0, ii = resources.length; i < ii; ++i) {
-      current = resources[i];
-      current.metadata.viewStrategy = vs;
-      current.initialize(container);
-    }
-  }
-
-  register(registry, name) {
-    let main = this.mainResource;
-    let resources = this.resources;
-
-    if (main !== undefined) {
-      main.register(registry, name);
-      name = null;
-    }
-
-    for (let i = 0, ii = resources.length; i < ii; ++i) {
-      resources[i].register(registry, name);
-      name = null;
-    }
-  }
-
-  load(container, loadContext) {
-    if (this.onLoaded !== null) {
-      return this.loadContext === loadContext ? Promise.resolve() : this.onLoaded;
-    }
-
-    let main = this.mainResource;
-    let resources = this.resources;
-    let loads;
-
-    if (main !== undefined) {
-      loads = new Array(resources.length + 1);
-      loads[0] = main.load(container, loadContext);
-      for (let i = 0, ii = resources.length; i < ii; ++i) {
-        loads[i + 1] = resources[i].load(container, loadContext);
-      }
-    } else {
-      loads = new Array(resources.length);
-      for (let i = 0, ii = resources.length; i < ii; ++i) {
-        loads[i] = resources[i].load(container, loadContext);
-      }
-    }
-
-    this.loadContext = loadContext;
-    this.onLoaded = Promise.all(loads);
-    return this.onLoaded;
-  }
-};
-
-let ResourceDescription = class ResourceDescription {
-  constructor(key, exportedValue, resourceTypeMeta) {
-    if (!resourceTypeMeta) {
-      resourceTypeMeta = aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.get(aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.resource, exportedValue);
-
-      if (!resourceTypeMeta) {
-        resourceTypeMeta = new HtmlBehaviorResource();
-        resourceTypeMeta.elementName = _hyphenate(key);
-        aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.define(aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.resource, resourceTypeMeta, exportedValue);
-      }
-    }
-
-    if (resourceTypeMeta instanceof HtmlBehaviorResource) {
-      if (resourceTypeMeta.elementName === undefined) {
-        resourceTypeMeta.elementName = _hyphenate(key);
-      } else if (resourceTypeMeta.attributeName === undefined) {
-        resourceTypeMeta.attributeName = _hyphenate(key);
-      } else if (resourceTypeMeta.attributeName === null && resourceTypeMeta.elementName === null) {
-        HtmlBehaviorResource.convention(key, resourceTypeMeta);
-      }
-    } else if (!resourceTypeMeta.name) {
-      resourceTypeMeta.name = _hyphenate(key);
-    }
-
-    this.metadata = resourceTypeMeta;
-    this.value = exportedValue;
-  }
-
-  initialize(container) {
-    this.metadata.initialize(container, this.value);
-  }
-
-  register(registry, name) {
-    this.metadata.register(registry, name);
-  }
-
-  load(container, loadContext) {
-    return this.metadata.load(container, this.value, loadContext);
-  }
-};
-
-let ModuleAnalyzer = class ModuleAnalyzer {
-  constructor() {
-    this.cache = Object.create(null);
-  }
-
-  getAnalysis(moduleId) {
-    return this.cache[moduleId];
-  }
-
-  analyze(moduleId, moduleInstance, mainResourceKey) {
-    let mainResource;
-    let fallbackValue;
-    let fallbackKey;
-    let resourceTypeMeta;
-    let key;
-    let exportedValue;
-    let resources = [];
-    let conventional;
-    let vs;
-    let resourceModule;
-
-    resourceModule = this.cache[moduleId];
-    if (resourceModule) {
-      return resourceModule;
-    }
-
-    resourceModule = new ResourceModule(moduleId);
-    this.cache[moduleId] = resourceModule;
-
-    if (typeof moduleInstance === 'function') {
-      moduleInstance = { 'default': moduleInstance };
-    }
-
-    if (mainResourceKey) {
-      mainResource = new ResourceDescription(mainResourceKey, moduleInstance[mainResourceKey]);
-    }
-
-    for (key in moduleInstance) {
-      exportedValue = moduleInstance[key];
-
-      if (key === mainResourceKey || typeof exportedValue !== 'function') {
-        continue;
-      }
-
-      resourceTypeMeta = aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.get(aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.resource, exportedValue);
-
-      if (resourceTypeMeta) {
-        if (resourceTypeMeta instanceof HtmlBehaviorResource) {
-          ViewResources.convention(exportedValue, resourceTypeMeta);
-
-          if (resourceTypeMeta.attributeName === null && resourceTypeMeta.elementName === null) {
-            HtmlBehaviorResource.convention(key, resourceTypeMeta);
-          }
-
-          if (resourceTypeMeta.attributeName === null && resourceTypeMeta.elementName === null) {
-            resourceTypeMeta.elementName = _hyphenate(key);
-          }
-        }
-
-        if (!mainResource && resourceTypeMeta instanceof HtmlBehaviorResource && resourceTypeMeta.elementName !== null) {
-          mainResource = new ResourceDescription(key, exportedValue, resourceTypeMeta);
-        } else {
-          resources.push(new ResourceDescription(key, exportedValue, resourceTypeMeta));
-        }
-      } else if (viewStrategy.decorates(exportedValue)) {
-        vs = exportedValue;
-      } else if (exportedValue instanceof aurelia_loader__WEBPACK_IMPORTED_MODULE_3__.TemplateRegistryEntry) {
-        vs = new TemplateRegistryViewStrategy(moduleId, exportedValue);
-      } else {
-        if (conventional = ViewResources.convention(exportedValue)) {
-          if (conventional.elementName !== null && !mainResource) {
-            mainResource = new ResourceDescription(key, exportedValue, conventional);
-          } else {
-            resources.push(new ResourceDescription(key, exportedValue, conventional));
-          }
-          aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.define(aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.resource, conventional, exportedValue);
-        } else if (conventional = HtmlBehaviorResource.convention(key)) {
-          if (conventional.elementName !== null && !mainResource) {
-            mainResource = new ResourceDescription(key, exportedValue, conventional);
-          } else {
-            resources.push(new ResourceDescription(key, exportedValue, conventional));
-          }
-
-          aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.define(aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.resource, conventional, exportedValue);
-        } else if (conventional = aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.ValueConverterResource.convention(key) || aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.BindingBehaviorResource.convention(key) || ViewEngineHooksResource.convention(key)) {
-          resources.push(new ResourceDescription(key, exportedValue, conventional));
-          aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.define(aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.resource, conventional, exportedValue);
-        } else if (!fallbackValue) {
-          fallbackValue = exportedValue;
-          fallbackKey = key;
-        }
-      }
-    }
-
-    if (!mainResource && fallbackValue) {
-      mainResource = new ResourceDescription(fallbackKey, fallbackValue);
-    }
-
-    resourceModule.moduleInstance = moduleInstance;
-    resourceModule.mainResource = mainResource;
-    resourceModule.resources = resources;
-    resourceModule.viewStrategy = vs;
-
-    return resourceModule;
-  }
-};
-
-let logger = aurelia_logging__WEBPACK_IMPORTED_MODULE_0__.getLogger('templating');
-
-function ensureRegistryEntry(loader, urlOrRegistryEntry) {
-  if (urlOrRegistryEntry instanceof aurelia_loader__WEBPACK_IMPORTED_MODULE_3__.TemplateRegistryEntry) {
-    return Promise.resolve(urlOrRegistryEntry);
-  }
-
-  return loader.loadTemplate(urlOrRegistryEntry);
-}
-
-let ProxyViewFactory = class ProxyViewFactory {
-  constructor(promise) {
-    promise.then(x => this.viewFactory = x);
-  }
-
-  create(container, bindingContext, createInstruction, element) {
-    return this.viewFactory.create(container, bindingContext, createInstruction, element);
-  }
-
-  get isCaching() {
-    return this.viewFactory.isCaching;
-  }
-
-  setCacheSize(size, doNotOverrideIfAlreadySet) {
-    this.viewFactory.setCacheSize(size, doNotOverrideIfAlreadySet);
-  }
-
-  getCachedView() {
-    return this.viewFactory.getCachedView();
-  }
-
-  returnViewToCache(view) {
-    this.viewFactory.returnViewToCache(view);
-  }
-};
-
-
-let auSlotBehavior = null;
-
-let ViewEngine = (_temp5 = _class14 = class ViewEngine {
-
-  static inject() {
-    return [aurelia_loader__WEBPACK_IMPORTED_MODULE_3__.Loader, aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_6__.Container, ViewCompiler, ModuleAnalyzer, ViewResources];
-  }
-
-  constructor(loader, container, viewCompiler, moduleAnalyzer, appResources) {
-    this.loader = loader;
-    this.container = container;
-    this.viewCompiler = viewCompiler;
-    this.moduleAnalyzer = moduleAnalyzer;
-    this.appResources = appResources;
-    this._pluginMap = {};
-
-    if (auSlotBehavior === null) {
-      auSlotBehavior = new HtmlBehaviorResource();
-      auSlotBehavior.attributeName = 'au-slot';
-      aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.define(aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.resource, auSlotBehavior, SlotCustomAttribute);
-    }
-
-    auSlotBehavior.initialize(container, SlotCustomAttribute);
-    auSlotBehavior.register(appResources);
-  }
-
-  addResourcePlugin(extension, implementation) {
-    let name = extension.replace('.', '') + '-resource-plugin';
-    this._pluginMap[extension] = name;
-    this.loader.addPlugin(name, implementation);
-  }
-
-  loadViewFactory(urlOrRegistryEntry, compileInstruction, loadContext, target) {
-    loadContext = loadContext || new ResourceLoadContext();
-
-    return ensureRegistryEntry(this.loader, urlOrRegistryEntry).then(registryEntry => {
-      const url = registryEntry.address;
-
-      if (registryEntry.onReady) {
-        if (!loadContext.hasDependency(url)) {
-          loadContext.addDependency(url);
-          return registryEntry.onReady;
-        }
-
-        if (registryEntry.template === null) {
-          return registryEntry.onReady;
-        }
-
-        return Promise.resolve(new ProxyViewFactory(registryEntry.onReady));
-      }
-
-      loadContext.addDependency(url);
-
-      registryEntry.onReady = this.loadTemplateResources(registryEntry, compileInstruction, loadContext, target).then(resources => {
-        registryEntry.resources = resources;
-
-        if (registryEntry.template === null) {
-          return registryEntry.factory = null;
-        }
-
-        let viewFactory = this.viewCompiler.compile(registryEntry.template, resources, compileInstruction);
-        return registryEntry.factory = viewFactory;
-      });
-
-      return registryEntry.onReady;
-    });
-  }
-
-  loadTemplateResources(registryEntry, compileInstruction, loadContext, target) {
-    let resources = new ViewResources(this.appResources, registryEntry.address);
-    let dependencies = registryEntry.dependencies;
-    let importIds;
-    let names;
-
-    compileInstruction = compileInstruction || ViewCompileInstruction.normal;
-
-    if (dependencies.length === 0 && !compileInstruction.associatedModuleId) {
-      return Promise.resolve(resources);
-    }
-
-    importIds = dependencies.map(x => x.src);
-    names = dependencies.map(x => x.name);
-    logger.debug(`importing resources for ${registryEntry.address}`, importIds);
-
-    if (target) {
-      let viewModelRequires = aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.get(ViewEngine.viewModelRequireMetadataKey, target);
-      if (viewModelRequires) {
-        let templateImportCount = importIds.length;
-        for (let i = 0, ii = viewModelRequires.length; i < ii; ++i) {
-          let req = viewModelRequires[i];
-          let importId = typeof req === 'function' ? aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.Origin.get(req).moduleId : (0,aurelia_path__WEBPACK_IMPORTED_MODULE_4__.relativeToFile)(req.src || req, registryEntry.address);
-
-          if (importIds.indexOf(importId) === -1) {
-            importIds.push(importId);
-            names.push(req.as);
-          }
-        }
-        logger.debug(`importing ViewModel resources for ${compileInstruction.associatedModuleId}`, importIds.slice(templateImportCount));
-      }
-    }
-
-    return this.importViewResources(importIds, names, resources, compileInstruction, loadContext);
-  }
-
-  importViewModelResource(moduleImport, moduleMember) {
-    return this.loader.loadModule(moduleImport).then(viewModelModule => {
-      let normalizedId = aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.Origin.get(viewModelModule).moduleId;
-      let resourceModule = this.moduleAnalyzer.analyze(normalizedId, viewModelModule, moduleMember);
-
-      if (!resourceModule.mainResource) {
-        throw new Error(`No view model found in module "${moduleImport}".`);
-      }
-
-      resourceModule.initialize(this.container);
-
-      return resourceModule.mainResource;
-    });
-  }
-
-  importViewResources(moduleIds, names, resources, compileInstruction, loadContext) {
-    loadContext = loadContext || new ResourceLoadContext();
-    compileInstruction = compileInstruction || ViewCompileInstruction.normal;
-
-    moduleIds = moduleIds.map(x => this._applyLoaderPlugin(x));
-
-    return this.loader.loadAllModules(moduleIds).then(imports => {
-      let i;
-      let ii;
-      let analysis;
-      let normalizedId;
-      let current;
-      let associatedModule;
-      let container = this.container;
-      let moduleAnalyzer = this.moduleAnalyzer;
-      let allAnalysis = new Array(imports.length);
-
-      for (i = 0, ii = imports.length; i < ii; ++i) {
-        current = imports[i];
-        normalizedId = aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.Origin.get(current).moduleId;
-
-        analysis = moduleAnalyzer.analyze(normalizedId, current);
-        analysis.initialize(container);
-        analysis.register(resources, names[i]);
-
-        allAnalysis[i] = analysis;
-      }
-
-      if (compileInstruction.associatedModuleId) {
-        associatedModule = moduleAnalyzer.getAnalysis(compileInstruction.associatedModuleId);
-
-        if (associatedModule) {
-          associatedModule.register(resources);
-        }
-      }
-
-      for (i = 0, ii = allAnalysis.length; i < ii; ++i) {
-        allAnalysis[i] = allAnalysis[i].load(container, loadContext);
-      }
-
-      return Promise.all(allAnalysis).then(() => resources);
-    });
-  }
-
-  _applyLoaderPlugin(id) {
-    let index = id.lastIndexOf('.');
-    if (index !== -1) {
-      let ext = id.substring(index);
-      let pluginName = this._pluginMap[ext];
-
-      if (pluginName === undefined) {
-        return id;
-      }
-
-      return this.loader.applyPluginToUrl(id, pluginName);
-    }
-
-    return id;
-  }
-}, _class14.viewModelRequireMetadataKey = 'aurelia:view-model-require', _temp5);
-
-let Controller = class Controller {
-  constructor(behavior, instruction, viewModel, container) {
-    this.behavior = behavior;
-    this.instruction = instruction;
-    this.viewModel = viewModel;
-    this.isAttached = false;
-    this.view = null;
-    this.isBound = false;
-    this.scope = null;
-    this.container = container;
-    this.elementEvents = container.elementEvents || null;
-
-    let observerLookup = behavior.observerLocator.getOrCreateObserversLookup(viewModel);
-    let handlesBind = behavior.handlesBind;
-    let attributes = instruction.attributes;
-    let boundProperties = this.boundProperties = [];
-    let properties = behavior.properties;
-    let i;
-    let ii;
-
-    behavior._ensurePropertiesDefined(viewModel, observerLookup);
-
-    for (i = 0, ii = properties.length; i < ii; ++i) {
-      properties[i]._initialize(viewModel, observerLookup, attributes, handlesBind, boundProperties);
-    }
-  }
-
-  created(owningView) {
-    if (this.behavior.handlesCreated) {
-      this.viewModel.created(owningView, this.view);
-    }
-  }
-
-  automate(overrideContext, owningView) {
-    this.view.bindingContext = this.viewModel;
-    this.view.overrideContext = overrideContext || (0,aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.createOverrideContext)(this.viewModel);
-    this.view._isUserControlled = true;
-
-    if (this.behavior.handlesCreated) {
-      this.viewModel.created(owningView || null, this.view);
-    }
-
-    this.bind(this.view);
-  }
-
-  bind(scope) {
-    let skipSelfSubscriber = this.behavior.handlesBind;
-    let boundProperties = this.boundProperties;
-    let i;
-    let ii;
-    let x;
-    let observer;
-    let selfSubscriber;
-
-    if (this.isBound) {
-      if (this.scope === scope) {
-        return;
-      }
-
-      this.unbind();
-    }
-
-    this.isBound = true;
-    this.scope = scope;
-
-    for (i = 0, ii = boundProperties.length; i < ii; ++i) {
-      x = boundProperties[i];
-      observer = x.observer;
-      selfSubscriber = observer.selfSubscriber;
-      observer.publishing = false;
-
-      if (skipSelfSubscriber) {
-        observer.selfSubscriber = null;
-      }
-
-      x.binding.bind(scope);
-      observer.call();
-
-      observer.publishing = true;
-      observer.selfSubscriber = selfSubscriber;
-    }
-
-    let overrideContext;
-    if (this.view !== null) {
-      if (skipSelfSubscriber) {
-        this.view.viewModelScope = scope;
-      }
-
-      if (this.viewModel === scope.overrideContext.bindingContext) {
-        overrideContext = scope.overrideContext;
-      } else if (this.instruction.inheritBindingContext) {
-        overrideContext = (0,aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.createOverrideContext)(this.viewModel, scope.overrideContext);
-      } else {
-        overrideContext = (0,aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.createOverrideContext)(this.viewModel);
-        overrideContext.__parentOverrideContext = scope.overrideContext;
-      }
-
-      this.view.bind(this.viewModel, overrideContext);
-    } else if (skipSelfSubscriber) {
-      overrideContext = scope.overrideContext;
-
-      if (scope.overrideContext.__parentOverrideContext !== undefined && this.viewModel.viewFactory && this.viewModel.viewFactory.factoryCreateInstruction.partReplacements) {
-        overrideContext = Object.assign({}, scope.overrideContext);
-        overrideContext.parentOverrideContext = scope.overrideContext.__parentOverrideContext;
-      }
-      this.viewModel.bind(scope.bindingContext, overrideContext);
-    }
-  }
-
-  unbind() {
-    if (this.isBound) {
-      let boundProperties = this.boundProperties;
-      let i;
-      let ii;
-
-      this.isBound = false;
-      this.scope = null;
-
-      if (this.view !== null) {
-        this.view.unbind();
-      }
-
-      if (this.behavior.handlesUnbind) {
-        this.viewModel.unbind();
-      }
-
-      if (this.elementEvents !== null) {
-        this.elementEvents.disposeAll();
-      }
-
-      for (i = 0, ii = boundProperties.length; i < ii; ++i) {
-        boundProperties[i].binding.unbind();
-      }
-    }
-  }
-
-  attached() {
-    if (this.isAttached) {
-      return;
-    }
-
-    this.isAttached = true;
-
-    if (this.behavior.handlesAttached) {
-      this.viewModel.attached();
-    }
-
-    if (this.view !== null) {
-      this.view.attached();
-    }
-  }
-
-  detached() {
-    if (this.isAttached) {
-      this.isAttached = false;
-
-      if (this.view !== null) {
-        this.view.detached();
-      }
-
-      if (this.behavior.handlesDetached) {
-        this.viewModel.detached();
-      }
-    }
-  }
-};
-
-let BehaviorPropertyObserver = (_dec7 = (0,aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.subscriberCollection)(), _dec7(_class15 = class BehaviorPropertyObserver {
-  constructor(taskQueue, obj, propertyName, selfSubscriber, initialValue) {
-    this.taskQueue = taskQueue;
-    this.obj = obj;
-    this.propertyName = propertyName;
-    this.notqueued = true;
-    this.publishing = false;
-    this.selfSubscriber = selfSubscriber;
-    this.currentValue = this.oldValue = initialValue;
-  }
-
-  getValue() {
-    return this.currentValue;
-  }
-
-  setValue(newValue) {
-    let oldValue = this.currentValue;
-
-    if (!Object.is(newValue, oldValue)) {
-      this.oldValue = oldValue;
-      this.currentValue = newValue;
-
-      if (this.publishing && this.notqueued) {
-        if (this.taskQueue.flushing) {
-          this.call();
-        } else {
-          this.notqueued = false;
-          this.taskQueue.queueMicroTask(this);
-        }
-      }
-    }
-  }
-
-  call() {
-    let oldValue = this.oldValue;
-    let newValue = this.currentValue;
-
-    this.notqueued = true;
-
-    if (Object.is(newValue, oldValue)) {
-      return;
-    }
-
-    if (this.selfSubscriber) {
-      this.selfSubscriber(newValue, oldValue);
-    }
-
-    this.callSubscribers(newValue, oldValue);
-    this.oldValue = newValue;
-  }
-
-  subscribe(context, callable) {
-    this.addSubscriber(context, callable);
-  }
-
-  unsubscribe(context, callable) {
-    this.removeSubscriber(context, callable);
-  }
-}) || _class15);
+BehaviorPropertyObserver = __decorate([
+    (0,aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.subscriberCollection)()
+], BehaviorPropertyObserver);
 
 function getObserver(instance, name) {
-  let lookup = instance.__observers__;
-
-  if (lookup === undefined) {
-    let ctor = Object.getPrototypeOf(instance).constructor;
-    let behavior = aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.get(aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.resource, ctor);
-    if (!behavior.isInitialized) {
-      behavior.initialize(aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_6__.Container.instance || new aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_6__.Container(), instance.constructor);
+    let lookup = instance.__observers__;
+    if (lookup === undefined) {
+        let ctor = Object.getPrototypeOf(instance).constructor;
+        let behavior = aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.get(aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.resource, ctor);
+        if (!behavior.isInitialized) {
+            behavior.initialize(aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_6__.Container.instance || new aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_6__.Container(), instance.constructor);
+        }
+        lookup = behavior.observerLocator.getOrCreateObserversLookup(instance);
+        behavior._ensurePropertiesDefined(instance, lookup);
     }
-
-    lookup = behavior.observerLocator.getOrCreateObserversLookup(instance);
-    behavior._ensurePropertiesDefined(instance, lookup);
-  }
-
-  return lookup[name];
+    return lookup[name];
 }
-
-let BindableProperty = class BindableProperty {
-  constructor(nameOrConfig) {
-    if (typeof nameOrConfig === 'string') {
-      this.name = nameOrConfig;
-    } else {
-      Object.assign(this, nameOrConfig);
+class BindableProperty {
+    constructor(nameOrConfig) {
+        if (typeof nameOrConfig === 'string') {
+            this.name = nameOrConfig;
+        }
+        else {
+            Object.assign(this, nameOrConfig);
+        }
+        this.attribute = this.attribute || _hyphenate(this.name);
+        let defaultBindingMode = this.defaultBindingMode;
+        if (defaultBindingMode === null || defaultBindingMode === undefined) {
+            this.defaultBindingMode = aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.bindingMode.oneWay;
+        }
+        else if (typeof defaultBindingMode === 'string') {
+            this.defaultBindingMode = aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.bindingMode[defaultBindingMode] || aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.bindingMode.oneWay;
+        }
+        this.changeHandler = this.changeHandler || null;
+        this.owner = null;
+        this.descriptor = null;
     }
-
-    this.attribute = this.attribute || _hyphenate(this.name);
-    let defaultBindingMode = this.defaultBindingMode;
-    if (defaultBindingMode === null || defaultBindingMode === undefined) {
-      this.defaultBindingMode = aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.bindingMode.oneWay;
-    } else if (typeof defaultBindingMode === 'string') {
-      this.defaultBindingMode = aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.bindingMode[defaultBindingMode] || aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.bindingMode.oneWay;
+    registerWith(target, behavior, descriptor) {
+        behavior.properties.push(this);
+        behavior.attributes[this.attribute] = this;
+        this.owner = behavior;
+        if (descriptor) {
+            this.descriptor = descriptor;
+            return this._configureDescriptor(descriptor);
+        }
+        return undefined;
     }
-    this.changeHandler = this.changeHandler || null;
-    this.owner = null;
-    this.descriptor = null;
-  }
-
-  registerWith(target, behavior, descriptor) {
-    behavior.properties.push(this);
-    behavior.attributes[this.attribute] = this;
-    this.owner = behavior;
-
-    if (descriptor) {
-      this.descriptor = descriptor;
-      return this._configureDescriptor(descriptor);
-    }
-
-    return undefined;
-  }
-
-  _configureDescriptor(descriptor) {
-    let name = this.name;
-
-    descriptor.configurable = true;
-    descriptor.enumerable = true;
-
-    if ('initializer' in descriptor) {
-      this.defaultValue = descriptor.initializer;
-      delete descriptor.initializer;
-      delete descriptor.writable;
-    }
-
-    if ('value' in descriptor) {
-      this.defaultValue = descriptor.value;
-      delete descriptor.value;
-      delete descriptor.writable;
-    }
-
-    descriptor.get = function () {
-      return getObserver(this, name).getValue();
-    };
-
-    descriptor.set = function (value) {
-      getObserver(this, name).setValue(value);
-    };
-
-    descriptor.get.getObserver = function (obj) {
-      return getObserver(obj, name);
-    };
-
-    return descriptor;
-  }
-
-  defineOn(target, behavior) {
-    let name = this.name;
-    let handlerName;
-
-    if (this.changeHandler === null) {
-      handlerName = name + 'Changed';
-      if (handlerName in target.prototype) {
-        this.changeHandler = handlerName;
-      }
-    }
-
-    if (this.descriptor === null) {
-      Object.defineProperty(target.prototype, name, this._configureDescriptor(behavior, {}));
-    }
-  }
-
-  createObserver(viewModel) {
-    let selfSubscriber = null;
-    let defaultValue = this.defaultValue;
-    let changeHandlerName = this.changeHandler;
-    let name = this.name;
-    let initialValue;
-
-    if (this.hasOptions) {
-      return undefined;
-    }
-
-    if (changeHandlerName in viewModel) {
-      if ('propertyChanged' in viewModel) {
-        selfSubscriber = (newValue, oldValue) => {
-          viewModel[changeHandlerName](newValue, oldValue);
-          viewModel.propertyChanged(name, newValue, oldValue);
+    _configureDescriptor(descriptor) {
+        let name = this.name;
+        descriptor.configurable = true;
+        descriptor.enumerable = true;
+        if ('initializer' in descriptor) {
+            this.defaultValue = descriptor.initializer;
+            delete descriptor.initializer;
+            delete descriptor.writable;
+        }
+        if ('value' in descriptor) {
+            this.defaultValue = descriptor.value;
+            delete descriptor.value;
+            delete descriptor.writable;
+        }
+        descriptor.get = function () {
+            return getObserver(this, name).getValue();
         };
-      } else {
-        selfSubscriber = (newValue, oldValue) => viewModel[changeHandlerName](newValue, oldValue);
-      }
-    } else if ('propertyChanged' in viewModel) {
-      selfSubscriber = (newValue, oldValue) => viewModel.propertyChanged(name, newValue, oldValue);
-    } else if (changeHandlerName !== null) {
-      throw new Error(`Change handler ${changeHandlerName} was specified but not declared on the class.`);
+        descriptor.set = function (value) {
+            getObserver(this, name).setValue(value);
+        };
+        descriptor.get.getObserver = function (obj) {
+            return getObserver(obj, name);
+        };
+        return descriptor;
     }
-
-    if (defaultValue !== undefined) {
-      initialValue = typeof defaultValue === 'function' ? defaultValue.call(viewModel) : defaultValue;
+    defineOn(target, behavior) {
+        let name = this.name;
+        let handlerName;
+        if (this.changeHandler === null) {
+            handlerName = name + 'Changed';
+            if (handlerName in target.prototype) {
+                this.changeHandler = handlerName;
+            }
+        }
+        if (this.descriptor === null) {
+            Object.defineProperty(target.prototype, name, this._configureDescriptor({}));
+        }
     }
-
-    return new BehaviorPropertyObserver(this.owner.taskQueue, viewModel, this.name, selfSubscriber, initialValue);
-  }
-
-  _initialize(viewModel, observerLookup, attributes, behaviorHandlesBind, boundProperties) {
-    let selfSubscriber;
-    let observer;
-    let attribute;
-    let defaultValue = this.defaultValue;
-
-    if (this.isDynamic) {
-      for (let key in attributes) {
-        this._createDynamicProperty(viewModel, observerLookup, behaviorHandlesBind, key, attributes[key], boundProperties);
-      }
-    } else if (!this.hasOptions) {
-      observer = observerLookup[this.name];
-
-      if (attributes !== null) {
-        selfSubscriber = observer.selfSubscriber;
-        attribute = attributes[this.attribute];
-
+    createObserver(viewModel) {
+        let selfSubscriber = null;
+        let defaultValue = this.defaultValue;
+        let changeHandlerName = this.changeHandler;
+        let name = this.name;
+        let initialValue;
+        if (this.hasOptions) {
+            return undefined;
+        }
+        if (changeHandlerName in viewModel) {
+            if ('propertyChanged' in viewModel) {
+                selfSubscriber = (newValue, oldValue) => {
+                    viewModel[changeHandlerName](newValue, oldValue);
+                    viewModel.propertyChanged(name, newValue, oldValue);
+                };
+            }
+            else {
+                selfSubscriber = (newValue, oldValue) => viewModel[changeHandlerName](newValue, oldValue);
+            }
+        }
+        else if ('propertyChanged' in viewModel) {
+            selfSubscriber = (newValue, oldValue) => viewModel.propertyChanged(name, newValue, oldValue);
+        }
+        else if (changeHandlerName !== null) {
+            throw new Error(`Change handler ${changeHandlerName} was specified but not declared on the class.`);
+        }
+        if (defaultValue !== undefined) {
+            initialValue = typeof defaultValue === 'function' ? defaultValue.call(viewModel) : defaultValue;
+        }
+        return new BehaviorPropertyObserver(this.owner.taskQueue, viewModel, this.name, selfSubscriber, initialValue);
+    }
+    _initialize(viewModel, observerLookup, attributes, behaviorHandlesBind, boundProperties) {
+        let selfSubscriber;
+        let observer;
+        let attribute;
+        let defaultValue = this.defaultValue;
+        if (this.isDynamic) {
+            for (let key in attributes) {
+                this._createDynamicProperty(viewModel, observerLookup, behaviorHandlesBind, key, attributes[key], boundProperties);
+            }
+        }
+        else if (!this.hasOptions) {
+            observer = observerLookup[this.name];
+            if (attributes !== null) {
+                selfSubscriber = observer.selfSubscriber;
+                attribute = attributes[this.attribute];
+                if (behaviorHandlesBind) {
+                    observer.selfSubscriber = null;
+                }
+                if (typeof attribute === 'string') {
+                    viewModel[this.name] = attribute;
+                    observer.call();
+                }
+                else if (attribute) {
+                    boundProperties.push({ observer: observer, binding: attribute.createBinding(viewModel) });
+                }
+                else if (defaultValue !== undefined) {
+                    observer.call();
+                }
+                observer.selfSubscriber = selfSubscriber;
+            }
+            observer.publishing = true;
+        }
+    }
+    _createDynamicProperty(viewModel, observerLookup, behaviorHandlesBind, name, attribute, boundProperties) {
+        let changeHandlerName = name + 'Changed';
+        let selfSubscriber = null;
+        let observer;
+        let info;
+        if (changeHandlerName in viewModel) {
+            if ('propertyChanged' in viewModel) {
+                selfSubscriber = (newValue, oldValue) => {
+                    viewModel[changeHandlerName](newValue, oldValue);
+                    viewModel.propertyChanged(name, newValue, oldValue);
+                };
+            }
+            else {
+                selfSubscriber = (newValue, oldValue) => viewModel[changeHandlerName](newValue, oldValue);
+            }
+        }
+        else if ('propertyChanged' in viewModel) {
+            selfSubscriber = (newValue, oldValue) => viewModel.propertyChanged(name, newValue, oldValue);
+        }
+        observer = observerLookup[name] = new BehaviorPropertyObserver(this.owner.taskQueue, viewModel, name, selfSubscriber);
+        Object.defineProperty(viewModel, name, {
+            configurable: true,
+            enumerable: true,
+            get: observer.getValue.bind(observer),
+            set: observer.setValue.bind(observer)
+        });
         if (behaviorHandlesBind) {
-          observer.selfSubscriber = null;
+            observer.selfSubscriber = null;
         }
-
         if (typeof attribute === 'string') {
-          viewModel[this.name] = attribute;
-          observer.call();
-        } else if (attribute) {
-          boundProperties.push({ observer: observer, binding: attribute.createBinding(viewModel) });
-        } else if (defaultValue !== undefined) {
-          observer.call();
+            viewModel[name] = attribute;
+            observer.call();
         }
-
+        else if (attribute) {
+            info = { observer: observer, binding: attribute.createBinding(viewModel) };
+            boundProperties.push(info);
+        }
+        observer.publishing = true;
         observer.selfSubscriber = selfSubscriber;
-      }
-
-      observer.publishing = true;
     }
-  }
+}
 
-  _createDynamicProperty(viewModel, observerLookup, behaviorHandlesBind, name, attribute, boundProperties) {
-    let changeHandlerName = name + 'Changed';
-    let selfSubscriber = null;
-    let observer;
-    let info;
+class ViewLocator {
+    getViewStrategy(value) {
+        if (!value) {
+            return null;
+        }
+        if (typeof value === 'object' && 'getViewStrategy' in value) {
+            let origin = aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.Origin.get(value.constructor);
+            value = value.getViewStrategy();
+            if (typeof value === 'string') {
+                value = new RelativeViewStrategy(value);
+            }
+            viewStrategy.assert(value);
+            if (origin.moduleId) {
+                value.makeRelativeTo(origin.moduleId);
+            }
+            return value;
+        }
+        if (typeof value === 'string') {
+            value = new RelativeViewStrategy(value);
+        }
+        if (viewStrategy.validate(value)) {
+            return value;
+        }
+        if (typeof value !== 'function') {
+            value = value.constructor;
+        }
+        if ('$view' in value) {
+            let c = value.$view;
+            let view;
+            c = typeof c === 'function' ? c.call(value) : c;
+            if (c === null) {
+                view = new NoViewStrategy();
+            }
+            else {
+                view = c instanceof StaticViewStrategy ? c : new StaticViewStrategy(c);
+            }
+            aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.define(ViewLocator.viewStrategyMetadataKey, view, value);
+            return view;
+        }
+        let origin = aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.Origin.get(value);
+        let strategy = aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.get(ViewLocator.viewStrategyMetadataKey, value);
+        if (!strategy) {
+            if (!origin.moduleId) {
+                throw new Error('Cannot determine default view strategy for object.\n' + value);
+            }
+            strategy = this.createFallbackViewStrategy(origin);
+        }
+        else if (origin.moduleId) {
+            strategy.moduleId = origin.moduleId;
+        }
+        return strategy;
+    }
+    createFallbackViewStrategy(origin) {
+        return new ConventionalViewStrategy(this, origin);
+    }
+    convertOriginToViewUrl(origin) {
+        let moduleId = origin.moduleId;
+        let id = (moduleId.endsWith('.js') || moduleId.endsWith('.ts')) ? moduleId.substring(0, moduleId.length - 3) : moduleId;
+        return id + '.html';
+    }
+}
+ViewLocator.viewStrategyMetadataKey = 'aurelia:view-strategy';
 
-    if (changeHandlerName in viewModel) {
-      if ('propertyChanged' in viewModel) {
-        selfSubscriber = (newValue, oldValue) => {
-          viewModel[changeHandlerName](newValue, oldValue);
-          viewModel.propertyChanged(name, newValue, oldValue);
+function mi(name) {
+    throw new Error(`BindingLanguage must implement ${name}().`);
+}
+class BindingLanguage {
+    inspectAttribute(resources, elementName, attrName, attrValue) {
+        mi('inspectAttribute');
+    }
+    createAttributeInstruction(resources, element, info, existingInstruction, context) {
+        mi('createAttributeInstruction');
+    }
+    createLetExpressions(resources, element) {
+        mi('createLetExpressions');
+    }
+    inspectTextContent(resources, value) {
+        mi('inspectTextContent');
+    }
+}
+
+let noNodes = Object.freeze([]);
+class SlotCustomAttribute {
+    constructor(element) {
+        this.element = element;
+        this.element.auSlotAttribute = this;
+    }
+    static inject() {
+        return [aurelia_pal__WEBPACK_IMPORTED_MODULE_0__.DOM.Element];
+    }
+    valueChanged(newValue, oldValue) { }
+}
+class PassThroughSlot {
+    constructor(anchor, name, destinationName, fallbackFactory) {
+        this.anchor = anchor;
+        this.anchor.viewSlot = this;
+        this.name = name;
+        this.destinationName = destinationName;
+        this.fallbackFactory = fallbackFactory;
+        this.destinationSlot = null;
+        this.projections = 0;
+        this.contentView = null;
+        let attr = new SlotCustomAttribute(this.anchor);
+        attr.value = this.destinationName;
+    }
+    get needsFallbackRendering() {
+        return this.fallbackFactory && this.projections === 0;
+    }
+    renderFallbackContent(view, nodes, projectionSource, index) {
+        if (this.contentView === null) {
+            this.contentView = this.fallbackFactory.create(this.ownerView.container);
+            this.contentView.bind(this.ownerView.bindingContext, this.ownerView.overrideContext);
+            let slots = Object.create(null);
+            slots[this.destinationSlot.name] = this.destinationSlot;
+            ShadowDOM.distributeView(this.contentView, slots, projectionSource, index, this.destinationSlot.name);
+        }
+    }
+    passThroughTo(destinationSlot) {
+        this.destinationSlot = destinationSlot;
+    }
+    addNode(view, node, projectionSource, index) {
+        if (this.contentView !== null) {
+            this.contentView.removeNodes();
+            this.contentView.detached();
+            this.contentView.unbind();
+            this.contentView = null;
+        }
+        if (node.viewSlot instanceof PassThroughSlot) {
+            node.viewSlot.passThroughTo(this);
+            return;
+        }
+        this.projections++;
+        this.destinationSlot.addNode(view, node, projectionSource, index);
+    }
+    removeView(view, projectionSource) {
+        this.projections--;
+        this.destinationSlot.removeView(view, projectionSource);
+        if (this.needsFallbackRendering) {
+            this.renderFallbackContent(null, noNodes, projectionSource);
+        }
+    }
+    removeAll(projectionSource) {
+        this.projections = 0;
+        this.destinationSlot.removeAll(projectionSource);
+        if (this.needsFallbackRendering) {
+            this.renderFallbackContent(null, noNodes, projectionSource);
+        }
+    }
+    projectFrom(view, projectionSource) {
+        this.destinationSlot.projectFrom(view, projectionSource);
+    }
+    created(ownerView) {
+        this.ownerView = ownerView;
+    }
+    bind(view) {
+        if (this.contentView) {
+            this.contentView.bind(view.bindingContext, view.overrideContext);
+        }
+    }
+    attached() {
+        if (this.contentView) {
+            this.contentView.attached();
+        }
+    }
+    detached() {
+        if (this.contentView) {
+            this.contentView.detached();
+        }
+    }
+    unbind() {
+        if (this.contentView) {
+            this.contentView.unbind();
+        }
+    }
+}
+class ShadowSlot {
+    constructor(anchor, name, fallbackFactory) {
+        this.anchor = anchor;
+        this.anchor.isContentProjectionSource = true;
+        this.anchor.viewSlot = this;
+        this.name = name;
+        this.fallbackFactory = fallbackFactory;
+        this.contentView = null;
+        this.projections = 0;
+        this.children = [];
+        this.projectFromAnchors = null;
+        this.destinationSlots = null;
+    }
+    get needsFallbackRendering() {
+        return this.fallbackFactory && this.projections === 0;
+    }
+    addNode(view, node, projectionSource, index, destination) {
+        let $node = node;
+        if (this.contentView !== null) {
+            this.contentView.removeNodes();
+            this.contentView.detached();
+            this.contentView.unbind();
+            this.contentView = null;
+        }
+        if ($node.viewSlot instanceof PassThroughSlot) {
+            $node.viewSlot.passThroughTo(this);
+            return;
+        }
+        if (this.destinationSlots !== null) {
+            ShadowDOM.distributeNodes(view, [$node], this.destinationSlots, this, index);
+        }
+        else {
+            $node.auOwnerView = view;
+            $node.auProjectionSource = projectionSource;
+            $node.auAssignedSlot = this;
+            let anchor = this._findAnchor(view, $node, projectionSource, index);
+            let parent = anchor.parentNode;
+            parent.insertBefore($node, anchor);
+            this.children.push($node);
+            this.projections++;
+        }
+    }
+    removeView(view, projectionSource) {
+        if (this.destinationSlots !== null) {
+            ShadowDOM.undistributeView(view, this.destinationSlots, this);
+        }
+        else if (this.contentView && this.contentView.hasSlots) {
+            ShadowDOM.undistributeView(view, this.contentView.slots, projectionSource);
+        }
+        else {
+            let found = this.children.find(x => x.auSlotProjectFrom === projectionSource);
+            if (found) {
+                let children = found.auProjectionChildren;
+                let ownChildren = this.children;
+                for (let i = 0, ii = children.length; i < ii; ++i) {
+                    let child = children[i];
+                    if (child.auOwnerView === view) {
+                        children.splice(i, 1);
+                        view.fragment.appendChild(child);
+                        i--;
+                        ii--;
+                        this.projections--;
+                        let idx = ownChildren.indexOf(child);
+                        if (idx > -1) {
+                            ownChildren.splice(idx, 1);
+                        }
+                    }
+                }
+                if (this.needsFallbackRendering) {
+                    this.renderFallbackContent(view, noNodes, projectionSource);
+                }
+            }
+        }
+    }
+    removeAll(projectionSource) {
+        if (this.destinationSlots !== null) {
+            ShadowDOM.undistributeAll(this.destinationSlots, this);
+        }
+        else if (this.contentView && this.contentView.hasSlots) {
+            ShadowDOM.undistributeAll(this.contentView.slots, projectionSource);
+        }
+        else {
+            let found = this.children.find(x => x.auSlotProjectFrom === projectionSource);
+            if (found) {
+                let children = found.auProjectionChildren;
+                let ownChildren = this.children;
+                for (let i = 0, ii = children.length; i < ii; ++i) {
+                    let child = children[i];
+                    child.auOwnerView.fragment.appendChild(child);
+                    this.projections--;
+                    let idx = ownChildren.indexOf(child);
+                    if (idx > -1) {
+                        ownChildren.splice(idx, 1);
+                    }
+                }
+                found.auProjectionChildren = [];
+                if (this.needsFallbackRendering) {
+                    this.renderFallbackContent(null, noNodes, projectionSource);
+                }
+            }
+        }
+    }
+    _findAnchor(view, node, projectionSource, index) {
+        if (projectionSource) {
+            let found = this.children.find(x => x.auSlotProjectFrom === projectionSource);
+            if (found) {
+                if (index !== undefined) {
+                    let children = found.auProjectionChildren;
+                    let viewIndex = -1;
+                    let lastView;
+                    for (let i = 0, ii = children.length; i < ii; ++i) {
+                        let current = children[i];
+                        if (current.auOwnerView !== lastView) {
+                            viewIndex++;
+                            lastView = current.auOwnerView;
+                            if (viewIndex >= index && lastView !== view) {
+                                children.splice(i, 0, node);
+                                return current;
+                            }
+                        }
+                    }
+                }
+                found.auProjectionChildren.push(node);
+                return found;
+            }
+        }
+        return this.anchor;
+    }
+    projectTo(slots) {
+        this.destinationSlots = slots;
+    }
+    projectFrom(view, projectionSource) {
+        let anchor = aurelia_pal__WEBPACK_IMPORTED_MODULE_0__.DOM.createComment('anchor');
+        let parent = this.anchor.parentNode;
+        anchor.auSlotProjectFrom = projectionSource;
+        anchor.auOwnerView = view;
+        anchor.auProjectionChildren = [];
+        parent.insertBefore(anchor, this.anchor);
+        this.children.push(anchor);
+        if (this.projectFromAnchors === null) {
+            this.projectFromAnchors = [];
+        }
+        this.projectFromAnchors.push(anchor);
+    }
+    renderFallbackContent(view, nodes, projectionSource, index) {
+        if (this.contentView === null) {
+            this.contentView = this.fallbackFactory.create(this.ownerView.container);
+            this.contentView.bind(this.ownerView.bindingContext, this.ownerView.overrideContext);
+            this.contentView.insertNodesBefore(this.anchor);
+        }
+        if (this.contentView.hasSlots) {
+            let slots = this.contentView.slots;
+            let projectFromAnchors = this.projectFromAnchors;
+            if (projectFromAnchors !== null) {
+                for (let slotName in slots) {
+                    let slot = slots[slotName];
+                    for (let i = 0, ii = projectFromAnchors.length; i < ii; ++i) {
+                        let anchor = projectFromAnchors[i];
+                        slot.projectFrom(anchor.auOwnerView, anchor.auSlotProjectFrom);
+                    }
+                }
+            }
+            this.fallbackSlots = slots;
+            ShadowDOM.distributeNodes(view, nodes, slots, projectionSource, index);
+        }
+    }
+    created(ownerView) {
+        this.ownerView = ownerView;
+    }
+    bind(view) {
+        if (this.contentView) {
+            this.contentView.bind(view.bindingContext, view.overrideContext);
+        }
+    }
+    attached() {
+        if (this.contentView) {
+            this.contentView.attached();
+        }
+    }
+    detached() {
+        if (this.contentView) {
+            this.contentView.detached();
+        }
+    }
+    unbind() {
+        if (this.contentView) {
+            this.contentView.unbind();
+        }
+    }
+}
+class ShadowDOM {
+    static getSlotName(node) {
+        if (node.auSlotAttribute === undefined) {
+            return ShadowDOM.defaultSlotKey;
+        }
+        return node.auSlotAttribute.value;
+    }
+    static distributeView(view, slots, projectionSource, index, destinationOverride) {
+        let nodes;
+        if (view === null) {
+            nodes = noNodes;
+        }
+        else {
+            let childNodes = view.fragment.childNodes;
+            let ii = childNodes.length;
+            nodes = new Array(ii);
+            for (let i = 0; i < ii; ++i) {
+                nodes[i] = childNodes[i];
+            }
+        }
+        ShadowDOM.distributeNodes(view, nodes, slots, projectionSource, index, destinationOverride);
+    }
+    static undistributeView(view, slots, projectionSource) {
+        for (let slotName in slots) {
+            slots[slotName].removeView(view, projectionSource);
+        }
+    }
+    static undistributeAll(slots, projectionSource) {
+        for (let slotName in slots) {
+            slots[slotName].removeAll(projectionSource);
+        }
+    }
+    static distributeNodes(view, nodes, slots, projectionSource, index, destinationOverride) {
+        for (let i = 0, ii = nodes.length; i < ii; ++i) {
+            let currentNode = nodes[i];
+            let nodeType = currentNode.nodeType;
+            if (currentNode.isContentProjectionSource) {
+                currentNode.viewSlot.projectTo(slots);
+                for (let slotName in slots) {
+                    slots[slotName].projectFrom(view, currentNode.viewSlot);
+                }
+                nodes.splice(i, 1);
+                ii--;
+                i--;
+            }
+            else if (nodeType === 1 || nodeType === 3 || currentNode.viewSlot instanceof PassThroughSlot) {
+                if (nodeType === 3 && _isAllWhitespace(currentNode)) {
+                    nodes.splice(i, 1);
+                    ii--;
+                    i--;
+                }
+                else {
+                    let found = slots[destinationOverride || ShadowDOM.getSlotName(currentNode)];
+                    if (found) {
+                        found.addNode(view, currentNode, projectionSource, index);
+                        nodes.splice(i, 1);
+                        ii--;
+                        i--;
+                    }
+                }
+            }
+            else {
+                nodes.splice(i, 1);
+                ii--;
+                i--;
+            }
+        }
+        for (let slotName in slots) {
+            let slot = slots[slotName];
+            if (slot.needsFallbackRendering) {
+                slot.renderFallbackContent(view, nodes, projectionSource, index);
+            }
+        }
+    }
+}
+ShadowDOM.defaultSlotKey = '__au-default-slot-key__';
+
+class CompositionTransactionNotifier {
+    constructor(owner) {
+        this.owner = owner;
+        this.owner._compositionCount++;
+    }
+    done() {
+        this.owner._compositionCount--;
+        this.owner._tryCompleteTransaction();
+    }
+}
+class CompositionTransactionOwnershipToken {
+    constructor(owner) {
+        this.owner = owner;
+        this.owner._ownershipToken = this;
+        this.thenable = this._createThenable();
+    }
+    waitForCompositionComplete() {
+        this.owner._tryCompleteTransaction();
+        return this.thenable;
+    }
+    resolve() {
+        this._resolveCallback();
+    }
+    _resolveCallback() {
+        throw new Error("Method not implemented.");
+    }
+    _createThenable() {
+        return new Promise((resolve) => {
+            this._resolveCallback = resolve;
+        });
+    }
+}
+class CompositionTransaction {
+    constructor() {
+        this._ownershipToken = null;
+        this._compositionCount = 0;
+    }
+    tryCapture() {
+        return this._ownershipToken === null
+            ? new CompositionTransactionOwnershipToken(this)
+            : null;
+    }
+    enlist() {
+        return new CompositionTransactionNotifier(this);
+    }
+    _tryCompleteTransaction() {
+        if (this._compositionCount <= 0) {
+            this._compositionCount = 0;
+            if (this._ownershipToken !== null) {
+                let token = this._ownershipToken;
+                this._ownershipToken = null;
+                token.resolve();
+            }
+        }
+    }
+}
+
+class View {
+    constructor(container, viewFactory, fragment, controllers, bindings, children, slots) {
+        this.container = container;
+        this.viewFactory = viewFactory;
+        this.resources = viewFactory.resources;
+        this.fragment = fragment;
+        this.firstChild = fragment.firstChild;
+        this.lastChild = fragment.lastChild;
+        this.controllers = controllers;
+        this.bindings = bindings;
+        this.children = children;
+        this.slots = slots;
+        this.hasSlots = false;
+        this.fromCache = false;
+        this.isBound = false;
+        this.isAttached = false;
+        this.bindingContext = null;
+        this.overrideContext = null;
+        this.controller = null;
+        this.viewModelScope = null;
+        this.animatableElement = undefined;
+        this._isUserControlled = false;
+        this.contentView = null;
+        for (let _ in slots) {
+            this.hasSlots = true;
+            break;
+        }
+    }
+    returnToCache() {
+        this.viewFactory.returnViewToCache(this);
+    }
+    created() {
+        let i;
+        let ii;
+        let controllers = this.controllers;
+        for (i = 0, ii = controllers.length; i < ii; ++i) {
+            controllers[i].created(this);
+        }
+    }
+    bind(bindingContext, overrideContext, _systemUpdate) {
+        let controllers;
+        let bindings;
+        let children;
+        let i;
+        let ii;
+        if (_systemUpdate && this._isUserControlled) {
+            return;
+        }
+        if (this.isBound) {
+            if (this.bindingContext === bindingContext) {
+                return;
+            }
+            this.unbind();
+        }
+        this.isBound = true;
+        this.bindingContext = bindingContext;
+        this.overrideContext = overrideContext || (0,aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.createOverrideContext)(bindingContext);
+        this.resources._invokeHook('beforeBind', this);
+        bindings = this.bindings;
+        for (i = 0, ii = bindings.length; i < ii; ++i) {
+            bindings[i].bind(this);
+        }
+        if (this.viewModelScope !== null) {
+            bindingContext.bind(this.viewModelScope.bindingContext, this.viewModelScope.overrideContext);
+            this.viewModelScope = null;
+        }
+        controllers = this.controllers;
+        for (i = 0, ii = controllers.length; i < ii; ++i) {
+            controllers[i].bind(this);
+        }
+        children = this.children;
+        for (i = 0, ii = children.length; i < ii; ++i) {
+            children[i].bind(bindingContext, overrideContext, true);
+        }
+        if (this.hasSlots) {
+            ShadowDOM.distributeView(this.contentView, this.slots);
+        }
+    }
+    addBinding(binding) {
+        this.bindings.push(binding);
+        if (this.isBound) {
+            binding.bind(this);
+        }
+    }
+    unbind() {
+        let controllers;
+        let bindings;
+        let children;
+        let i;
+        let ii;
+        if (this.isBound) {
+            this.isBound = false;
+            this.resources._invokeHook('beforeUnbind', this);
+            if (this.controller !== null) {
+                this.controller.unbind();
+            }
+            bindings = this.bindings;
+            for (i = 0, ii = bindings.length; i < ii; ++i) {
+                bindings[i].unbind();
+            }
+            controllers = this.controllers;
+            for (i = 0, ii = controllers.length; i < ii; ++i) {
+                controllers[i].unbind();
+            }
+            children = this.children;
+            for (i = 0, ii = children.length; i < ii; ++i) {
+                children[i].unbind();
+            }
+            this.bindingContext = null;
+            this.overrideContext = null;
+        }
+    }
+    insertNodesBefore(refNode) {
+        refNode.parentNode.insertBefore(this.fragment, refNode);
+    }
+    appendNodesTo(parent) {
+        parent.appendChild(this.fragment);
+    }
+    removeNodes() {
+        let fragment = this.fragment;
+        let current = this.firstChild;
+        let end = this.lastChild;
+        let next;
+        while (current) {
+            next = current.nextSibling;
+            fragment.appendChild(current);
+            if (current === end) {
+                break;
+            }
+            current = next;
+        }
+    }
+    attached() {
+        let controllers;
+        let children;
+        let i;
+        let ii;
+        if (this.isAttached) {
+            return;
+        }
+        this.isAttached = true;
+        if (this.controller !== null) {
+            this.controller.attached();
+        }
+        controllers = this.controllers;
+        for (i = 0, ii = controllers.length; i < ii; ++i) {
+            controllers[i].attached();
+        }
+        children = this.children;
+        for (i = 0, ii = children.length; i < ii; ++i) {
+            children[i].attached();
+        }
+    }
+    detached() {
+        let controllers;
+        let children;
+        let i;
+        let ii;
+        if (this.isAttached) {
+            this.isAttached = false;
+            if (this.controller !== null) {
+                this.controller.detached();
+            }
+            controllers = this.controllers;
+            for (i = 0, ii = controllers.length; i < ii; ++i) {
+                controllers[i].detached();
+            }
+            children = this.children;
+            for (i = 0, ii = children.length; i < ii; ++i) {
+                children[i].detached();
+            }
+        }
+    }
+}
+
+class Animator {
+    enter(element) {
+        return Promise.resolve(false);
+    }
+    leave(element) {
+        return Promise.resolve(false);
+    }
+    removeClass(element, className) {
+        element.classList.remove(className);
+        return Promise.resolve(false);
+    }
+    addClass(element, className) {
+        element.classList.add(className);
+        return Promise.resolve(false);
+    }
+    animate(element, className) {
+        return Promise.resolve(false);
+    }
+    runSequence(animations) {
+        return Promise.resolve(false);
+    }
+    registerEffect(effectName, properties) { }
+    unregisterEffect(effectName) { }
+}
+
+function getAnimatableElement(view) {
+    if (view.animatableElement !== undefined) {
+        return view.animatableElement;
+    }
+    let current = view.firstChild;
+    while (current && current.nodeType !== 1) {
+        current = current.nextSibling;
+    }
+    if (current && current.nodeType === 1) {
+        return (view.animatableElement = current.classList.contains('au-animate') ? current : null);
+    }
+    return (view.animatableElement = null);
+}
+class ViewSlot {
+    constructor(anchor, anchorIsContainer, animator = Animator.instance) {
+        this.anchor = anchor;
+        this.anchorIsContainer = anchorIsContainer;
+        this.bindingContext = null;
+        this.overrideContext = null;
+        this.animator = animator;
+        this.children = [];
+        this.isBound = false;
+        this.isAttached = false;
+        this.contentSelectors = null;
+        anchor.viewSlot = this;
+        anchor.isContentProjectionSource = false;
+    }
+    animateView(view, direction = 'enter') {
+        let animatableElement = getAnimatableElement(view);
+        if (animatableElement !== null) {
+            switch (direction) {
+                case 'enter':
+                    return this.animator.enter(animatableElement);
+                case 'leave':
+                    return this.animator.leave(animatableElement);
+                default:
+                    throw new Error('Invalid animation direction: ' + direction);
+            }
+        }
+    }
+    transformChildNodesIntoView() {
+        let parent = this.anchor;
+        this.children.push({
+            fragment: parent,
+            firstChild: parent.firstChild,
+            lastChild: parent.lastChild,
+            returnToCache() { },
+            removeNodes() {
+                let last;
+                while (last = parent.lastChild) {
+                    parent.removeChild(last);
+                }
+            },
+            created() { },
+            bind() { },
+            unbind() { },
+            attached() { },
+            detached() { }
+        });
+    }
+    bind(bindingContext, overrideContext) {
+        let i;
+        let ii;
+        let children;
+        if (this.isBound) {
+            if (this.bindingContext === bindingContext) {
+                return;
+            }
+            this.unbind();
+        }
+        this.isBound = true;
+        this.bindingContext = bindingContext = bindingContext || this.bindingContext;
+        this.overrideContext = overrideContext = overrideContext || this.overrideContext;
+        children = this.children;
+        for (i = 0, ii = children.length; i < ii; ++i) {
+            children[i].bind(bindingContext, overrideContext, true);
+        }
+    }
+    unbind() {
+        if (this.isBound) {
+            let i;
+            let ii;
+            let children = this.children;
+            this.isBound = false;
+            this.bindingContext = null;
+            this.overrideContext = null;
+            for (i = 0, ii = children.length; i < ii; ++i) {
+                children[i].unbind();
+            }
+        }
+    }
+    add(view) {
+        if (this.anchorIsContainer) {
+            view.appendNodesTo(this.anchor);
+        }
+        else {
+            view.insertNodesBefore(this.anchor);
+        }
+        this.children.push(view);
+        if (this.isAttached) {
+            view.attached();
+            return this.animateView(view, 'enter');
+        }
+    }
+    insert(index, view) {
+        let children = this.children;
+        let length = children.length;
+        if ((index === 0 && length === 0) || index >= length) {
+            return this.add(view);
+        }
+        view.insertNodesBefore(children[index].firstChild);
+        children.splice(index, 0, view);
+        if (this.isAttached) {
+            view.attached();
+            return this.animateView(view, 'enter');
+        }
+    }
+    move(sourceIndex, targetIndex) {
+        if (sourceIndex === targetIndex) {
+            return;
+        }
+        const children = this.children;
+        const view = children[sourceIndex];
+        view.removeNodes();
+        view.insertNodesBefore(children[targetIndex].firstChild);
+        children.splice(sourceIndex, 1);
+        children.splice(targetIndex, 0, view);
+    }
+    remove(view, returnToCache, skipAnimation) {
+        return this.removeAt(this.children.indexOf(view), returnToCache, skipAnimation);
+    }
+    removeMany(viewsToRemove, returnToCache, skipAnimation) {
+        const children = this.children;
+        let ii = viewsToRemove.length;
+        let i;
+        let rmPromises = [];
+        viewsToRemove.forEach(child => {
+            if (skipAnimation) {
+                child.removeNodes();
+                return;
+            }
+            let animation = this.animateView(child, 'leave');
+            if (animation) {
+                rmPromises.push(animation.then(() => child.removeNodes()));
+            }
+            else {
+                child.removeNodes();
+            }
+        });
+        let removeAction = () => {
+            if (this.isAttached) {
+                for (i = 0; i < ii; ++i) {
+                    viewsToRemove[i].detached();
+                }
+            }
+            if (returnToCache) {
+                for (i = 0; i < ii; ++i) {
+                    viewsToRemove[i].returnToCache();
+                }
+            }
+            for (i = 0; i < ii; ++i) {
+                const index = children.indexOf(viewsToRemove[i]);
+                if (index >= 0) {
+                    children.splice(index, 1);
+                }
+            }
         };
-      } else {
-        selfSubscriber = (newValue, oldValue) => viewModel[changeHandlerName](newValue, oldValue);
-      }
-    } else if ('propertyChanged' in viewModel) {
-      selfSubscriber = (newValue, oldValue) => viewModel.propertyChanged(name, newValue, oldValue);
+        if (rmPromises.length > 0) {
+            return Promise.all(rmPromises).then(() => removeAction());
+        }
+        return removeAction();
     }
-
-    observer = observerLookup[name] = new BehaviorPropertyObserver(this.owner.taskQueue, viewModel, name, selfSubscriber);
-
-    Object.defineProperty(viewModel, name, {
-      configurable: true,
-      enumerable: true,
-      get: observer.getValue.bind(observer),
-      set: observer.setValue.bind(observer)
-    });
-
-    if (behaviorHandlesBind) {
-      observer.selfSubscriber = null;
+    removeAt(index, returnToCache, skipAnimation) {
+        let view = this.children[index];
+        let removeAction = () => {
+            index = this.children.indexOf(view);
+            view.removeNodes();
+            this.children.splice(index, 1);
+            if (this.isAttached) {
+                view.detached();
+            }
+            if (returnToCache) {
+                view.returnToCache();
+            }
+            return view;
+        };
+        if (!skipAnimation) {
+            let animation = this.animateView(view, 'leave');
+            if (animation) {
+                return animation.then(() => removeAction());
+            }
+        }
+        return removeAction();
     }
-
-    if (typeof attribute === 'string') {
-      viewModel[name] = attribute;
-      observer.call();
-    } else if (attribute) {
-      info = { observer: observer, binding: attribute.createBinding(viewModel) };
-      boundProperties.push(info);
+    removeAll(returnToCache, skipAnimation) {
+        let children = this.children;
+        let ii = children.length;
+        let i;
+        let rmPromises = [];
+        children.forEach(child => {
+            if (skipAnimation) {
+                child.removeNodes();
+                return;
+            }
+            let animation = this.animateView(child, 'leave');
+            if (animation) {
+                rmPromises.push(animation.then(() => child.removeNodes()));
+            }
+            else {
+                child.removeNodes();
+            }
+        });
+        let removeAction = () => {
+            if (this.isAttached) {
+                for (i = 0; i < ii; ++i) {
+                    children[i].detached();
+                }
+            }
+            if (returnToCache) {
+                for (i = 0; i < ii; ++i) {
+                    const child = children[i];
+                    if (child) {
+                        child.returnToCache();
+                    }
+                }
+            }
+            this.children = [];
+        };
+        if (rmPromises.length > 0) {
+            return Promise.all(rmPromises).then(() => removeAction());
+        }
+        return removeAction();
     }
+    attached() {
+        let i;
+        let ii;
+        let children;
+        let child;
+        if (this.isAttached) {
+            return;
+        }
+        this.isAttached = true;
+        children = this.children;
+        for (i = 0, ii = children.length; i < ii; ++i) {
+            child = children[i];
+            child.attached();
+            this.animateView(child, 'enter');
+        }
+    }
+    detached() {
+        let i;
+        let ii;
+        let children;
+        if (this.isAttached) {
+            this.isAttached = false;
+            children = this.children;
+            for (i = 0, ii = children.length; i < ii; ++i) {
+                children[i].detached();
+            }
+        }
+    }
+    projectTo(slots) {
+        this.projectToSlots = slots;
+        this.add = this._projectionAdd;
+        this.insert = this._projectionInsert;
+        this.move = this._projectionMove;
+        this.remove = this._projectionRemove;
+        this.removeAt = this._projectionRemoveAt;
+        this.removeMany = this._projectionRemoveMany;
+        this.removeAll = this._projectionRemoveAll;
+        this.children.forEach(view => ShadowDOM.distributeView(view, slots, this));
+    }
+    _projectionAdd(view) {
+        ShadowDOM.distributeView(view, this.projectToSlots, this);
+        this.children.push(view);
+        if (this.isAttached) {
+            view.attached();
+        }
+    }
+    _projectionInsert(index, view) {
+        if ((index === 0 && !this.children.length) || index >= this.children.length) {
+            this.add(view);
+        }
+        else {
+            ShadowDOM.distributeView(view, this.projectToSlots, this, index);
+            this.children.splice(index, 0, view);
+            if (this.isAttached) {
+                view.attached();
+            }
+        }
+    }
+    _projectionMove(sourceIndex, targetIndex) {
+        if (sourceIndex === targetIndex) {
+            return;
+        }
+        const children = this.children;
+        const view = children[sourceIndex];
+        ShadowDOM.undistributeView(view, this.projectToSlots, this);
+        ShadowDOM.distributeView(view, this.projectToSlots, this, targetIndex);
+        children.splice(sourceIndex, 1);
+        children.splice(targetIndex, 0, view);
+    }
+    _projectionRemove(view, returnToCache) {
+        ShadowDOM.undistributeView(view, this.projectToSlots, this);
+        this.children.splice(this.children.indexOf(view), 1);
+        if (this.isAttached) {
+            view.detached();
+        }
+        if (returnToCache) {
+            view.returnToCache();
+        }
+    }
+    _projectionRemoveAt(index, returnToCache) {
+        let view = this.children[index];
+        ShadowDOM.undistributeView(view, this.projectToSlots, this);
+        this.children.splice(index, 1);
+        if (this.isAttached) {
+            view.detached();
+        }
+        if (returnToCache) {
+            view.returnToCache();
+        }
+    }
+    _projectionRemoveMany(viewsToRemove, returnToCache) {
+        viewsToRemove.forEach(view => this.remove(view, returnToCache));
+    }
+    _projectionRemoveAll(returnToCache) {
+        ShadowDOM.undistributeAll(this.projectToSlots, this);
+        let children = this.children;
+        let ii = children.length;
+        for (let i = 0; i < ii; ++i) {
+            if (returnToCache) {
+                children[i].returnToCache();
+            }
+            else if (this.isAttached) {
+                children[i].detached();
+            }
+        }
+        this.children = [];
+    }
+}
 
-    observer.publishing = true;
-    observer.selfSubscriber = selfSubscriber;
-  }
+const $resolver = aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_6__.resolver;
+let ProviderResolver = class ProviderResolver {
+    get(container, key) {
+        let id = key.__providerId__;
+        return id in container ? container[id] : (container[id] = container.invoke(key));
+    }
 };
-
-let lastProviderId = 0;
-
-function nextProviderId() {
-  return ++lastProviderId;
+ProviderResolver = __decorate([
+    $resolver
+], ProviderResolver);
+let providerResolverInstance = new ProviderResolver();
+function elementContainerGet(key) {
+    if (key === aurelia_pal__WEBPACK_IMPORTED_MODULE_0__.DOM.Element) {
+        return this.element;
+    }
+    if (key === BoundViewFactory) {
+        if (this.boundViewFactory) {
+            return this.boundViewFactory;
+        }
+        let factory = this.instruction.viewFactory;
+        let partReplacements = this.partReplacements;
+        if (partReplacements) {
+            factory = partReplacements[factory.part] || factory;
+        }
+        this.boundViewFactory = new BoundViewFactory(this, factory, partReplacements);
+        return this.boundViewFactory;
+    }
+    if (key === ViewSlot) {
+        if (this.viewSlot === undefined) {
+            this.viewSlot = new ViewSlot(this.element, this.instruction.anchorIsContainer);
+            this.element.isContentProjectionSource = this.instruction.lifting;
+            this.children.push(this.viewSlot);
+        }
+        return this.viewSlot;
+    }
+    if (key === ElementEvents) {
+        return this.elementEvents || (this.elementEvents = new ElementEvents(this.element));
+    }
+    if (key === CompositionTransaction) {
+        return this.compositionTransaction || (this.compositionTransaction = this.parent.get(key));
+    }
+    if (key === ViewResources) {
+        return this.viewResources;
+    }
+    if (key === TargetInstruction) {
+        return this.instruction;
+    }
+    return this.superGet(key);
 }
-
-function doProcessContent() {
-  return true;
+function createElementContainer(parent, element, instruction, children, partReplacements, resources) {
+    let container = parent.createChild();
+    let providers;
+    let i;
+    container.element = element;
+    container.instruction = instruction;
+    container.children = children;
+    container.viewResources = resources;
+    container.partReplacements = partReplacements;
+    providers = instruction.providers;
+    i = providers.length;
+    while (i--) {
+        container._resolvers.set(providers[i], providerResolverInstance);
+    }
+    container.superGet = container.get;
+    container.get = elementContainerGet;
+    return container;
 }
-function doProcessAttributes() {}
-
-let HtmlBehaviorResource = class HtmlBehaviorResource {
-  constructor() {
-    this.elementName = null;
-    this.attributeName = null;
-    this.attributeDefaultBindingMode = undefined;
-    this.liftsContent = false;
-    this.targetShadowDOM = false;
-    this.shadowDOMOptions = null;
-    this.processAttributes = doProcessAttributes;
-    this.processContent = doProcessContent;
-    this.usesShadowDOM = false;
-    this.childBindings = null;
-    this.hasDynamicOptions = false;
-    this.containerless = false;
-    this.properties = [];
-    this.attributes = {};
-    this.isInitialized = false;
-    this.primaryProperty = null;
-  }
-
-  static convention(name, existing) {
-    let behavior;
-
-    if (name.endsWith('CustomAttribute')) {
-      behavior = existing || new HtmlBehaviorResource();
-      behavior.attributeName = _hyphenate(name.substring(0, name.length - 15));
+function hasAttribute(name) {
+    return this._element.hasAttribute(name);
+}
+function getAttribute(name) {
+    return this._element.getAttribute(name);
+}
+function setAttribute(name, value) {
+    this._element.setAttribute(name, value);
+}
+function makeElementIntoAnchor(element, elementInstruction) {
+    let anchor = aurelia_pal__WEBPACK_IMPORTED_MODULE_0__.DOM.createComment('anchor');
+    if (elementInstruction) {
+        let firstChild = element.firstChild;
+        if (firstChild && firstChild.tagName === 'AU-CONTENT') {
+            anchor.contentElement = firstChild;
+        }
+        anchor._element = element;
+        anchor.hasAttribute = hasAttribute;
+        anchor.getAttribute = getAttribute;
+        anchor.setAttribute = setAttribute;
     }
-
-    if (name.endsWith('CustomElement')) {
-      behavior = existing || new HtmlBehaviorResource();
-      behavior.elementName = _hyphenate(name.substring(0, name.length - 13));
-    }
-
-    return behavior;
-  }
-
-  addChildBinding(behavior) {
-    if (this.childBindings === null) {
-      this.childBindings = [];
-    }
-
-    this.childBindings.push(behavior);
-  }
-
-  initialize(container, target) {
-    let proto = target.prototype;
-    let properties = this.properties;
-    let attributeName = this.attributeName;
-    let attributeDefaultBindingMode = this.attributeDefaultBindingMode;
+    aurelia_pal__WEBPACK_IMPORTED_MODULE_0__.DOM.replaceNode(anchor, element);
+    return anchor;
+}
+function applyInstructions(containers, element, instruction, controllers, bindings, children, shadowSlots, partReplacements, resources) {
+    let behaviorInstructions = instruction.behaviorInstructions;
+    let expressions = instruction.expressions;
+    let elementContainer;
     let i;
     let ii;
     let current;
-
-    if (this.isInitialized) {
-      return;
+    let instance;
+    if (instruction.contentExpression) {
+        bindings.push(instruction.contentExpression.createBinding(element.nextSibling));
+        element.nextSibling.auInterpolationTarget = true;
+        element.parentNode.removeChild(element);
+        return;
     }
-
-    this.isInitialized = true;
-    target.__providerId__ = nextProviderId();
-
-    this.observerLocator = container.get(aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.ObserverLocator);
-    this.taskQueue = container.get(aurelia_task_queue__WEBPACK_IMPORTED_MODULE_7__.TaskQueue);
-
-    this.target = target;
-    this.usesShadowDOM = this.targetShadowDOM && aurelia_pal__WEBPACK_IMPORTED_MODULE_2__.FEATURE.shadowDOM;
-    this.handlesCreated = 'created' in proto;
-    this.handlesBind = 'bind' in proto;
-    this.handlesUnbind = 'unbind' in proto;
-    this.handlesAttached = 'attached' in proto;
-    this.handlesDetached = 'detached' in proto;
-    this.htmlName = this.elementName || this.attributeName;
-
-    if (attributeName !== null) {
-      if (properties.length === 0) {
-        new BindableProperty({
-          name: 'value',
-          changeHandler: 'valueChanged' in proto ? 'valueChanged' : null,
-          attribute: attributeName,
-          defaultBindingMode: attributeDefaultBindingMode
-        }).registerWith(target, this);
-      }
-
-      current = properties[0];
-
-      if (properties.length === 1 && current.name === 'value') {
-        current.isDynamic = current.hasOptions = this.hasDynamicOptions;
-        current.defineOn(target, this);
-      } else {
-        for (i = 0, ii = properties.length; i < ii; ++i) {
-          properties[i].defineOn(target, this);
-          if (properties[i].primaryProperty) {
-            if (this.primaryProperty) {
-              throw new Error('Only one bindable property on a custom element can be defined as the default');
-            }
-            this.primaryProperty = properties[i];
-          }
+    if (instruction.shadowSlot) {
+        let commentAnchor = aurelia_pal__WEBPACK_IMPORTED_MODULE_0__.DOM.createComment('slot');
+        let slot;
+        if (instruction.slotDestination) {
+            slot = new PassThroughSlot(commentAnchor, instruction.slotName, instruction.slotDestination, instruction.slotFallbackFactory);
         }
-
-        current = new BindableProperty({
-          name: 'value',
-          changeHandler: 'valueChanged' in proto ? 'valueChanged' : null,
-          attribute: attributeName,
-          defaultBindingMode: attributeDefaultBindingMode
-        });
-
-        current.hasOptions = true;
-        current.registerWith(target, this);
-      }
-    } else {
-      for (i = 0, ii = properties.length; i < ii; ++i) {
-        properties[i].defineOn(target, this);
-      }
-
-      this._copyInheritedProperties(container, target);
-    }
-  }
-
-  register(registry, name) {
-    if (this.attributeName !== null) {
-      registry.registerAttribute(name || this.attributeName, this, this.attributeName);
-
-      if (Array.isArray(this.aliases)) {
-        this.aliases.forEach(alias => {
-          registry.registerAttribute(alias, this, this.attributeName);
-        });
-      }
-    }
-
-    if (this.elementName !== null) {
-      registry.registerElement(name || this.elementName, this);
-    }
-  }
-
-  load(container, target, loadContext, viewStrategy, transientView) {
-    let options;
-
-    if (this.elementName !== null) {
-      viewStrategy = container.get(ViewLocator).getViewStrategy(viewStrategy || this.viewStrategy || target);
-      options = new ViewCompileInstruction(this.targetShadowDOM, true);
-
-      if (!viewStrategy.moduleId) {
-        viewStrategy.moduleId = aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.Origin.get(target).moduleId;
-      }
-
-      return viewStrategy.loadViewFactory(container.get(ViewEngine), options, loadContext, target).then(viewFactory => {
-        if (!transientView || !this.viewFactory) {
-          this.viewFactory = viewFactory;
+        else {
+            slot = new ShadowSlot(commentAnchor, instruction.slotName, instruction.slotFallbackFactory);
         }
-
-        return viewFactory;
-      });
+        aurelia_pal__WEBPACK_IMPORTED_MODULE_0__.DOM.replaceNode(commentAnchor, element);
+        shadowSlots[instruction.slotName] = slot;
+        controllers.push(slot);
+        return;
     }
-
-    return Promise.resolve(this);
-  }
-
-  compile(compiler, resources, node, instruction, parentNode) {
-    if (this.liftsContent) {
-      if (!instruction.viewFactory) {
-        let template = aurelia_pal__WEBPACK_IMPORTED_MODULE_2__.DOM.createElement('template');
-        let fragment = aurelia_pal__WEBPACK_IMPORTED_MODULE_2__.DOM.createDocumentFragment();
-        let cacheSize = node.getAttribute('view-cache');
-        let part = node.getAttribute('part');
-
-        node.removeAttribute(instruction.originalAttrName);
-        aurelia_pal__WEBPACK_IMPORTED_MODULE_2__.DOM.replaceNode(template, node, parentNode);
-        fragment.appendChild(node);
-        instruction.viewFactory = compiler.compile(fragment, resources);
-
-        if (part) {
-          instruction.viewFactory.part = part;
-          node.removeAttribute('part');
+    if (instruction.letElement) {
+        for (i = 0, ii = expressions.length; i < ii; ++i) {
+            bindings.push(expressions[i].createBinding());
         }
-
-        if (cacheSize) {
-          instruction.viewFactory.setCacheSize(cacheSize);
-          node.removeAttribute('view-cache');
-        }
-
-        node = template;
-      }
-    } else if (this.elementName !== null) {
-      let partReplacements = {};
-
-      if (this.processContent(compiler, resources, node, instruction) && node.hasChildNodes()) {
-        let currentChild = node.firstChild;
-        let contentElement = this.usesShadowDOM ? null : aurelia_pal__WEBPACK_IMPORTED_MODULE_2__.DOM.createElement('au-content');
-        let nextSibling;
-        let toReplace;
-
-        while (currentChild) {
-          nextSibling = currentChild.nextSibling;
-
-          if (currentChild.tagName === 'TEMPLATE' && (toReplace = currentChild.getAttribute('replace-part'))) {
-            partReplacements[toReplace] = compiler.compile(currentChild, resources);
-            aurelia_pal__WEBPACK_IMPORTED_MODULE_2__.DOM.removeNode(currentChild, parentNode);
-            instruction.partReplacements = partReplacements;
-          } else if (contentElement !== null) {
-            if (currentChild.nodeType === 3 && _isAllWhitespace(currentChild)) {
-              aurelia_pal__WEBPACK_IMPORTED_MODULE_2__.DOM.removeNode(currentChild, parentNode);
-            } else {
-              contentElement.appendChild(currentChild);
-            }
-          }
-
-          currentChild = nextSibling;
-        }
-
-        if (contentElement !== null && contentElement.hasChildNodes()) {
-          node.appendChild(contentElement);
-        }
-
-        instruction.skipContentProcessing = false;
-      } else {
-        instruction.skipContentProcessing = true;
-      }
-    } else if (!this.processContent(compiler, resources, node, instruction)) {
-      instruction.skipContentProcessing = true;
+        element.parentNode.removeChild(element);
+        return;
     }
-
-    return node;
-  }
-
-  create(container, instruction, element, bindings) {
-    let viewHost;
-    let au = null;
-
-    instruction = instruction || BehaviorInstruction.normal;
-    element = element || null;
-    bindings = bindings || null;
-
-    if (this.elementName !== null && element) {
-      if (this.usesShadowDOM) {
-        viewHost = element.attachShadow(this.shadowDOMOptions);
-        container.registerInstance(aurelia_pal__WEBPACK_IMPORTED_MODULE_2__.DOM.boundary, viewHost);
-      } else {
-        viewHost = element;
-        if (this.targetShadowDOM) {
-          container.registerInstance(aurelia_pal__WEBPACK_IMPORTED_MODULE_2__.DOM.boundary, viewHost);
+    if (behaviorInstructions.length) {
+        if (!instruction.anchorIsContainer) {
+            element = makeElementIntoAnchor(element, instruction.elementInstruction);
         }
-      }
-    }
-
-    if (element !== null) {
-      element.au = au = element.au || {};
-    }
-
-    let viewModel = instruction.viewModel || container.get(this.target);
-    let controller = new Controller(this, instruction, viewModel, container);
-    let childBindings = this.childBindings;
-    let viewFactory;
-
-    if (this.liftsContent) {
-      au.controller = controller;
-    } else if (this.elementName !== null) {
-      viewFactory = instruction.viewFactory || this.viewFactory;
-      container.viewModel = viewModel;
-
-      if (viewFactory) {
-        controller.view = viewFactory.create(container, instruction, element);
-      }
-
-      if (element !== null) {
-        au.controller = controller;
-
-        if (controller.view) {
-          if (!this.usesShadowDOM && (element.childNodes.length === 1 || element.contentElement)) {
-            let contentElement = element.childNodes[0] || element.contentElement;
-            controller.view.contentView = { fragment: contentElement };
-            contentElement.parentNode && aurelia_pal__WEBPACK_IMPORTED_MODULE_2__.DOM.removeNode(contentElement);
-          }
-
-          if (instruction.anchorIsContainer) {
-            if (childBindings !== null) {
-              for (let i = 0, ii = childBindings.length; i < ii; ++i) {
-                controller.view.addBinding(childBindings[i].create(element, viewModel, controller));
-              }
-            }
-
-            controller.view.appendNodesTo(viewHost);
-          } else {
-            controller.view.insertNodesBefore(viewHost);
-          }
-        } else if (childBindings !== null) {
-          for (let i = 0, ii = childBindings.length; i < ii; ++i) {
-            bindings.push(childBindings[i].create(element, viewModel, controller));
-          }
+        containers[instruction.injectorId] = elementContainer =
+            createElementContainer(containers[instruction.parentInjectorId], element, instruction, children, partReplacements, resources);
+        for (i = 0, ii = behaviorInstructions.length; i < ii; ++i) {
+            current = behaviorInstructions[i];
+            instance = current.type.create(elementContainer, current, element, bindings);
+            controllers.push(instance);
         }
-      } else if (controller.view) {
-        controller.view.controller = controller;
-
-        if (childBindings !== null) {
-          for (let i = 0, ii = childBindings.length; i < ii; ++i) {
-            controller.view.addBinding(childBindings[i].create(instruction.host, viewModel, controller));
-          }
-        }
-      } else if (childBindings !== null) {
-        for (let i = 0, ii = childBindings.length; i < ii; ++i) {
-          bindings.push(childBindings[i].create(instruction.host, viewModel, controller));
-        }
-      }
-    } else if (childBindings !== null) {
-      for (let i = 0, ii = childBindings.length; i < ii; ++i) {
-        bindings.push(childBindings[i].create(element, viewModel, controller));
-      }
     }
-
-    if (au !== null) {
-      au[this.htmlName] = controller;
+    for (i = 0, ii = expressions.length; i < ii; ++i) {
+        bindings.push(expressions[i].createBinding(element));
     }
-
-    if (instruction.initiatedByBehavior && viewFactory) {
-      controller.view.created();
+}
+function styleStringToObject(style, target) {
+    let attributes = style.split(';');
+    let firstIndexOfColon;
+    let i;
+    let current;
+    let key;
+    let value;
+    target = target || {};
+    for (i = 0; i < attributes.length; i++) {
+        current = attributes[i];
+        firstIndexOfColon = current.indexOf(':');
+        key = current.substring(0, firstIndexOfColon).trim();
+        value = current.substring(firstIndexOfColon + 1).trim();
+        target[key] = value;
     }
-
-    return controller;
-  }
-
-  _ensurePropertiesDefined(instance, lookup) {
-    let properties;
+    return target;
+}
+function styleObjectToString(obj) {
+    let result = '';
+    for (let key in obj) {
+        result += key + ':' + obj[key] + ';';
+    }
+    return result;
+}
+function applySurrogateInstruction(container, element, instruction, controllers, bindings, children) {
+    let behaviorInstructions = instruction.behaviorInstructions;
+    let expressions = instruction.expressions;
+    let providers = instruction.providers;
+    let values = instruction.values;
     let i;
     let ii;
-    let observer;
-
-    if ('__propertiesDefined__' in lookup) {
-      return;
+    let current;
+    let instance;
+    let currentAttributeValue;
+    i = providers.length;
+    while (i--) {
+        container._resolvers.set(providers[i], providerResolverInstance);
     }
-
-    lookup.__propertiesDefined__ = true;
-    properties = this.properties;
-
-    for (i = 0, ii = properties.length; i < ii; ++i) {
-      observer = properties[i].createObserver(instance);
-
-      if (observer !== undefined) {
-        lookup[observer.propertyName] = observer;
-      }
-    }
-  }
-
-  _copyInheritedProperties(container, target) {
-    let behavior;
-    let derived = target;
-
-    while (true) {
-      let proto = Object.getPrototypeOf(target.prototype);
-      target = proto && proto.constructor;
-      if (!target) {
-        return;
-      }
-      behavior = aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.getOwn(aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.resource, target);
-      if (behavior) {
-        break;
-      }
-    }
-    behavior.initialize(container, target);
-    for (let i = 0, ii = behavior.properties.length; i < ii; ++i) {
-      let prop = behavior.properties[i];
-
-      if (this.properties.some(p => p.name === prop.name)) {
-        continue;
-      }
-
-      new BindableProperty(prop).registerWith(derived, this);
-    }
-  }
-};
-
-function createChildObserverDecorator(selectorOrConfig, all) {
-  return function (target, key, descriptor) {
-    let actualTarget = typeof key === 'string' ? target.constructor : target;
-    let r = aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.getOrCreateOwn(aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.resource, HtmlBehaviorResource, actualTarget);
-
-    if (typeof selectorOrConfig === 'string') {
-      selectorOrConfig = {
-        selector: selectorOrConfig,
-        name: key
-      };
-    }
-
-    if (descriptor) {
-      descriptor.writable = true;
-      descriptor.configurable = true;
-    }
-
-    selectorOrConfig.all = all;
-    r.addChildBinding(new ChildObserver(selectorOrConfig));
-  };
-}
-
-function children(selectorOrConfig) {
-  return createChildObserverDecorator(selectorOrConfig, true);
-}
-
-function child(selectorOrConfig) {
-  return createChildObserverDecorator(selectorOrConfig, false);
-}
-
-let ChildObserver = class ChildObserver {
-  constructor(config) {
-    this.name = config.name;
-    this.changeHandler = config.changeHandler || this.name + 'Changed';
-    this.selector = config.selector;
-    this.all = config.all;
-  }
-
-  create(viewHost, viewModel, controller) {
-    return new ChildObserverBinder(this.selector, viewHost, this.name, viewModel, controller, this.changeHandler, this.all);
-  }
-};
-
-
-const noMutations = [];
-
-function trackMutation(groupedMutations, binder, record) {
-  let mutations = groupedMutations.get(binder);
-
-  if (!mutations) {
-    mutations = [];
-    groupedMutations.set(binder, mutations);
-  }
-
-  mutations.push(record);
-}
-
-function onChildChange(mutations, observer) {
-  let binders = observer.binders;
-  let bindersLength = binders.length;
-
-  let groupedMutations = new Map();
-
-  for (let i = 0, ii = mutations.length; i < ii; ++i) {
-    let record = mutations[i];
-    let added = record.addedNodes;
-    let removed = record.removedNodes;
-
-    for (let j = 0, jj = removed.length; j < jj; ++j) {
-      let node = removed[j];
-      if (node.nodeType === 1) {
-        for (let k = 0; k < bindersLength; ++k) {
-          let binder = binders[k];
-
-          if (binder.onRemove(node)) {
-            trackMutation(groupedMutations, binder, record);
-          }
-        }
-      }
-    }
-
-    for (let j = 0, jj = added.length; j < jj; ++j) {
-      let node = added[j];
-      if (node.nodeType === 1) {
-        for (let k = 0; k < bindersLength; ++k) {
-          let binder = binders[k];
-
-          if (binder.onAdd(node)) {
-            trackMutation(groupedMutations, binder, record);
-          }
-        }
-      }
-    }
-  }
-
-  groupedMutations.forEach((mutationRecords, binder) => {
-    if (binder.isBound && binder.changeHandler !== null) {
-      binder.viewModel[binder.changeHandler](mutationRecords);
-    }
-  });
-}
-
-let ChildObserverBinder = class ChildObserverBinder {
-  constructor(selector, viewHost, property, viewModel, controller, changeHandler, all) {
-    this.selector = selector;
-
-    this.viewHost = viewHost;
-    this.property = property;
-    this.viewModel = viewModel;
-    this.controller = controller;
-    this.changeHandler = changeHandler in viewModel ? changeHandler : null;
-    this.usesShadowDOM = controller.behavior.usesShadowDOM;
-    this.all = all;
-
-    if (!this.usesShadowDOM && controller.view && controller.view.contentView) {
-      this.contentView = controller.view.contentView;
-    } else {
-      this.contentView = null;
-    }
-    this.source = null;
-    this.isBound = false;
-  }
-
-  matches(element) {
-    if (element.matches(this.selector)) {
-      if (this.contentView === null) {
-        return true;
-      }
-
-      let contentView = this.contentView;
-      let assignedSlot = element.auAssignedSlot;
-
-      if (assignedSlot && assignedSlot.projectFromAnchors) {
-        let anchors = assignedSlot.projectFromAnchors;
-
-        for (let i = 0, ii = anchors.length; i < ii; ++i) {
-          if (anchors[i].auOwnerView === contentView) {
-            return true;
-          }
-        }
-
-        return false;
-      }
-
-      return element.auOwnerView === contentView;
-    }
-
-    return false;
-  }
-
-  bind(source) {
-    if (this.isBound) {
-      if (this.source === source) {
-        return;
-      }
-      this.source = source;
-    }
-    this.isBound = true;
-
-    let viewHost = this.viewHost;
-    let viewModel = this.viewModel;
-    let observer = viewHost.__childObserver__;
-
-    if (!observer) {
-      observer = viewHost.__childObserver__ = aurelia_pal__WEBPACK_IMPORTED_MODULE_2__.DOM.createMutationObserver(onChildChange);
-
-      let options = {
-        childList: true,
-        subtree: !this.usesShadowDOM
-      };
-
-      observer.observe(viewHost, options);
-      observer.binders = [];
-    }
-
-    observer.binders.push(this);
-
-    if (this.usesShadowDOM) {
-      let current = viewHost.firstElementChild;
-
-      if (this.all) {
-        let items = viewModel[this.property];
-        if (!items) {
-          items = viewModel[this.property] = [];
-        } else {
-          items.splice(0);
-        }
-
-        while (current) {
-          if (this.matches(current)) {
-            items.push(current.au && current.au.controller ? current.au.controller.viewModel : current);
-          }
-
-          current = current.nextElementSibling;
-        }
-
-        if (this.changeHandler !== null) {
-          this.viewModel[this.changeHandler](noMutations);
-        }
-      } else {
-        while (current) {
-          if (this.matches(current)) {
-            let value = current.au && current.au.controller ? current.au.controller.viewModel : current;
-            this.viewModel[this.property] = value;
-
-            if (this.changeHandler !== null) {
-              this.viewModel[this.changeHandler](value);
+    for (let key in values) {
+        currentAttributeValue = element.getAttribute(key);
+        if (currentAttributeValue) {
+            if (key === 'class') {
+                element.setAttribute('class', currentAttributeValue + ' ' + values[key]);
             }
-
-            break;
-          }
-
-          current = current.nextElementSibling;
+            else if (key === 'style') {
+                let styleObject = styleStringToObject(values[key]);
+                styleStringToObject(currentAttributeValue, styleObject);
+                element.setAttribute('style', styleObjectToString(styleObject));
+            }
         }
-      }
+        else {
+            element.setAttribute(key, values[key]);
+        }
     }
-  }
+    if (behaviorInstructions.length) {
+        for (i = 0, ii = behaviorInstructions.length; i < ii; ++i) {
+            current = behaviorInstructions[i];
+            instance = current.type.create(container, current, element, bindings);
+            if (instance.contentView) {
+                children.push(instance.contentView);
+            }
+            controllers.push(instance);
+        }
+    }
+    for (i = 0, ii = expressions.length; i < ii; ++i) {
+        bindings.push(expressions[i].createBinding(element));
+    }
+}
+class BoundViewFactory {
+    constructor(parentContainer, viewFactory, partReplacements) {
+        this.parentContainer = parentContainer;
+        this.viewFactory = viewFactory;
+        this.factoryCreateInstruction = { partReplacements: partReplacements };
+    }
+    create() {
+        let view = this.viewFactory.create(this.parentContainer.createChild(), this.factoryCreateInstruction);
+        view._isUserControlled = true;
+        return view;
+    }
+    get isCaching() {
+        return this.viewFactory.isCaching;
+    }
+    setCacheSize(size, doNotOverrideIfAlreadySet) {
+        this.viewFactory.setCacheSize(size, doNotOverrideIfAlreadySet);
+    }
+    getCachedView() {
+        return this.viewFactory.getCachedView();
+    }
+    returnViewToCache(view) {
+        this.viewFactory.returnViewToCache(view);
+    }
+}
+class ViewFactory {
+    constructor(template, instructions, resources) {
+        this.isCaching = false;
+        this.template = template;
+        this.instructions = instructions;
+        this.resources = resources;
+        this.cacheSize = -1;
+        this.cache = null;
+    }
+    setCacheSize(size, doNotOverrideIfAlreadySet) {
+        if (size) {
+            if (size === '*') {
+                size = Number.MAX_VALUE;
+            }
+            else if (typeof size === 'string') {
+                size = parseInt(size, 10);
+            }
+        }
+        if (this.cacheSize === -1 || !doNotOverrideIfAlreadySet) {
+            this.cacheSize = Number(size);
+        }
+        if (this.cacheSize > 0) {
+            this.cache = [];
+        }
+        else {
+            this.cache = null;
+        }
+        this.isCaching = this.cacheSize > 0;
+    }
+    getCachedView() {
+        return this.cache !== null ? (this.cache.pop() || null) : null;
+    }
+    returnViewToCache(view) {
+        if (view.isAttached) {
+            view.detached();
+        }
+        if (view.isBound) {
+            view.unbind();
+        }
+        if (this.cache !== null && this.cache.length < this.cacheSize) {
+            view.fromCache = true;
+            this.cache.push(view);
+        }
+    }
+    create(container, createInstruction, element) {
+        createInstruction = createInstruction || BehaviorInstruction.normal;
+        let cachedView = this.getCachedView();
+        if (cachedView !== null) {
+            return cachedView;
+        }
+        let fragment = createInstruction.enhance ? this.template : this.template.cloneNode(true);
+        let instructables = fragment.querySelectorAll('.au-target');
+        let instructions = this.instructions;
+        let resources = this.resources;
+        let controllers = [];
+        let bindings = [];
+        let children = [];
+        let shadowSlots = Object.create(null);
+        let containers = { root: container };
+        let partReplacements = createInstruction.partReplacements;
+        let i;
+        let ii;
+        let view;
+        let instructable;
+        let instruction;
+        this.resources._invokeHook('beforeCreate', this, container, fragment, createInstruction);
+        if (element && this.surrogateInstruction !== null) {
+            applySurrogateInstruction(container, element, this.surrogateInstruction, controllers, bindings, children);
+        }
+        if (createInstruction.enhance && fragment.hasAttribute('au-target-id')) {
+            instructable = fragment;
+            instruction = instructions[instructable.getAttribute('au-target-id')];
+            applyInstructions(containers, instructable, instruction, controllers, bindings, children, shadowSlots, partReplacements, resources);
+        }
+        for (i = 0, ii = instructables.length; i < ii; ++i) {
+            instructable = instructables[i];
+            instruction = instructions[instructable.getAttribute('au-target-id')];
+            applyInstructions(containers, instructable, instruction, controllers, bindings, children, shadowSlots, partReplacements, resources);
+        }
+        view = new View(container, this, fragment, controllers, bindings, children, shadowSlots);
+        if (!createInstruction.initiatedByBehavior) {
+            view.created();
+        }
+        this.resources._invokeHook('afterCreate', view);
+        return view;
+    }
+}
 
-  onRemove(element) {
-    if (this.matches(element)) {
-      let value = element.au && element.au.controller ? element.au.controller.viewModel : element;
+let nextInjectorId = 0;
+function getNextInjectorId() {
+    return ++nextInjectorId;
+}
+let lastAUTargetID = 0;
+function getNextAUTargetID() {
+    return (++lastAUTargetID).toString();
+}
+function makeIntoInstructionTarget(element) {
+    let value = element.getAttribute('class');
+    let auTargetID = getNextAUTargetID();
+    element.setAttribute('class', (value ? value + ' au-target' : 'au-target'));
+    element.setAttribute('au-target-id', auTargetID);
+    return auTargetID;
+}
+function makeShadowSlot(compiler, resources, node, instructions, parentInjectorId) {
+    let auShadowSlot = aurelia_pal__WEBPACK_IMPORTED_MODULE_0__.DOM.createElement('au-shadow-slot');
+    aurelia_pal__WEBPACK_IMPORTED_MODULE_0__.DOM.replaceNode(auShadowSlot, node);
+    let auTargetID = makeIntoInstructionTarget(auShadowSlot);
+    let instruction = TargetInstruction.shadowSlot(parentInjectorId);
+    instruction.slotName = node.getAttribute('name') || ShadowDOM.defaultSlotKey;
+    instruction.slotDestination = node.getAttribute('slot');
+    if (node.innerHTML.trim()) {
+        let fragment = aurelia_pal__WEBPACK_IMPORTED_MODULE_0__.DOM.createDocumentFragment();
+        let child;
+        while (child = node.firstChild) {
+            fragment.appendChild(child);
+        }
+        instruction.slotFallbackFactory = compiler.compile(fragment, resources);
+    }
+    instructions[auTargetID] = instruction;
+    return auShadowSlot;
+}
+const defaultLetHandler = BindingLanguage.prototype.createLetExpressions;
+class ViewCompiler {
+    constructor(bindingLanguage, resources) {
+        this.bindingLanguage = bindingLanguage;
+        this.resources = resources;
+    }
+    static inject() {
+        return [BindingLanguage, ViewResources];
+    }
+    compile(source, resources, compileInstruction) {
+        resources = resources || this.resources;
+        compileInstruction = compileInstruction || ViewCompileInstruction.normal;
+        source = typeof source === 'string' ? aurelia_pal__WEBPACK_IMPORTED_MODULE_0__.DOM.createTemplateFromMarkup(source) : source;
+        let content;
+        let part;
+        let cacheSize;
+        if (source.content) {
+            part = source.getAttribute('part');
+            cacheSize = source.getAttribute('view-cache');
+            content = aurelia_pal__WEBPACK_IMPORTED_MODULE_0__.DOM.adoptNode(source.content);
+        }
+        else {
+            content = source;
+        }
+        compileInstruction.targetShadowDOM = compileInstruction.targetShadowDOM && aurelia_pal__WEBPACK_IMPORTED_MODULE_0__.FEATURE.shadowDOM;
+        resources._invokeHook('beforeCompile', content, resources, compileInstruction);
+        let instructions = {};
+        this._compileNode(content, resources, instructions, source, 'root', !compileInstruction.targetShadowDOM);
+        let firstChild = content.firstChild;
+        if (firstChild && firstChild.nodeType === 1) {
+            let targetId = firstChild.getAttribute('au-target-id');
+            if (targetId) {
+                let ins = instructions[targetId];
+                if (ins.shadowSlot || ins.lifting || (ins.elementInstruction && !ins.elementInstruction.anchorIsContainer)) {
+                    content.insertBefore(aurelia_pal__WEBPACK_IMPORTED_MODULE_0__.DOM.createComment('view'), firstChild);
+                }
+            }
+        }
+        let factory = new ViewFactory(content, instructions, resources);
+        factory.surrogateInstruction = compileInstruction.compileSurrogate ? this._compileSurrogate(source, resources) : null;
+        factory.part = part;
+        if (cacheSize) {
+            factory.setCacheSize(cacheSize);
+        }
+        resources._invokeHook('afterCompile', factory);
+        return factory;
+    }
+    _compileNode(node, resources, instructions, parentNode, parentInjectorId, targetLightDOM) {
+        switch (node.nodeType) {
+            case 1:
+                return this._compileElement(node, resources, instructions, parentNode, parentInjectorId, targetLightDOM);
+            case 3:
+                let expression = resources.getBindingLanguage(this.bindingLanguage).inspectTextContent(resources, node.wholeText);
+                if (expression) {
+                    let marker = aurelia_pal__WEBPACK_IMPORTED_MODULE_0__.DOM.createElement('au-marker');
+                    let auTargetID = makeIntoInstructionTarget(marker);
+                    (node.parentNode || parentNode).insertBefore(marker, node);
+                    node.textContent = ' ';
+                    instructions[auTargetID] = TargetInstruction.contentExpression(expression);
+                    while (node.nextSibling && node.nextSibling.nodeType === 3) {
+                        (node.parentNode || parentNode).removeChild(node.nextSibling);
+                    }
+                }
+                else {
+                    while (node.nextSibling && node.nextSibling.nodeType === 3) {
+                        node = node.nextSibling;
+                    }
+                }
+                return node.nextSibling;
+            case 11:
+                let currentChild = node.firstChild;
+                while (currentChild) {
+                    currentChild = this._compileNode(currentChild, resources, instructions, node, parentInjectorId, targetLightDOM);
+                }
+                break;
+        }
+        return node.nextSibling;
+    }
+    _compileSurrogate(node, resources) {
+        let tagName = node.tagName.toLowerCase();
+        let attributes = node.attributes;
+        let bindingLanguage = resources.getBindingLanguage(this.bindingLanguage);
+        let knownAttribute;
+        let property;
+        let instruction;
+        let i;
+        let ii;
+        let attr;
+        let attrName;
+        let attrValue;
+        let info;
+        let type;
+        let expressions = [];
+        let expression;
+        let behaviorInstructions = [];
+        let values = {};
+        let hasValues = false;
+        let providers = [];
+        for (i = 0, ii = attributes.length; i < ii; ++i) {
+            attr = attributes[i];
+            attrName = attr.name;
+            attrValue = attr.value;
+            info = bindingLanguage.inspectAttribute(resources, tagName, attrName, attrValue);
+            type = resources.getAttribute(info.attrName);
+            if (type) {
+                knownAttribute = resources.mapAttribute(info.attrName);
+                if (knownAttribute) {
+                    property = type.attributes[knownAttribute];
+                    if (property) {
+                        info.defaultBindingMode = property.defaultBindingMode;
+                        if (!info.command && !info.expression) {
+                            info.command = property.hasOptions ? 'options' : null;
+                        }
+                        if (info.command && (info.command !== 'options') && type.primaryProperty) {
+                            const primaryProperty = type.primaryProperty;
+                            attrName = info.attrName = primaryProperty.attribute;
+                            info.defaultBindingMode = primaryProperty.defaultBindingMode;
+                        }
+                    }
+                }
+            }
+            instruction = bindingLanguage.createAttributeInstruction(resources, node, info, undefined, type);
+            if (instruction) {
+                if (instruction.alteredAttr) {
+                    type = resources.getAttribute(instruction.attrName);
+                }
+                if (instruction.discrete) {
+                    expressions.push(instruction);
+                }
+                else {
+                    if (type) {
+                        instruction.type = type;
+                        this._configureProperties(instruction, resources);
+                        if (type.liftsContent) {
+                            throw new Error('You cannot place a template controller on a surrogate element.');
+                        }
+                        else {
+                            behaviorInstructions.push(instruction);
+                        }
+                    }
+                    else {
+                        expressions.push(instruction.attributes[instruction.attrName]);
+                    }
+                }
+            }
+            else {
+                if (type) {
+                    instruction = BehaviorInstruction.attribute(attrName, type);
+                    instruction.attributes[resources.mapAttribute(attrName)] = attrValue;
+                    if (type.liftsContent) {
+                        throw new Error('You cannot place a template controller on a surrogate element.');
+                    }
+                    else {
+                        behaviorInstructions.push(instruction);
+                    }
+                }
+                else if (attrName !== 'id' && attrName !== 'part' && attrName !== 'replace-part') {
+                    hasValues = true;
+                    values[attrName] = attrValue;
+                }
+            }
+        }
+        if (expressions.length || behaviorInstructions.length || hasValues) {
+            for (i = 0, ii = behaviorInstructions.length; i < ii; ++i) {
+                instruction = behaviorInstructions[i];
+                instruction.type.compile(this, resources, node, instruction);
+                providers.push(instruction.type.target);
+            }
+            for (i = 0, ii = expressions.length; i < ii; ++i) {
+                expression = expressions[i];
+                if (expression.attrToRemove !== undefined) {
+                    node.removeAttribute(expression.attrToRemove);
+                }
+            }
+            return TargetInstruction.surrogate(providers, behaviorInstructions, expressions, values);
+        }
+        return null;
+    }
+    _compileElement(node, resources, instructions, parentNode, parentInjectorId, targetLightDOM) {
+        let tagName = node.tagName.toLowerCase();
+        let attributes = node.attributes;
+        let expressions = [];
+        let expression;
+        let behaviorInstructions = [];
+        let providers = [];
+        let bindingLanguage = resources.getBindingLanguage(this.bindingLanguage);
+        let liftingInstruction;
+        let viewFactory;
+        let type;
+        let elementInstruction;
+        let elementProperty;
+        let i;
+        let ii;
+        let attr;
+        let attrName;
+        let attrValue;
+        let originalAttrName;
+        let instruction;
+        let info;
+        let property;
+        let knownAttribute;
+        let auTargetID;
+        let injectorId;
+        if (tagName === 'slot') {
+            if (targetLightDOM) {
+                node = makeShadowSlot(this, resources, node, instructions, parentInjectorId);
+            }
+            return node.nextSibling;
+        }
+        else if (tagName === 'template') {
+            if (!('content' in node)) {
+                throw new Error('You cannot place a template element within ' + node.namespaceURI + ' namespace');
+            }
+            viewFactory = this.compile(node, resources);
+            viewFactory.part = node.getAttribute('part');
+        }
+        else {
+            type = resources.getElement(node.getAttribute('as-element') || tagName);
+            if (tagName === 'let' && !type && bindingLanguage.createLetExpressions !== defaultLetHandler) {
+                expressions = bindingLanguage.createLetExpressions(resources, node);
+                auTargetID = makeIntoInstructionTarget(node);
+                instructions[auTargetID] = TargetInstruction.letElement(expressions);
+                return node.nextSibling;
+            }
+            if (type) {
+                elementInstruction = BehaviorInstruction.element(node, type);
+                type.processAttributes(this, resources, node, attributes, elementInstruction);
+                behaviorInstructions.push(elementInstruction);
+            }
+        }
+        for (i = 0, ii = attributes.length; i < ii; ++i) {
+            attr = attributes[i];
+            originalAttrName = attrName = attr.name;
+            attrValue = attr.value;
+            info = bindingLanguage.inspectAttribute(resources, tagName, attrName, attrValue);
+            if (targetLightDOM && info.attrName === 'slot') {
+                info.attrName = attrName = 'au-slot';
+            }
+            type = resources.getAttribute(info.attrName);
+            elementProperty = null;
+            if (type) {
+                knownAttribute = resources.mapAttribute(info.attrName);
+                if (knownAttribute) {
+                    property = type.attributes[knownAttribute];
+                    if (property) {
+                        info.defaultBindingMode = property.defaultBindingMode;
+                        if (!info.command && !info.expression) {
+                            info.command = property.hasOptions ? 'options' : null;
+                        }
+                        if (info.command && (info.command !== 'options') && type.primaryProperty) {
+                            const primaryProperty = type.primaryProperty;
+                            attrName = info.attrName = primaryProperty.attribute;
+                            info.defaultBindingMode = primaryProperty.defaultBindingMode;
+                        }
+                    }
+                }
+            }
+            else if (elementInstruction) {
+                elementProperty = elementInstruction.type.attributes[info.attrName];
+                if (elementProperty) {
+                    info.defaultBindingMode = elementProperty.defaultBindingMode;
+                }
+            }
+            if (elementProperty) {
+                instruction = bindingLanguage.createAttributeInstruction(resources, node, info, elementInstruction);
+            }
+            else {
+                instruction = bindingLanguage.createAttributeInstruction(resources, node, info, undefined, type);
+            }
+            if (instruction) {
+                if (instruction.alteredAttr) {
+                    type = resources.getAttribute(instruction.attrName);
+                }
+                if (instruction.discrete) {
+                    expressions.push(instruction);
+                }
+                else {
+                    if (type) {
+                        instruction.type = type;
+                        this._configureProperties(instruction, resources);
+                        if (type.liftsContent) {
+                            instruction.originalAttrName = originalAttrName;
+                            liftingInstruction = instruction;
+                            break;
+                        }
+                        else {
+                            behaviorInstructions.push(instruction);
+                        }
+                    }
+                    else if (elementProperty) {
+                        elementInstruction.attributes[info.attrName].targetProperty = elementProperty.name;
+                    }
+                    else {
+                        expressions.push(instruction.attributes[instruction.attrName]);
+                    }
+                }
+            }
+            else {
+                if (type) {
+                    instruction = BehaviorInstruction.attribute(attrName, type);
+                    instruction.attributes[resources.mapAttribute(attrName)] = attrValue;
+                    if (type.liftsContent) {
+                        instruction.originalAttrName = originalAttrName;
+                        liftingInstruction = instruction;
+                        break;
+                    }
+                    else {
+                        behaviorInstructions.push(instruction);
+                    }
+                }
+                else if (elementProperty) {
+                    elementInstruction.attributes[attrName] = attrValue;
+                }
+            }
+        }
+        if (liftingInstruction) {
+            liftingInstruction.viewFactory = viewFactory;
+            node = liftingInstruction.type.compile(this, resources, node, liftingInstruction, parentNode);
+            auTargetID = makeIntoInstructionTarget(node);
+            instructions[auTargetID] = TargetInstruction.lifting(parentInjectorId, liftingInstruction);
+        }
+        else {
+            let skipContentProcessing = false;
+            if (expressions.length || behaviorInstructions.length) {
+                injectorId = behaviorInstructions.length ? getNextInjectorId() : false;
+                for (i = 0, ii = behaviorInstructions.length; i < ii; ++i) {
+                    instruction = behaviorInstructions[i];
+                    instruction.type.compile(this, resources, node, instruction, parentNode);
+                    providers.push(instruction.type.target);
+                    skipContentProcessing = skipContentProcessing || instruction.skipContentProcessing;
+                }
+                for (i = 0, ii = expressions.length; i < ii; ++i) {
+                    expression = expressions[i];
+                    if (expression.attrToRemove !== undefined) {
+                        node.removeAttribute(expression.attrToRemove);
+                    }
+                }
+                auTargetID = makeIntoInstructionTarget(node);
+                instructions[auTargetID] = TargetInstruction.normal(injectorId, parentInjectorId, providers, behaviorInstructions, expressions, elementInstruction);
+            }
+            if (skipContentProcessing) {
+                return node.nextSibling;
+            }
+            let currentChild = node.firstChild;
+            while (currentChild) {
+                currentChild = this._compileNode(currentChild, resources, instructions, node, injectorId || parentInjectorId, targetLightDOM);
+            }
+        }
+        return node.nextSibling;
+    }
+    _configureProperties(instruction, resources) {
+        let type = instruction.type;
+        let attrName = instruction.attrName;
+        let attributes = instruction.attributes;
+        let property;
+        let key;
+        let value;
+        let knownAttribute = resources.mapAttribute(attrName);
+        if (knownAttribute && attrName in attributes && knownAttribute !== attrName) {
+            attributes[knownAttribute] = attributes[attrName];
+            delete attributes[attrName];
+        }
+        for (key in attributes) {
+            value = attributes[key];
+            if (value !== null && typeof value === 'object') {
+                property = type.attributes[key];
+                if (property !== undefined) {
+                    value.targetProperty = property.name;
+                }
+                else {
+                    value.targetProperty = key;
+                }
+            }
+        }
+    }
+}
 
-      if (this.all) {
-        let items = this.viewModel[this.property] || (this.viewModel[this.property] = []);
-        let index = items.indexOf(value);
+class ViewEngineHooksResource {
+    initialize(container, target) {
+        this.instance = container.get(target);
+    }
+    register(registry, name) {
+        registry.registerViewEngineHooks(this.instance);
+    }
+    load(container, target) { }
+    static convention(name) {
+        if (name.endsWith('ViewEngineHooks')) {
+            return new ViewEngineHooksResource();
+        }
+    }
+}
+function viewEngineHooks(target) {
+    let deco = function (t) {
+        aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.define(aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.resource, new ViewEngineHooksResource(), t);
+    };
+    return target ? deco(target) : deco;
+}
 
+class ResourceModule {
+    constructor(moduleId) {
+        this.id = moduleId;
+        this.moduleInstance = null;
+        this.mainResource = null;
+        this.resources = null;
+        this.viewStrategy = null;
+        this.isInitialized = false;
+        this.onLoaded = null;
+        this.loadContext = null;
+    }
+    initialize(container) {
+        let current = this.mainResource;
+        let resources = this.resources;
+        let vs = this.viewStrategy;
+        if (this.isInitialized) {
+            return;
+        }
+        this.isInitialized = true;
+        if (current !== undefined) {
+            current.metadata.viewStrategy = vs;
+            current.initialize(container);
+        }
+        for (let i = 0, ii = resources.length; i < ii; ++i) {
+            current = resources[i];
+            current.metadata.viewStrategy = vs;
+            current.initialize(container);
+        }
+    }
+    register(registry, name) {
+        let main = this.mainResource;
+        let resources = this.resources;
+        if (main !== undefined) {
+            main.register(registry, name);
+            name = null;
+        }
+        for (let i = 0, ii = resources.length; i < ii; ++i) {
+            resources[i].register(registry, name);
+            name = null;
+        }
+    }
+    load(container, loadContext) {
+        if (this.onLoaded !== null) {
+            return this.loadContext === loadContext ? Promise.resolve() : this.onLoaded;
+        }
+        let main = this.mainResource;
+        let resources = this.resources;
+        let loads;
+        if (main !== undefined) {
+            loads = new Array(resources.length + 1);
+            loads[0] = main.load(container, loadContext);
+            for (let i = 0, ii = resources.length; i < ii; ++i) {
+                loads[i + 1] = resources[i].load(container, loadContext);
+            }
+        }
+        else {
+            loads = new Array(resources.length);
+            for (let i = 0, ii = resources.length; i < ii; ++i) {
+                loads[i] = resources[i].load(container, loadContext);
+            }
+        }
+        this.loadContext = loadContext;
+        this.onLoaded = Promise.all(loads);
+        return this.onLoaded;
+    }
+}
+class ResourceDescription {
+    constructor(key, exportedValue, resourceTypeMeta) {
+        if (!resourceTypeMeta) {
+            resourceTypeMeta = aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.get(aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.resource, exportedValue);
+            if (!resourceTypeMeta) {
+                resourceTypeMeta = new HtmlBehaviorResource();
+                resourceTypeMeta.elementName = _hyphenate(key);
+                aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.define(aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.resource, resourceTypeMeta, exportedValue);
+            }
+        }
+        if (resourceTypeMeta instanceof HtmlBehaviorResource) {
+            if (resourceTypeMeta.elementName === undefined) {
+                resourceTypeMeta.elementName = _hyphenate(key);
+            }
+            else if (resourceTypeMeta.attributeName === undefined) {
+                resourceTypeMeta.attributeName = _hyphenate(key);
+            }
+            else if (resourceTypeMeta.attributeName === null && resourceTypeMeta.elementName === null) {
+                HtmlBehaviorResource.convention(key, resourceTypeMeta);
+            }
+        }
+        else if (!resourceTypeMeta.name) {
+            resourceTypeMeta.name = _hyphenate(key);
+        }
+        this.metadata = resourceTypeMeta;
+        this.value = exportedValue;
+    }
+    initialize(container) {
+        this.metadata.initialize(container, this.value);
+    }
+    register(registry, name) {
+        this.metadata.register(registry, name);
+    }
+    load(container, loadContext) {
+        return this.metadata.load(container, this.value, loadContext);
+    }
+}
+class ModuleAnalyzer {
+    constructor() {
+        this.cache = Object.create(null);
+    }
+    getAnalysis(moduleId) {
+        return this.cache[moduleId];
+    }
+    analyze(moduleId, moduleInstance, mainResourceKey) {
+        let mainResource;
+        let fallbackValue;
+        let fallbackKey;
+        let resourceTypeMeta;
+        let key;
+        let exportedValue;
+        let resources = [];
+        let conventional;
+        let vs;
+        let resourceModule;
+        resourceModule = this.cache[moduleId];
+        if (resourceModule) {
+            return resourceModule;
+        }
+        resourceModule = new ResourceModule(moduleId);
+        this.cache[moduleId] = resourceModule;
+        if (typeof moduleInstance === 'function') {
+            moduleInstance = { 'default': moduleInstance };
+        }
+        if (mainResourceKey) {
+            mainResource = new ResourceDescription(mainResourceKey, moduleInstance[mainResourceKey]);
+        }
+        for (key in moduleInstance) {
+            exportedValue = moduleInstance[key];
+            if (key === mainResourceKey || typeof exportedValue !== 'function') {
+                continue;
+            }
+            resourceTypeMeta = aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.get(aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.resource, exportedValue);
+            if (resourceTypeMeta) {
+                if (resourceTypeMeta instanceof HtmlBehaviorResource) {
+                    ViewResources.convention(exportedValue, resourceTypeMeta);
+                    if (resourceTypeMeta.attributeName === null && resourceTypeMeta.elementName === null) {
+                        HtmlBehaviorResource.convention(key, resourceTypeMeta);
+                    }
+                    if (resourceTypeMeta.attributeName === null && resourceTypeMeta.elementName === null) {
+                        resourceTypeMeta.elementName = _hyphenate(key);
+                    }
+                }
+                if (!mainResource && resourceTypeMeta instanceof HtmlBehaviorResource && resourceTypeMeta.elementName !== null) {
+                    mainResource = new ResourceDescription(key, exportedValue, resourceTypeMeta);
+                }
+                else {
+                    resources.push(new ResourceDescription(key, exportedValue, resourceTypeMeta));
+                }
+            }
+            else if (viewStrategy.decorates(exportedValue)) {
+                vs = exportedValue;
+            }
+            else if (exportedValue instanceof aurelia_loader__WEBPACK_IMPORTED_MODULE_1__.TemplateRegistryEntry) {
+                vs = new TemplateRegistryViewStrategy(moduleId, exportedValue);
+            }
+            else {
+                if (conventional = ViewResources.convention(exportedValue)) {
+                    if (conventional.elementName !== null && !mainResource) {
+                        mainResource = new ResourceDescription(key, exportedValue, conventional);
+                    }
+                    else {
+                        resources.push(new ResourceDescription(key, exportedValue, conventional));
+                    }
+                    aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.define(aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.resource, conventional, exportedValue);
+                }
+                else if (conventional = HtmlBehaviorResource.convention(key)) {
+                    if (conventional.elementName !== null && !mainResource) {
+                        mainResource = new ResourceDescription(key, exportedValue, conventional);
+                    }
+                    else {
+                        resources.push(new ResourceDescription(key, exportedValue, conventional));
+                    }
+                    aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.define(aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.resource, conventional, exportedValue);
+                }
+                else if (conventional = aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.ValueConverterResource.convention(key)
+                    || aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.BindingBehaviorResource.convention(key)
+                    || ViewEngineHooksResource.convention(key)) {
+                    resources.push(new ResourceDescription(key, exportedValue, conventional));
+                    aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.define(aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.resource, conventional, exportedValue);
+                }
+                else if (!fallbackValue) {
+                    fallbackValue = exportedValue;
+                    fallbackKey = key;
+                }
+            }
+        }
+        if (!mainResource && fallbackValue) {
+            mainResource = new ResourceDescription(fallbackKey, fallbackValue);
+        }
+        resourceModule.moduleInstance = moduleInstance;
+        resourceModule.mainResource = mainResource;
+        resourceModule.resources = resources;
+        resourceModule.viewStrategy = vs;
+        return resourceModule;
+    }
+}
+
+let logger = aurelia_logging__WEBPACK_IMPORTED_MODULE_4__.getLogger('templating');
+function ensureRegistryEntry(loader, urlOrRegistryEntry) {
+    if (urlOrRegistryEntry instanceof aurelia_loader__WEBPACK_IMPORTED_MODULE_1__.TemplateRegistryEntry) {
+        return Promise.resolve(urlOrRegistryEntry);
+    }
+    return loader.loadTemplate(urlOrRegistryEntry);
+}
+class ProxyViewFactory {
+    constructor(promise) {
+        promise.then(x => this.viewFactory = x);
+    }
+    create(container, bindingContext, createInstruction, element) {
+        return this.viewFactory.create(container, bindingContext, createInstruction, element);
+    }
+    get isCaching() {
+        return this.viewFactory.isCaching;
+    }
+    setCacheSize(size, doNotOverrideIfAlreadySet) {
+        this.viewFactory.setCacheSize(size, doNotOverrideIfAlreadySet);
+    }
+    getCachedView() {
+        return this.viewFactory.getCachedView();
+    }
+    returnViewToCache(view) {
+        this.viewFactory.returnViewToCache(view);
+    }
+}
+let auSlotBehavior = null;
+class ViewEngine {
+    constructor(loader, container, viewCompiler, moduleAnalyzer, appResources) {
+        this.loader = loader;
+        this.container = container;
+        this.viewCompiler = viewCompiler;
+        this.moduleAnalyzer = moduleAnalyzer;
+        this.appResources = appResources;
+        this._pluginMap = {};
+        if (auSlotBehavior === null) {
+            auSlotBehavior = new HtmlBehaviorResource();
+            auSlotBehavior.attributeName = 'au-slot';
+            aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.define(aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.resource, auSlotBehavior, SlotCustomAttribute);
+        }
+        auSlotBehavior.initialize(container, SlotCustomAttribute);
+        auSlotBehavior.register(appResources);
+    }
+    static inject() {
+        return [aurelia_loader__WEBPACK_IMPORTED_MODULE_1__.Loader, aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_6__.Container, ViewCompiler, ModuleAnalyzer, ViewResources];
+    }
+    addResourcePlugin(extension, implementation) {
+        let name = extension.replace('.', '') + '-resource-plugin';
+        this._pluginMap[extension] = name;
+        this.loader.addPlugin(name, implementation);
+    }
+    loadViewFactory(urlOrRegistryEntry, compileInstruction, loadContext, target) {
+        loadContext = loadContext || new ResourceLoadContext();
+        return ensureRegistryEntry(this.loader, urlOrRegistryEntry).then(registryEntry => {
+            const url = registryEntry.address;
+            if (registryEntry.onReady) {
+                if (!loadContext.hasDependency(url)) {
+                    loadContext.addDependency(url);
+                    return registryEntry.onReady;
+                }
+                if (registryEntry.template === null) {
+                    return registryEntry.onReady;
+                }
+                return Promise.resolve(new ProxyViewFactory(registryEntry.onReady));
+            }
+            loadContext.addDependency(url);
+            registryEntry.onReady = this.loadTemplateResources(registryEntry, compileInstruction, loadContext, target).then(resources => {
+                registryEntry.resources = resources;
+                if (registryEntry.template === null) {
+                    return registryEntry.factory = null;
+                }
+                let viewFactory = this.viewCompiler.compile(registryEntry.template, resources, compileInstruction);
+                return registryEntry.factory = viewFactory;
+            });
+            return registryEntry.onReady;
+        });
+    }
+    loadTemplateResources(registryEntry, compileInstruction, loadContext, target) {
+        let resources = new ViewResources(this.appResources, registryEntry.address);
+        let dependencies = registryEntry.dependencies;
+        let importIds;
+        let names;
+        compileInstruction = compileInstruction || ViewCompileInstruction.normal;
+        if (dependencies.length === 0 && !compileInstruction.associatedModuleId) {
+            return Promise.resolve(resources);
+        }
+        importIds = dependencies.map(x => x.src);
+        names = dependencies.map(x => x.name);
+        logger.debug(`importing resources for ${registryEntry.address}`, importIds);
+        if (target) {
+            let viewModelRequires = aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.get(ViewEngine.viewModelRequireMetadataKey, target);
+            if (viewModelRequires) {
+                let templateImportCount = importIds.length;
+                for (let i = 0, ii = viewModelRequires.length; i < ii; ++i) {
+                    let req = viewModelRequires[i];
+                    let importId = typeof req === 'function'
+                        ? aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.Origin.get(req).moduleId
+                        : (0,aurelia_path__WEBPACK_IMPORTED_MODULE_3__.relativeToFile)(req.src || req, registryEntry.address);
+                    if (importIds.indexOf(importId) === -1) {
+                        importIds.push(importId);
+                        names.push(req.as);
+                    }
+                }
+                logger.debug(`importing ViewModel resources for ${compileInstruction.associatedModuleId}`, importIds.slice(templateImportCount));
+            }
+        }
+        return this.importViewResources(importIds, names, resources, compileInstruction, loadContext);
+    }
+    importViewModelResource(moduleImport, moduleMember) {
+        return this.loader.loadModule(moduleImport).then(viewModelModule => {
+            let normalizedId = aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.Origin.get(viewModelModule).moduleId;
+            let resourceModule = this.moduleAnalyzer.analyze(normalizedId, viewModelModule, moduleMember);
+            if (!resourceModule.mainResource) {
+                throw new Error(`No view model found in module "${moduleImport}".`);
+            }
+            resourceModule.initialize(this.container);
+            return resourceModule.mainResource;
+        });
+    }
+    importViewResources(moduleIds, names, resources, compileInstruction, loadContext) {
+        loadContext = loadContext || new ResourceLoadContext();
+        compileInstruction = compileInstruction || ViewCompileInstruction.normal;
+        moduleIds = moduleIds.map(x => this._applyLoaderPlugin(x));
+        return this.loader.loadAllModules(moduleIds).then(imports => {
+            let i;
+            let ii;
+            let analysis;
+            let normalizedId;
+            let current;
+            let associatedModule;
+            let container = this.container;
+            let moduleAnalyzer = this.moduleAnalyzer;
+            let allAnalysis = new Array(imports.length);
+            for (i = 0, ii = imports.length; i < ii; ++i) {
+                current = imports[i];
+                normalizedId = aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.Origin.get(current).moduleId;
+                analysis = moduleAnalyzer.analyze(normalizedId, current);
+                analysis.initialize(container);
+                analysis.register(resources, names[i]);
+                allAnalysis[i] = analysis;
+            }
+            if (compileInstruction.associatedModuleId) {
+                associatedModule = moduleAnalyzer.getAnalysis(compileInstruction.associatedModuleId);
+                if (associatedModule) {
+                    associatedModule.register(resources);
+                }
+            }
+            for (i = 0, ii = allAnalysis.length; i < ii; ++i) {
+                allAnalysis[i] = allAnalysis[i].load(container, loadContext);
+            }
+            return Promise.all(allAnalysis).then(() => resources);
+        });
+    }
+    _applyLoaderPlugin(id) {
+        let index = id.lastIndexOf('.');
         if (index !== -1) {
-          items.splice(index, 1);
+            let ext = id.substring(index);
+            let pluginName = this._pluginMap[ext];
+            if (pluginName === undefined) {
+                return id;
+            }
+            return this.loader.applyPluginToUrl(id, pluginName);
         }
+        return id;
+    }
+}
+ViewEngine.viewModelRequireMetadataKey = 'aurelia:view-model-require';
 
+class Controller {
+    constructor(behavior, instruction, viewModel, container) {
+        this.behavior = behavior;
+        this.instruction = instruction;
+        this.viewModel = viewModel;
+        this.isAttached = false;
+        this.view = null;
+        this.isBound = false;
+        this.scope = null;
+        this.container = container;
+        this.elementEvents = container.elementEvents || null;
+        let observerLookup = behavior.observerLocator.getOrCreateObserversLookup(viewModel);
+        let handlesBind = behavior.handlesBind;
+        let attributes = instruction.attributes;
+        let boundProperties = this.boundProperties = [];
+        let properties = behavior.properties;
+        let i;
+        let ii;
+        behavior._ensurePropertiesDefined(viewModel, observerLookup);
+        for (i = 0, ii = properties.length; i < ii; ++i) {
+            properties[i]._initialize(viewModel, observerLookup, attributes, handlesBind, boundProperties);
+        }
+    }
+    created(owningView) {
+        if (this.behavior.handlesCreated) {
+            this.viewModel.created(owningView, this.view);
+        }
+    }
+    automate(overrideContext, owningView) {
+        this.view.bindingContext = this.viewModel;
+        this.view.overrideContext = overrideContext || (0,aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.createOverrideContext)(this.viewModel);
+        this.view._isUserControlled = true;
+        if (this.behavior.handlesCreated) {
+            this.viewModel.created(owningView || null, this.view);
+        }
+        this.bind(this.view);
+    }
+    bind(scope) {
+        let skipSelfSubscriber = this.behavior.handlesBind;
+        let boundProperties = this.boundProperties;
+        let i;
+        let ii;
+        let x;
+        let observer;
+        let selfSubscriber;
+        if (this.isBound) {
+            if (this.scope === scope) {
+                return;
+            }
+            this.unbind();
+        }
+        this.isBound = true;
+        this.scope = scope;
+        for (i = 0, ii = boundProperties.length; i < ii; ++i) {
+            x = boundProperties[i];
+            observer = x.observer;
+            selfSubscriber = observer.selfSubscriber;
+            observer.publishing = false;
+            if (skipSelfSubscriber) {
+                observer.selfSubscriber = null;
+            }
+            x.binding.bind(scope);
+            observer.call();
+            observer.publishing = true;
+            observer.selfSubscriber = selfSubscriber;
+        }
+        let overrideContext;
+        if (this.view !== null) {
+            if (skipSelfSubscriber) {
+                this.view.viewModelScope = scope;
+            }
+            if (this.viewModel === scope.overrideContext.bindingContext) {
+                overrideContext = scope.overrideContext;
+            }
+            else if (this.instruction.inheritBindingContext) {
+                overrideContext = (0,aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.createOverrideContext)(this.viewModel, scope.overrideContext);
+            }
+            else {
+                overrideContext = (0,aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.createOverrideContext)(this.viewModel);
+                overrideContext.__parentOverrideContext = scope.overrideContext;
+            }
+            this.view.bind(this.viewModel, overrideContext);
+        }
+        else if (skipSelfSubscriber) {
+            overrideContext = scope.overrideContext;
+            if (scope.overrideContext.__parentOverrideContext !== undefined
+                && this.viewModel.viewFactory && this.viewModel.viewFactory.factoryCreateInstruction.partReplacements) {
+                overrideContext = Object.assign({}, scope.overrideContext);
+                overrideContext.parentOverrideContext = scope.overrideContext.__parentOverrideContext;
+            }
+            this.viewModel.bind(scope.bindingContext, overrideContext);
+        }
+    }
+    unbind() {
+        if (this.isBound) {
+            let boundProperties = this.boundProperties;
+            let i;
+            let ii;
+            this.isBound = false;
+            this.scope = null;
+            if (this.view !== null) {
+                this.view.unbind();
+            }
+            if (this.behavior.handlesUnbind) {
+                this.viewModel.unbind();
+            }
+            if (this.elementEvents !== null) {
+                this.elementEvents.disposeAll();
+            }
+            for (i = 0, ii = boundProperties.length; i < ii; ++i) {
+                boundProperties[i].binding.unbind();
+            }
+        }
+    }
+    attached() {
+        if (this.isAttached) {
+            return;
+        }
+        this.isAttached = true;
+        if (this.behavior.handlesAttached) {
+            this.viewModel.attached();
+        }
+        if (this.view !== null) {
+            this.view.attached();
+        }
+    }
+    detached() {
+        if (this.isAttached) {
+            this.isAttached = false;
+            if (this.view !== null) {
+                this.view.detached();
+            }
+            if (this.behavior.handlesDetached) {
+                this.viewModel.detached();
+            }
+        }
+    }
+}
+
+let lastProviderId = 0;
+function nextProviderId() {
+    return ++lastProviderId;
+}
+function doProcessContent() { return true; }
+function doProcessAttributes() { }
+class HtmlBehaviorResource {
+    constructor() {
+        this.elementName = null;
+        this.attributeName = null;
+        this.attributeDefaultBindingMode = undefined;
+        this.liftsContent = false;
+        this.targetShadowDOM = false;
+        this.shadowDOMOptions = null;
+        this.processAttributes = doProcessAttributes;
+        this.processContent = doProcessContent;
+        this.usesShadowDOM = false;
+        this.childBindings = null;
+        this.hasDynamicOptions = false;
+        this.containerless = false;
+        this.properties = [];
+        this.attributes = {};
+        this.isInitialized = false;
+        this.primaryProperty = null;
+    }
+    static convention(name, existing) {
+        let behavior;
+        if (name.endsWith('CustomAttribute')) {
+            behavior = existing || new HtmlBehaviorResource();
+            behavior.attributeName = _hyphenate(name.substring(0, name.length - 15));
+        }
+        if (name.endsWith('CustomElement')) {
+            behavior = existing || new HtmlBehaviorResource();
+            behavior.elementName = _hyphenate(name.substring(0, name.length - 13));
+        }
+        return behavior;
+    }
+    addChildBinding(behavior) {
+        if (this.childBindings === null) {
+            this.childBindings = [];
+        }
+        this.childBindings.push(behavior);
+    }
+    initialize(container, target) {
+        let proto = target.prototype;
+        let properties = this.properties;
+        let attributeName = this.attributeName;
+        let attributeDefaultBindingMode = this.attributeDefaultBindingMode;
+        let i;
+        let ii;
+        let current;
+        if (this.isInitialized) {
+            return;
+        }
+        this.isInitialized = true;
+        target.__providerId__ = nextProviderId();
+        this.observerLocator = container.get(aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.ObserverLocator);
+        this.taskQueue = container.get(aurelia_task_queue__WEBPACK_IMPORTED_MODULE_7__.TaskQueue);
+        this.target = target;
+        this.usesShadowDOM = this.targetShadowDOM && aurelia_pal__WEBPACK_IMPORTED_MODULE_0__.FEATURE.shadowDOM;
+        this.handlesCreated = ('created' in proto);
+        this.handlesBind = ('bind' in proto);
+        this.handlesUnbind = ('unbind' in proto);
+        this.handlesAttached = ('attached' in proto);
+        this.handlesDetached = ('detached' in proto);
+        this.htmlName = this.elementName || this.attributeName;
+        if (attributeName !== null) {
+            if (properties.length === 0) {
+                new BindableProperty({
+                    name: 'value',
+                    changeHandler: 'valueChanged' in proto ? 'valueChanged' : null,
+                    attribute: attributeName,
+                    defaultBindingMode: attributeDefaultBindingMode
+                }).registerWith(target, this);
+            }
+            current = properties[0];
+            if (properties.length === 1 && current.name === 'value') {
+                current.isDynamic = current.hasOptions = this.hasDynamicOptions;
+                current.defineOn(target, this);
+            }
+            else {
+                for (i = 0, ii = properties.length; i < ii; ++i) {
+                    properties[i].defineOn(target, this);
+                    if (properties[i].primaryProperty) {
+                        if (this.primaryProperty) {
+                            throw new Error('Only one bindable property on a custom element can be defined as the default');
+                        }
+                        this.primaryProperty = properties[i];
+                    }
+                }
+                current = new BindableProperty({
+                    name: 'value',
+                    changeHandler: 'valueChanged' in proto ? 'valueChanged' : null,
+                    attribute: attributeName,
+                    defaultBindingMode: attributeDefaultBindingMode
+                });
+                current.hasOptions = true;
+                current.registerWith(target, this);
+            }
+        }
+        else {
+            for (i = 0, ii = properties.length; i < ii; ++i) {
+                properties[i].defineOn(target, this);
+            }
+            this._copyInheritedProperties(container, target);
+        }
+    }
+    register(registry, name) {
+        if (this.attributeName !== null) {
+            registry.registerAttribute(name || this.attributeName, this, this.attributeName);
+            if (Array.isArray(this.aliases)) {
+                this.aliases
+                    .forEach((alias) => {
+                    registry.registerAttribute(alias, this, this.attributeName);
+                });
+            }
+        }
+        if (this.elementName !== null) {
+            registry.registerElement(name || this.elementName, this);
+        }
+    }
+    aliases(aliases) {
+        throw new Error('Method not implemented.');
+    }
+    load(container, target, loadContext, viewStrategy, transientView) {
+        let options;
+        if (this.elementName !== null) {
+            viewStrategy = container.get(ViewLocator).getViewStrategy(viewStrategy || this.viewStrategy || target);
+            options = new ViewCompileInstruction(this.targetShadowDOM, true);
+            if (!viewStrategy.moduleId) {
+                viewStrategy.moduleId = aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.Origin.get(target).moduleId;
+            }
+            return viewStrategy
+                .loadViewFactory(container.get(ViewEngine), options, loadContext, target)
+                .then(viewFactory => {
+                if (!transientView || !this.viewFactory) {
+                    this.viewFactory = viewFactory;
+                }
+                return viewFactory;
+            });
+        }
+        return Promise.resolve(this);
+    }
+    compile(compiler, resources, node, instruction, parentNode) {
+        if (this.liftsContent) {
+            if (!instruction.viewFactory) {
+                let template = aurelia_pal__WEBPACK_IMPORTED_MODULE_0__.DOM.createElement('template');
+                let fragment = aurelia_pal__WEBPACK_IMPORTED_MODULE_0__.DOM.createDocumentFragment();
+                let cacheSize = node.getAttribute('view-cache');
+                let part = node.getAttribute('part');
+                node.removeAttribute(instruction.originalAttrName);
+                aurelia_pal__WEBPACK_IMPORTED_MODULE_0__.DOM.replaceNode(template, node, parentNode);
+                fragment.appendChild(node);
+                instruction.viewFactory = compiler.compile(fragment, resources);
+                if (part) {
+                    instruction.viewFactory.part = part;
+                    node.removeAttribute('part');
+                }
+                if (cacheSize) {
+                    instruction.viewFactory.setCacheSize(cacheSize);
+                    node.removeAttribute('view-cache');
+                }
+                node = template;
+            }
+        }
+        else if (this.elementName !== null) {
+            let partReplacements = {};
+            if (this.processContent(compiler, resources, node, instruction) && node.hasChildNodes()) {
+                let currentChild = node.firstChild;
+                let contentElement = this.usesShadowDOM ? null : aurelia_pal__WEBPACK_IMPORTED_MODULE_0__.DOM.createElement('au-content');
+                let nextSibling;
+                let toReplace;
+                while (currentChild) {
+                    nextSibling = currentChild.nextSibling;
+                    if (currentChild.tagName === 'TEMPLATE' && (toReplace = currentChild.getAttribute('replace-part'))) {
+                        partReplacements[toReplace] = compiler.compile(currentChild, resources);
+                        aurelia_pal__WEBPACK_IMPORTED_MODULE_0__.DOM.removeNode(currentChild, parentNode);
+                        instruction.partReplacements = partReplacements;
+                    }
+                    else if (contentElement !== null) {
+                        if (currentChild.nodeType === 3 && _isAllWhitespace(currentChild)) {
+                            aurelia_pal__WEBPACK_IMPORTED_MODULE_0__.DOM.removeNode(currentChild, parentNode);
+                        }
+                        else {
+                            contentElement.appendChild(currentChild);
+                        }
+                    }
+                    currentChild = nextSibling;
+                }
+                if (contentElement !== null && contentElement.hasChildNodes()) {
+                    node.appendChild(contentElement);
+                }
+                instruction.skipContentProcessing = false;
+            }
+            else {
+                instruction.skipContentProcessing = true;
+            }
+        }
+        else if (!this.processContent(compiler, resources, node, instruction)) {
+            instruction.skipContentProcessing = true;
+        }
+        return node;
+    }
+    create(container, instruction, element, bindings) {
+        let viewHost;
+        let au = null;
+        instruction = instruction || BehaviorInstruction.normal;
+        element = element || null;
+        bindings = bindings || null;
+        if (this.elementName !== null && element) {
+            if (this.usesShadowDOM) {
+                viewHost = element.attachShadow(this.shadowDOMOptions);
+                container.registerInstance(aurelia_pal__WEBPACK_IMPORTED_MODULE_0__.DOM.boundary, viewHost);
+            }
+            else {
+                viewHost = element;
+                if (this.targetShadowDOM) {
+                    container.registerInstance(aurelia_pal__WEBPACK_IMPORTED_MODULE_0__.DOM.boundary, viewHost);
+                }
+            }
+        }
+        if (element !== null) {
+            element.au = au = element.au || {};
+        }
+        let viewModel = instruction.viewModel || container.get(this.target);
+        let controller = new Controller(this, instruction, viewModel, container);
+        let childBindings = this.childBindings;
+        let viewFactory;
+        if (this.liftsContent) {
+            au.controller = controller;
+        }
+        else if (this.elementName !== null) {
+            viewFactory = instruction.viewFactory || this.viewFactory;
+            container.viewModel = viewModel;
+            if (viewFactory) {
+                controller.view = viewFactory.create(container, instruction, element);
+            }
+            if (element !== null) {
+                au.controller = controller;
+                if (controller.view) {
+                    if (!this.usesShadowDOM && (element.childNodes.length === 1 || element.contentElement)) {
+                        let contentElement = element.childNodes[0] || element.contentElement;
+                        controller.view.contentView = { fragment: contentElement };
+                        contentElement.parentNode && aurelia_pal__WEBPACK_IMPORTED_MODULE_0__.DOM.removeNode(contentElement);
+                    }
+                    if (instruction.anchorIsContainer) {
+                        if (childBindings !== null) {
+                            for (let i = 0, ii = childBindings.length; i < ii; ++i) {
+                                controller.view.addBinding(childBindings[i].create(element, viewModel, controller));
+                            }
+                        }
+                        controller.view.appendNodesTo(viewHost);
+                    }
+                    else {
+                        controller.view.insertNodesBefore(viewHost);
+                    }
+                }
+                else if (childBindings !== null) {
+                    for (let i = 0, ii = childBindings.length; i < ii; ++i) {
+                        bindings.push(childBindings[i].create(element, viewModel, controller));
+                    }
+                }
+            }
+            else if (controller.view) {
+                controller.view.controller = controller;
+                if (childBindings !== null) {
+                    for (let i = 0, ii = childBindings.length; i < ii; ++i) {
+                        controller.view.addBinding(childBindings[i].create(instruction.host, viewModel, controller));
+                    }
+                }
+            }
+            else if (childBindings !== null) {
+                for (let i = 0, ii = childBindings.length; i < ii; ++i) {
+                    bindings.push(childBindings[i].create(instruction.host, viewModel, controller));
+                }
+            }
+        }
+        else if (childBindings !== null) {
+            for (let i = 0, ii = childBindings.length; i < ii; ++i) {
+                bindings.push(childBindings[i].create(element, viewModel, controller));
+            }
+        }
+        if (au !== null) {
+            au[this.htmlName] = controller;
+        }
+        if (instruction.initiatedByBehavior && viewFactory) {
+            controller.view.created();
+        }
+        return controller;
+    }
+    _ensurePropertiesDefined(instance, lookup) {
+        let properties;
+        let i;
+        let ii;
+        let observer;
+        if ('__propertiesDefined__' in lookup) {
+            return;
+        }
+        lookup.__propertiesDefined__ = true;
+        properties = this.properties;
+        for (i = 0, ii = properties.length; i < ii; ++i) {
+            observer = properties[i].createObserver(instance);
+            if (observer !== undefined) {
+                lookup[observer.propertyName] = observer;
+            }
+        }
+    }
+    _copyInheritedProperties(container, target) {
+        let behavior;
+        let derived = target;
+        while (true) {
+            let proto = Object.getPrototypeOf(target.prototype);
+            target = proto && proto.constructor;
+            if (!target) {
+                return;
+            }
+            behavior = aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.getOwn(aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.resource, target);
+            if (behavior) {
+                break;
+            }
+        }
+        behavior.initialize(container, target);
+        for (let i = 0, ii = behavior.properties.length; i < ii; ++i) {
+            let prop = behavior.properties[i];
+            if (this.properties.some(p => p.name === prop.name)) {
+                continue;
+            }
+            new BindableProperty(prop).registerWith(derived, this);
+        }
+    }
+}
+
+function register(lookup, name, resource, type) {
+    if (!name) {
+        return;
+    }
+    let existing = lookup[name];
+    if (existing) {
+        if (existing !== resource) {
+            throw new Error(`Attempted to register ${type} when one with the same name already exists. Name: ${name}.`);
+        }
+        return;
+    }
+    lookup[name] = resource;
+}
+function validateBehaviorName(name, type) {
+    if (/[A-Z]/.test(name)) {
+        let newName = _hyphenate(name);
+        aurelia_logging__WEBPACK_IMPORTED_MODULE_4__.getLogger('templating')
+            .warn(`'${name}' is not a valid ${type} name and has been converted to '${newName}'. Upper-case letters are not allowed because the DOM is not case-sensitive.`);
+        return newName;
+    }
+    return name;
+}
+const conventionMark = '__au_resource__';
+class ViewResources {
+    constructor(parent, viewUrl) {
+        this.bindingLanguage = null;
+        this.parent = parent || null;
+        this.hasParent = this.parent !== null;
+        this.viewUrl = viewUrl || '';
+        this.lookupFunctions = {
+            valueConverters: this.getValueConverter.bind(this),
+            bindingBehaviors: this.getBindingBehavior.bind(this)
+        };
+        this.attributes = Object.create(null);
+        this.elements = Object.create(null);
+        this.valueConverters = Object.create(null);
+        this.bindingBehaviors = Object.create(null);
+        this.attributeMap = Object.create(null);
+        this.values = Object.create(null);
+        this.beforeCompile = this.afterCompile = this.beforeCreate = this.afterCreate = this.beforeBind = this.beforeUnbind = false;
+    }
+    static convention(target, existing) {
+        let resource;
+        if (existing && conventionMark in existing) {
+            return existing;
+        }
+        if ('$resource' in target) {
+            let config = target.$resource;
+            if (typeof config === 'string') {
+                resource = existing || new HtmlBehaviorResource();
+                resource[conventionMark] = true;
+                if (!resource.elementName) {
+                    resource.elementName = validateBehaviorName(config, 'custom element');
+                }
+            }
+            else {
+                if (typeof config === 'function') {
+                    config = config.call(target);
+                }
+                if (typeof config === 'string') {
+                    config = { name: config };
+                }
+                config = Object.assign({}, config);
+                let resourceType = config.type || 'element';
+                let name = config.name;
+                switch (resourceType) {
+                    case 'element':
+                    case 'attribute':
+                        resource = existing || new HtmlBehaviorResource();
+                        resource[conventionMark] = true;
+                        if (resourceType === 'element') {
+                            if (!resource.elementName) {
+                                resource.elementName = name
+                                    ? validateBehaviorName(name, 'custom element')
+                                    : _hyphenate(target.name);
+                            }
+                        }
+                        else {
+                            if (!resource.attributeName) {
+                                resource.attributeName = name
+                                    ? validateBehaviorName(name, 'custom attribute')
+                                    : _hyphenate(target.name);
+                            }
+                        }
+                        if ('templateController' in config) {
+                            config.liftsContent = config.templateController;
+                            delete config.templateController;
+                        }
+                        if ('defaultBindingMode' in config && resource.attributeDefaultBindingMode !== undefined) {
+                            config.attributeDefaultBindingMode = config.defaultBindingMode;
+                            delete config.defaultBindingMode;
+                        }
+                        delete config.name;
+                        Object.assign(resource, config);
+                        break;
+                    case 'valueConverter':
+                        resource = new aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.ValueConverterResource((0,aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.camelCase)(name || target.name));
+                        break;
+                    case 'bindingBehavior':
+                        resource = new aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.BindingBehaviorResource((0,aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.camelCase)(name || target.name));
+                        break;
+                    case 'viewEngineHooks':
+                        resource = new ViewEngineHooksResource();
+                        break;
+                }
+            }
+            if (resource instanceof HtmlBehaviorResource) {
+                let bindables = typeof config === 'string' ? undefined : config.bindables;
+                let currentProps = resource.properties;
+                if (Array.isArray(bindables)) {
+                    for (let i = 0, ii = bindables.length; ii > i; ++i) {
+                        let prop = bindables[i];
+                        if (!prop || (typeof prop !== 'string' && !prop.name)) {
+                            throw new Error(`Invalid bindable property at "${i}" for class "${target.name}". Expected either a string or an object with "name" property.`);
+                        }
+                        let newProp = new BindableProperty(prop);
+                        let existed = false;
+                        for (let j = 0, jj = currentProps.length; jj > j; ++j) {
+                            if (currentProps[j].name === newProp.name) {
+                                existed = true;
+                                break;
+                            }
+                        }
+                        if (existed) {
+                            continue;
+                        }
+                        newProp.registerWith(target, resource);
+                    }
+                }
+            }
+        }
+        return resource;
+    }
+    _tryAddHook(obj, name) {
+        if (typeof obj[name] === 'function') {
+            let func = obj[name].bind(obj);
+            let counter = 1;
+            let callbackName;
+            while (this[callbackName = name + counter.toString()] !== undefined) {
+                counter++;
+            }
+            this[name] = true;
+            this[callbackName] = func;
+        }
+    }
+    _invokeHook(name, one, two, three, four) {
+        if (this.hasParent) {
+            this.parent._invokeHook(name, one, two, three, four);
+        }
+        if (this[name]) {
+            this[name + '1'](one, two, three, four);
+            let callbackName = name + '2';
+            if (this[callbackName]) {
+                this[callbackName](one, two, three, four);
+                callbackName = name + '3';
+                if (this[callbackName]) {
+                    this[callbackName](one, two, three, four);
+                    let counter = 4;
+                    while (this[callbackName = name + counter.toString()] !== undefined) {
+                        this[callbackName](one, two, three, four);
+                        counter++;
+                    }
+                }
+            }
+        }
+    }
+    registerViewEngineHooks(hooks) {
+        this._tryAddHook(hooks, 'beforeCompile');
+        this._tryAddHook(hooks, 'afterCompile');
+        this._tryAddHook(hooks, 'beforeCreate');
+        this._tryAddHook(hooks, 'afterCreate');
+        this._tryAddHook(hooks, 'beforeBind');
+        this._tryAddHook(hooks, 'beforeUnbind');
+    }
+    getBindingLanguage(bindingLanguageFallback) {
+        return this.bindingLanguage || (this.bindingLanguage = bindingLanguageFallback);
+    }
+    patchInParent(newParent) {
+        let originalParent = this.parent;
+        this.parent = newParent || null;
+        this.hasParent = this.parent !== null;
+        if (newParent.parent === null) {
+            newParent.parent = originalParent;
+            newParent.hasParent = originalParent !== null;
+        }
+    }
+    relativeToView(path) {
+        return (0,aurelia_path__WEBPACK_IMPORTED_MODULE_3__.relativeToFile)(path, this.viewUrl);
+    }
+    registerElement(tagName, behavior) {
+        register(this.elements, tagName, behavior, 'an Element');
+    }
+    getElement(tagName) {
+        return this.elements[tagName] || (this.hasParent ? this.parent.getElement(tagName) : null);
+    }
+    mapAttribute(attribute) {
+        return this.attributeMap[attribute] || (this.hasParent ? this.parent.mapAttribute(attribute) : null);
+    }
+    registerAttribute(attribute, behavior, knownAttribute) {
+        this.attributeMap[attribute] = knownAttribute;
+        register(this.attributes, attribute, behavior, 'an Attribute');
+    }
+    getAttribute(attribute) {
+        return this.attributes[attribute] || (this.hasParent ? this.parent.getAttribute(attribute) : null);
+    }
+    registerValueConverter(name, valueConverter) {
+        register(this.valueConverters, name, valueConverter, 'a ValueConverter');
+    }
+    getValueConverter(name) {
+        return this.valueConverters[name] || (this.hasParent ? this.parent.getValueConverter(name) : null);
+    }
+    registerBindingBehavior(name, bindingBehavior) {
+        register(this.bindingBehaviors, name, bindingBehavior, 'a BindingBehavior');
+    }
+    getBindingBehavior(name) {
+        return this.bindingBehaviors[name] || (this.hasParent ? this.parent.getBindingBehavior(name) : null);
+    }
+    registerValue(name, value) {
+        register(this.values, name, value, 'a value');
+    }
+    getValue(name) {
+        return this.values[name] || (this.hasParent ? this.parent.getValue(name) : null);
+    }
+    autoRegister(container, impl) {
+        let resourceTypeMeta = aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.getOwn(aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.resource, impl);
+        if (resourceTypeMeta) {
+            if (resourceTypeMeta instanceof HtmlBehaviorResource) {
+                ViewResources.convention(impl, resourceTypeMeta);
+                if (resourceTypeMeta.attributeName === null && resourceTypeMeta.elementName === null) {
+                    HtmlBehaviorResource.convention(impl.name, resourceTypeMeta);
+                }
+                if (resourceTypeMeta.attributeName === null && resourceTypeMeta.elementName === null) {
+                    resourceTypeMeta.elementName = _hyphenate(impl.name);
+                }
+            }
+        }
+        else {
+            resourceTypeMeta = ViewResources.convention(impl)
+                || HtmlBehaviorResource.convention(impl.name)
+                || aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.ValueConverterResource.convention(impl.name)
+                || aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.BindingBehaviorResource.convention(impl.name)
+                || ViewEngineHooksResource.convention(impl.name);
+            if (!resourceTypeMeta) {
+                resourceTypeMeta = new HtmlBehaviorResource();
+                resourceTypeMeta.elementName = _hyphenate(impl.name);
+            }
+            aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.define(aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.resource, resourceTypeMeta, impl);
+        }
+        resourceTypeMeta.initialize(container, impl);
+        resourceTypeMeta.register(this, undefined);
+        return resourceTypeMeta;
+    }
+}
+
+const viewStrategy = aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.protocol.create('aurelia:view-strategy', {
+    validate(target) {
+        if (!(typeof target.loadViewFactory === 'function')) {
+            return 'View strategies must implement: loadViewFactory(viewEngine: ViewEngine, compileInstruction: ViewCompileInstruction, loadContext?: ResourceLoadContext): Promise<ViewFactory>';
+        }
         return true;
-      }
-
-      const currentValue = this.viewModel[this.property];
-      if (currentValue === value) {
-        this.viewModel[this.property] = null;
-
-        if (this.isBound && this.changeHandler !== null) {
-          this.viewModel[this.changeHandler](value);
+    },
+    compose(target) {
+        if (!(typeof target.makeRelativeTo === 'function')) {
+            target.makeRelativeTo = aurelia_pal__WEBPACK_IMPORTED_MODULE_0__.PLATFORM.noop;
         }
-      }
     }
-
-    return false;
-  }
-
-  onAdd(element) {
-    if (this.matches(element)) {
-      let value = element.au && element.au.controller ? element.au.controller.viewModel : element;
-
-      if (this.all) {
-        let items = this.viewModel[this.property] || (this.viewModel[this.property] = []);
-
-        if (this.selector === '*') {
-          items.push(value);
-          return true;
-        }
-
-        let index = 0;
-        let prev = element.previousElementSibling;
-
-        while (prev) {
-          if (this.matches(prev)) {
-            index++;
-          }
-
-          prev = prev.previousElementSibling;
-        }
-
-        items.splice(index, 0, value);
-        return true;
-      }
-
-      this.viewModel[this.property] = value;
-
-      if (this.isBound && this.changeHandler !== null) {
-        this.viewModel[this.changeHandler](value);
-      }
+});
+let RelativeViewStrategy = class RelativeViewStrategy {
+    constructor(path) {
+        this.path = path;
+        this.absolutePath = null;
     }
-
-    return false;
-  }
-
-  unbind() {
-    if (!this.isBound) {
-      return;
-    }
-    this.isBound = false;
-    this.source = null;
-    let childObserver = this.viewHost.__childObserver__;
-    if (childObserver) {
-      let binders = childObserver.binders;
-      if (binders && binders.length) {
-        let idx = binders.indexOf(this);
-        if (idx !== -1) {
-          binders.splice(idx, 1);
+    loadViewFactory(viewEngine, compileInstruction, loadContext, target) {
+        if (this.absolutePath === null && this.moduleId) {
+            this.absolutePath = (0,aurelia_path__WEBPACK_IMPORTED_MODULE_3__.relativeToFile)(this.path, this.moduleId);
         }
-        if (binders.length === 0) {
-          childObserver.disconnect();
-          this.viewHost.__childObserver__ = null;
-        }
-      }
-
-      if (this.usesShadowDOM) {
-        this.viewModel[this.property] = null;
-      }
+        compileInstruction.associatedModuleId = this.moduleId;
+        return viewEngine.loadViewFactory(this.absolutePath || this.path, compileInstruction, loadContext, target);
     }
-  }
+    makeRelativeTo(file) {
+        if (this.absolutePath === null) {
+            this.absolutePath = (0,aurelia_path__WEBPACK_IMPORTED_MODULE_3__.relativeToFile)(this.path, file);
+        }
+    }
 };
-
+RelativeViewStrategy = __decorate([
+    viewStrategy()
+], RelativeViewStrategy);
+let ConventionalViewStrategy = class ConventionalViewStrategy {
+    constructor(viewLocator, origin) {
+        this.moduleId = origin.moduleId;
+        this.viewUrl = viewLocator.convertOriginToViewUrl(origin);
+    }
+    loadViewFactory(viewEngine, compileInstruction, loadContext, target) {
+        compileInstruction.associatedModuleId = this.moduleId;
+        return viewEngine.loadViewFactory(this.viewUrl, compileInstruction, loadContext, target);
+    }
+};
+ConventionalViewStrategy = __decorate([
+    viewStrategy()
+], ConventionalViewStrategy);
+let NoViewStrategy = class NoViewStrategy {
+    constructor(dependencies, dependencyBaseUrl) {
+        this.dependencies = dependencies || null;
+        this.dependencyBaseUrl = dependencyBaseUrl || '';
+    }
+    loadViewFactory(viewEngine, compileInstruction, loadContext, target) {
+        let entry = this.entry;
+        let dependencies = this.dependencies;
+        if (entry && entry.factoryIsReady) {
+            return Promise.resolve(null);
+        }
+        this.entry = entry = new aurelia_loader__WEBPACK_IMPORTED_MODULE_1__.TemplateRegistryEntry(this.moduleId || this.dependencyBaseUrl);
+        entry.dependencies = [];
+        entry.templateIsLoaded = true;
+        if (dependencies !== null) {
+            for (let i = 0, ii = dependencies.length; i < ii; ++i) {
+                let current = dependencies[i];
+                if (typeof current === 'string' || typeof current === 'function') {
+                    entry.addDependency(current);
+                }
+                else {
+                    entry.addDependency(current.from, current.as);
+                }
+            }
+        }
+        compileInstruction.associatedModuleId = this.moduleId;
+        return viewEngine.loadViewFactory(entry, compileInstruction, loadContext, target);
+    }
+};
+NoViewStrategy = __decorate([
+    viewStrategy()
+], NoViewStrategy);
+let TemplateRegistryViewStrategy = class TemplateRegistryViewStrategy {
+    constructor(moduleId, entry) {
+        this.moduleId = moduleId;
+        this.entry = entry;
+    }
+    loadViewFactory(viewEngine, compileInstruction, loadContext, target) {
+        let entry = this.entry;
+        if (entry.factoryIsReady) {
+            return Promise.resolve(entry.factory);
+        }
+        compileInstruction.associatedModuleId = this.moduleId;
+        return viewEngine.loadViewFactory(entry, compileInstruction, loadContext, target);
+    }
+};
+TemplateRegistryViewStrategy = __decorate([
+    viewStrategy()
+], TemplateRegistryViewStrategy);
+let InlineViewStrategy = class InlineViewStrategy {
+    constructor(markup, dependencies, dependencyBaseUrl) {
+        this.markup = markup;
+        this.dependencies = dependencies || null;
+        this.dependencyBaseUrl = dependencyBaseUrl || '';
+    }
+    loadViewFactory(viewEngine, compileInstruction, loadContext, target) {
+        let entry = this.entry;
+        let dependencies = this.dependencies;
+        if (entry && entry.factoryIsReady) {
+            return Promise.resolve(entry.factory);
+        }
+        this.entry = entry = new aurelia_loader__WEBPACK_IMPORTED_MODULE_1__.TemplateRegistryEntry(this.moduleId || this.dependencyBaseUrl);
+        entry.template = aurelia_pal__WEBPACK_IMPORTED_MODULE_0__.DOM.createTemplateFromMarkup(this.markup);
+        if (dependencies !== null) {
+            for (let i = 0, ii = dependencies.length; i < ii; ++i) {
+                let current = dependencies[i];
+                if (typeof current === 'string' || typeof current === 'function') {
+                    entry.addDependency(current);
+                }
+                else {
+                    entry.addDependency(current.from, current.as);
+                }
+            }
+        }
+        compileInstruction.associatedModuleId = this.moduleId;
+        return viewEngine.loadViewFactory(entry, compileInstruction, loadContext, target);
+    }
+};
+InlineViewStrategy = __decorate([
+    viewStrategy()
+], InlineViewStrategy);
+let StaticViewStrategy = class StaticViewStrategy {
+    constructor(config) {
+        if (typeof config === 'string' || (config instanceof aurelia_pal__WEBPACK_IMPORTED_MODULE_0__.DOM.Element && config.tagName === 'TEMPLATE')) {
+            config = {
+                template: config
+            };
+        }
+        this.template = config.template;
+        this.dependencies = config.dependencies || [];
+        this.factoryIsReady = false;
+        this.onReady = null;
+        this.moduleId = 'undefined';
+    }
+    loadViewFactory(viewEngine, compileInstruction, loadContext, target) {
+        if (this.factoryIsReady) {
+            return Promise.resolve(this.factory);
+        }
+        let $deps = this.dependencies;
+        let deps = typeof $deps === 'function' ? $deps() : $deps;
+        deps = deps ? deps : [];
+        deps = Array.isArray(deps) ? deps : [deps];
+        return Promise.all(deps).then((dependencies) => {
+            let container = viewEngine.container;
+            let appResources = viewEngine.appResources;
+            let viewCompiler = viewEngine.viewCompiler;
+            let viewResources = new ViewResources(appResources);
+            let resource;
+            let elDeps = [];
+            if (target) {
+                viewResources.autoRegister(container, target);
+            }
+            for (let dep of dependencies) {
+                if (typeof dep === 'function') {
+                    resource = viewResources.autoRegister(container, dep);
+                    if (resource.elementName !== null) {
+                        elDeps.push(resource);
+                    }
+                }
+                else if (dep && typeof dep === 'object') {
+                    for (let key in dep) {
+                        let exported = dep[key];
+                        if (typeof exported === 'function') {
+                            resource = viewResources.autoRegister(container, exported);
+                            if (resource.elementName !== null) {
+                                elDeps.push(resource);
+                            }
+                        }
+                    }
+                }
+                else {
+                    throw new Error(`dependency neither function nor object. Received: "${typeof dep}"`);
+                }
+            }
+            return Promise.all(elDeps.map(el => el.load(container, el.target))).then(() => {
+                const factory = this.template !== null
+                    ? viewCompiler.compile(this.template, viewResources, compileInstruction)
+                    : null;
+                this.factoryIsReady = true;
+                this.factory = factory;
+                return factory;
+            });
+        });
+    }
+};
+StaticViewStrategy = __decorate([
+    viewStrategy()
+], StaticViewStrategy);
 
 function remove(viewSlot, previous) {
-  return Array.isArray(previous) ? viewSlot.removeMany(previous, true) : viewSlot.remove(previous, true);
+    return Array.isArray(previous)
+        ? viewSlot.removeMany(previous, true)
+        : viewSlot.remove(previous, true);
 }
-
 const SwapStrategies = {
-  before(viewSlot, previous, callback) {
-    return previous === undefined ? callback() : callback().then(() => remove(viewSlot, previous));
-  },
-
-  with(viewSlot, previous, callback) {
-    return previous === undefined ? callback() : Promise.all([remove(viewSlot, previous), callback()]);
-  },
-
-  after(viewSlot, previous, callback) {
-    return Promise.resolve(viewSlot.removeAll(true)).then(callback);
-  }
+    before(viewSlot, previous, callback) {
+        return (previous === undefined)
+            ? callback()
+            : callback().then(() => remove(viewSlot, previous));
+    },
+    with(viewSlot, previous, callback) {
+        return (previous === undefined)
+            ? callback()
+            : Promise.all([remove(viewSlot, previous), callback()]);
+    },
+    after(viewSlot, previous, callback) {
+        return Promise.resolve(viewSlot.removeAll(true)).then(callback);
+    }
 };
 
 function tryActivateViewModel(context) {
-  if (context.skipActivation || typeof context.viewModel.activate !== 'function') {
-    return Promise.resolve();
-  }
-
-  return context.viewModel.activate(context.model) || Promise.resolve();
+    if (context.skipActivation || typeof context.viewModel.activate !== 'function') {
+        return Promise.resolve();
+    }
+    return context.viewModel.activate(context.model) || Promise.resolve();
 }
-
-let CompositionEngine = (_dec8 = (0,aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_6__.inject)(ViewEngine, ViewLocator), _dec8(_class16 = class CompositionEngine {
-  constructor(viewEngine, viewLocator) {
-    this.viewEngine = viewEngine;
-    this.viewLocator = viewLocator;
-  }
-
-  _swap(context, view) {
-    let swapStrategy = SwapStrategies[context.swapOrder] || SwapStrategies.after;
-    let previousViews = context.viewSlot.children.slice();
-
-    return swapStrategy(context.viewSlot, previousViews, () => {
-      return Promise.resolve(context.viewSlot.add(view)).then(() => {
-        if (context.currentController) {
-          context.currentController.unbind();
+let CompositionEngine = class CompositionEngine {
+    constructor(viewEngine, viewLocator) {
+        this.viewEngine = viewEngine;
+        this.viewLocator = viewLocator;
+    }
+    _swap(context, view) {
+        let swapStrategy = SwapStrategies[context.swapOrder] || SwapStrategies.after;
+        let previousViews = context.viewSlot.children.slice();
+        return swapStrategy(context.viewSlot, previousViews, () => {
+            return Promise.resolve(context.viewSlot.add(view)).then(() => {
+                if (context.currentController) {
+                    context.currentController.unbind();
+                }
+            });
+        }).then(() => {
+            if (context.compositionTransactionNotifier) {
+                context.compositionTransactionNotifier.done();
+            }
+        });
+    }
+    _createControllerAndSwap(context) {
+        return this.createController(context).then(controller => {
+            if (context.compositionTransactionOwnershipToken) {
+                return context.compositionTransactionOwnershipToken
+                    .waitForCompositionComplete()
+                    .then(() => {
+                    controller.automate(context.overrideContext, context.owningView);
+                    return this._swap(context, controller.view);
+                })
+                    .then(() => controller);
+            }
+            controller.automate(context.overrideContext, context.owningView);
+            return this._swap(context, controller.view).then(() => controller);
+        });
+    }
+    createController(context) {
+        let childContainer;
+        let viewModel;
+        let viewModelResource;
+        let m;
+        return this
+            .ensureViewModel(context)
+            .then(tryActivateViewModel)
+            .then(() => {
+            childContainer = context.childContainer;
+            viewModel = context.viewModel;
+            viewModelResource = context.viewModelResource;
+            m = viewModelResource.metadata;
+            let viewStrategy = this.viewLocator.getViewStrategy(context.view || viewModel);
+            if (context.viewResources) {
+                viewStrategy.makeRelativeTo(context.viewResources.viewUrl);
+            }
+            return m.load(childContainer, viewModelResource.value, null, viewStrategy, true);
+        }).then(viewFactory => m.create(childContainer, BehaviorInstruction.dynamic(context.host, viewModel, viewFactory)));
+    }
+    ensureViewModel(context) {
+        let childContainer = context.childContainer = (context.childContainer || context.container.createChild());
+        if (typeof context.viewModel === 'string') {
+            context.viewModel = context.viewResources
+                ? context.viewResources.relativeToView(context.viewModel)
+                : context.viewModel;
+            return this.viewEngine.importViewModelResource(context.viewModel).then(viewModelResource => {
+                childContainer.autoRegister(viewModelResource.value);
+                if (context.host) {
+                    childContainer.registerInstance(aurelia_pal__WEBPACK_IMPORTED_MODULE_0__.DOM.Element, context.host);
+                }
+                context.viewModel = childContainer.viewModel = childContainer.get(viewModelResource.value);
+                context.viewModelResource = viewModelResource;
+                return context;
+            });
         }
-      });
-    }).then(() => {
-      if (context.compositionTransactionNotifier) {
-        context.compositionTransactionNotifier.done();
-      }
-    });
-  }
-
-  _createControllerAndSwap(context) {
-    return this.createController(context).then(controller => {
-      if (context.compositionTransactionOwnershipToken) {
-        return context.compositionTransactionOwnershipToken.waitForCompositionComplete().then(() => {
-          controller.automate(context.overrideContext, context.owningView);
-
-          return this._swap(context, controller.view);
-        }).then(() => controller);
-      }
-
-      controller.automate(context.overrideContext, context.owningView);
-
-      return this._swap(context, controller.view).then(() => controller);
-    });
-  }
-
-  createController(context) {
-    let childContainer;
-    let viewModel;
-    let viewModelResource;
-
-    let m;
-
-    return this.ensureViewModel(context).then(tryActivateViewModel).then(() => {
-      childContainer = context.childContainer;
-      viewModel = context.viewModel;
-      viewModelResource = context.viewModelResource;
-      m = viewModelResource.metadata;
-
-      let viewStrategy = this.viewLocator.getViewStrategy(context.view || viewModel);
-
-      if (context.viewResources) {
-        viewStrategy.makeRelativeTo(context.viewResources.viewUrl);
-      }
-
-      return m.load(childContainer, viewModelResource.value, null, viewStrategy, true);
-    }).then(viewFactory => m.create(childContainer, BehaviorInstruction.dynamic(context.host, viewModel, viewFactory)));
-  }
-
-  ensureViewModel(context) {
-    let childContainer = context.childContainer = context.childContainer || context.container.createChild();
-
-    if (typeof context.viewModel === 'string') {
-      context.viewModel = context.viewResources ? context.viewResources.relativeToView(context.viewModel) : context.viewModel;
-
-      return this.viewEngine.importViewModelResource(context.viewModel).then(viewModelResource => {
-        childContainer.autoRegister(viewModelResource.value);
-
+        let ctor = context.viewModel.constructor;
+        let isClass = typeof context.viewModel === 'function';
+        if (isClass) {
+            ctor = context.viewModel;
+            childContainer.autoRegister(ctor);
+        }
+        let m = aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.getOrCreateOwn(aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.resource, HtmlBehaviorResource, ctor);
+        m.elementName = m.elementName || 'dynamic-element';
+        m.initialize(isClass ? childContainer : (context.container || childContainer), ctor);
+        context.viewModelResource = { metadata: m, value: ctor };
         if (context.host) {
-          childContainer.registerInstance(aurelia_pal__WEBPACK_IMPORTED_MODULE_2__.DOM.Element, context.host);
+            childContainer.registerInstance(aurelia_pal__WEBPACK_IMPORTED_MODULE_0__.DOM.Element, context.host);
         }
-
-        context.viewModel = childContainer.viewModel = childContainer.get(viewModelResource.value);
-        context.viewModelResource = viewModelResource;
-        return context;
-      });
+        childContainer.viewModel = context.viewModel = isClass ? childContainer.get(ctor) : context.viewModel;
+        return Promise.resolve(context);
     }
-
-    let ctor = context.viewModel.constructor;
-    let isClass = typeof context.viewModel === 'function';
-    if (isClass) {
-      ctor = context.viewModel;
-      childContainer.autoRegister(ctor);
-    }
-    let m = aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.getOrCreateOwn(aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.resource, HtmlBehaviorResource, ctor);
-
-    m.elementName = m.elementName || 'dynamic-element';
-
-    m.initialize(isClass ? childContainer : context.container || childContainer, ctor);
-
-    context.viewModelResource = { metadata: m, value: ctor };
-
-    if (context.host) {
-      childContainer.registerInstance(aurelia_pal__WEBPACK_IMPORTED_MODULE_2__.DOM.Element, context.host);
-    }
-    childContainer.viewModel = context.viewModel = isClass ? childContainer.get(ctor) : context.viewModel;
-    return Promise.resolve(context);
-  }
-
-  compose(context) {
-    context.childContainer = context.childContainer || context.container.createChild();
-    context.view = this.viewLocator.getViewStrategy(context.view);
-
-    let transaction = context.childContainer.get(CompositionTransaction);
-    let compositionTransactionOwnershipToken = transaction.tryCapture();
-
-    if (compositionTransactionOwnershipToken) {
-      context.compositionTransactionOwnershipToken = compositionTransactionOwnershipToken;
-    } else {
-      context.compositionTransactionNotifier = transaction.enlist();
-    }
-
-    if (context.viewModel) {
-      return this._createControllerAndSwap(context);
-    } else if (context.view) {
-      if (context.viewResources) {
-        context.view.makeRelativeTo(context.viewResources.viewUrl);
-      }
-
-      return context.view.loadViewFactory(this.viewEngine, new ViewCompileInstruction()).then(viewFactory => {
-        let result = viewFactory.create(context.childContainer);
-        result.bind(context.bindingContext, context.overrideContext);
-
-        if (context.compositionTransactionOwnershipToken) {
-          return context.compositionTransactionOwnershipToken.waitForCompositionComplete().then(() => this._swap(context, result)).then(() => result);
+    compose(context) {
+        context.childContainer = context.childContainer || context.container.createChild();
+        context.view = this.viewLocator.getViewStrategy(context.view);
+        let transaction = context.childContainer.get(CompositionTransaction);
+        let compositionTransactionOwnershipToken = transaction.tryCapture();
+        if (compositionTransactionOwnershipToken) {
+            context.compositionTransactionOwnershipToken = compositionTransactionOwnershipToken;
         }
-
-        return this._swap(context, result).then(() => result);
-      });
-    } else if (context.viewSlot) {
-      context.viewSlot.removeAll();
-
-      if (context.compositionTransactionNotifier) {
-        context.compositionTransactionNotifier.done();
-      }
-
-      return Promise.resolve(null);
+        else {
+            context.compositionTransactionNotifier = transaction.enlist();
+        }
+        if (context.viewModel) {
+            return this._createControllerAndSwap(context);
+        }
+        else if (context.view) {
+            if (context.viewResources) {
+                context.view.makeRelativeTo(context.viewResources.viewUrl);
+            }
+            return context.view.loadViewFactory(this.viewEngine, new ViewCompileInstruction()).then(viewFactory => {
+                let result = viewFactory.create(context.childContainer);
+                result.bind(context.bindingContext, context.overrideContext);
+                if (context.compositionTransactionOwnershipToken) {
+                    return context.compositionTransactionOwnershipToken.waitForCompositionComplete()
+                        .then(() => this._swap(context, result))
+                        .then(() => result);
+                }
+                return this._swap(context, result).then(() => result);
+            });
+        }
+        else if (context.viewSlot) {
+            context.viewSlot.removeAll();
+            if (context.compositionTransactionNotifier) {
+                context.compositionTransactionNotifier.done();
+            }
+            return Promise.resolve(null);
+        }
+        return Promise.resolve(null);
     }
+};
+CompositionEngine = __decorate([
+    (0,aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_6__.inject)(ViewEngine, ViewLocator)
+], CompositionEngine);
 
-    return Promise.resolve(null);
-  }
-}) || _class16);
-
-let ElementConfigResource = class ElementConfigResource {
-  initialize(container, target) {}
-
-  register(registry, name) {}
-
-  load(container, target) {
-    let config = new target();
-    let eventManager = container.get(aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.EventManager);
-    eventManager.registerElementConfig(config);
-  }
+const animationEvent = {
+    enterBegin: 'animation:enter:begin',
+    enterActive: 'animation:enter:active',
+    enterDone: 'animation:enter:done',
+    enterTimeout: 'animation:enter:timeout',
+    leaveBegin: 'animation:leave:begin',
+    leaveActive: 'animation:leave:active',
+    leaveDone: 'animation:leave:done',
+    leaveTimeout: 'animation:leave:timeout',
+    staggerNext: 'animation:stagger:next',
+    removeClassBegin: 'animation:remove-class:begin',
+    removeClassActive: 'animation:remove-class:active',
+    removeClassDone: 'animation:remove-class:done',
+    removeClassTimeout: 'animation:remove-class:timeout',
+    addClassBegin: 'animation:add-class:begin',
+    addClassActive: 'animation:add-class:active',
+    addClassDone: 'animation:add-class:done',
+    addClassTimeout: 'animation:add-class:timeout',
+    animateBegin: 'animation:animate:begin',
+    animateActive: 'animation:animate:active',
+    animateDone: 'animation:animate:done',
+    animateTimeout: 'animation:animate:timeout',
+    sequenceBegin: 'animation:sequence:begin',
+    sequenceDone: 'animation:sequence:done'
 };
 
-function resource(instanceOrConfig) {
-  return function (target) {
-    let isConfig = typeof instanceOrConfig === 'string' || Object.getPrototypeOf(instanceOrConfig) === Object.prototype;
-    if (isConfig) {
-      target.$resource = instanceOrConfig;
-    } else {
-      aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.define(aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.resource, instanceOrConfig, target);
-    }
-  };
-}
-
-function behavior(override) {
-  return function (target) {
-    if (override instanceof HtmlBehaviorResource) {
-      aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.define(aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.resource, override, target);
-    } else {
-      let r = aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.getOrCreateOwn(aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.resource, HtmlBehaviorResource, target);
-      Object.assign(r, override);
-    }
-  };
-}
-
-function customElement(name) {
-  return function (target) {
-    let r = aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.getOrCreateOwn(aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.resource, HtmlBehaviorResource, target);
-    r.elementName = validateBehaviorName(name, 'custom element');
-  };
-}
-
-function customAttribute(name, defaultBindingMode, aliases) {
-  return function (target) {
-    let r = aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.getOrCreateOwn(aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.resource, HtmlBehaviorResource, target);
-    r.attributeName = validateBehaviorName(name, 'custom attribute');
-    r.attributeDefaultBindingMode = defaultBindingMode;
-    r.aliases = aliases;
-  };
-}
-
-function templateController(target) {
-  let deco = function (t) {
-    let r = aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.getOrCreateOwn(aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.resource, HtmlBehaviorResource, t);
-    r.liftsContent = true;
-  };
-
-  return target ? deco(target) : deco;
-}
-
-function bindable(nameOrConfigOrTarget, key, descriptor) {
-  let deco = function (target, key2, descriptor2) {
-    let actualTarget = key2 ? target.constructor : target;
-    let r = aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.getOrCreateOwn(aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.resource, HtmlBehaviorResource, actualTarget);
-    let prop;
-
-    if (key2) {
-      nameOrConfigOrTarget = nameOrConfigOrTarget || {};
-      nameOrConfigOrTarget.name = key2;
-    }
-
-    prop = new BindableProperty(nameOrConfigOrTarget);
-    return prop.registerWith(actualTarget, r, descriptor2);
-  };
-
-  if (!nameOrConfigOrTarget) {
-    return deco;
-  }
-
-  if (key) {
-    let target = nameOrConfigOrTarget;
-    nameOrConfigOrTarget = null;
-    return deco(target, key, descriptor);
-  }
-
-  return deco;
-}
-
-function dynamicOptions(target) {
-  let deco = function (t) {
-    let r = aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.getOrCreateOwn(aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.resource, HtmlBehaviorResource, t);
-    r.hasDynamicOptions = true;
-  };
-
-  return target ? deco(target) : deco;
-}
-
-const defaultShadowDOMOptions = { mode: 'open' };
-
-function useShadowDOM(targetOrOptions) {
-  let options = typeof targetOrOptions === 'function' || !targetOrOptions ? defaultShadowDOMOptions : targetOrOptions;
-
-  let deco = function (t) {
-    let r = aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.getOrCreateOwn(aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.resource, HtmlBehaviorResource, t);
-    r.targetShadowDOM = true;
-    r.shadowDOMOptions = options;
-  };
-
-  return typeof targetOrOptions === 'function' ? deco(targetOrOptions) : deco;
-}
-
-function processAttributes(processor) {
-  return function (t) {
-    let r = aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.getOrCreateOwn(aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.resource, HtmlBehaviorResource, t);
-    r.processAttributes = function (compiler, resources, node, attributes, elementInstruction) {
-      try {
-        processor(compiler, resources, node, attributes, elementInstruction);
-      } catch (error) {
-        aurelia_logging__WEBPACK_IMPORTED_MODULE_0__.getLogger('templating').error(error);
-      }
+function createChildObserverDecorator(selectorOrConfig, all) {
+    return function (target, key, descriptor) {
+        let actualTarget = typeof key === 'string' ? target.constructor : target;
+        let r = aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.getOrCreateOwn(aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.resource, HtmlBehaviorResource, actualTarget);
+        if (typeof selectorOrConfig === 'string') {
+            selectorOrConfig = {
+                selector: selectorOrConfig,
+                name: key
+            };
+        }
+        if (descriptor) {
+            descriptor.writable = true;
+            descriptor.configurable = true;
+        }
+        selectorOrConfig.all = all;
+        r.addChildBinding(new ChildObserver(selectorOrConfig));
     };
-  };
 }
-
-function doNotProcessContent() {
-  return false;
+function children(selectorOrConfig) {
+    return createChildObserverDecorator(selectorOrConfig, true);
 }
-
-function processContent(processor) {
-  return function (t) {
-    let r = aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.getOrCreateOwn(aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.resource, HtmlBehaviorResource, t);
-    r.processContent = processor ? function (compiler, resources, node, instruction) {
-      try {
-        return processor(compiler, resources, node, instruction);
-      } catch (error) {
-        aurelia_logging__WEBPACK_IMPORTED_MODULE_0__.getLogger('templating').error(error);
-        return false;
-      }
-    } : doNotProcessContent;
-  };
+function child(selectorOrConfig) {
+    return createChildObserverDecorator(selectorOrConfig, false);
 }
-
-function containerless(target) {
-  let deco = function (t) {
-    let r = aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.getOrCreateOwn(aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.resource, HtmlBehaviorResource, t);
-    r.containerless = true;
-  };
-
-  return target ? deco(target) : deco;
-}
-
-function useViewStrategy(strategy) {
-  return function (target) {
-    aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.define(ViewLocator.viewStrategyMetadataKey, strategy, target);
-  };
-}
-
-function useView(path) {
-  return useViewStrategy(new RelativeViewStrategy(path));
-}
-
-function inlineView(markup, dependencies, dependencyBaseUrl) {
-  return useViewStrategy(new InlineViewStrategy(markup, dependencies, dependencyBaseUrl));
-}
-
-function noView(targetOrDependencies, dependencyBaseUrl) {
-  let target;
-  let dependencies;
-  if (typeof targetOrDependencies === 'function') {
-    target = targetOrDependencies;
-  } else {
-    dependencies = targetOrDependencies;
-    target = undefined;
-  }
-
-  let deco = function (t) {
-    aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.define(ViewLocator.viewStrategyMetadataKey, new NoViewStrategy(dependencies, dependencyBaseUrl), t);
-  };
-
-  return target ? deco(target) : deco;
-}
-
-function view(templateOrConfig) {
-  return function (target) {
-    target.$view = templateOrConfig;
-  };
-}
-
-function elementConfig(target) {
-  let deco = function (t) {
-    aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.define(aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.resource, new ElementConfigResource(), t);
-  };
-
-  return target ? deco(target) : deco;
-}
-
-function viewResources(...resources) {
-  return function (target) {
-    aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.define(ViewEngine.viewModelRequireMetadataKey, resources, target);
-  };
-}
-
-let TemplatingEngine = (_dec9 = (0,aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_6__.inject)(aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_6__.Container, ModuleAnalyzer, ViewCompiler, CompositionEngine), _dec9(_class17 = class TemplatingEngine {
-  constructor(container, moduleAnalyzer, viewCompiler, compositionEngine) {
-    this._container = container;
-    this._moduleAnalyzer = moduleAnalyzer;
-    this._viewCompiler = viewCompiler;
-    this._compositionEngine = compositionEngine;
-    container.registerInstance(Animator, Animator.instance = new Animator());
-  }
-
-  configureAnimator(animator) {
-    this._container.unregister(Animator);
-    this._container.registerInstance(Animator, Animator.instance = animator);
-  }
-
-  compose(context) {
-    return this._compositionEngine.compose(context);
-  }
-
-  enhance(instruction) {
-    if (instruction instanceof aurelia_pal__WEBPACK_IMPORTED_MODULE_2__.DOM.Element) {
-      instruction = { element: instruction };
+class ChildObserver {
+    constructor(config) {
+        this.name = config.name;
+        this.changeHandler = config.changeHandler || this.name + 'Changed';
+        this.selector = config.selector;
+        this.all = config.all;
     }
+    create(viewHost, viewModel, controller) {
+        return new ChildObserverBinder(this.selector, viewHost, this.name, viewModel, controller, this.changeHandler, this.all);
+    }
+}
+const noMutations = [];
+function trackMutation(groupedMutations, binder, record) {
+    let mutations = groupedMutations.get(binder);
+    if (!mutations) {
+        mutations = [];
+        groupedMutations.set(binder, mutations);
+    }
+    mutations.push(record);
+}
+function onChildChange(mutations, observer) {
+    let binders = observer.binders;
+    let bindersLength = binders.length;
+    let groupedMutations = new Map();
+    for (let i = 0, ii = mutations.length; i < ii; ++i) {
+        let record = mutations[i];
+        let added = record.addedNodes;
+        let removed = record.removedNodes;
+        for (let j = 0, jj = removed.length; j < jj; ++j) {
+            let node = removed[j];
+            if (node.nodeType === 1) {
+                for (let k = 0; k < bindersLength; ++k) {
+                    let binder = binders[k];
+                    if (binder.onRemove(node)) {
+                        trackMutation(groupedMutations, binder, record);
+                    }
+                }
+            }
+        }
+        for (let j = 0, jj = added.length; j < jj; ++j) {
+            let node = added[j];
+            if (node.nodeType === 1) {
+                for (let k = 0; k < bindersLength; ++k) {
+                    let binder = binders[k];
+                    if (binder.onAdd(node)) {
+                        trackMutation(groupedMutations, binder, record);
+                    }
+                }
+            }
+        }
+    }
+    groupedMutations.forEach((mutationRecords, binder) => {
+        if (binder.isBound && binder.changeHandler !== null) {
+            binder.viewModel[binder.changeHandler](mutationRecords);
+        }
+    });
+}
+class ChildObserverBinder {
+    constructor(selector, viewHost, property, viewModel, controller, changeHandler, all) {
+        this.selector = selector;
+        this.viewHost = viewHost;
+        this.property = property;
+        this.viewModel = viewModel;
+        this.controller = controller;
+        this.changeHandler = changeHandler in viewModel ? changeHandler : null;
+        this.usesShadowDOM = controller.behavior.usesShadowDOM;
+        this.all = all;
+        if (!this.usesShadowDOM && controller.view && controller.view.contentView) {
+            this.contentView = controller.view.contentView;
+        }
+        else {
+            this.contentView = null;
+        }
+        this.source = null;
+        this.isBound = false;
+    }
+    matches(element) {
+        if (element.matches(this.selector)) {
+            if (this.contentView === null) {
+                return true;
+            }
+            let contentView = this.contentView;
+            let assignedSlot = element.auAssignedSlot;
+            if (assignedSlot && assignedSlot.projectFromAnchors) {
+                let anchors = assignedSlot.projectFromAnchors;
+                for (let i = 0, ii = anchors.length; i < ii; ++i) {
+                    if (anchors[i].auOwnerView === contentView) {
+                        return true;
+                    }
+                }
+                return false;
+            }
+            return element.auOwnerView === contentView;
+        }
+        return false;
+    }
+    bind(source) {
+        if (this.isBound) {
+            if (this.source === source) {
+                return;
+            }
+            this.source = source;
+        }
+        this.isBound = true;
+        let viewHost = this.viewHost;
+        let viewModel = this.viewModel;
+        let observer = viewHost.__childObserver__;
+        if (!observer) {
+            observer = viewHost.__childObserver__ = aurelia_pal__WEBPACK_IMPORTED_MODULE_0__.DOM.createMutationObserver(onChildChange);
+            let options = {
+                childList: true,
+                subtree: !this.usesShadowDOM
+            };
+            observer.observe(viewHost, options);
+            observer.binders = [];
+        }
+        observer.binders.push(this);
+        if (this.usesShadowDOM) {
+            let current = viewHost.firstElementChild;
+            if (this.all) {
+                let items = viewModel[this.property];
+                if (!items) {
+                    items = viewModel[this.property] = [];
+                }
+                else {
+                    items.splice(0);
+                }
+                while (current) {
+                    if (this.matches(current)) {
+                        items.push(current.au && current.au.controller ? current.au.controller.viewModel : current);
+                    }
+                    current = current.nextElementSibling;
+                }
+                if (this.changeHandler !== null) {
+                    this.viewModel[this.changeHandler](noMutations);
+                }
+            }
+            else {
+                while (current) {
+                    if (this.matches(current)) {
+                        let value = current.au && current.au.controller ? current.au.controller.viewModel : current;
+                        this.viewModel[this.property] = value;
+                        if (this.changeHandler !== null) {
+                            this.viewModel[this.changeHandler](value);
+                        }
+                        break;
+                    }
+                    current = current.nextElementSibling;
+                }
+            }
+        }
+    }
+    onRemove(element) {
+        if (this.matches(element)) {
+            let value = element.au && element.au.controller ? element.au.controller.viewModel : element;
+            if (this.all) {
+                let items = (this.viewModel[this.property] || (this.viewModel[this.property] = []));
+                let index = items.indexOf(value);
+                if (index !== -1) {
+                    items.splice(index, 1);
+                }
+                return true;
+            }
+            const currentValue = this.viewModel[this.property];
+            if (currentValue === value) {
+                this.viewModel[this.property] = null;
+                if (this.isBound && this.changeHandler !== null) {
+                    this.viewModel[this.changeHandler](value);
+                }
+            }
+        }
+        return false;
+    }
+    onAdd(element) {
+        if (this.matches(element)) {
+            let value = element.au && element.au.controller ? element.au.controller.viewModel : element;
+            if (this.all) {
+                let items = (this.viewModel[this.property] || (this.viewModel[this.property] = []));
+                if (this.selector === '*') {
+                    items.push(value);
+                    return true;
+                }
+                let index = 0;
+                let prev = element.previousElementSibling;
+                while (prev) {
+                    if (this.matches(prev)) {
+                        index++;
+                    }
+                    prev = prev.previousElementSibling;
+                }
+                items.splice(index, 0, value);
+                return true;
+            }
+            this.viewModel[this.property] = value;
+            if (this.isBound && this.changeHandler !== null) {
+                this.viewModel[this.changeHandler](value);
+            }
+        }
+        return false;
+    }
+    unbind() {
+        if (!this.isBound) {
+            return;
+        }
+        this.isBound = false;
+        this.source = null;
+        let childObserver = this.viewHost.__childObserver__;
+        if (childObserver) {
+            let binders = childObserver.binders;
+            if (binders && binders.length) {
+                let idx = binders.indexOf(this);
+                if (idx !== -1) {
+                    binders.splice(idx, 1);
+                }
+                if (binders.length === 0) {
+                    childObserver.disconnect();
+                    this.viewHost.__childObserver__ = null;
+                }
+            }
+            if (this.usesShadowDOM) {
+                this.viewModel[this.property] = null;
+            }
+        }
+    }
+}
 
-    let compilerInstructions = { letExpressions: [] };
-    let resources = instruction.resources || this._container.get(ViewResources);
+class ElementConfigResource {
+    initialize(container, target) { }
+    register(registry, name) { }
+    load(container, target) {
+        let config = new target();
+        let eventManager = container.get(aurelia_binding__WEBPACK_IMPORTED_MODULE_5__.EventManager);
+        eventManager.registerElementConfig(config);
+    }
+}
 
-    this._viewCompiler._compileNode(instruction.element, resources, compilerInstructions, instruction.element.parentNode, 'root', true);
+function resource(instanceOrConfig) {
+    return function (target) {
+        let isConfig = typeof instanceOrConfig === 'string' || Object.getPrototypeOf(instanceOrConfig) === Object.prototype;
+        if (isConfig) {
+            target.$resource = instanceOrConfig;
+        }
+        else {
+            aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.define(aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.resource, instanceOrConfig, target);
+        }
+    };
+}
+function behavior(override) {
+    return function (target) {
+        if (override instanceof HtmlBehaviorResource) {
+            aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.define(aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.resource, override, target);
+        }
+        else {
+            let r = aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.getOrCreateOwn(aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.resource, HtmlBehaviorResource, target);
+            Object.assign(r, override);
+        }
+    };
+}
+function customElement(name) {
+    return function (target) {
+        let r = aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.getOrCreateOwn(aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.resource, HtmlBehaviorResource, target);
+        r.elementName = validateBehaviorName(name, 'custom element');
+    };
+}
+function customAttribute(name, defaultBindingMode, aliases) {
+    return function (target) {
+        let r = aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.getOrCreateOwn(aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.resource, HtmlBehaviorResource, target);
+        r.attributeName = validateBehaviorName(name, 'custom attribute');
+        r.attributeDefaultBindingMode = defaultBindingMode;
+        r.aliases = aliases;
+    };
+}
+function templateController(target) {
+    let deco = function (t) {
+        let r = aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.getOrCreateOwn(aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.resource, HtmlBehaviorResource, t);
+        r.liftsContent = true;
+    };
+    return target ? deco(target) : deco;
+}
+function bindable(nameOrConfigOrTarget, key, descriptor) {
+    let deco = function (target, key2, descriptor2) {
+        let actualTarget = key2 ? target.constructor : target;
+        let r = aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.getOrCreateOwn(aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.resource, HtmlBehaviorResource, actualTarget);
+        let prop;
+        if (key2) {
+            nameOrConfigOrTarget = nameOrConfigOrTarget || {};
+            nameOrConfigOrTarget.name = key2;
+        }
+        prop = new BindableProperty(nameOrConfigOrTarget);
+        return prop.registerWith(actualTarget, r, descriptor2);
+    };
+    if (!nameOrConfigOrTarget) {
+        return deco;
+    }
+    if (key) {
+        let target = nameOrConfigOrTarget;
+        nameOrConfigOrTarget = null;
+        return deco(target, key, descriptor);
+    }
+    return deco;
+}
+function dynamicOptions(target) {
+    let deco = function (t) {
+        let r = aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.getOrCreateOwn(aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.resource, HtmlBehaviorResource, t);
+        r.hasDynamicOptions = true;
+    };
+    return target ? deco(target) : deco;
+}
+const defaultShadowDOMOptions = { mode: 'open' };
+function useShadowDOM(targetOrOptions) {
+    let options = typeof targetOrOptions === 'function' || !targetOrOptions
+        ? defaultShadowDOMOptions
+        : targetOrOptions;
+    let deco = function (t) {
+        let r = aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.getOrCreateOwn(aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.resource, HtmlBehaviorResource, t);
+        r.targetShadowDOM = true;
+        r.shadowDOMOptions = options;
+    };
+    return typeof targetOrOptions === 'function' ? deco(targetOrOptions) : deco;
+}
+function processAttributes(processor) {
+    return function (t) {
+        let r = aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.getOrCreateOwn(aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.resource, HtmlBehaviorResource, t);
+        r.processAttributes = function (compiler, resources, node, attributes, elementInstruction) {
+            try {
+                processor(compiler, resources, node, attributes, elementInstruction);
+            }
+            catch (error) {
+                aurelia_logging__WEBPACK_IMPORTED_MODULE_4__.getLogger('templating').error(error);
+            }
+        };
+    };
+}
+function doNotProcessContent() { return false; }
+function processContent(processor) {
+    return function (t) {
+        let r = aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.getOrCreateOwn(aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.resource, HtmlBehaviorResource, t);
+        r.processContent = processor ? function (compiler, resources, node, instruction) {
+            try {
+                return processor(compiler, resources, node, instruction);
+            }
+            catch (error) {
+                aurelia_logging__WEBPACK_IMPORTED_MODULE_4__.getLogger('templating').error(error);
+                return false;
+            }
+        } : doNotProcessContent;
+    };
+}
+function containerless(target) {
+    let deco = function (t) {
+        let r = aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.getOrCreateOwn(aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.resource, HtmlBehaviorResource, t);
+        r.containerless = true;
+    };
+    return target ? deco(target) : deco;
+}
+function useViewStrategy(strategy) {
+    return function (target) {
+        aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.define(ViewLocator.viewStrategyMetadataKey, strategy, target);
+    };
+}
+function useView(path) {
+    return useViewStrategy(new RelativeViewStrategy(path));
+}
+function inlineView(markup, dependencies, dependencyBaseUrl) {
+    return useViewStrategy(new InlineViewStrategy(markup, dependencies, dependencyBaseUrl));
+}
+function noView(targetOrDependencies, dependencyBaseUrl) {
+    let target;
+    let dependencies;
+    if (typeof targetOrDependencies === 'function') {
+        target = targetOrDependencies;
+    }
+    else {
+        dependencies = targetOrDependencies;
+        target = undefined;
+    }
+    let deco = function (t) {
+        aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.define(ViewLocator.viewStrategyMetadataKey, new NoViewStrategy(dependencies, dependencyBaseUrl), t);
+    };
+    return target ? deco(target) : deco;
+}
+function view(templateOrConfig) {
+    return function (target) {
+        target.$view = templateOrConfig;
+    };
+}
+function elementConfig(target) {
+    let deco = function (t) {
+        aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.define(aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.resource, new ElementConfigResource(), t);
+    };
+    return target ? deco(target) : deco;
+}
+function viewResources(...resources) {
+    return function (target) {
+        aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.define(ViewEngine.viewModelRequireMetadataKey, resources, target);
+    };
+}
 
-    let factory = new ViewFactory(instruction.element, compilerInstructions, resources);
-    let container = instruction.container || this._container.createChild();
-    let view = factory.create(container, BehaviorInstruction.enhance());
+class TemplatingEngine {
+    constructor(container, moduleAnalyzer, viewCompiler, compositionEngine) {
+        this._container = container;
+        this._moduleAnalyzer = moduleAnalyzer;
+        this._viewCompiler = viewCompiler;
+        this._compositionEngine = compositionEngine;
+        container.registerInstance(Animator, Animator.instance = new Animator());
+    }
+    configureAnimator(animator) {
+        this._container.unregister(Animator);
+        this._container.registerInstance(Animator, Animator.instance = animator);
+    }
+    compose(context) {
+        return this._compositionEngine.compose(context);
+    }
+    enhance(instruction) {
+        if (instruction instanceof aurelia_pal__WEBPACK_IMPORTED_MODULE_0__.DOM.Element) {
+            instruction = { element: instruction };
+        }
+        let compilerInstructions = { letExpressions: [] };
+        let resources = instruction.resources || this._container.get(ViewResources);
+        this._viewCompiler._compileNode(instruction.element, resources, compilerInstructions, instruction.element.parentNode, 'root', true);
+        let factory = new ViewFactory(instruction.element, compilerInstructions, resources);
+        let container = instruction.container || this._container.createChild();
+        let view = factory.create(container, BehaviorInstruction.enhance());
+        view.bind(instruction.bindingContext || {}, instruction.overrideContext);
+        view.firstChild = view.lastChild = view.fragment;
+        view.fragment = aurelia_pal__WEBPACK_IMPORTED_MODULE_0__.DOM.createDocumentFragment();
+        view.attached();
+        return view;
+    }
+}
+TemplatingEngine.inject = [aurelia_dependency_injection__WEBPACK_IMPORTED_MODULE_6__.Container, ModuleAnalyzer, ViewCompiler, CompositionEngine];
 
-    view.bind(instruction.bindingContext || {}, instruction.overrideContext);
 
-    view.firstChild = view.lastChild = view.fragment;
-    view.fragment = aurelia_pal__WEBPACK_IMPORTED_MODULE_2__.DOM.createDocumentFragment();
-    view.attached();
+//# sourceMappingURL=aurelia-templating.js.map
 
-    return view;
-  }
-}) || _class17);
 
 /***/ }),
 
@@ -21006,18 +20074,18 @@ let TemplatingEngine = (_dec9 = (0,aurelia_dependency_injection__WEBPACK_IMPORTE
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "bindable": () => (/* binding */ bindable),
-/* harmony export */   "usePropertyTypeForBindable": () => (/* binding */ usePropertyType),
-/* harmony export */   "createTypedBindable": () => (/* binding */ createTypedBindable),
-/* harmony export */   "observable": () => (/* binding */ observable),
-/* harmony export */   "usePropertyTypeForObservable": () => (/* binding */ usePropertyType$1),
-/* harmony export */   "createTypedObservable": () => (/* binding */ createTypedObservable),
-/* harmony export */   "coerceFunctions": () => (/* binding */ coerceFunctions),
 /* harmony export */   "coerceFunctionMap": () => (/* binding */ coerceFunctionMap),
-/* harmony export */   "mapCoerceFunction": () => (/* binding */ mapCoerceFunction)
+/* harmony export */   "coerceFunctions": () => (/* binding */ coerceFunctions),
+/* harmony export */   "createTypedBindable": () => (/* binding */ createTypedBindable),
+/* harmony export */   "createTypedObservable": () => (/* binding */ createTypedObservable),
+/* harmony export */   "mapCoerceFunction": () => (/* binding */ mapCoerceFunction),
+/* harmony export */   "observable": () => (/* binding */ observable),
+/* harmony export */   "usePropertyTypeForBindable": () => (/* binding */ usePropertyType$1),
+/* harmony export */   "usePropertyTypeForObservable": () => (/* binding */ usePropertyType)
 /* harmony export */ });
 /* harmony import */ var aurelia_logging__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! aurelia-logging */ "../../node_modules/aurelia-logging/dist/es2015/aurelia-logging.js");
-/* harmony import */ var aurelia_templating__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! aurelia-templating */ "../../node_modules/aurelia-templating/dist/es2015/aurelia-templating.js");
-/* harmony import */ var aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! aurelia-metadata */ "../../node_modules/aurelia-metadata/dist/es2015/aurelia-metadata.js");
+/* harmony import */ var aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! aurelia-metadata */ "../../node_modules/aurelia-metadata/dist/es2015/aurelia-metadata.js");
+/* harmony import */ var aurelia_templating__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! aurelia-templating */ "../../node_modules/aurelia-templating/dist/es2015/aurelia-templating.js");
 
 
 
@@ -21039,8 +20107,6 @@ const coerceFunctions = {
         return val || val === '' ? true : false;
     },
     date(val) {
-        // Invalid date instances are quite problematic
-        // so we need to deal with it properly by default
         if (val === null || val === undefined) {
             return null;
         }
@@ -21054,16 +20120,10 @@ const coerceFunctionMap = new Map([
     [Date, 'date'],
     [Number, 'number'],
 ]);
-/**
- * Map a class to a string for typescript property coerce
- * @param type the property class to register
- * @param strType the string that represents class in the lookup
- * @param coerceFunction coerce function to register with param strType
- */
 function mapCoerceFunction(type, strType, coerceFunction) {
     coerceFunction = coerceFunction || type.coerce;
     if (typeof strType !== 'string' || typeof coerceFunction !== 'function') {
-        (0,aurelia_logging__WEBPACK_IMPORTED_MODULE_0__.getLogger)('map-coerce-function')
+        aurelia_logging__WEBPACK_IMPORTED_MODULE_0__.getLogger('map-coerce-function')
             .warn(`Bad attempt at mapping coerce function for type: ${type.name} to: ${strType}`);
         return;
     }
@@ -21071,18 +20131,14 @@ function mapCoerceFunction(type, strType, coerceFunction) {
     coerceFunctionMap.set(type, strType);
 }
 
-// tslint:disable: interface-name no-invalid-this no-non-null-assertion
-aurelia_templating__WEBPACK_IMPORTED_MODULE_1__.BehaviorPropertyObserver.prototype.setCoerce = function (coerce) {
+aurelia_templating__WEBPACK_IMPORTED_MODULE_2__.BehaviorPropertyObserver.prototype.setCoerce = function (coerce) {
     this.coerce = typeof coerce === 'function' ? coerce : coerceFunctions[coerce];
     if (this.coerce === undefined) {
-        (0,aurelia_logging__WEBPACK_IMPORTED_MODULE_0__.getLogger)('behavior-property-observer')
+        aurelia_logging__WEBPACK_IMPORTED_MODULE_0__.getLogger('behavior-property-observer')
             .warn(`Invalid coerce instruction. Should be either one of ${Object.keys(coerceFunctions)} or a function.`);
     }
 };
-/**
- * Slightly override the builtin implementation that will handle coercion
- */
-aurelia_templating__WEBPACK_IMPORTED_MODULE_1__.BehaviorPropertyObserver.prototype.setValue = function (newValue) {
+aurelia_templating__WEBPACK_IMPORTED_MODULE_2__.BehaviorPropertyObserver.prototype.setValue = function (newValue) {
     const oldValue = this.currentValue;
     const coercedValue = this.coerce === undefined ? newValue : this.coerce(newValue);
     if (oldValue !== coercedValue) {
@@ -21099,7 +20155,7 @@ aurelia_templating__WEBPACK_IMPORTED_MODULE_1__.BehaviorPropertyObserver.prototy
         }
     }
 };
-aurelia_templating__WEBPACK_IMPORTED_MODULE_1__.BindableProperty.prototype.createObserver = function (viewModel) {
+aurelia_templating__WEBPACK_IMPORTED_MODULE_2__.BindableProperty.prototype.createObserver = function (viewModel) {
     let selfSubscriber = null;
     const defaultValue = this.defaultValue;
     const changeHandlerName = this.changeHandler;
@@ -21128,14 +20184,14 @@ aurelia_templating__WEBPACK_IMPORTED_MODULE_1__.BindableProperty.prototype.creat
     if (defaultValue !== undefined) {
         initialValue = typeof defaultValue === 'function' ? defaultValue.call(viewModel) : defaultValue;
     }
-    const observer = new aurelia_templating__WEBPACK_IMPORTED_MODULE_1__.BehaviorPropertyObserver(this.owner.taskQueue, viewModel, this.name, selfSubscriber, initialValue);
+    const observer = new aurelia_templating__WEBPACK_IMPORTED_MODULE_2__.BehaviorPropertyObserver(this.owner.taskQueue, viewModel, this.name, selfSubscriber, initialValue);
     if (this.coerce !== undefined) {
         observer.setCoerce(this.coerce);
         observer.currentValue = observer.oldValue = observer.coerce === undefined ? observer.currentValue : observer.coerce(initialValue);
     }
     return observer;
 };
-aurelia_templating__WEBPACK_IMPORTED_MODULE_1__.BindableProperty.prototype._createDynamicProperty = function (viewModel, observerLookup, behaviorHandlesBind, name, attribute, boundProperties) {
+aurelia_templating__WEBPACK_IMPORTED_MODULE_2__.BindableProperty.prototype._createDynamicProperty = function (viewModel, observerLookup, behaviorHandlesBind, name, attribute, boundProperties) {
     const changeHandlerName = `${name}Changed`;
     let selfSubscriber = null;
     let observer;
@@ -21154,7 +20210,7 @@ aurelia_templating__WEBPACK_IMPORTED_MODULE_1__.BindableProperty.prototype._crea
     else if ('propertyChanged' in viewModel) {
         selfSubscriber = (newValue, oldValue) => viewModel.propertyChanged(name, newValue, oldValue);
     }
-    observer = observerLookup[name] = new aurelia_templating__WEBPACK_IMPORTED_MODULE_1__.BehaviorPropertyObserver(this.owner.taskQueue, viewModel, name, selfSubscriber, undefined);
+    observer = observerLookup[name] = new aurelia_templating__WEBPACK_IMPORTED_MODULE_2__.BehaviorPropertyObserver(this.owner.taskQueue, viewModel, name, selfSubscriber, undefined);
     observer.setCoerce(this.coerce);
     observer.currentValue = observer.oldValue = observer.coerce === undefined ? observer.currentValue : observer.coerce(undefined);
     Object.defineProperty(viewModel, name, {
@@ -21178,163 +20234,63 @@ aurelia_templating__WEBPACK_IMPORTED_MODULE_1__.BindableProperty.prototype._crea
     observer.selfSubscriber = selfSubscriber;
 };
 
-let _usePropertyType = false;
-/**
- * Decorator: Specifies that a property is bindable through HTML.
- * @param nameOrTargetOrConfig The name of the property, or a configuration object.
- * This has Object in its type to avoid breaking change.
- * Idealy it should be `string | BindablePropertyConfig`
- */
-// tslint:disable-next-line:no-shadowed-variable
+let _usePropertyType$1 = false;
 const bindable = function bindable(nameOrTargetOrConfig, key, descriptor) {
     const deco = function (target, key2, descriptor2) {
-        /**
-         * key2 = truthy => decorated on a class field
-         * key2 = falsy => decorated on a class
-         */
         const actualTarget = key2 ? target.constructor : target;
-        const r = aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.getOrCreateOwn(aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.resource, aurelia_templating__WEBPACK_IMPORTED_MODULE_1__.HtmlBehaviorResource, actualTarget);
+        const r = aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.getOrCreateOwn(aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.resource, aurelia_templating__WEBPACK_IMPORTED_MODULE_2__.HtmlBehaviorResource, actualTarget);
         let prop;
         let propType;
-        if (key2) { //is it on a property or a class?
+        if (key2) {
             nameOrTargetOrConfig = nameOrTargetOrConfig || {};
             nameOrTargetOrConfig.name = key2;
-            /**
-             * Support for Typescript decorator, with metadata on property type.
-             * Will check for typing only when user didn't explicitly set coerce + turn on the options
-             *
-             * If key 2 is truthy, it's a decorator on class field, which means target is prototype
-             */
-            if (nameOrTargetOrConfig.coerce === undefined && _usePropertyType) {
-                propType = aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.getOwn(aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.propertyType, target, key2);
+            if (nameOrTargetOrConfig.coerce === undefined && _usePropertyType$1) {
+                propType = aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.getOwn(aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.propertyType, target, key2);
                 if (propType) {
                     const coerceType = coerceFunctionMap.get(propType);
                     if (coerceType === undefined) {
-                        (0,aurelia_logging__WEBPACK_IMPORTED_MODULE_0__.getLogger)('@bindable decorator')
+                        aurelia_logging__WEBPACK_IMPORTED_MODULE_0__.getLogger('@bindable decorator')
                             .warn(`Invalid coerce instruction. Should be either one of ${Object.keys(coerceFunctions)} or a function.`);
                     }
                     nameOrTargetOrConfig.coerce = coerceType || 'none';
                 }
             }
         }
-        prop = new aurelia_templating__WEBPACK_IMPORTED_MODULE_1__.BindableProperty(nameOrTargetOrConfig);
+        prop = new aurelia_templating__WEBPACK_IMPORTED_MODULE_2__.BindableProperty(nameOrTargetOrConfig);
         return prop.registerWith(actualTarget, r, descriptor2);
     };
     if (!nameOrTargetOrConfig) {
-        /**
-         * placed on property initializer with parens, without any params
-         * @example:
-         * class ViewModel {
-         *   @bindable() property
-         * }
-         * @bindable() class ViewModel {}
-         */
         return deco;
     }
     if (key) {
-        /**
-         * placed on a property initializer without parens
-         * @example
-         * class ViewModel {
-         *   @bindable property
-         * }
-         *
-         */
         const target = nameOrTargetOrConfig;
         nameOrTargetOrConfig = undefined;
         return deco(target, key, descriptor);
     }
-    /**
-     * placed on a class with parens and config
-     * @example
-     * @bindable({ ... })
-     * class MyViewModel {}
-     */
     return deco;
 };
 ['string', 'number', 'boolean', 'booleanAttr', 'date'].forEach(createTypedBindable);
-/**
- * Used to allow user to automatically pickup property type
- * Can be used with typescript emit metadata in compiler settings, or with `Reflect.metadata('design:type', PropertyTypeClass)` decorator
- */
-function usePropertyType(shouldUsePropertyType) {
-    _usePropertyType = shouldUsePropertyType;
+function usePropertyType$1(shouldUsePropertyType) {
+    _usePropertyType$1 = shouldUsePropertyType;
 }
-/**
- * Create a new fluent syntax bindable decorator  ex: builtin: `@bindable.string`, custom: `@bindable.customType`
- * Need to use together with setting the type in `coerceFunctions`:
- *
- * ```js
- * import {
- *  createTypedBindable,
- *  coerceFunctions
- * } from 'aurelia-framework'
- *
- * // create the typed bindable
- * createTypedBindable('point'); // => enable `@bindable.point`
- * // Set the instruction
- * coerceFunctions.point = function(value: string) {
- *   // convert to point from value
- * }
- * ```
- *
- * @param type The type to added to bindable for fluent syntax.
- */
 function createTypedBindable(type) {
-    /**
-     * There no attempts to protect user from mis-using the decorators.
-     * ex. @observable({}, accidentParam) class SomeClass {}
-     * If we have some flag to use in if block, which can be remove at build time, it would be great.
-     */
     return bindable[type] = function (nameOrTargetOrConfig, key, descriptor) {
         if (nameOrTargetOrConfig === undefined) {
-            /**
-             * MyClass {
-             *   @bindable.number() num
-             * }
-             */
             return bindable({ coerce: type });
         }
         if (key === undefined) {
-            /**
-             * @bindable.number('num')
-             * class MyClass {}
-             *
-             * @bindable.number({...})
-             * class MyClass
-             *
-             * class MyClass {
-             *   @bindable.number({...})
-             *   num
-             * }
-             */
             nameOrTargetOrConfig = typeof nameOrTargetOrConfig === 'string' ? { name: nameOrTargetOrConfig } : nameOrTargetOrConfig;
             nameOrTargetOrConfig.coerce = type;
             return bindable(nameOrTargetOrConfig);
         }
-        /**
-         * class MyClass {
-         *   @bindable.number num
-         * }
-         */
         return bindable({ coerce: type })(nameOrTargetOrConfig, key, descriptor);
     };
 }
 
-const observableLogger = (0,aurelia_logging__WEBPACK_IMPORTED_MODULE_0__.getLogger)('aurelia-observable-decorator');
-/**
- * Internal flag to turn on / off auto pickup property type from metadata
- */
-let _usePropertyType$1 = false;
+const observableLogger = aurelia_logging__WEBPACK_IMPORTED_MODULE_0__.getLogger('aurelia-observable-decorator');
+let _usePropertyType = false;
 const observable = function observable(nameOrTargetOrConfig, key, descriptor) {
-    /**
-     * @param target The class decorated
-     * @param key The target class field of the decorator
-     * @param descriptor class field descriptor
-     * @param config user's config
-     */
     function deco(target, key, descriptor, config) {
-        // Used to check if we should pickup the type from metadata
         let coerce = config === undefined || typeof config === 'string' ? undefined : config.coerce;
         let propType;
         let coerceFunction;
@@ -21346,14 +20302,13 @@ const observable = function observable(nameOrTargetOrConfig, key, descriptor) {
                 case 'function':
                     coerceFunction = coerce;
                     break;
-                default: break;
             }
             if (coerceFunction === undefined) {
                 observableLogger.warn(`Invalid coerce instruction. Should be either one of ${Object.keys(coerceFunctions)} or a function.`);
             }
         }
-        else if (_usePropertyType$1) {
-            propType = aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.getOwn(aurelia_metadata__WEBPACK_IMPORTED_MODULE_2__.metadata.propertyType, target, key);
+        else if (_usePropertyType) {
+            propType = aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.getOwn(aurelia_metadata__WEBPACK_IMPORTED_MODULE_1__.metadata.propertyType, target, key);
             if (propType) {
                 coerceFunction = coerceFunctions[coerceFunctionMap.get(propType)];
                 if (coerceFunction === undefined) {
@@ -21361,18 +20316,11 @@ const observable = function observable(nameOrTargetOrConfig, key, descriptor) {
                 }
             }
         }
-        /**
-         * class decorator?
-         * @example
-         * @observable('firstName') MyClass {}
-         * @observable({ name: 'firstName' }) MyClass {}
-         */
         const isClassDecorator = key === undefined;
         if (isClassDecorator) {
             target = target.prototype;
             key = typeof config === 'string' ? config : config.name;
         }
-        // use a convention to compute the inner property name
         const innerPropertyName = `_${key}`;
         const innerPropertyDescriptor = {
             configurable: true,
@@ -21383,34 +20331,23 @@ const observable = function observable(nameOrTargetOrConfig, key, descriptor) {
             const initValue = config.defaultValue;
             innerPropertyDescriptor.value = coerceFunction === undefined ? initValue : coerceFunction(initValue);
         }
-        // determine callback name based on config or convention.
         const callbackName = (config && config.changeHandler) || `${key}Changed`;
         if (descriptor) {
-            // babel passes in the property descriptor with a method to get the initial value.
-            // set the initial value of the property if it is defined.
-            // also make sure it's coerced
             if (typeof descriptor.initializer === 'function') {
                 const initValue = descriptor.initializer();
                 innerPropertyDescriptor.value = coerceFunction === undefined ? initValue : coerceFunction(initValue);
             }
         }
         else {
-            // there is no descriptor if the target was a field in TS (although Babel provides one),
-            // or if the decorator was applied to a class.
             descriptor = {};
         }
-        // make the accessor enumerable by default, as fields are enumerable
         if (!('enumerable' in descriptor)) {
             descriptor.enumerable = true;
         }
-        // we're adding a getter and setter which means the property descriptor
-        // cannot have a "value" or "writable" attribute
         delete descriptor.value;
         delete descriptor.writable;
         delete descriptor.initializer;
-        // Add the inner property on the prototype.
         Reflect.defineProperty(target, innerPropertyName, innerPropertyDescriptor);
-        // add the getter and setter to the property descriptor.
         descriptor.get = function () { return this[innerPropertyName]; };
         descriptor.set = function (newValue) {
             let oldValue = this[innerPropertyName];
@@ -21418,15 +20355,12 @@ const observable = function observable(nameOrTargetOrConfig, key, descriptor) {
             if (coercedValue === oldValue) {
                 return;
             }
-            // Add the inner property on the instance and make it nonenumerable.
             this[innerPropertyName] = coercedValue;
             Reflect.defineProperty(this, innerPropertyName, { enumerable: false });
             if (this[callbackName]) {
                 this[callbackName](coercedValue, oldValue, key);
             }
         };
-        // make sure Aurelia doesn't use dirty-checking by declaring the property's
-        // dependencies. This is the equivalent of "@computedFrom(...)".
         descriptor.get.dependencies = [innerPropertyName];
         if (isClassDecorator) {
             Reflect.defineProperty(target, key, descriptor);
@@ -21435,94 +20369,31 @@ const observable = function observable(nameOrTargetOrConfig, key, descriptor) {
             return descriptor;
         }
     }
-    /**
-     * Decorating with parens
-     * @example
-     * @observable MyClass {} <----- this breaks, but will go into this condition
-     * @observable('firstName') MyClass {}
-     * @observable({ name: 'firstName' }) MyClass {}
-     * class MyClass {
-     *   @observable() prop
-     * }
-     */
     if (key === undefined) {
         return (t, k, d) => deco(t, k, d, nameOrTargetOrConfig);
     }
-    /**
-     * Decorating on class field
-     * @example
-     * class MyClass {
-     *   @observable prop
-     * }
-     */
     return deco(nameOrTargetOrConfig, key, descriptor);
 };
 ['string', 'number', 'boolean', 'date'].forEach(createTypedObservable);
-/*
-          | typescript       | babel
-----------|------------------|-------------------------
-property  | config           | config
-w/parens  | target, key      | target, key, descriptor
-----------|------------------|-------------------------
-property  | target, key      | target, key, descriptor
-no parens | n/a              | n/a
-----------|------------------|-------------------------
-class     | config           | config
-          | target           | target
-*/
-/**
- * Toggle the flag for observable to auto pickup property type from metadata
- * The reason is sometimes we may want to use prop type on bindable, but not observable
- * and vice versa
- */
-function usePropertyType$1(shouldUsePropType) {
-    _usePropertyType$1 = !!shouldUsePropType;
+function usePropertyType(shouldUsePropType) {
+    _usePropertyType = !!shouldUsePropType;
 }
-/**
- * Decorator: Creates a new observable decorator that can be used for fluent syntax purpose
- * @param type the type name that will be assign to observable decorator. `createTypedObservable('point') -> observable.point`
- */
 function createTypedObservable(type) {
     return observable[type] = function (nameOrTargetOrConfig, key, descriptor) {
         if (nameOrTargetOrConfig === undefined) {
-            /**
-             * MyClass {
-             *   @observable.number() num
-             * }
-             *
-             * This will breaks so need to check for proper error
-             * @observable.number()
-             * class MyClass {}
-             */
             return observable({ coerce: type });
         }
         if (key === undefined) {
-            /**
-             * @observable.number('num')
-             * class MyClass {}
-             *
-             * @observable.number({...})
-             * class MyClass
-             *
-             * class MyClass {
-             *   @observable.number({...})
-             *   num
-             * }
-             */
             nameOrTargetOrConfig = typeof nameOrTargetOrConfig === 'string' ? { name: nameOrTargetOrConfig } : nameOrTargetOrConfig;
             nameOrTargetOrConfig.coerce = type;
             return observable(nameOrTargetOrConfig);
         }
-        /**
-         * class MyClass {
-         *   @observable.number num
-         * }
-         */
         return observable({ coerce: type })(nameOrTargetOrConfig, key, descriptor);
     };
 }
 
 
+//# sourceMappingURL=index.js.map
 
 
 /***/ }),
@@ -26784,39 +25655,39 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
             }
         }
     };
-    (0, tslib_1.__decorate)([
+    tslib_1.__decorate([
         aurelia_typed_observable_plugin_1.bindable.number({ defaultBindingMode: aurelia_binding_1.bindingMode.twoWay }),
-        (0, tslib_1.__metadata)("design:type", Number)
+        tslib_1.__metadata("design:type", Number)
     ], GridStackItem.prototype, "x", void 0);
-    (0, tslib_1.__decorate)([
+    tslib_1.__decorate([
         aurelia_typed_observable_plugin_1.bindable.number({ defaultBindingMode: aurelia_binding_1.bindingMode.twoWay }),
-        (0, tslib_1.__metadata)("design:type", Number)
+        tslib_1.__metadata("design:type", Number)
     ], GridStackItem.prototype, "y", void 0);
-    (0, tslib_1.__decorate)([
+    tslib_1.__decorate([
         aurelia_typed_observable_plugin_1.bindable.number({ defaultBindingMode: aurelia_binding_1.bindingMode.twoWay }),
-        (0, tslib_1.__metadata)("design:type", Number)
+        tslib_1.__metadata("design:type", Number)
     ], GridStackItem.prototype, "w", void 0);
-    (0, tslib_1.__decorate)([
+    tslib_1.__decorate([
         aurelia_typed_observable_plugin_1.bindable.number({ defaultBindingMode: aurelia_binding_1.bindingMode.twoWay }),
-        (0, tslib_1.__metadata)("design:type", Number)
+        tslib_1.__metadata("design:type", Number)
     ], GridStackItem.prototype, "h", void 0);
-    (0, tslib_1.__decorate)([
+    tslib_1.__decorate([
         aurelia_typed_observable_plugin_1.bindable.booleanAttr,
-        (0, tslib_1.__metadata)("design:type", Boolean)
+        tslib_1.__metadata("design:type", Boolean)
     ], GridStackItem.prototype, "noMove", void 0);
-    (0, tslib_1.__decorate)([
+    tslib_1.__decorate([
         aurelia_typed_observable_plugin_1.bindable.booleanAttr,
-        (0, tslib_1.__metadata)("design:type", Boolean)
+        tslib_1.__metadata("design:type", Boolean)
     ], GridStackItem.prototype, "noResize", void 0);
-    (0, tslib_1.__decorate)([
+    tslib_1.__decorate([
         aurelia_typed_observable_plugin_1.bindable.booleanAttr,
-        (0, tslib_1.__metadata)("design:type", Boolean)
+        tslib_1.__metadata("design:type", Boolean)
     ], GridStackItem.prototype, "locked", void 0);
-    GridStackItem = (0, tslib_1.__decorate)([
+    GridStackItem = tslib_1.__decorate([
         (0, aurelia_dependency_injection_1.inject)(Element),
         (0, aurelia_templating_1.customElement)('grid-stack-item'),
         (0, aurelia_templating_1.useView)('./grid-stack-item.html'),
-        (0, tslib_1.__metadata)("design:paramtypes", [Object])
+        tslib_1.__metadata("design:paramtypes", [Object])
     ], GridStackItem);
     exports.GridStackItem = GridStackItem;
 }).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
@@ -26835,7 +25706,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
     "use strict";
     Object.defineProperty(exports, "__esModule", ({ value: true }));
     exports.GridStack = void 0;
-    gs = (0, tslib_1.__importStar)(gs);
+    gs = tslib_1.__importStar(gs);
     let GridStack = class GridStack {
         constructor(root) {
             this.root = root;
@@ -26887,27 +25758,27 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
             itemVm.h = node.h;
         }
     };
-    (0, tslib_1.__decorate)([
+    tslib_1.__decorate([
         aurelia_typed_observable_plugin_1.bindable.number,
-        (0, tslib_1.__metadata)("design:type", Number)
+        tslib_1.__metadata("design:type", Number)
     ], GridStack.prototype, "minRow", void 0);
-    (0, tslib_1.__decorate)([
+    tslib_1.__decorate([
         aurelia_typed_observable_plugin_1.bindable,
-        (0, tslib_1.__metadata)("design:type", Object)
+        tslib_1.__metadata("design:type", Object)
     ], GridStack.prototype, "float", void 0);
-    (0, tslib_1.__decorate)([
+    tslib_1.__decorate([
         aurelia_typed_observable_plugin_1.bindable,
-        (0, tslib_1.__metadata)("design:type", Object)
+        tslib_1.__metadata("design:type", Object)
     ], GridStack.prototype, "options", void 0);
-    (0, tslib_1.__decorate)([
+    tslib_1.__decorate([
         (0, aurelia_templating_1.children)('.grid-stack-item'),
-        (0, tslib_1.__metadata)("design:type", Array)
+        tslib_1.__metadata("design:type", Array)
     ], GridStack.prototype, "items", void 0);
-    GridStack = (0, tslib_1.__decorate)([
+    GridStack = tslib_1.__decorate([
         (0, aurelia_dependency_injection_1.inject)(Element),
         (0, aurelia_templating_1.customElement)('grid-stack'),
         (0, aurelia_templating_1.useView)('./grid-stack.html'),
-        (0, tslib_1.__metadata)("design:paramtypes", [HTMLElement])
+        tslib_1.__metadata("design:paramtypes", [HTMLElement])
     ], GridStack);
     exports.GridStack = GridStack;
 }).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
@@ -26978,7 +25849,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
     Object.defineProperty(exports, "__esModule", ({ value: true }));
     exports.configure = void 0;
     function configure(aurelia) {
-        return (0, tslib_1.__awaiter)(this, void 0, void 0, function* () {
+        return tslib_1.__awaiter(this, void 0, void 0, function* () {
             aurelia.use
                 .standardConfiguration()
                 .developmentLogging()
@@ -27003,32 +25874,33 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "__extends": () => (/* binding */ __extends),
 /* harmony export */   "__assign": () => (/* binding */ __assign),
-/* harmony export */   "__rest": () => (/* binding */ __rest),
-/* harmony export */   "__decorate": () => (/* binding */ __decorate),
-/* harmony export */   "__param": () => (/* binding */ __param),
-/* harmony export */   "__metadata": () => (/* binding */ __metadata),
-/* harmony export */   "__awaiter": () => (/* binding */ __awaiter),
-/* harmony export */   "__generator": () => (/* binding */ __generator),
-/* harmony export */   "__createBinding": () => (/* binding */ __createBinding),
-/* harmony export */   "__exportStar": () => (/* binding */ __exportStar),
-/* harmony export */   "__values": () => (/* binding */ __values),
-/* harmony export */   "__read": () => (/* binding */ __read),
-/* harmony export */   "__spread": () => (/* binding */ __spread),
-/* harmony export */   "__spreadArrays": () => (/* binding */ __spreadArrays),
-/* harmony export */   "__spreadArray": () => (/* binding */ __spreadArray),
-/* harmony export */   "__await": () => (/* binding */ __await),
-/* harmony export */   "__asyncGenerator": () => (/* binding */ __asyncGenerator),
 /* harmony export */   "__asyncDelegator": () => (/* binding */ __asyncDelegator),
+/* harmony export */   "__asyncGenerator": () => (/* binding */ __asyncGenerator),
 /* harmony export */   "__asyncValues": () => (/* binding */ __asyncValues),
-/* harmony export */   "__makeTemplateObject": () => (/* binding */ __makeTemplateObject),
-/* harmony export */   "__importStar": () => (/* binding */ __importStar),
-/* harmony export */   "__importDefault": () => (/* binding */ __importDefault),
+/* harmony export */   "__await": () => (/* binding */ __await),
+/* harmony export */   "__awaiter": () => (/* binding */ __awaiter),
 /* harmony export */   "__classPrivateFieldGet": () => (/* binding */ __classPrivateFieldGet),
-/* harmony export */   "__classPrivateFieldSet": () => (/* binding */ __classPrivateFieldSet)
+/* harmony export */   "__classPrivateFieldIn": () => (/* binding */ __classPrivateFieldIn),
+/* harmony export */   "__classPrivateFieldSet": () => (/* binding */ __classPrivateFieldSet),
+/* harmony export */   "__createBinding": () => (/* binding */ __createBinding),
+/* harmony export */   "__decorate": () => (/* binding */ __decorate),
+/* harmony export */   "__exportStar": () => (/* binding */ __exportStar),
+/* harmony export */   "__extends": () => (/* binding */ __extends),
+/* harmony export */   "__generator": () => (/* binding */ __generator),
+/* harmony export */   "__importDefault": () => (/* binding */ __importDefault),
+/* harmony export */   "__importStar": () => (/* binding */ __importStar),
+/* harmony export */   "__makeTemplateObject": () => (/* binding */ __makeTemplateObject),
+/* harmony export */   "__metadata": () => (/* binding */ __metadata),
+/* harmony export */   "__param": () => (/* binding */ __param),
+/* harmony export */   "__read": () => (/* binding */ __read),
+/* harmony export */   "__rest": () => (/* binding */ __rest),
+/* harmony export */   "__spread": () => (/* binding */ __spread),
+/* harmony export */   "__spreadArray": () => (/* binding */ __spreadArray),
+/* harmony export */   "__spreadArrays": () => (/* binding */ __spreadArrays),
+/* harmony export */   "__values": () => (/* binding */ __values)
 /* harmony export */ });
-/*! *****************************************************************************
+/******************************************************************************
 Copyright (c) Microsoft Corporation.
 
 Permission to use, copy, modify, and/or distribute this software for any
@@ -27137,7 +26009,11 @@ function __generator(thisArg, body) {
 
 var __createBinding = Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
-    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+        desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
 }) : (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     o[k2] = m[k];
@@ -27266,6 +26142,11 @@ function __classPrivateFieldSet(receiver, state, value, kind, f) {
     if (kind === "a" && !f) throw new TypeError("Private accessor was defined without a setter");
     if (typeof state === "function" ? receiver !== state || !f : !state.has(receiver)) throw new TypeError("Cannot write private member to an object whose class did not declare it");
     return (kind === "a" ? f.call(receiver, value) : f ? f.value = value : state.set(receiver, value)), value;
+}
+
+function __classPrivateFieldIn(state, receiver) {
+    if (receiver === null || (typeof receiver !== "object" && typeof receiver !== "function")) throw new TypeError("Cannot use 'in' operator on non-object");
+    return typeof state === "function" ? receiver === state : state.has(receiver);
 }
 
 
@@ -27427,4 +26308,4 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGlu
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.95dc9d24be6c0fb07dc8.bundle.map
+//# sourceMappingURL=app.c64c07cf105735584c64.bundle.map
