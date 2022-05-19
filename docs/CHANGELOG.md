@@ -1,4 +1,4 @@
-# [1.2.0](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/compare/v1.1.0...v1.2.0) (2022-02-03)
+# [1.3.1](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/compare/v1.1.0...v1.2.0) (2022-02-03)
 
 
 ### Fixes
