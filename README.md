@@ -27,7 +27,7 @@ export function configure(aurelia: Aurelia) {
   <grid-stack-item x="0" y="0" w="2" h="1">
     <div class="item">Item1</div>
   </grid-stack-item>
-  <grid-stack-item x="1" y="1" w="2" h="2">
+  <grid-stack-item x="1" y="1" w="2" h="2" min-w="2" min-h="2">
     <div class="item">Item2</div>
   </grid-stack-item>
   <grid-stack-item x="3" y="2" w="1" h="2">
