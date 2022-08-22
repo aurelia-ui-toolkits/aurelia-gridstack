@@ -55,6 +55,14 @@ export function configure(aurelia: Aurelia) {
   ];
 ```
 
+### Static
+
+You can lock a grid by setting `static` on the grid-stack component:
+
+```html
+  <grid-stack static></grid-stack>
+```
+
 ## Contribution
 
 If you feel that something is missing please submit an issue or better yet a PR.
