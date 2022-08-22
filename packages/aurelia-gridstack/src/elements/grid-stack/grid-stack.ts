@@ -24,6 +24,12 @@ export class GridStack {
     this.grid?.float(this.float);
   }
 
+  @bindable({ set: booleanAttr })
+  static: boolean;
+  staticChanged() {
+    this.grid?.setStatic(this.static);
+  }
+
   @bindable
   options: gs.GridStackOptions;
 
