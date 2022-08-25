@@ -32,6 +32,16 @@ export class GridStack {
   }
 
   @bindable
+  static: string | boolean | undefined;
+  staticChanged() {
+    this.grid?.setStatic(this.getStatic());
+  }
+
+  getStatic() {
+    return this.static || this.static === '' ? true : false;
+  }
+
+  @bindable
   options: gs.GridStackOptions;
 
   @children('.grid-stack-item')
