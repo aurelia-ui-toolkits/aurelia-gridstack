@@ -1,7 +1,7 @@
 {
   "name": "@aurelia-gridstack/monorepo",
   "private": true,
-  "version": "1.0.0-au2",
+  "version": "2.0.0-au2",
   "workspaces": [
     "packages/aurelia-gridstack",
     "packages/demo"
@@ -9,7 +9,7 @@
   "scripts": {
     "build": "cd packages/aurelia-gridstack && npm run build",
     "start": "cd packages/demo && npm start",
-    "changelog": "cross-env conventional-changelog -p angular -i docs/CHANGELOG.md -s",
+    "changelog": "conventional-changelog -p angular -i docs/CHANGELOG.md -s",
     "deploy": "cd packages/demo && npm run build && cd ../.. && deploy.sh",
     "publish:au2": "cd packages/aurelia-gridstack && npm run publish:au2"
   },
