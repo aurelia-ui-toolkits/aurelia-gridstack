@@ -1,3 +1,13 @@
+# [2.0.0](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/compare/v1.3.1...v2.0.0) (2022-09-16)
+
+
+### Features
+
+* **grid-stack:** adds static property ([5bad0fb](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/commit/5bad0fbd4c12729418a05ce58fbbf348aef77190))
+* upgrade to gridstack@6 ([e4a0c25](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/commit/e4a0c259aa2fcc855cbbe84e60e17be06b7bbec1))
+
+
+
 # [1.3.1](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/compare/v1.2.0...v1.3.1) (2022-05-19)
 
 # [1.2.0](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/compare/v1.1.0...v1.2.0) (2022-02-03)
