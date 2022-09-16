@@ -1,6 +1,6 @@
 {
     "name": "aurelia-gridstack",
-    "version": "1.0.0-au2",
+    "version": "2.0.0-au2",
     "publishConfig": {
         "access": "public"
     },
@@ -33,6 +33,9 @@
         "publish:au2": "npm publish --tag au2"
       },
     "peerDependencies": {
-      "aurelia": "^2.1.0-dev.202106282211"
+      "aurelia": "^2.0.0-alpha.40",
+      "gridstack": "^6.0.0",
+      "tslib": "^2.4.0"
+
     }
 }

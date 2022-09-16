@@ -1,8 +1,6 @@
 import { bindable, children, CustomElement, customElement, inject } from 'aurelia';
 import { booleanAttr, number } from '../../interceptors';
 import * as gs from 'gridstack';
-// eslint-disable-next-line import/no-unassigned-import
-import 'gridstack/dist/h5/gridstack-dd-native';
 import { GridStackItem } from '../grid-stack-item/grid-stack-item';
 
 @inject(Element)
