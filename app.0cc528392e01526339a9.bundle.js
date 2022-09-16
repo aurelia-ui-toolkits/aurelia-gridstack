@@ -20488,7 +20488,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require
 var ___CSS_LOADER_EXPORT___ = _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ":root .grid-stack-item>.ui-resizable-handle{filter:none}.grid-stack{position:relative}.grid-stack.grid-stack-rtl{direction:ltr}.grid-stack.grid-stack-rtl>.grid-stack-item{direction:rtl}.grid-stack .grid-stack-placeholder>.placeholder-content{border:1px dashed #d3d3d3;margin:0;position:absolute;width:auto;z-index:0!important;text-align:center}.grid-stack>.grid-stack-item{min-width:8.3333333333%;position:absolute;padding:0}.grid-stack>.grid-stack-item>.grid-stack-item-content{margin:0;position:absolute;width:auto;overflow-x:hidden;overflow-y:auto}.grid-stack>.grid-stack-item>.ui-resizable-handle{position:absolute;font-size:.1px;display:block;-ms-touch-action:none;touch-action:none}.grid-stack>.grid-stack-item.ui-resizable-autohide>.ui-resizable-handle,.grid-stack>.grid-stack-item.ui-resizable-disabled>.ui-resizable-handle{display:none}.grid-stack>.grid-stack-item.ui-draggable-dragging,.grid-stack>.grid-stack-item.ui-resizable-resizing{z-index:100}.grid-stack>.grid-stack-item.ui-draggable-dragging>.grid-stack-item-content,.grid-stack>.grid-stack-item.ui-resizable-resizing>.grid-stack-item-content{box-shadow:1px 4px 6px rgba(0,0,0,.2);opacity:.8}.grid-stack>.grid-stack-item>.ui-resizable-se,.grid-stack>.grid-stack-item>.ui-resizable-sw{background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");background-repeat:no-repeat;background-position:center;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg)}.grid-stack>.grid-stack-item>.ui-resizable-se{-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-ms-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg)}.grid-stack>.grid-stack-item>.ui-resizable-nw{cursor:nw-resize;width:20px;height:20px;top:0}.grid-stack>.grid-stack-item>.ui-resizable-n{cursor:n-resize;height:10px;top:0;left:25px;right:25px}.grid-stack>.grid-stack-item>.ui-resizable-ne{cursor:ne-resize;width:20px;height:20px;top:0}.grid-stack>.grid-stack-item>.ui-resizable-e{cursor:e-resize;width:10px;top:15px;bottom:15px}.grid-stack>.grid-stack-item>.ui-resizable-se{cursor:se-resize;width:20px;height:20px}.grid-stack>.grid-stack-item>.ui-resizable-s{cursor:s-resize;height:10px;left:25px;bottom:0;right:25px}.grid-stack>.grid-stack-item>.ui-resizable-sw{cursor:sw-resize;width:20px;height:20px}.grid-stack>.grid-stack-item>.ui-resizable-w{cursor:w-resize;width:10px;top:15px;bottom:15px}.grid-stack>.grid-stack-item.ui-draggable-dragging>.ui-resizable-handle{display:none!important}.grid-stack>.grid-stack-item[gs-w=\"0\"]{width:0%}.grid-stack>.grid-stack-item[gs-x=\"0\"]{left:0}.grid-stack>.grid-stack-item[gs-min-w=\"0\"]{min-width:0}.grid-stack>.grid-stack-item[gs-max-w=\"0\"]{max-width:0%}.grid-stack>.grid-stack-item[gs-w=\"1\"]{width:8.3333333333%}.grid-stack>.grid-stack-item[gs-x=\"1\"]{left:8.3333333333%}.grid-stack>.grid-stack-item[gs-min-w=\"1\"]{min-width:8.3333333333%}.grid-stack>.grid-stack-item[gs-max-w=\"1\"]{max-width:8.3333333333%}.grid-stack>.grid-stack-item[gs-w=\"2\"]{width:16.6666666667%}.grid-stack>.grid-stack-item[gs-x=\"2\"]{left:16.6666666667%}.grid-stack>.grid-stack-item[gs-min-w=\"2\"]{min-width:16.6666666667%}.grid-stack>.grid-stack-item[gs-max-w=\"2\"]{max-width:16.6666666667%}.grid-stack>.grid-stack-item[gs-w=\"3\"]{width:25%}.grid-stack>.grid-stack-item[gs-x=\"3\"]{left:25%}.grid-stack>.grid-stack-item[gs-min-w=\"3\"]{min-width:25%}.grid-stack>.grid-stack-item[gs-max-w=\"3\"]{max-width:25%}.grid-stack>.grid-stack-item[gs-w=\"4\"]{width:33.3333333333%}.grid-stack>.grid-stack-item[gs-x=\"4\"]{left:33.3333333333%}.grid-stack>.grid-stack-item[gs-min-w=\"4\"]{min-width:33.3333333333%}.grid-stack>.grid-stack-item[gs-max-w=\"4\"]{max-width:33.3333333333%}.grid-stack>.grid-stack-item[gs-w=\"5\"]{width:41.6666666667%}.grid-stack>.grid-stack-item[gs-x=\"5\"]{left:41.6666666667%}.grid-stack>.grid-stack-item[gs-min-w=\"5\"]{min-width:41.6666666667%}.grid-stack>.grid-stack-item[gs-max-w=\"5\"]{max-width:41.6666666667%}.grid-stack>.grid-stack-item[gs-w=\"6\"]{width:50%}.grid-stack>.grid-stack-item[gs-x=\"6\"]{left:50%}.grid-stack>.grid-stack-item[gs-min-w=\"6\"]{min-width:50%}.grid-stack>.grid-stack-item[gs-max-w=\"6\"]{max-width:50%}.grid-stack>.grid-stack-item[gs-w=\"7\"]{width:58.3333333333%}.grid-stack>.grid-stack-item[gs-x=\"7\"]{left:58.3333333333%}.grid-stack>.grid-stack-item[gs-min-w=\"7\"]{min-width:58.3333333333%}.grid-stack>.grid-stack-item[gs-max-w=\"7\"]{max-width:58.3333333333%}.grid-stack>.grid-stack-item[gs-w=\"8\"]{width:66.6666666667%}.grid-stack>.grid-stack-item[gs-x=\"8\"]{left:66.6666666667%}.grid-stack>.grid-stack-item[gs-min-w=\"8\"]{min-width:66.6666666667%}.grid-stack>.grid-stack-item[gs-max-w=\"8\"]{max-width:66.6666666667%}.grid-stack>.grid-stack-item[gs-w=\"9\"]{width:75%}.grid-stack>.grid-stack-item[gs-x=\"9\"]{left:75%}.grid-stack>.grid-stack-item[gs-min-w=\"9\"]{min-width:75%}.grid-stack>.grid-stack-item[gs-max-w=\"9\"]{max-width:75%}.grid-stack>.grid-stack-item[gs-w=\"10\"]{width:83.3333333333%}.grid-stack>.grid-stack-item[gs-x=\"10\"]{left:83.3333333333%}.grid-stack>.grid-stack-item[gs-min-w=\"10\"]{min-width:83.3333333333%}.grid-stack>.grid-stack-item[gs-max-w=\"10\"]{max-width:83.3333333333%}.grid-stack>.grid-stack-item[gs-w=\"11\"]{width:91.6666666667%}.grid-stack>.grid-stack-item[gs-x=\"11\"]{left:91.6666666667%}.grid-stack>.grid-stack-item[gs-min-w=\"11\"]{min-width:91.6666666667%}.grid-stack>.grid-stack-item[gs-max-w=\"11\"]{max-width:91.6666666667%}.grid-stack>.grid-stack-item[gs-w=\"12\"]{width:100%}.grid-stack>.grid-stack-item[gs-x=\"12\"]{left:100%}.grid-stack>.grid-stack-item[gs-min-w=\"12\"]{min-width:100%}.grid-stack>.grid-stack-item[gs-max-w=\"12\"]{max-width:100%}.grid-stack.grid-stack-1>.grid-stack-item{min-width:100%}.grid-stack.grid-stack-1>.grid-stack-item[gs-w=\"1\"]{width:100%}.grid-stack.grid-stack-1>.grid-stack-item[gs-x=\"1\"]{left:100%}.grid-stack.grid-stack-1>.grid-stack-item[gs-min-w=\"1\"]{min-width:100%}.grid-stack.grid-stack-1>.grid-stack-item[gs-max-w=\"1\"]{max-width:100%}.grid-stack.grid-stack-animate,.grid-stack.grid-stack-animate .grid-stack-item{-webkit-transition:left .3s,top .3s,height .3s,width .3s;-moz-transition:left .3s,top .3s,height .3s,width .3s;-ms-transition:left .3s,top .3s,height .3s,width .3s;-o-transition:left .3s,top .3s,height .3s,width .3s;transition:left .3s,top .3s,height .3s,width .3s}.grid-stack.grid-stack-animate .grid-stack-item.grid-stack-placeholder,.grid-stack.grid-stack-animate .grid-stack-item.ui-draggable-dragging,.grid-stack.grid-stack-animate .grid-stack-item.ui-resizable-resizing{-webkit-transition:left 0s,top 0s,height 0s,width 0s;-moz-transition:left 0s,top 0s,height 0s,width 0s;-ms-transition:left 0s,top 0s,height 0s,width 0s;-o-transition:left 0s,top 0s,height 0s,width 0s;transition:left 0s,top 0s,height 0s,width 0s}", "",{"version":3,"sources":["webpack://./../../node_modules/gridstack/dist/gridstack.min.css"],"names":[],"mappings":"AAAA,4CAA4C,WAAW,CAAC,YAAY,iBAAiB,CAAC,2BAA2B,aAAa,CAAC,4CAA4C,aAAa,CAAC,yDAAyD,yBAAyB,CAAC,QAAQ,CAAC,iBAAiB,CAAC,UAAU,CAAC,mBAAmB,CAAC,iBAAiB,CAAC,6BAA6B,uBAAuB,CAAC,iBAAiB,CAAC,SAAS,CAAC,sDAAsD,QAAQ,CAAC,iBAAiB,CAAC,UAAU,CAAC,iBAAiB,CAAC,eAAe,CAAC,kDAAkD,iBAAiB,CAAC,cAAc,CAAC,aAAa,CAAC,qBAAqB,CAAC,iBAAiB,CAAC,gJAAgJ,YAAY,CAAC,sGAAsG,WAAW,CAAC,wJAAwJ,qCAAqC,CAAC,UAAU,CAAC,4FAA4F,wDAA41D,CAAC,2BAA2B,CAAC,0BAA0B,CAAC,+BAA+B,CAAC,4BAA4B,CAAC,2BAA2B,CAAC,0BAA0B,CAAC,uBAAuB,CAAC,8CAA8C,gCAAgC,CAAC,6BAA6B,CAAC,4BAA4B,CAAC,2BAA2B,CAAC,wBAAwB,CAAC,8CAA8C,gBAAgB,CAAC,UAAU,CAAC,WAAW,CAAC,KAAK,CAAC,6CAA6C,eAAe,CAAC,WAAW,CAAC,KAAK,CAAC,SAAS,CAAC,UAAU,CAAC,8CAA8C,gBAAgB,CAAC,UAAU,CAAC,WAAW,CAAC,KAAK,CAAC,6CAA6C,eAAe,CAAC,UAAU,CAAC,QAAQ,CAAC,WAAW,CAAC,8CAA8C,gBAAgB,CAAC,UAAU,CAAC,WAAW,CAAC,6CAA6C,eAAe,CAAC,WAAW,CAAC,SAAS,CAAC,QAAQ,CAAC,UAAU,CAAC,8CAA8C,gBAAgB,CAAC,UAAU,CAAC,WAAW,CAAC,6CAA6C,eAAe,CAAC,UAAU,CAAC,QAAQ,CAAC,WAAW,CAAC,wEAAwE,sBAAsB,CAAC,uCAAuC,QAAQ,CAAC,uCAAuC,MAAM,CAAC,2CAA2C,WAAW,CAAC,2CAA2C,YAAY,CAAC,uCAAuC,mBAAmB,CAAC,uCAAuC,kBAAkB,CAAC,2CAA2C,uBAAuB,CAAC,2CAA2C,uBAAuB,CAAC,uCAAuC,oBAAoB,CAAC,uCAAuC,mBAAmB,CAAC,2CAA2C,wBAAwB,CAAC,2CAA2C,wBAAwB,CAAC,uCAAuC,SAAS,CAAC,uCAAuC,QAAQ,CAAC,2CAA2C,aAAa,CAAC,2CAA2C,aAAa,CAAC,uCAAuC,oBAAoB,CAAC,uCAAuC,mBAAmB,CAAC,2CAA2C,wBAAwB,CAAC,2CAA2C,wBAAwB,CAAC,uCAAuC,oBAAoB,CAAC,uCAAuC,mBAAmB,CAAC,2CAA2C,wBAAwB,CAAC,2CAA2C,wBAAwB,CAAC,uCAAuC,SAAS,CAAC,uCAAuC,QAAQ,CAAC,2CAA2C,aAAa,CAAC,2CAA2C,aAAa,CAAC,uCAAuC,oBAAoB,CAAC,uCAAuC,mBAAmB,CAAC,2CAA2C,wBAAwB,CAAC,2CAA2C,wBAAwB,CAAC,uCAAuC,oBAAoB,CAAC,uCAAuC,mBAAmB,CAAC,2CAA2C,wBAAwB,CAAC,2CAA2C,wBAAwB,CAAC,uCAAuC,SAAS,CAAC,uCAAuC,QAAQ,CAAC,2CAA2C,aAAa,CAAC,2CAA2C,aAAa,CAAC,wCAAwC,oBAAoB,CAAC,wCAAwC,mBAAmB,CAAC,4CAA4C,wBAAwB,CAAC,4CAA4C,wBAAwB,CAAC,wCAAwC,oBAAoB,CAAC,wCAAwC,mBAAmB,CAAC,4CAA4C,wBAAwB,CAAC,4CAA4C,wBAAwB,CAAC,wCAAwC,UAAU,CAAC,wCAAwC,SAAS,CAAC,4CAA4C,cAAc,CAAC,4CAA4C,cAAc,CAAC,0CAA0C,cAAc,CAAC,oDAAoD,UAAU,CAAC,oDAAoD,SAAS,CAAC,wDAAwD,cAAc,CAAC,wDAAwD,cAAc,CAAC,+EAA+E,wDAAwD,CAAC,qDAAqD,CAAC,oDAAoD,CAAC,mDAAmD,CAAC,gDAAgD,CAAC,mNAAmN,oDAAoD,CAAC,iDAAiD,CAAC,gDAAgD,CAAC,+CAA+C,CAAC,4CAA4C","sourcesContent":[":root .grid-stack-item>.ui-resizable-handle{filter:none}.grid-stack{position:relative}.grid-stack.grid-stack-rtl{direction:ltr}.grid-stack.grid-stack-rtl>.grid-stack-item{direction:rtl}.grid-stack .grid-stack-placeholder>.placeholder-content{border:1px dashed #d3d3d3;margin:0;position:absolute;width:auto;z-index:0!important;text-align:center}.grid-stack>.grid-stack-item{min-width:8.3333333333%;position:absolute;padding:0}.grid-stack>.grid-stack-item>.grid-stack-item-content{margin:0;position:absolute;width:auto;overflow-x:hidden;overflow-y:auto}.grid-stack>.grid-stack-item>.ui-resizable-handle{position:absolute;font-size:.1px;display:block;-ms-touch-action:none;touch-action:none}.grid-stack>.grid-stack-item.ui-resizable-autohide>.ui-resizable-handle,.grid-stack>.grid-stack-item.ui-resizable-disabled>.ui-resizable-handle{display:none}.grid-stack>.grid-stack-item.ui-draggable-dragging,.grid-stack>.grid-stack-item.ui-resizable-resizing{z-index:100}.grid-stack>.grid-stack-item.ui-draggable-dragging>.grid-stack-item-content,.grid-stack>.grid-stack-item.ui-resizable-resizing>.grid-stack-item-content{box-shadow:1px 4px 6px rgba(0,0,0,.2);opacity:.8}.grid-stack>.grid-stack-item>.ui-resizable-se,.grid-stack>.grid-stack-item>.ui-resizable-sw{background-image:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjE2cHgiIGhlaWdodD0iMTZweCIgdmlld0JveD0iMCAwIDUxMS42MjYgNTExLjYyNyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTExLjYyNiA1MTEuNjI3OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPHBhdGggZD0iTTMyOC45MDYsNDAxLjk5NGgtMzYuNTUzVjEwOS42MzZoMzYuNTUzYzQuOTQ4LDAsOS4yMzYtMS44MDksMTIuODQ3LTUuNDI2YzMuNjEzLTMuNjE1LDUuNDIxLTcuODk4LDUuNDIxLTEyLjg0NSAgIGMwLTQuOTQ5LTEuODAxLTkuMjMxLTUuNDI4LTEyLjg1MWwtNzMuMDg3LTczLjA5QzI2NS4wNDQsMS44MDksMjYwLjc2LDAsMjU1LjgxMywwYy00Ljk0OCwwLTkuMjI5LDEuODA5LTEyLjg0Nyw1LjQyNCAgIGwtNzMuMDg4LDczLjA5Yy0zLjYxOCwzLjYxOS01LjQyNCw3LjkwMi01LjQyNCwxMi44NTFjMCw0Ljk0NiwxLjgwNyw5LjIyOSw1LjQyNCwxMi44NDVjMy42MTksMy42MTcsNy45MDEsNS40MjYsMTIuODUsNS40MjYgICBoMzYuNTQ1djI5Mi4zNThoLTM2LjU0MmMtNC45NTIsMC05LjIzNSwxLjgwOC0xMi44NSw1LjQyMWMtMy42MTcsMy42MjEtNS40MjQsNy45MDUtNS40MjQsMTIuODU0ICAgYzAsNC45NDUsMS44MDcsOS4yMjcsNS40MjQsMTIuODQ3bDczLjA4OSw3My4wODhjMy42MTcsMy42MTcsNy44OTgsNS40MjQsMTIuODQ3LDUuNDI0YzQuOTUsMCw5LjIzNC0xLjgwNywxMi44NDktNS40MjQgICBsNzMuMDg3LTczLjA4OGMzLjYxMy0zLjYyLDUuNDIxLTcuOTAxLDUuNDIxLTEyLjg0N2MwLTQuOTQ4LTEuODA4LTkuMjMyLTUuNDIxLTEyLjg1NCAgIEMzMzguMTQyLDQwMy44MDIsMzMzLjg1Nyw0MDEuOTk0LDMyOC45MDYsNDAxLjk5NHoiIGZpbGw9IiM2NjY2NjYiLz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K);background-repeat:no-repeat;background-position:center;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg)}.grid-stack>.grid-stack-item>.ui-resizable-se{-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-ms-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg)}.grid-stack>.grid-stack-item>.ui-resizable-nw{cursor:nw-resize;width:20px;height:20px;top:0}.grid-stack>.grid-stack-item>.ui-resizable-n{cursor:n-resize;height:10px;top:0;left:25px;right:25px}.grid-stack>.grid-stack-item>.ui-resizable-ne{cursor:ne-resize;width:20px;height:20px;top:0}.grid-stack>.grid-stack-item>.ui-resizable-e{cursor:e-resize;width:10px;top:15px;bottom:15px}.grid-stack>.grid-stack-item>.ui-resizable-se{cursor:se-resize;width:20px;height:20px}.grid-stack>.grid-stack-item>.ui-resizable-s{cursor:s-resize;height:10px;left:25px;bottom:0;right:25px}.grid-stack>.grid-stack-item>.ui-resizable-sw{cursor:sw-resize;width:20px;height:20px}.grid-stack>.grid-stack-item>.ui-resizable-w{cursor:w-resize;width:10px;top:15px;bottom:15px}.grid-stack>.grid-stack-item.ui-draggable-dragging>.ui-resizable-handle{display:none!important}.grid-stack>.grid-stack-item[gs-w=\"0\"]{width:0%}.grid-stack>.grid-stack-item[gs-x=\"0\"]{left:0}.grid-stack>.grid-stack-item[gs-min-w=\"0\"]{min-width:0}.grid-stack>.grid-stack-item[gs-max-w=\"0\"]{max-width:0%}.grid-stack>.grid-stack-item[gs-w=\"1\"]{width:8.3333333333%}.grid-stack>.grid-stack-item[gs-x=\"1\"]{left:8.3333333333%}.grid-stack>.grid-stack-item[gs-min-w=\"1\"]{min-width:8.3333333333%}.grid-stack>.grid-stack-item[gs-max-w=\"1\"]{max-width:8.3333333333%}.grid-stack>.grid-stack-item[gs-w=\"2\"]{width:16.6666666667%}.grid-stack>.grid-stack-item[gs-x=\"2\"]{left:16.6666666667%}.grid-stack>.grid-stack-item[gs-min-w=\"2\"]{min-width:16.6666666667%}.grid-stack>.grid-stack-item[gs-max-w=\"2\"]{max-width:16.6666666667%}.grid-stack>.grid-stack-item[gs-w=\"3\"]{width:25%}.grid-stack>.grid-stack-item[gs-x=\"3\"]{left:25%}.grid-stack>.grid-stack-item[gs-min-w=\"3\"]{min-width:25%}.grid-stack>.grid-stack-item[gs-max-w=\"3\"]{max-width:25%}.grid-stack>.grid-stack-item[gs-w=\"4\"]{width:33.3333333333%}.grid-stack>.grid-stack-item[gs-x=\"4\"]{left:33.3333333333%}.grid-stack>.grid-stack-item[gs-min-w=\"4\"]{min-width:33.3333333333%}.grid-stack>.grid-stack-item[gs-max-w=\"4\"]{max-width:33.3333333333%}.grid-stack>.grid-stack-item[gs-w=\"5\"]{width:41.6666666667%}.grid-stack>.grid-stack-item[gs-x=\"5\"]{left:41.6666666667%}.grid-stack>.grid-stack-item[gs-min-w=\"5\"]{min-width:41.6666666667%}.grid-stack>.grid-stack-item[gs-max-w=\"5\"]{max-width:41.6666666667%}.grid-stack>.grid-stack-item[gs-w=\"6\"]{width:50%}.grid-stack>.grid-stack-item[gs-x=\"6\"]{left:50%}.grid-stack>.grid-stack-item[gs-min-w=\"6\"]{min-width:50%}.grid-stack>.grid-stack-item[gs-max-w=\"6\"]{max-width:50%}.grid-stack>.grid-stack-item[gs-w=\"7\"]{width:58.3333333333%}.grid-stack>.grid-stack-item[gs-x=\"7\"]{left:58.3333333333%}.grid-stack>.grid-stack-item[gs-min-w=\"7\"]{min-width:58.3333333333%}.grid-stack>.grid-stack-item[gs-max-w=\"7\"]{max-width:58.3333333333%}.grid-stack>.grid-stack-item[gs-w=\"8\"]{width:66.6666666667%}.grid-stack>.grid-stack-item[gs-x=\"8\"]{left:66.6666666667%}.grid-stack>.grid-stack-item[gs-min-w=\"8\"]{min-width:66.6666666667%}.grid-stack>.grid-stack-item[gs-max-w=\"8\"]{max-width:66.6666666667%}.grid-stack>.grid-stack-item[gs-w=\"9\"]{width:75%}.grid-stack>.grid-stack-item[gs-x=\"9\"]{left:75%}.grid-stack>.grid-stack-item[gs-min-w=\"9\"]{min-width:75%}.grid-stack>.grid-stack-item[gs-max-w=\"9\"]{max-width:75%}.grid-stack>.grid-stack-item[gs-w=\"10\"]{width:83.3333333333%}.grid-stack>.grid-stack-item[gs-x=\"10\"]{left:83.3333333333%}.grid-stack>.grid-stack-item[gs-min-w=\"10\"]{min-width:83.3333333333%}.grid-stack>.grid-stack-item[gs-max-w=\"10\"]{max-width:83.3333333333%}.grid-stack>.grid-stack-item[gs-w=\"11\"]{width:91.6666666667%}.grid-stack>.grid-stack-item[gs-x=\"11\"]{left:91.6666666667%}.grid-stack>.grid-stack-item[gs-min-w=\"11\"]{min-width:91.6666666667%}.grid-stack>.grid-stack-item[gs-max-w=\"11\"]{max-width:91.6666666667%}.grid-stack>.grid-stack-item[gs-w=\"12\"]{width:100%}.grid-stack>.grid-stack-item[gs-x=\"12\"]{left:100%}.grid-stack>.grid-stack-item[gs-min-w=\"12\"]{min-width:100%}.grid-stack>.grid-stack-item[gs-max-w=\"12\"]{max-width:100%}.grid-stack.grid-stack-1>.grid-stack-item{min-width:100%}.grid-stack.grid-stack-1>.grid-stack-item[gs-w=\"1\"]{width:100%}.grid-stack.grid-stack-1>.grid-stack-item[gs-x=\"1\"]{left:100%}.grid-stack.grid-stack-1>.grid-stack-item[gs-min-w=\"1\"]{min-width:100%}.grid-stack.grid-stack-1>.grid-stack-item[gs-max-w=\"1\"]{max-width:100%}.grid-stack.grid-stack-animate,.grid-stack.grid-stack-animate .grid-stack-item{-webkit-transition:left .3s,top .3s,height .3s,width .3s;-moz-transition:left .3s,top .3s,height .3s,width .3s;-ms-transition:left .3s,top .3s,height .3s,width .3s;-o-transition:left .3s,top .3s,height .3s,width .3s;transition:left .3s,top .3s,height .3s,width .3s}.grid-stack.grid-stack-animate .grid-stack-item.grid-stack-placeholder,.grid-stack.grid-stack-animate .grid-stack-item.ui-draggable-dragging,.grid-stack.grid-stack-animate .grid-stack-item.ui-resizable-resizing{-webkit-transition:left 0s,top 0s,height 0s,width 0s;-moz-transition:left 0s,top 0s,height 0s,width 0s;-ms-transition:left 0s,top 0s,height 0s,width 0s;-o-transition:left 0s,top 0s,height 0s,width 0s;transition:left 0s,top 0s,height 0s,width 0s}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ":root .grid-stack-item>.ui-resizable-handle{filter:none}.grid-stack{position:relative}.grid-stack.grid-stack-rtl{direction:ltr}.grid-stack.grid-stack-rtl>.grid-stack-item{direction:rtl}.grid-stack .grid-stack-placeholder>.placeholder-content{background-color:rgba(0,0,0,.1);margin:0;position:absolute;width:auto;z-index:0!important;text-align:center}.grid-stack>.grid-stack-item{min-width:8.3333333333%;position:absolute;padding:0}.grid-stack>.grid-stack-item>.grid-stack-item-content{margin:0;position:absolute;width:auto;overflow-x:hidden;overflow-y:auto}.grid-stack>.grid-stack-item>.ui-resizable-handle{position:absolute;font-size:.1px;display:block;-ms-touch-action:none;touch-action:none}.grid-stack>.grid-stack-item.ui-resizable-autohide>.ui-resizable-handle,.grid-stack>.grid-stack-item.ui-resizable-disabled>.ui-resizable-handle{display:none}.grid-stack>.grid-stack-item>.ui-resizable-se,.grid-stack>.grid-stack-item>.ui-resizable-sw{background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");background-repeat:no-repeat;background-position:center;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg)}.grid-stack>.grid-stack-item>.ui-resizable-se{-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-ms-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg)}.grid-stack>.grid-stack-item>.ui-resizable-nw{cursor:nw-resize;width:20px;height:20px;top:0}.grid-stack>.grid-stack-item>.ui-resizable-n{cursor:n-resize;height:10px;top:0;left:25px;right:25px}.grid-stack>.grid-stack-item>.ui-resizable-ne{cursor:ne-resize;width:20px;height:20px;top:0}.grid-stack>.grid-stack-item>.ui-resizable-e{cursor:e-resize;width:10px;top:15px;bottom:15px}.grid-stack>.grid-stack-item>.ui-resizable-se{cursor:se-resize;width:20px;height:20px}.grid-stack>.grid-stack-item>.ui-resizable-s{cursor:s-resize;height:10px;left:25px;bottom:0;right:25px}.grid-stack>.grid-stack-item>.ui-resizable-sw{cursor:sw-resize;width:20px;height:20px}.grid-stack>.grid-stack-item>.ui-resizable-w{cursor:w-resize;width:10px;top:15px;bottom:15px}.grid-stack>.grid-stack-item.ui-draggable-dragging>.ui-resizable-handle{display:none!important}.grid-stack>.grid-stack-item[gs-w=\"0\"]{width:0%}.grid-stack>.grid-stack-item[gs-x=\"0\"]{left:0}.grid-stack>.grid-stack-item[gs-min-w=\"0\"]{min-width:0}.grid-stack>.grid-stack-item[gs-max-w=\"0\"]{max-width:0%}.grid-stack>.grid-stack-item[gs-w=\"1\"]{width:8.3333333333%}.grid-stack>.grid-stack-item[gs-x=\"1\"]{left:8.3333333333%}.grid-stack>.grid-stack-item[gs-min-w=\"1\"]{min-width:8.3333333333%}.grid-stack>.grid-stack-item[gs-max-w=\"1\"]{max-width:8.3333333333%}.grid-stack>.grid-stack-item[gs-w=\"2\"]{width:16.6666666667%}.grid-stack>.grid-stack-item[gs-x=\"2\"]{left:16.6666666667%}.grid-stack>.grid-stack-item[gs-min-w=\"2\"]{min-width:16.6666666667%}.grid-stack>.grid-stack-item[gs-max-w=\"2\"]{max-width:16.6666666667%}.grid-stack>.grid-stack-item[gs-w=\"3\"]{width:25%}.grid-stack>.grid-stack-item[gs-x=\"3\"]{left:25%}.grid-stack>.grid-stack-item[gs-min-w=\"3\"]{min-width:25%}.grid-stack>.grid-stack-item[gs-max-w=\"3\"]{max-width:25%}.grid-stack>.grid-stack-item[gs-w=\"4\"]{width:33.3333333333%}.grid-stack>.grid-stack-item[gs-x=\"4\"]{left:33.3333333333%}.grid-stack>.grid-stack-item[gs-min-w=\"4\"]{min-width:33.3333333333%}.grid-stack>.grid-stack-item[gs-max-w=\"4\"]{max-width:33.3333333333%}.grid-stack>.grid-stack-item[gs-w=\"5\"]{width:41.6666666667%}.grid-stack>.grid-stack-item[gs-x=\"5\"]{left:41.6666666667%}.grid-stack>.grid-stack-item[gs-min-w=\"5\"]{min-width:41.6666666667%}.grid-stack>.grid-stack-item[gs-max-w=\"5\"]{max-width:41.6666666667%}.grid-stack>.grid-stack-item[gs-w=\"6\"]{width:50%}.grid-stack>.grid-stack-item[gs-x=\"6\"]{left:50%}.grid-stack>.grid-stack-item[gs-min-w=\"6\"]{min-width:50%}.grid-stack>.grid-stack-item[gs-max-w=\"6\"]{max-width:50%}.grid-stack>.grid-stack-item[gs-w=\"7\"]{width:58.3333333333%}.grid-stack>.grid-stack-item[gs-x=\"7\"]{left:58.3333333333%}.grid-stack>.grid-stack-item[gs-min-w=\"7\"]{min-width:58.3333333333%}.grid-stack>.grid-stack-item[gs-max-w=\"7\"]{max-width:58.3333333333%}.grid-stack>.grid-stack-item[gs-w=\"8\"]{width:66.6666666667%}.grid-stack>.grid-stack-item[gs-x=\"8\"]{left:66.6666666667%}.grid-stack>.grid-stack-item[gs-min-w=\"8\"]{min-width:66.6666666667%}.grid-stack>.grid-stack-item[gs-max-w=\"8\"]{max-width:66.6666666667%}.grid-stack>.grid-stack-item[gs-w=\"9\"]{width:75%}.grid-stack>.grid-stack-item[gs-x=\"9\"]{left:75%}.grid-stack>.grid-stack-item[gs-min-w=\"9\"]{min-width:75%}.grid-stack>.grid-stack-item[gs-max-w=\"9\"]{max-width:75%}.grid-stack>.grid-stack-item[gs-w=\"10\"]{width:83.3333333333%}.grid-stack>.grid-stack-item[gs-x=\"10\"]{left:83.3333333333%}.grid-stack>.grid-stack-item[gs-min-w=\"10\"]{min-width:83.3333333333%}.grid-stack>.grid-stack-item[gs-max-w=\"10\"]{max-width:83.3333333333%}.grid-stack>.grid-stack-item[gs-w=\"11\"]{width:91.6666666667%}.grid-stack>.grid-stack-item[gs-x=\"11\"]{left:91.6666666667%}.grid-stack>.grid-stack-item[gs-min-w=\"11\"]{min-width:91.6666666667%}.grid-stack>.grid-stack-item[gs-max-w=\"11\"]{max-width:91.6666666667%}.grid-stack>.grid-stack-item[gs-w=\"12\"]{width:100%}.grid-stack>.grid-stack-item[gs-x=\"12\"]{left:100%}.grid-stack>.grid-stack-item[gs-min-w=\"12\"]{min-width:100%}.grid-stack>.grid-stack-item[gs-max-w=\"12\"]{max-width:100%}.grid-stack.grid-stack-1>.grid-stack-item{min-width:100%}.grid-stack.grid-stack-1>.grid-stack-item[gs-w=\"1\"]{width:100%}.grid-stack.grid-stack-1>.grid-stack-item[gs-x=\"1\"]{left:100%}.grid-stack.grid-stack-1>.grid-stack-item[gs-min-w=\"1\"]{min-width:100%}.grid-stack.grid-stack-1>.grid-stack-item[gs-max-w=\"1\"]{max-width:100%}.grid-stack.grid-stack-animate,.grid-stack.grid-stack-animate .grid-stack-item{-webkit-transition:left .3s,top .3s,height .3s,width .3s;-moz-transition:left .3s,top .3s,height .3s,width .3s;-ms-transition:left .3s,top .3s,height .3s,width .3s;-o-transition:left .3s,top .3s,height .3s,width .3s;transition:left .3s,top .3s,height .3s,width .3s}.grid-stack.grid-stack-animate .grid-stack-item.grid-stack-placeholder,.grid-stack.grid-stack-animate .grid-stack-item.ui-draggable-dragging,.grid-stack.grid-stack-animate .grid-stack-item.ui-resizable-resizing{-webkit-transition:left 0s,top 0s,height 0s,width 0s;-moz-transition:left 0s,top 0s,height 0s,width 0s;-ms-transition:left 0s,top 0s,height 0s,width 0s;-o-transition:left 0s,top 0s,height 0s,width 0s;transition:left 0s,top 0s,height 0s,width 0s}.ui-draggable-dragging,.ui-resizable-resizing{z-index:100}.ui-draggable-dragging>.grid-stack-item-content,.ui-resizable-resizing>.grid-stack-item-content{box-shadow:1px 4px 6px rgba(0,0,0,.2);opacity:.8}.ui-draggable-dragging{will-change:left,top;cursor:move}.ui-resizable-resizing{will-change:width,height}", "",{"version":3,"sources":["webpack://./../../node_modules/gridstack/dist/gridstack.min.css"],"names":[],"mappings":"AAAA,4CAA4C,WAAW,CAAC,YAAY,iBAAiB,CAAC,2BAA2B,aAAa,CAAC,4CAA4C,aAAa,CAAC,yDAAyD,+BAA+B,CAAC,QAAQ,CAAC,iBAAiB,CAAC,UAAU,CAAC,mBAAmB,CAAC,iBAAiB,CAAC,6BAA6B,uBAAuB,CAAC,iBAAiB,CAAC,SAAS,CAAC,sDAAsD,QAAQ,CAAC,iBAAiB,CAAC,UAAU,CAAC,iBAAiB,CAAC,eAAe,CAAC,kDAAkD,iBAAiB,CAAC,cAAc,CAAC,aAAa,CAAC,qBAAqB,CAAC,iBAAiB,CAAC,gJAAgJ,YAAY,CAAC,4FAA4F,wDAA41D,CAAC,2BAA2B,CAAC,0BAA0B,CAAC,+BAA+B,CAAC,4BAA4B,CAAC,2BAA2B,CAAC,0BAA0B,CAAC,uBAAuB,CAAC,8CAA8C,gCAAgC,CAAC,6BAA6B,CAAC,4BAA4B,CAAC,2BAA2B,CAAC,wBAAwB,CAAC,8CAA8C,gBAAgB,CAAC,UAAU,CAAC,WAAW,CAAC,KAAK,CAAC,6CAA6C,eAAe,CAAC,WAAW,CAAC,KAAK,CAAC,SAAS,CAAC,UAAU,CAAC,8CAA8C,gBAAgB,CAAC,UAAU,CAAC,WAAW,CAAC,KAAK,CAAC,6CAA6C,eAAe,CAAC,UAAU,CAAC,QAAQ,CAAC,WAAW,CAAC,8CAA8C,gBAAgB,CAAC,UAAU,CAAC,WAAW,CAAC,6CAA6C,eAAe,CAAC,WAAW,CAAC,SAAS,CAAC,QAAQ,CAAC,UAAU,CAAC,8CAA8C,gBAAgB,CAAC,UAAU,CAAC,WAAW,CAAC,6CAA6C,eAAe,CAAC,UAAU,CAAC,QAAQ,CAAC,WAAW,CAAC,wEAAwE,sBAAsB,CAAC,uCAAuC,QAAQ,CAAC,uCAAuC,MAAM,CAAC,2CAA2C,WAAW,CAAC,2CAA2C,YAAY,CAAC,uCAAuC,mBAAmB,CAAC,uCAAuC,kBAAkB,CAAC,2CAA2C,uBAAuB,CAAC,2CAA2C,uBAAuB,CAAC,uCAAuC,oBAAoB,CAAC,uCAAuC,mBAAmB,CAAC,2CAA2C,wBAAwB,CAAC,2CAA2C,wBAAwB,CAAC,uCAAuC,SAAS,CAAC,uCAAuC,QAAQ,CAAC,2CAA2C,aAAa,CAAC,2CAA2C,aAAa,CAAC,uCAAuC,oBAAoB,CAAC,uCAAuC,mBAAmB,CAAC,2CAA2C,wBAAwB,CAAC,2CAA2C,wBAAwB,CAAC,uCAAuC,oBAAoB,CAAC,uCAAuC,mBAAmB,CAAC,2CAA2C,wBAAwB,CAAC,2CAA2C,wBAAwB,CAAC,uCAAuC,SAAS,CAAC,uCAAuC,QAAQ,CAAC,2CAA2C,aAAa,CAAC,2CAA2C,aAAa,CAAC,uCAAuC,oBAAoB,CAAC,uCAAuC,mBAAmB,CAAC,2CAA2C,wBAAwB,CAAC,2CAA2C,wBAAwB,CAAC,uCAAuC,oBAAoB,CAAC,uCAAuC,mBAAmB,CAAC,2CAA2C,wBAAwB,CAAC,2CAA2C,wBAAwB,CAAC,uCAAuC,SAAS,CAAC,uCAAuC,QAAQ,CAAC,2CAA2C,aAAa,CAAC,2CAA2C,aAAa,CAAC,wCAAwC,oBAAoB,CAAC,wCAAwC,mBAAmB,CAAC,4CAA4C,wBAAwB,CAAC,4CAA4C,wBAAwB,CAAC,wCAAwC,oBAAoB,CAAC,wCAAwC,mBAAmB,CAAC,4CAA4C,wBAAwB,CAAC,4CAA4C,wBAAwB,CAAC,wCAAwC,UAAU,CAAC,wCAAwC,SAAS,CAAC,4CAA4C,cAAc,CAAC,4CAA4C,cAAc,CAAC,0CAA0C,cAAc,CAAC,oDAAoD,UAAU,CAAC,oDAAoD,SAAS,CAAC,wDAAwD,cAAc,CAAC,wDAAwD,cAAc,CAAC,+EAA+E,wDAAwD,CAAC,qDAAqD,CAAC,oDAAoD,CAAC,mDAAmD,CAAC,gDAAgD,CAAC,mNAAmN,oDAAoD,CAAC,iDAAiD,CAAC,gDAAgD,CAAC,+CAA+C,CAAC,4CAA4C,CAAC,8CAA8C,WAAW,CAAC,gGAAgG,qCAAqC,CAAC,UAAU,CAAC,uBAAuB,oBAAoB,CAAC,WAAW,CAAC,uBAAuB,wBAAwB","sourcesContent":[":root .grid-stack-item>.ui-resizable-handle{filter:none}.grid-stack{position:relative}.grid-stack.grid-stack-rtl{direction:ltr}.grid-stack.grid-stack-rtl>.grid-stack-item{direction:rtl}.grid-stack .grid-stack-placeholder>.placeholder-content{background-color:rgba(0,0,0,.1);margin:0;position:absolute;width:auto;z-index:0!important;text-align:center}.grid-stack>.grid-stack-item{min-width:8.3333333333%;position:absolute;padding:0}.grid-stack>.grid-stack-item>.grid-stack-item-content{margin:0;position:absolute;width:auto;overflow-x:hidden;overflow-y:auto}.grid-stack>.grid-stack-item>.ui-resizable-handle{position:absolute;font-size:.1px;display:block;-ms-touch-action:none;touch-action:none}.grid-stack>.grid-stack-item.ui-resizable-autohide>.ui-resizable-handle,.grid-stack>.grid-stack-item.ui-resizable-disabled>.ui-resizable-handle{display:none}.grid-stack>.grid-stack-item>.ui-resizable-se,.grid-stack>.grid-stack-item>.ui-resizable-sw{background-image:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjE2cHgiIGhlaWdodD0iMTZweCIgdmlld0JveD0iMCAwIDUxMS42MjYgNTExLjYyNyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTExLjYyNiA1MTEuNjI3OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPHBhdGggZD0iTTMyOC45MDYsNDAxLjk5NGgtMzYuNTUzVjEwOS42MzZoMzYuNTUzYzQuOTQ4LDAsOS4yMzYtMS44MDksMTIuODQ3LTUuNDI2YzMuNjEzLTMuNjE1LDUuNDIxLTcuODk4LDUuNDIxLTEyLjg0NSAgIGMwLTQuOTQ5LTEuODAxLTkuMjMxLTUuNDI4LTEyLjg1MWwtNzMuMDg3LTczLjA5QzI2NS4wNDQsMS44MDksMjYwLjc2LDAsMjU1LjgxMywwYy00Ljk0OCwwLTkuMjI5LDEuODA5LTEyLjg0Nyw1LjQyNCAgIGwtNzMuMDg4LDczLjA5Yy0zLjYxOCwzLjYxOS01LjQyNCw3LjkwMi01LjQyNCwxMi44NTFjMCw0Ljk0NiwxLjgwNyw5LjIyOSw1LjQyNCwxMi44NDVjMy42MTksMy42MTcsNy45MDEsNS40MjYsMTIuODUsNS40MjYgICBoMzYuNTQ1djI5Mi4zNThoLTM2LjU0MmMtNC45NTIsMC05LjIzNSwxLjgwOC0xMi44NSw1LjQyMWMtMy42MTcsMy42MjEtNS40MjQsNy45MDUtNS40MjQsMTIuODU0ICAgYzAsNC45NDUsMS44MDcsOS4yMjcsNS40MjQsMTIuODQ3bDczLjA4OSw3My4wODhjMy42MTcsMy42MTcsNy44OTgsNS40MjQsMTIuODQ3LDUuNDI0YzQuOTUsMCw5LjIzNC0xLjgwNywxMi44NDktNS40MjQgICBsNzMuMDg3LTczLjA4OGMzLjYxMy0zLjYyLDUuNDIxLTcuOTAxLDUuNDIxLTEyLjg0N2MwLTQuOTQ4LTEuODA4LTkuMjMyLTUuNDIxLTEyLjg1NCAgIEMzMzguMTQyLDQwMy44MDIsMzMzLjg1Nyw0MDEuOTk0LDMyOC45MDYsNDAxLjk5NHoiIGZpbGw9IiM2NjY2NjYiLz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K);background-repeat:no-repeat;background-position:center;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg)}.grid-stack>.grid-stack-item>.ui-resizable-se{-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-ms-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg)}.grid-stack>.grid-stack-item>.ui-resizable-nw{cursor:nw-resize;width:20px;height:20px;top:0}.grid-stack>.grid-stack-item>.ui-resizable-n{cursor:n-resize;height:10px;top:0;left:25px;right:25px}.grid-stack>.grid-stack-item>.ui-resizable-ne{cursor:ne-resize;width:20px;height:20px;top:0}.grid-stack>.grid-stack-item>.ui-resizable-e{cursor:e-resize;width:10px;top:15px;bottom:15px}.grid-stack>.grid-stack-item>.ui-resizable-se{cursor:se-resize;width:20px;height:20px}.grid-stack>.grid-stack-item>.ui-resizable-s{cursor:s-resize;height:10px;left:25px;bottom:0;right:25px}.grid-stack>.grid-stack-item>.ui-resizable-sw{cursor:sw-resize;width:20px;height:20px}.grid-stack>.grid-stack-item>.ui-resizable-w{cursor:w-resize;width:10px;top:15px;bottom:15px}.grid-stack>.grid-stack-item.ui-draggable-dragging>.ui-resizable-handle{display:none!important}.grid-stack>.grid-stack-item[gs-w=\"0\"]{width:0%}.grid-stack>.grid-stack-item[gs-x=\"0\"]{left:0}.grid-stack>.grid-stack-item[gs-min-w=\"0\"]{min-width:0}.grid-stack>.grid-stack-item[gs-max-w=\"0\"]{max-width:0%}.grid-stack>.grid-stack-item[gs-w=\"1\"]{width:8.3333333333%}.grid-stack>.grid-stack-item[gs-x=\"1\"]{left:8.3333333333%}.grid-stack>.grid-stack-item[gs-min-w=\"1\"]{min-width:8.3333333333%}.grid-stack>.grid-stack-item[gs-max-w=\"1\"]{max-width:8.3333333333%}.grid-stack>.grid-stack-item[gs-w=\"2\"]{width:16.6666666667%}.grid-stack>.grid-stack-item[gs-x=\"2\"]{left:16.6666666667%}.grid-stack>.grid-stack-item[gs-min-w=\"2\"]{min-width:16.6666666667%}.grid-stack>.grid-stack-item[gs-max-w=\"2\"]{max-width:16.6666666667%}.grid-stack>.grid-stack-item[gs-w=\"3\"]{width:25%}.grid-stack>.grid-stack-item[gs-x=\"3\"]{left:25%}.grid-stack>.grid-stack-item[gs-min-w=\"3\"]{min-width:25%}.grid-stack>.grid-stack-item[gs-max-w=\"3\"]{max-width:25%}.grid-stack>.grid-stack-item[gs-w=\"4\"]{width:33.3333333333%}.grid-stack>.grid-stack-item[gs-x=\"4\"]{left:33.3333333333%}.grid-stack>.grid-stack-item[gs-min-w=\"4\"]{min-width:33.3333333333%}.grid-stack>.grid-stack-item[gs-max-w=\"4\"]{max-width:33.3333333333%}.grid-stack>.grid-stack-item[gs-w=\"5\"]{width:41.6666666667%}.grid-stack>.grid-stack-item[gs-x=\"5\"]{left:41.6666666667%}.grid-stack>.grid-stack-item[gs-min-w=\"5\"]{min-width:41.6666666667%}.grid-stack>.grid-stack-item[gs-max-w=\"5\"]{max-width:41.6666666667%}.grid-stack>.grid-stack-item[gs-w=\"6\"]{width:50%}.grid-stack>.grid-stack-item[gs-x=\"6\"]{left:50%}.grid-stack>.grid-stack-item[gs-min-w=\"6\"]{min-width:50%}.grid-stack>.grid-stack-item[gs-max-w=\"6\"]{max-width:50%}.grid-stack>.grid-stack-item[gs-w=\"7\"]{width:58.3333333333%}.grid-stack>.grid-stack-item[gs-x=\"7\"]{left:58.3333333333%}.grid-stack>.grid-stack-item[gs-min-w=\"7\"]{min-width:58.3333333333%}.grid-stack>.grid-stack-item[gs-max-w=\"7\"]{max-width:58.3333333333%}.grid-stack>.grid-stack-item[gs-w=\"8\"]{width:66.6666666667%}.grid-stack>.grid-stack-item[gs-x=\"8\"]{left:66.6666666667%}.grid-stack>.grid-stack-item[gs-min-w=\"8\"]{min-width:66.6666666667%}.grid-stack>.grid-stack-item[gs-max-w=\"8\"]{max-width:66.6666666667%}.grid-stack>.grid-stack-item[gs-w=\"9\"]{width:75%}.grid-stack>.grid-stack-item[gs-x=\"9\"]{left:75%}.grid-stack>.grid-stack-item[gs-min-w=\"9\"]{min-width:75%}.grid-stack>.grid-stack-item[gs-max-w=\"9\"]{max-width:75%}.grid-stack>.grid-stack-item[gs-w=\"10\"]{width:83.3333333333%}.grid-stack>.grid-stack-item[gs-x=\"10\"]{left:83.3333333333%}.grid-stack>.grid-stack-item[gs-min-w=\"10\"]{min-width:83.3333333333%}.grid-stack>.grid-stack-item[gs-max-w=\"10\"]{max-width:83.3333333333%}.grid-stack>.grid-stack-item[gs-w=\"11\"]{width:91.6666666667%}.grid-stack>.grid-stack-item[gs-x=\"11\"]{left:91.6666666667%}.grid-stack>.grid-stack-item[gs-min-w=\"11\"]{min-width:91.6666666667%}.grid-stack>.grid-stack-item[gs-max-w=\"11\"]{max-width:91.6666666667%}.grid-stack>.grid-stack-item[gs-w=\"12\"]{width:100%}.grid-stack>.grid-stack-item[gs-x=\"12\"]{left:100%}.grid-stack>.grid-stack-item[gs-min-w=\"12\"]{min-width:100%}.grid-stack>.grid-stack-item[gs-max-w=\"12\"]{max-width:100%}.grid-stack.grid-stack-1>.grid-stack-item{min-width:100%}.grid-stack.grid-stack-1>.grid-stack-item[gs-w=\"1\"]{width:100%}.grid-stack.grid-stack-1>.grid-stack-item[gs-x=\"1\"]{left:100%}.grid-stack.grid-stack-1>.grid-stack-item[gs-min-w=\"1\"]{min-width:100%}.grid-stack.grid-stack-1>.grid-stack-item[gs-max-w=\"1\"]{max-width:100%}.grid-stack.grid-stack-animate,.grid-stack.grid-stack-animate .grid-stack-item{-webkit-transition:left .3s,top .3s,height .3s,width .3s;-moz-transition:left .3s,top .3s,height .3s,width .3s;-ms-transition:left .3s,top .3s,height .3s,width .3s;-o-transition:left .3s,top .3s,height .3s,width .3s;transition:left .3s,top .3s,height .3s,width .3s}.grid-stack.grid-stack-animate .grid-stack-item.grid-stack-placeholder,.grid-stack.grid-stack-animate .grid-stack-item.ui-draggable-dragging,.grid-stack.grid-stack-animate .grid-stack-item.ui-resizable-resizing{-webkit-transition:left 0s,top 0s,height 0s,width 0s;-moz-transition:left 0s,top 0s,height 0s,width 0s;-ms-transition:left 0s,top 0s,height 0s,width 0s;-o-transition:left 0s,top 0s,height 0s,width 0s;transition:left 0s,top 0s,height 0s,width 0s}.ui-draggable-dragging,.ui-resizable-resizing{z-index:100}.ui-draggable-dragging>.grid-stack-item-content,.ui-resizable-resizing>.grid-stack-item-content{box-shadow:1px 4px 6px rgba(0,0,0,.2);opacity:.8}.ui-draggable-dragging{will-change:left,top;cursor:move}.ui-resizable-resizing{will-change:width,height}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -20705,46 +20705,780 @@ module.exports = function (item) {
 
 /***/ }),
 
-/***/ "../../node_modules/gridstack/dist/gridstack-dd.js":
+/***/ "../../node_modules/gridstack/dist/dd-base-impl.js":
 /*!*********************************************************!*\
-  !*** ../../node_modules/gridstack/dist/gridstack-dd.js ***!
+  !*** ../../node_modules/gridstack/dist/dd-base-impl.js ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+/**
+ * dd-base-impl.ts 6.0.1
+ * Copyright (c) 2021-2022 Alain Dumesny - see GridStack root license
+ */
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.DDBaseImplement = void 0;
+class DDBaseImplement {
+    constructor() {
+        /** @internal */
+        this._eventRegister = {};
+    }
+    /** returns the enable state, but you have to call enable()/disable() to change (as other things need to happen) */
+    get disabled() { return this._disabled; }
+    on(event, callback) {
+        this._eventRegister[event] = callback;
+    }
+    off(event) {
+        delete this._eventRegister[event];
+    }
+    enable() {
+        this._disabled = false;
+    }
+    disable() {
+        this._disabled = true;
+    }
+    destroy() {
+        delete this._eventRegister;
+    }
+    triggerEvent(eventName, event) {
+        if (!this.disabled && this._eventRegister && this._eventRegister[eventName])
+            return this._eventRegister[eventName](event);
+    }
+}
+exports.DDBaseImplement = DDBaseImplement;
+//# sourceMappingURL=dd-base-impl.js.map
+
+/***/ }),
+
+/***/ "../../node_modules/gridstack/dist/dd-draggable.js":
+/*!*********************************************************!*\
+  !*** ../../node_modules/gridstack/dist/dd-draggable.js ***!
   \*********************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
 /**
- * gridstack-dd.ts 5.0
+ * dd-draggable.ts 6.0.1
+ * Copyright (c) 2021-2022 Alain Dumesny - see GridStack root license
+ */
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.DDDraggable = void 0;
+const dd_manager_1 = __webpack_require__(/*! ./dd-manager */ "../../node_modules/gridstack/dist/dd-manager.js");
+const utils_1 = __webpack_require__(/*! ./utils */ "../../node_modules/gridstack/dist/utils.js");
+const dd_base_impl_1 = __webpack_require__(/*! ./dd-base-impl */ "../../node_modules/gridstack/dist/dd-base-impl.js");
+const dd_touch_1 = __webpack_require__(/*! ./dd-touch */ "../../node_modules/gridstack/dist/dd-touch.js");
+// let count = 0; // TEST
+class DDDraggable extends dd_base_impl_1.DDBaseImplement {
+    constructor(el, option = {}) {
+        super();
+        this.el = el;
+        this.option = option;
+        // get the element that is actually supposed to be dragged by
+        let className = option.handle.substring(1);
+        this.dragEl = el.classList.contains(className) ? el : el.querySelector(option.handle) || el;
+        // create var event binding so we can easily remove and still look like TS methods (unlike anonymous functions)
+        this._mouseDown = this._mouseDown.bind(this);
+        this._mouseMove = this._mouseMove.bind(this);
+        this._mouseUp = this._mouseUp.bind(this);
+        this.enable();
+    }
+    on(event, callback) {
+        super.on(event, callback);
+    }
+    off(event) {
+        super.off(event);
+    }
+    enable() {
+        if (this.disabled === false)
+            return;
+        super.enable();
+        this.dragEl.addEventListener('mousedown', this._mouseDown);
+        if (dd_touch_1.isTouch) {
+            this.dragEl.addEventListener('touchstart', dd_touch_1.touchstart);
+            this.dragEl.addEventListener('pointerdown', dd_touch_1.pointerdown);
+            // this.dragEl.style.touchAction = 'none'; // not needed unlike pointerdown doc comment
+        }
+        this.el.classList.remove('ui-draggable-disabled');
+        this.el.classList.add('ui-draggable');
+    }
+    disable(forDestroy = false) {
+        if (this.disabled === true)
+            return;
+        super.disable();
+        this.dragEl.removeEventListener('mousedown', this._mouseDown);
+        if (dd_touch_1.isTouch) {
+            this.dragEl.removeEventListener('touchstart', dd_touch_1.touchstart);
+            this.dragEl.removeEventListener('pointerdown', dd_touch_1.pointerdown);
+        }
+        this.el.classList.remove('ui-draggable');
+        if (!forDestroy)
+            this.el.classList.add('ui-draggable-disabled');
+    }
+    destroy() {
+        if (this.dragging)
+            this._mouseUp(this.mouseDownEvent);
+        this.disable(true);
+        delete this.el;
+        delete this.helper;
+        delete this.option;
+        super.destroy();
+    }
+    updateOption(opts) {
+        Object.keys(opts).forEach(key => this.option[key] = opts[key]);
+        return this;
+    }
+    /** @internal call when mouse goes down before a dragstart happens */
+    _mouseDown(e) {
+        // don't let more than one widget handle mouseStart
+        if (dd_manager_1.DDManager.mouseHandled)
+            return;
+        if (e.button !== 0)
+            return true; // only left click
+        // make sure we are clicking on a drag handle or child of it...
+        // Note: we don't need to check that's handle is an immediate child, as mouseHandled will prevent parents from also handling it (lowest wins)
+        let className = this.option.handle.substring(1);
+        let el = e.target;
+        while (el && !el.classList.contains(className)) {
+            el = el.parentElement;
+        }
+        if (!el)
+            return;
+        this.mouseDownEvent = e;
+        delete this.dragging;
+        delete dd_manager_1.DDManager.dragElement;
+        delete dd_manager_1.DDManager.dropElement;
+        // document handler so we can continue receiving moves as the item is 'fixed' position, and capture=true so WE get a first crack
+        document.addEventListener('mousemove', this._mouseMove, true); // true=capture, not bubble
+        document.addEventListener('mouseup', this._mouseUp, true);
+        if (dd_touch_1.isTouch) {
+            this.dragEl.addEventListener('touchmove', dd_touch_1.touchmove);
+            this.dragEl.addEventListener('touchend', dd_touch_1.touchend);
+        }
+        e.preventDefault();
+        dd_manager_1.DDManager.mouseHandled = true;
+        return true;
+    }
+    /** @internal called when the main page (after successful mousedown) receives a move event to drag the item around the screen */
+    _mouseMove(e) {
+        var _a;
+        // console.log(`${count++} move ${e.x},${e.y}`)
+        let s = this.mouseDownEvent;
+        if (this.dragging) {
+            this._dragFollow(e);
+            const ev = utils_1.Utils.initEvent(e, { target: this.el, type: 'drag' });
+            if (this.option.drag) {
+                this.option.drag(ev, this.ui());
+            }
+            this.triggerEvent('drag', ev);
+        }
+        else if (Math.abs(e.x - s.x) + Math.abs(e.y - s.y) > 3) {
+            /**
+             * don't start unless we've moved at least 3 pixels
+             */
+            this.dragging = true;
+            dd_manager_1.DDManager.dragElement = this;
+            // if we're dragging an actual grid item, set the current drop as the grid (to detect enter/leave)
+            let grid = (_a = this.el.gridstackNode) === null || _a === void 0 ? void 0 : _a.grid;
+            if (grid) {
+                dd_manager_1.DDManager.dropElement = grid.el.ddElement.ddDroppable;
+            }
+            else {
+                delete dd_manager_1.DDManager.dropElement;
+            }
+            this.helper = this._createHelper(e);
+            this._setupHelperContainmentStyle();
+            this.dragOffset = this._getDragOffset(e, this.el, this.helperContainment);
+            const ev = utils_1.Utils.initEvent(e, { target: this.el, type: 'dragstart' });
+            this._setupHelperStyle(e);
+            if (this.option.start) {
+                this.option.start(ev, this.ui());
+            }
+            this.triggerEvent('dragstart', ev);
+        }
+        e.preventDefault();
+        return true;
+    }
+    /** @internal call when the mouse gets released to drop the item at current location */
+    _mouseUp(e) {
+        var _a;
+        document.removeEventListener('mousemove', this._mouseMove, true);
+        document.removeEventListener('mouseup', this._mouseUp, true);
+        if (dd_touch_1.isTouch) {
+            this.dragEl.removeEventListener('touchmove', dd_touch_1.touchmove, true);
+            this.dragEl.removeEventListener('touchend', dd_touch_1.touchend, true);
+        }
+        if (this.dragging) {
+            delete this.dragging;
+            // reset the drop target if dragging over ourself (already parented, just moving during stop callback below)
+            if (((_a = dd_manager_1.DDManager.dropElement) === null || _a === void 0 ? void 0 : _a.el) === this.el.parentElement) {
+                delete dd_manager_1.DDManager.dropElement;
+            }
+            this.helperContainment.style.position = this.parentOriginStylePosition || null;
+            if (this.helper === this.el) {
+                this._removeHelperStyle();
+            }
+            else {
+                this.helper.remove();
+            }
+            const ev = utils_1.Utils.initEvent(e, { target: this.el, type: 'dragstop' });
+            if (this.option.stop) {
+                this.option.stop(ev); // NOTE: destroy() will be called when removing item, so expect NULL ptr after!
+            }
+            this.triggerEvent('dragstop', ev);
+            // call the droppable method to receive the item
+            if (dd_manager_1.DDManager.dropElement) {
+                dd_manager_1.DDManager.dropElement.drop(e);
+            }
+        }
+        delete this.helper;
+        delete this.mouseDownEvent;
+        delete dd_manager_1.DDManager.dragElement;
+        delete dd_manager_1.DDManager.dropElement;
+        delete dd_manager_1.DDManager.mouseHandled;
+        e.preventDefault();
+    }
+    /** @internal create a clone copy (or user defined method) of the original drag item if set */
+    _createHelper(event) {
+        let helper = this.el;
+        if (typeof this.option.helper === 'function') {
+            helper = this.option.helper(event);
+        }
+        else if (this.option.helper === 'clone') {
+            helper = utils_1.Utils.cloneNode(this.el);
+        }
+        if (!document.body.contains(helper)) {
+            utils_1.Utils.appendTo(helper, this.option.appendTo === 'parent' ? this.el.parentNode : this.option.appendTo);
+        }
+        if (helper === this.el) {
+            this.dragElementOriginStyle = DDDraggable.originStyleProp.map(prop => this.el.style[prop]);
+        }
+        return helper;
+    }
+    /** @internal set the fix position of the dragged item */
+    _setupHelperStyle(e) {
+        this.helper.classList.add('ui-draggable-dragging');
+        // TODO: set all at once with style.cssText += ... ? https://stackoverflow.com/questions/3968593
+        const style = this.helper.style;
+        style.pointerEvents = 'none'; // needed for over items to get enter/leave
+        // style.cursor = 'move'; //  TODO: can't set with pointerEvents=none ! (done in CSS as well)
+        style['min-width'] = 0; // since we no longer relative to our parent and we don't resize anyway (normally 100/#column %)
+        style.width = this.dragOffset.width + 'px';
+        style.height = this.dragOffset.height + 'px';
+        style.willChange = 'left, top';
+        style.position = 'fixed'; // let us drag between grids by not clipping as parent .grid-stack is position: 'relative'
+        this._dragFollow(e); // now position it
+        style.transition = 'none'; // show up instantly
+        setTimeout(() => {
+            if (this.helper) {
+                style.transition = null; // recover animation
+            }
+        }, 0);
+        return this;
+    }
+    /** @internal restore back the original style before dragging */
+    _removeHelperStyle() {
+        var _a;
+        this.helper.classList.remove('ui-draggable-dragging');
+        let node = (_a = this.helper) === null || _a === void 0 ? void 0 : _a.gridstackNode;
+        // don't bother restoring styles if we're gonna remove anyway...
+        if (this.dragElementOriginStyle && (!node || !node._isAboutToRemove)) {
+            let helper = this.helper;
+            // don't animate, otherwise we animate offseted when switching back to 'absolute' from 'fixed'
+            let transition = this.dragElementOriginStyle['transition'] || null;
+            helper.style.transition = this.dragElementOriginStyle['transition'] = 'none';
+            DDDraggable.originStyleProp.forEach(prop => helper.style[prop] = this.dragElementOriginStyle[prop] || null);
+            setTimeout(() => helper.style.transition = transition, 50); // recover animation from saved vars after a pause (0 isn't enough #1973)
+        }
+        delete this.dragElementOriginStyle;
+        return this;
+    }
+    /** @internal updates the top/left position to follow the mouse */
+    _dragFollow(e) {
+        let containmentRect = { left: 0, top: 0 };
+        // if (this.helper.style.position === 'absolute') { // we use 'fixed'
+        //   const { left, top } = this.helperContainment.getBoundingClientRect();
+        //   containmentRect = { left, top };
+        // }
+        const style = this.helper.style;
+        const offset = this.dragOffset;
+        style.left = e.clientX + offset.offsetLeft - containmentRect.left + 'px';
+        style.top = e.clientY + offset.offsetTop - containmentRect.top + 'px';
+    }
+    /** @internal */
+    _setupHelperContainmentStyle() {
+        this.helperContainment = this.helper.parentElement;
+        if (this.helper.style.position !== 'fixed') {
+            this.parentOriginStylePosition = this.helperContainment.style.position;
+            if (window.getComputedStyle(this.helperContainment).position.match(/static/)) {
+                this.helperContainment.style.position = 'relative';
+            }
+        }
+        return this;
+    }
+    /** @internal */
+    _getDragOffset(event, el, parent) {
+        // in case ancestor has transform/perspective css properties that change the viewpoint
+        let xformOffsetX = 0;
+        let xformOffsetY = 0;
+        if (parent) {
+            const testEl = document.createElement('div');
+            utils_1.Utils.addElStyles(testEl, {
+                opacity: '0',
+                position: 'fixed',
+                top: 0 + 'px',
+                left: 0 + 'px',
+                width: '1px',
+                height: '1px',
+                zIndex: '-999999',
+            });
+            parent.appendChild(testEl);
+            const testElPosition = testEl.getBoundingClientRect();
+            parent.removeChild(testEl);
+            xformOffsetX = testElPosition.left;
+            xformOffsetY = testElPosition.top;
+            // TODO: scale ?
+        }
+        const targetOffset = el.getBoundingClientRect();
+        return {
+            left: targetOffset.left,
+            top: targetOffset.top,
+            offsetLeft: -event.clientX + targetOffset.left - xformOffsetX,
+            offsetTop: -event.clientY + targetOffset.top - xformOffsetY,
+            width: targetOffset.width,
+            height: targetOffset.height
+        };
+    }
+    /** @internal TODO: set to public as called by DDDroppable! */
+    ui() {
+        const containmentEl = this.el.parentElement;
+        const containmentRect = containmentEl.getBoundingClientRect();
+        const offset = this.helper.getBoundingClientRect();
+        return {
+            position: {
+                top: offset.top - containmentRect.top,
+                left: offset.left - containmentRect.left
+            }
+            /* not used by GridStack for now...
+            helper: [this.helper], //The object arr representing the helper that's being dragged.
+            offset: { top: offset.top, left: offset.left } // Current offset position of the helper as { top, left } object.
+            */
+        };
+    }
+}
+exports.DDDraggable = DDDraggable;
+/** @internal properties we change during dragging, and restore back */
+DDDraggable.originStyleProp = ['transition', 'pointerEvents', 'position', 'left', 'top'];
+//# sourceMappingURL=dd-draggable.js.map
+
+/***/ }),
+
+/***/ "../../node_modules/gridstack/dist/dd-droppable.js":
+/*!*********************************************************!*\
+  !*** ../../node_modules/gridstack/dist/dd-droppable.js ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+
+/**
+ * dd-droppable.ts 6.0.1
+ * Copyright (c) 2021-2022 Alain Dumesny - see GridStack root license
+ */
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.DDDroppable = void 0;
+const dd_manager_1 = __webpack_require__(/*! ./dd-manager */ "../../node_modules/gridstack/dist/dd-manager.js");
+const dd_base_impl_1 = __webpack_require__(/*! ./dd-base-impl */ "../../node_modules/gridstack/dist/dd-base-impl.js");
+const utils_1 = __webpack_require__(/*! ./utils */ "../../node_modules/gridstack/dist/utils.js");
+const dd_touch_1 = __webpack_require__(/*! ./dd-touch */ "../../node_modules/gridstack/dist/dd-touch.js");
+// let count = 0; // TEST
+class DDDroppable extends dd_base_impl_1.DDBaseImplement {
+    constructor(el, opts = {}) {
+        super();
+        this.el = el;
+        this.option = opts;
+        // create var event binding so we can easily remove and still look like TS methods (unlike anonymous functions)
+        this._mouseEnter = this._mouseEnter.bind(this);
+        this._mouseLeave = this._mouseLeave.bind(this);
+        this.enable();
+        this._setupAccept();
+    }
+    on(event, callback) {
+        super.on(event, callback);
+    }
+    off(event) {
+        super.off(event);
+    }
+    enable() {
+        if (this.disabled === false)
+            return;
+        super.enable();
+        this.el.classList.add('ui-droppable');
+        this.el.classList.remove('ui-droppable-disabled');
+        this.el.addEventListener('mouseenter', this._mouseEnter);
+        this.el.addEventListener('mouseleave', this._mouseLeave);
+        if (dd_touch_1.isTouch) {
+            this.el.addEventListener('pointerenter', dd_touch_1.pointerenter);
+            this.el.addEventListener('pointerleave', dd_touch_1.pointerleave);
+        }
+    }
+    disable(forDestroy = false) {
+        if (this.disabled === true)
+            return;
+        super.disable();
+        this.el.classList.remove('ui-droppable');
+        if (!forDestroy)
+            this.el.classList.add('ui-droppable-disabled');
+        this.el.removeEventListener('mouseenter', this._mouseEnter);
+        this.el.removeEventListener('mouseleave', this._mouseLeave);
+        if (dd_touch_1.isTouch) {
+            this.el.removeEventListener('pointerenter', dd_touch_1.pointerenter);
+            this.el.removeEventListener('pointerleave', dd_touch_1.pointerleave);
+        }
+    }
+    destroy() {
+        this.disable(true);
+        this.el.classList.remove('ui-droppable');
+        this.el.classList.remove('ui-droppable-disabled');
+        super.destroy();
+    }
+    updateOption(opts) {
+        Object.keys(opts).forEach(key => this.option[key] = opts[key]);
+        this._setupAccept();
+        return this;
+    }
+    /** @internal called when the cursor enters our area - prepare for a possible drop and track leaving */
+    _mouseEnter(e) {
+        // console.log(`${count++} Enter ${this.el.id || (this.el as GridHTMLElement).gridstack.opts.id}`); // TEST
+        if (!dd_manager_1.DDManager.dragElement)
+            return;
+        if (!this._canDrop())
+            return;
+        e.preventDefault();
+        e.stopPropagation();
+        // make sure when we enter this, that the last one gets a leave FIRST to correctly cleanup as we don't always do
+        if (dd_manager_1.DDManager.dropElement && dd_manager_1.DDManager.dropElement !== this) {
+            dd_manager_1.DDManager.dropElement._mouseLeave(e);
+        }
+        dd_manager_1.DDManager.dropElement = this;
+        const ev = utils_1.Utils.initEvent(e, { target: this.el, type: 'dropover' });
+        if (this.option.over) {
+            this.option.over(ev, this._ui(dd_manager_1.DDManager.dragElement));
+        }
+        this.triggerEvent('dropover', ev);
+        this.el.classList.add('ui-droppable-over');
+        // console.log('tracking'); // TEST
+    }
+    /** @internal called when the item is leaving our area, stop tracking if we had moving item */
+    _mouseLeave(e) {
+        var _a;
+        // console.log(`${count++} Leave ${this.el.id || (this.el as GridHTMLElement).gridstack.opts.id}`); // TEST
+        if (!dd_manager_1.DDManager.dragElement || dd_manager_1.DDManager.dropElement !== this)
+            return;
+        e.preventDefault();
+        e.stopPropagation();
+        const ev = utils_1.Utils.initEvent(e, { target: this.el, type: 'dropout' });
+        if (this.option.out) {
+            this.option.out(ev, this._ui(dd_manager_1.DDManager.dragElement));
+        }
+        this.triggerEvent('dropout', ev);
+        if (dd_manager_1.DDManager.dropElement === this) {
+            delete dd_manager_1.DDManager.dropElement;
+            // console.log('not tracking'); // TEST
+            // if we're still over a parent droppable, send it an enter as we don't get one from leaving nested children
+            let parentDrop;
+            let parent = this.el.parentElement;
+            while (!parentDrop && parent) {
+                parentDrop = (_a = parent.ddElement) === null || _a === void 0 ? void 0 : _a.ddDroppable;
+                parent = parent.parentElement;
+            }
+            if (parentDrop) {
+                parentDrop._mouseEnter(e);
+            }
+        }
+    }
+    /** item is being dropped on us - called by the drag mouseup handler - this calls the client drop event */
+    drop(e) {
+        e.preventDefault();
+        const ev = utils_1.Utils.initEvent(e, { target: this.el, type: 'drop' });
+        if (this.option.drop) {
+            this.option.drop(ev, this._ui(dd_manager_1.DDManager.dragElement));
+        }
+        this.triggerEvent('drop', ev);
+    }
+    /** @internal true if element matches the string/method accept option */
+    _canDrop() {
+        return dd_manager_1.DDManager.dragElement && (!this.accept || this.accept(dd_manager_1.DDManager.dragElement.el));
+    }
+    /** @internal */
+    _setupAccept() {
+        if (!this.option.accept)
+            return this;
+        if (typeof this.option.accept === 'string') {
+            this.accept = (el) => el.matches(this.option.accept);
+        }
+        else {
+            this.accept = this.option.accept;
+        }
+        return this;
+    }
+    /** @internal */
+    _ui(drag) {
+        return Object.assign({ draggable: drag.el }, drag.ui());
+    }
+}
+exports.DDDroppable = DDDroppable;
+//# sourceMappingURL=dd-droppable.js.map
+
+/***/ }),
+
+/***/ "../../node_modules/gridstack/dist/dd-element.js":
+/*!*******************************************************!*\
+  !*** ../../node_modules/gridstack/dist/dd-element.js ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+
+/**
+ * dd-elements.ts 6.0.1
  * Copyright (c) 2021 Alain Dumesny - see GridStack root license
  */
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.GridStackDD = void 0;
-/* eslint-disable @typescript-eslint/no-unused-vars */
-const gridstack_ddi_1 = __webpack_require__(/*! ./gridstack-ddi */ "../../node_modules/gridstack/dist/gridstack-ddi.js");
-const gridstack_1 = __webpack_require__(/*! ./gridstack */ "../../node_modules/gridstack/dist/gridstack.js");
-const utils_1 = __webpack_require__(/*! ./utils */ "../../node_modules/gridstack/dist/utils.js");
-// TEST let count = 0;
-/**
- * Base class implementing common Grid drag'n'drop functionality, with domain specific subclass (h5 vs jq subclasses)
- */
-class GridStackDD extends gridstack_ddi_1.GridStackDDI {
-    /** override to cast to correct type */
-    static get() {
-        return gridstack_ddi_1.GridStackDDI.get();
+exports.DDElement = void 0;
+const dd_resizable_1 = __webpack_require__(/*! ./dd-resizable */ "../../node_modules/gridstack/dist/dd-resizable.js");
+const dd_draggable_1 = __webpack_require__(/*! ./dd-draggable */ "../../node_modules/gridstack/dist/dd-draggable.js");
+const dd_droppable_1 = __webpack_require__(/*! ./dd-droppable */ "../../node_modules/gridstack/dist/dd-droppable.js");
+class DDElement {
+    constructor(el) {
+        this.el = el;
     }
-    /** removes any drag&drop present (called during destroy) */
-    remove(el) {
-        this.draggable(el, 'destroy').resizable(el, 'destroy');
-        if (el.gridstackNode) {
-            delete el.gridstackNode._initDD; // reset our DD init flag
+    static init(el) {
+        if (!el.ddElement) {
+            el.ddElement = new DDElement(el);
+        }
+        return el.ddElement;
+    }
+    on(eventName, callback) {
+        if (this.ddDraggable && ['drag', 'dragstart', 'dragstop'].indexOf(eventName) > -1) {
+            this.ddDraggable.on(eventName, callback);
+        }
+        else if (this.ddDroppable && ['drop', 'dropover', 'dropout'].indexOf(eventName) > -1) {
+            this.ddDroppable.on(eventName, callback);
+        }
+        else if (this.ddResizable && ['resizestart', 'resize', 'resizestop'].indexOf(eventName) > -1) {
+            this.ddResizable.on(eventName, callback);
+        }
+        return this;
+    }
+    off(eventName) {
+        if (this.ddDraggable && ['drag', 'dragstart', 'dragstop'].indexOf(eventName) > -1) {
+            this.ddDraggable.off(eventName);
+        }
+        else if (this.ddDroppable && ['drop', 'dropover', 'dropout'].indexOf(eventName) > -1) {
+            this.ddDroppable.off(eventName);
+        }
+        else if (this.ddResizable && ['resizestart', 'resize', 'resizestop'].indexOf(eventName) > -1) {
+            this.ddResizable.off(eventName);
+        }
+        return this;
+    }
+    setupDraggable(opts) {
+        if (!this.ddDraggable) {
+            this.ddDraggable = new dd_draggable_1.DDDraggable(this.el, opts);
+        }
+        else {
+            this.ddDraggable.updateOption(opts);
+        }
+        return this;
+    }
+    cleanDraggable() {
+        if (this.ddDraggable) {
+            this.ddDraggable.destroy();
+            delete this.ddDraggable;
+        }
+        return this;
+    }
+    setupResizable(opts) {
+        if (!this.ddResizable) {
+            this.ddResizable = new dd_resizable_1.DDResizable(this.el, opts);
+        }
+        else {
+            this.ddResizable.updateOption(opts);
+        }
+        return this;
+    }
+    cleanResizable() {
+        if (this.ddResizable) {
+            this.ddResizable.destroy();
+            delete this.ddResizable;
+        }
+        return this;
+    }
+    setupDroppable(opts) {
+        if (!this.ddDroppable) {
+            this.ddDroppable = new dd_droppable_1.DDDroppable(this.el, opts);
+        }
+        else {
+            this.ddDroppable.updateOption(opts);
+        }
+        return this;
+    }
+    cleanDroppable() {
+        if (this.ddDroppable) {
+            this.ddDroppable.destroy();
+            delete this.ddDroppable;
         }
         return this;
     }
 }
-exports.GridStackDD = GridStackDD;
+exports.DDElement = DDElement;
+//# sourceMappingURL=dd-element.js.map
+
+/***/ }),
+
+/***/ "../../node_modules/gridstack/dist/dd-gridstack.js":
+/*!*********************************************************!*\
+  !*** ../../node_modules/gridstack/dist/dd-gridstack.js ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+
+/**
+ * dd-gridstack.ts 6.0.1
+ * Copyright (c) 2021 Alain Dumesny - see GridStack root license
+ */
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.DDGridStack = void 0;
+const gridstack_1 = __webpack_require__(/*! ./gridstack */ "../../node_modules/gridstack/dist/gridstack.js");
+const utils_1 = __webpack_require__(/*! ./utils */ "../../node_modules/gridstack/dist/utils.js");
+const dd_manager_1 = __webpack_require__(/*! ./dd-manager */ "../../node_modules/gridstack/dist/dd-manager.js");
+const dd_element_1 = __webpack_require__(/*! ./dd-element */ "../../node_modules/gridstack/dist/dd-element.js");
+// let count = 0; // TEST
+/**
+ * HTML Native Mouse and Touch Events Drag and Drop functionality.
+ */
+class DDGridStack {
+    /** get the global (but static to this code) DD implementation */
+    static get() {
+        return dd;
+    }
+    resizable(el, opts, key, value) {
+        this._getDDElements(el).forEach(dEl => {
+            if (opts === 'disable' || opts === 'enable') {
+                dEl.ddResizable && dEl.ddResizable[opts](); // can't create DD as it requires options for setupResizable()
+            }
+            else if (opts === 'destroy') {
+                dEl.ddResizable && dEl.cleanResizable();
+            }
+            else if (opts === 'option') {
+                dEl.setupResizable({ [key]: value });
+            }
+            else {
+                const grid = dEl.el.gridstackNode.grid;
+                let handles = dEl.el.getAttribute('gs-resize-handles') ? dEl.el.getAttribute('gs-resize-handles') : grid.opts.resizable.handles;
+                let autoHide = !grid.opts.alwaysShowResizeHandle;
+                dEl.setupResizable(Object.assign(Object.assign(Object.assign({}, grid.opts.resizable), { handles, autoHide }), {
+                    start: opts.start,
+                    stop: opts.stop,
+                    resize: opts.resize
+                }));
+            }
+        });
+        return this;
+    }
+    draggable(el, opts, key, value) {
+        this._getDDElements(el).forEach(dEl => {
+            if (opts === 'disable' || opts === 'enable') {
+                dEl.ddDraggable && dEl.ddDraggable[opts](); // can't create DD as it requires options for setupDraggable()
+            }
+            else if (opts === 'destroy') {
+                dEl.ddDraggable && dEl.cleanDraggable();
+            }
+            else if (opts === 'option') {
+                dEl.setupDraggable({ [key]: value });
+            }
+            else {
+                const grid = dEl.el.gridstackNode.grid;
+                dEl.setupDraggable(Object.assign(Object.assign({}, grid.opts.draggable), {
+                    // containment: (grid.opts._isNested && !grid.opts.dragOut) ? grid.el.parentElement : (grid.opts.draggable.containment || null),
+                    start: opts.start,
+                    stop: opts.stop,
+                    drag: opts.drag
+                }));
+            }
+        });
+        return this;
+    }
+    dragIn(el, opts) {
+        this._getDDElements(el).forEach(dEl => dEl.setupDraggable(opts));
+        return this;
+    }
+    droppable(el, opts, key, value) {
+        if (typeof opts.accept === 'function' && !opts._accept) {
+            opts._accept = opts.accept;
+            opts.accept = (el) => opts._accept(el);
+        }
+        this._getDDElements(el).forEach(dEl => {
+            if (opts === 'disable' || opts === 'enable') {
+                dEl.ddDroppable && dEl.ddDroppable[opts]();
+            }
+            else if (opts === 'destroy') {
+                if (dEl.ddDroppable) { // error to call destroy if not there
+                    dEl.cleanDroppable();
+                }
+            }
+            else if (opts === 'option') {
+                dEl.setupDroppable({ [key]: value });
+            }
+            else {
+                dEl.setupDroppable(opts);
+            }
+        });
+        return this;
+    }
+    /** true if element is droppable */
+    isDroppable(el) {
+        return !!(el && el.ddElement && el.ddElement.ddDroppable && !el.ddElement.ddDroppable.disabled);
+    }
+    /** true if element is draggable */
+    isDraggable(el) {
+        return !!(el && el.ddElement && el.ddElement.ddDraggable && !el.ddElement.ddDraggable.disabled);
+    }
+    /** true if element is draggable */
+    isResizable(el) {
+        return !!(el && el.ddElement && el.ddElement.ddResizable && !el.ddElement.ddResizable.disabled);
+    }
+    on(el, name, callback) {
+        this._getDDElements(el).forEach(dEl => dEl.on(name, (event) => {
+            callback(event, dd_manager_1.DDManager.dragElement ? dd_manager_1.DDManager.dragElement.el : event.target, dd_manager_1.DDManager.dragElement ? dd_manager_1.DDManager.dragElement.helper : null);
+        }));
+        return this;
+    }
+    off(el, name) {
+        this._getDDElements(el).forEach(dEl => dEl.off(name));
+        return this;
+    }
+    /** @internal returns a list of DD elements, creating them on the fly by default */
+    _getDDElements(els, create = true) {
+        let hosts = utils_1.Utils.getElements(els);
+        if (!hosts.length)
+            return [];
+        let list = hosts.map(e => e.ddElement || (create ? dd_element_1.DDElement.init(e) : null));
+        if (!create) {
+            list.filter(d => d);
+        } // remove nulls
+        return list;
+    }
+}
+exports.DDGridStack = DDGridStack;
+/** global instance */
+const dd = new DDGridStack;
 /********************************************************************************
  * GridStack code that is doing drag&drop extracted here so main class is smaller
- * for static grid that don't do any of this work anyway. Saves about 10k.
+ * for static grid that don't do any of this work anyway. Saves about 31k (41k -> 72k)
  * https://www.typescriptlang.org/docs/handbook/declaration-merging.html
  * https://www.typescriptlang.org/docs/handbook/mixins.html
  ********************************************************************************/
@@ -20752,7 +21486,7 @@ exports.GridStackDD = GridStackDD;
 gridstack_1.GridStack.prototype._setupAcceptWidget = function () {
     // check if we need to disable things
     if (this.opts.staticGrid || (!this.opts.acceptWidgets && !this.opts.removable)) {
-        GridStackDD.get().droppable(this.el, 'destroy');
+        dd.droppable(this.el, 'destroy');
         return this;
     }
     // vars shared across all methods
@@ -20776,7 +21510,7 @@ gridstack_1.GridStack.prototype._setupAcceptWidget = function () {
             if (!this.engine.willItFit(node)) {
                 node.autoPosition = true; // ignore x,y and try for any slot...
                 if (!this.engine.willItFit(node)) {
-                    GridStackDD.get().off(el, 'drag'); // stop calling us
+                    dd.off(el, 'drag'); // stop calling us
                     return; // full grid or can't grow
                 }
                 if (node._willFitPos) {
@@ -20793,8 +21527,7 @@ gridstack_1.GridStack.prototype._setupAcceptWidget = function () {
             this._dragOrResize(helper, event, ui, node, cellWidth, cellHeight);
         }
     };
-    GridStackDD.get()
-        .droppable(this.el, {
+    dd.droppable(this.el, {
         accept: (el) => {
             let node = el.gridstackNode;
             // set accept drop to true on ourself (which we ignore) so we don't get "can't drop" icon in HTML5 mode while moving
@@ -20826,7 +21559,7 @@ gridstack_1.GridStack.prototype._setupAcceptWidget = function () {
          * entering our grid area
          */
         .on(this.el, 'dropover', (event, el, helper) => {
-        // TEST console.log(`over ${this.el.gridstack.opts.id} ${count++}`);
+        // console.log(`over ${this.el.gridstack.opts.id} ${count++}`); // TEST
         let node = el.gridstackNode;
         // ignore drop enter on ourself (unless we temporarily removed) which happens on a simple drag of our item
         if ((node === null || node === void 0 ? void 0 : node.grid) === this && !node._temporaryRemoved) {
@@ -20835,7 +21568,7 @@ gridstack_1.GridStack.prototype._setupAcceptWidget = function () {
         }
         // fix #1578 when dragging fast, we may not get a leave on the previous grid so force one now
         if ((node === null || node === void 0 ? void 0 : node.grid) && node.grid !== this && !node._temporaryRemoved) {
-            // TEST console.log('dropover without leave');
+            // console.log('dropover without leave'); // TEST
             let otherGrid = node.grid;
             otherGrid._leave(el, helper);
         }
@@ -20857,7 +21590,7 @@ gridstack_1.GridStack.prototype._setupAcceptWidget = function () {
         // if the item came from another grid, make a copy and save the original info in case we go back there
         if (node.grid && node.grid !== this) {
             // copy the node original values (min/max/id/etc...) but override width/height/other flags which are this grid specific
-            // TEST console.log('dropover cloning node');
+            // console.log('dropover cloning node'); // TEST
             if (!el._gridstackNodeOrig)
                 el._gridstackNodeOrig = node; // shouldn't have multiple nested!
             el.gridstackNode = node = Object.assign(Object.assign({}, node), { w, h, grid: this });
@@ -20875,7 +21608,7 @@ gridstack_1.GridStack.prototype._setupAcceptWidget = function () {
         }
         // clear any marked for complete removal (Note: don't check _isAboutToRemove as that is cleared above - just do it)
         _itemRemoving(node.el, false);
-        GridStackDD.get().on(el, 'drag', onDrag);
+        dd.on(el, 'drag', onDrag);
         // make sure this is called at least once when going fast #1578
         onDrag(event, el, helper);
         return false; // prevent parent from receiving msg (which may be a grid as well)
@@ -20884,7 +21617,7 @@ gridstack_1.GridStack.prototype._setupAcceptWidget = function () {
          * Leaving our grid area...
          */
         .on(this.el, 'dropout', (event, el, helper) => {
-        // TEST console.log(`out ${this.el.gridstack.opts.id} ${count++}`);
+        // console.log(`out ${this.el.gridstack.opts.id} ${count++}`); // TEST
         let node = el.gridstackNode;
         if (!node)
             return false;
@@ -20906,7 +21639,7 @@ gridstack_1.GridStack.prototype._setupAcceptWidget = function () {
         let wasAdded = !!this.placeholder.parentElement; // skip items not actually added to us because of constrains, but do cleanup #1419
         this.placeholder.remove();
         // notify previous grid of removal
-        // TEST console.log('drop delete _gridstackNodeOrig')
+        // console.log('drop delete _gridstackNodeOrig') // TEST
         let origNode = el._gridstackNodeOrig;
         delete el._gridstackNodeOrig;
         if (wasAdded && origNode && origNode.grid && origNode.grid !== this) {
@@ -20921,7 +21654,7 @@ gridstack_1.GridStack.prototype._setupAcceptWidget = function () {
             this.engine.cleanupNode(node); // removes all internal _xyz values
             node.grid = this;
         }
-        GridStackDD.get().off(el, 'drag');
+        dd.off(el, 'drag');
         // if we made a copy ('helper' which is temp) of the original node then insert a copy, else we move the original node (#1102)
         // as the helper will be nuked by jquery-ui otherwise
         if (helper !== el) {
@@ -20933,7 +21666,7 @@ gridstack_1.GridStack.prototype._setupAcceptWidget = function () {
         }
         else {
             el.remove(); // reduce flicker as we change depth here, and size further down
-            GridStackDD.get().remove(el);
+            this._removeDD(el);
         }
         if (!wasAdded)
             return false;
@@ -20943,7 +21676,7 @@ gridstack_1.GridStack.prototype._setupAcceptWidget = function () {
         utils_1.Utils.copyPos(node, this._readAttr(this.placeholder)); // placeholder values as moving VERY fast can throw things off #1578
         utils_1.Utils.removePositioningStyles(el); // @ts-ignore
         this._writeAttr(el, node);
-        this.el.appendChild(el); // @ts-ignore
+        this.el.appendChild(el); // @ts-ignore // TODO: now would be ideal time to _removeHelperStyle() overriding floating styles (native only)
         this._updateContainerHeight();
         this.engine.addedNodes.push(node); // @ts-ignore
         this._triggerAddEvent(); // @ts-ignore
@@ -20983,8 +21716,8 @@ gridstack_1.GridStack.prototype._setupRemoveDrop = function () {
         // only register ONE drop-over/dropout callback for the 'trash', and it will
         // update the passed in item and parent grid because the 'trash' is a shared resource anyway,
         // and Native DD only has 1 event CB (having a list and technically a per grid removableOptions complicates things greatly)
-        if (!GridStackDD.get().isDroppable(trashEl)) {
-            GridStackDD.get().droppable(trashEl, this.opts.removableOptions)
+        if (!dd.isDroppable(trashEl)) {
+            dd.droppable(trashEl, this.opts.removableOptions)
                 .on(trashEl, 'dropover', (event, el) => _itemRemoving(el, true))
                 .on(trashEl, 'dropout', (event, el) => _itemRemoving(el, false));
         }
@@ -21000,10 +21733,8 @@ gridstack_1.GridStack.setupDragIn = function (_dragIn, _dragInOptions) {
     let dragIn;
     let dragInOptions;
     const dragInDefaultOptions = {
-        revert: 'invalid',
         handle: '.grid-stack-item-content',
-        scroll: false,
-        appendTo: 'body'
+        appendTo: 'body',
     };
     // cache in the passed in values (form grid init?) so they don't have to resend them each time
     if (_dragIn) {
@@ -21012,7 +21743,6 @@ gridstack_1.GridStack.setupDragIn = function (_dragIn, _dragInOptions) {
     }
     if (typeof dragIn !== 'string')
         return;
-    let dd = GridStackDD.get();
     utils_1.Utils.getElements(dragIn).forEach(el => {
         if (!dd.isDraggable(el))
             dd.dragIn(el, dragInOptions);
@@ -21021,11 +21751,12 @@ gridstack_1.GridStack.setupDragIn = function (_dragIn, _dragInOptions) {
 /** @internal prepares the element for drag&drop **/
 gridstack_1.GridStack.prototype._prepareDragDropByNode = function (node) {
     let el = node.el;
-    let dd = GridStackDD.get();
+    const noMove = node.noMove || this.opts.disableDrag;
+    const noResize = node.noResize || this.opts.disableResize;
     // check for disabled grid first
-    if (this.opts.staticGrid || ((node.noMove || this.opts.disableDrag) && (node.noResize || this.opts.disableResize))) {
+    if (this.opts.staticGrid || (noMove && noResize)) {
         if (node._initDD) {
-            dd.remove(el); // nukes everything instead of just disable, will add some styles back next
+            this._removeDD(el); // nukes everything instead of just disable, will add some styles back next
             delete node._initDD;
         }
         el.classList.add('ui-draggable-disabled', 'ui-resizable-disabled'); // add styles one might depend on #1435
@@ -21064,7 +21795,7 @@ gridstack_1.GridStack.prototype._prepareDragDropByNode = function (node) {
                 if (gridToNotify._gsEventHandler[event.type]) {
                     gridToNotify._gsEventHandler[event.type](event, target);
                 }
-                dd.remove(el);
+                this._removeDD(el);
                 gridToNotify.engine.removedNodes.push(node);
                 gridToNotify._triggerRemoveEvent();
                 // break circular links and remove DOM
@@ -21073,17 +21804,16 @@ gridstack_1.GridStack.prototype._prepareDragDropByNode = function (node) {
                 el.remove();
             }
             else {
-                if (!node._temporaryRemoved) {
-                    // move to new placeholder location
-                    utils_1.Utils.removePositioningStyles(target); // @ts-ignore
-                    this._writePosAttr(target, node);
-                }
-                else {
+                utils_1.Utils.removePositioningStyles(target);
+                if (node._temporaryRemoved) {
                     // got removed - restore item back to before dragging position
-                    utils_1.Utils.removePositioningStyles(target);
                     utils_1.Utils.copyPos(node, node._orig); // @ts-ignore
                     this._writePosAttr(target, node);
                     this.engine.addNode(node);
+                }
+                else {
+                    // move to new placeholder location
+                    this._writePosAttr(target, node);
                 }
                 if (this._gsEventHandler[event.type]) {
                     this._gsEventHandler[event.type](event, target);
@@ -21107,22 +21837,8 @@ gridstack_1.GridStack.prototype._prepareDragDropByNode = function (node) {
         node._initDD = true; // we've set DD support now
     }
     // finally fine tune move vs resize by disabling any part...
-    if (node.noMove || this.opts.disableDrag) {
-        dd.draggable(el, 'disable');
-        el.classList.add('ui-draggable-disabled');
-    }
-    else {
-        dd.draggable(el, 'enable');
-        el.classList.remove('ui-draggable-disabled');
-    }
-    if (node.noResize || this.opts.disableResize) {
-        dd.resizable(el, 'disable');
-        el.classList.add('ui-resizable-disabled');
-    }
-    else {
-        dd.resizable(el, 'enable');
-        el.classList.remove('ui-resizable-disabled');
-    }
+    dd.draggable(el, noMove ? 'disable' : 'enable')
+        .resizable(el, noResize ? 'disable' : 'enable');
     return this;
 };
 /** @internal called when item is starting a drag/resize */
@@ -21132,22 +21848,21 @@ gridstack_1.GridStack.prototype._onStartMoving = function (el, event, ui, node, 
     // @ts-ignore
     this._writePosAttr(this.placeholder, node);
     this.el.appendChild(this.placeholder);
-    // TEST console.log('_onStartMoving placeholder')
+    // console.log('_onStartMoving placeholder') // TEST
     node.el = this.placeholder;
     node._lastUiPosition = ui.position;
     node._prevYPix = ui.position.top;
     node._moving = (event.type === 'dragstart'); // 'dropover' are not initially moving so they can go exactly where they enter (will push stuff out of the way)
     delete node._lastTried;
     if (event.type === 'dropover' && node._temporaryRemoved) {
-        // TEST console.log('engine.addNode x=' + node.x);
+        // console.log('engine.addNode x=' + node.x); // TEST
         this.engine.addNode(node); // will add, fix collisions, update attr and clear _temporaryRemoved
         node._moving = true; // AFTER, mark as moving object (wanted fix location before)
     }
     // set the min/max resize info
     this.engine.cacheRects(cellWidth, cellHeight, this.opts.marginTop, this.opts.marginRight, this.opts.marginBottom, this.opts.marginLeft);
     if (event.type === 'resizestart') {
-        let dd = GridStackDD.get()
-            .resizable(el, 'option', 'minWidth', cellWidth * (node.minW || 1))
+        dd.resizable(el, 'option', 'minWidth', cellWidth * (node.minW || 1))
             .resizable(el, 'option', 'minHeight', cellHeight * (node.minH || 1));
         if (node.maxW) {
             dd.resizable(el, 'option', 'maxWidth', cellWidth * node.maxW);
@@ -21165,7 +21880,7 @@ gridstack_1.GridStack.prototype._leave = function (el, helper) {
     let node = el.gridstackNode;
     if (!node)
         return;
-    GridStackDD.get().off(el, 'drag'); // no need to track while being outside
+    dd.off(el, 'drag'); // no need to track while being outside
     // this gets called when cursor leaves and shape is outside, so only do this once
     if (node._temporaryRemoved)
         return;
@@ -21178,7 +21893,7 @@ gridstack_1.GridStack.prototype._leave = function (el, helper) {
     }
     // finally if item originally came from another grid, but left us, restore things back to prev info
     if (el._gridstackNodeOrig) {
-        // TEST console.log('leave delete _gridstackNodeOrig')
+        // console.log('leave delete _gridstackNodeOrig') // TEST
         el.gridstackNode = el._gridstackNodeOrig;
         delete el._gridstackNodeOrig;
     }
@@ -21362,45 +22077,646 @@ gridstack_1.GridStack.prototype.enableResize = function (doEnable) {
     this.engine.nodes.forEach(n => this.resizable(n.el, doEnable));
     return this;
 };
-//# sourceMappingURL=gridstack-dd.js.map
+/** removes any drag&drop present (called during destroy) */
+gridstack_1.GridStack.prototype._removeDD = function (el) {
+    dd.draggable(el, 'destroy').resizable(el, 'destroy');
+    if (el.gridstackNode) {
+        delete el.gridstackNode._initDD; // reset our DD init flag
+    }
+    return this;
+};
+//# sourceMappingURL=dd-gridstack.js.map
 
 /***/ }),
 
-/***/ "../../node_modules/gridstack/dist/gridstack-ddi.js":
-/*!**********************************************************!*\
-  !*** ../../node_modules/gridstack/dist/gridstack-ddi.js ***!
-  \**********************************************************/
+/***/ "../../node_modules/gridstack/dist/dd-manager.js":
+/*!*******************************************************!*\
+  !*** ../../node_modules/gridstack/dist/dd-manager.js ***!
+  \*******************************************************/
 /***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
 
 /**
- * gridstack-ddi.ts 5.0
+ * dd-manager.ts 6.0.1
  * Copyright (c) 2021 Alain Dumesny - see GridStack root license
  */
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.GridStackDDI = void 0;
+exports.DDManager = void 0;
 /**
- * Abstract Partial Interface API for drag'n'drop plugin - look at GridStackDD and HTML5 / Jquery implementation versions
+ * globals that are shared across Drag & Drop instances
  */
-class GridStackDDI {
-    /** call this method to register your plugin instead of the default no-op one */
-    static registerPlugin(pluginClass) {
-        GridStackDDI.ddi = new pluginClass();
-        return GridStackDDI.ddi;
+class DDManager {
+}
+exports.DDManager = DDManager;
+//# sourceMappingURL=dd-manager.js.map
+
+/***/ }),
+
+/***/ "../../node_modules/gridstack/dist/dd-resizable-handle.js":
+/*!****************************************************************!*\
+  !*** ../../node_modules/gridstack/dist/dd-resizable-handle.js ***!
+  \****************************************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+
+/**
+ * dd-resizable-handle.ts 6.0.1
+ * Copyright (c) 2021-2022 Alain Dumesny - see GridStack root license
+ */
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.DDResizableHandle = void 0;
+const dd_touch_1 = __webpack_require__(/*! ./dd-touch */ "../../node_modules/gridstack/dist/dd-touch.js");
+class DDResizableHandle {
+    constructor(host, direction, option) {
+        /** @internal true after we've moved enough pixels to start a resize */
+        this.moving = false;
+        this.host = host;
+        this.dir = direction;
+        this.option = option;
+        // create var event binding so we can easily remove and still look like TS methods (unlike anonymous functions)
+        this._mouseDown = this._mouseDown.bind(this);
+        this._mouseMove = this._mouseMove.bind(this);
+        this._mouseUp = this._mouseUp.bind(this);
+        this._init();
     }
-    /** get the current registered plugin to use */
-    static get() {
-        return GridStackDDI.ddi || GridStackDDI.registerPlugin(GridStackDDI);
+    /** @internal */
+    _init() {
+        const el = document.createElement('div');
+        el.classList.add('ui-resizable-handle');
+        el.classList.add(`${DDResizableHandle.prefix}${this.dir}`);
+        el.style.zIndex = '100';
+        el.style.userSelect = 'none';
+        this.el = el;
+        this.host.appendChild(this.el);
+        this.el.addEventListener('mousedown', this._mouseDown);
+        if (dd_touch_1.isTouch) {
+            this.el.addEventListener('touchstart', dd_touch_1.touchstart);
+            this.el.addEventListener('pointerdown', dd_touch_1.pointerdown);
+            // this.el.style.touchAction = 'none'; // not needed unlike pointerdown doc comment
+        }
+        return this;
     }
-    /** removes any drag&drop present (called during destroy) */
-    /* eslint-disable-next-line @typescript-eslint/no-unused-vars */
-    remove(el) {
-        return this; // no-op for static grids
+    /** call this when resize handle needs to be removed and cleaned up */
+    destroy() {
+        if (this.moving)
+            this._mouseUp(this.mouseDownEvent);
+        this.el.removeEventListener('mousedown', this._mouseDown);
+        if (dd_touch_1.isTouch) {
+            this.el.removeEventListener('touchstart', dd_touch_1.touchstart);
+            this.el.removeEventListener('pointerdown', dd_touch_1.pointerdown);
+        }
+        this.host.removeChild(this.el);
+        delete this.el;
+        delete this.host;
+        return this;
+    }
+    /** @internal called on mouse down on us: capture move on the entire document (mouse might not stay on us) until we release the mouse */
+    _mouseDown(e) {
+        this.mouseDownEvent = e;
+        document.addEventListener('mousemove', this._mouseMove, true); // capture, not bubble
+        document.addEventListener('mouseup', this._mouseUp, true);
+        if (dd_touch_1.isTouch) {
+            this.el.addEventListener('touchmove', dd_touch_1.touchmove);
+            this.el.addEventListener('touchend', dd_touch_1.touchend);
+        }
+        e.stopPropagation();
+        e.preventDefault();
+    }
+    /** @internal */
+    _mouseMove(e) {
+        let s = this.mouseDownEvent;
+        if (this.moving) {
+            this._triggerEvent('move', e);
+        }
+        else if (Math.abs(e.x - s.x) + Math.abs(e.y - s.y) > 2) {
+            // don't start unless we've moved at least 3 pixels
+            this.moving = true;
+            this._triggerEvent('start', this.mouseDownEvent);
+            this._triggerEvent('move', e);
+        }
+        e.stopPropagation();
+        e.preventDefault();
+    }
+    /** @internal */
+    _mouseUp(e) {
+        if (this.moving) {
+            this._triggerEvent('stop', e);
+        }
+        document.removeEventListener('mousemove', this._mouseMove, true);
+        document.removeEventListener('mouseup', this._mouseUp, true);
+        if (dd_touch_1.isTouch) {
+            this.el.removeEventListener('touchmove', dd_touch_1.touchmove);
+            this.el.removeEventListener('touchend', dd_touch_1.touchend);
+        }
+        delete this.moving;
+        delete this.mouseDownEvent;
+        e.stopPropagation();
+        e.preventDefault();
+    }
+    /** @internal */
+    _triggerEvent(name, event) {
+        if (this.option[name])
+            this.option[name](event);
+        return this;
     }
 }
-exports.GridStackDDI = GridStackDDI;
-//# sourceMappingURL=gridstack-ddi.js.map
+exports.DDResizableHandle = DDResizableHandle;
+/** @internal */
+DDResizableHandle.prefix = 'ui-resizable-';
+//# sourceMappingURL=dd-resizable-handle.js.map
+
+/***/ }),
+
+/***/ "../../node_modules/gridstack/dist/dd-resizable.js":
+/*!*********************************************************!*\
+  !*** ../../node_modules/gridstack/dist/dd-resizable.js ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+
+/**
+ * dd-resizable.ts 6.0.1
+ * Copyright (c) 2021-2022 Alain Dumesny - see GridStack root license
+ */
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.DDResizable = void 0;
+const dd_resizable_handle_1 = __webpack_require__(/*! ./dd-resizable-handle */ "../../node_modules/gridstack/dist/dd-resizable-handle.js");
+const dd_base_impl_1 = __webpack_require__(/*! ./dd-base-impl */ "../../node_modules/gridstack/dist/dd-base-impl.js");
+const utils_1 = __webpack_require__(/*! ./utils */ "../../node_modules/gridstack/dist/utils.js");
+const dd_manager_1 = __webpack_require__(/*! ./dd-manager */ "../../node_modules/gridstack/dist/dd-manager.js");
+class DDResizable extends dd_base_impl_1.DDBaseImplement {
+    constructor(el, opts = {}) {
+        super();
+        /** @internal */
+        this._ui = () => {
+            const containmentEl = this.el.parentElement;
+            const containmentRect = containmentEl.getBoundingClientRect();
+            const newRect = {
+                width: this.originalRect.width,
+                height: this.originalRect.height + this.scrolled,
+                left: this.originalRect.left,
+                top: this.originalRect.top - this.scrolled
+            };
+            const rect = this.temporalRect || newRect;
+            return {
+                position: {
+                    left: rect.left - containmentRect.left,
+                    top: rect.top - containmentRect.top
+                },
+                size: {
+                    width: rect.width,
+                    height: rect.height
+                }
+                /* Gridstack ONLY needs position set above... keep around in case.
+                element: [this.el], // The object representing the element to be resized
+                helper: [], // TODO: not support yet - The object representing the helper that's being resized
+                originalElement: [this.el],// we don't wrap here, so simplify as this.el //The object representing the original element before it is wrapped
+                originalPosition: { // The position represented as { left, top } before the resizable is resized
+                  left: this.originalRect.left - containmentRect.left,
+                  top: this.originalRect.top - containmentRect.top
+                },
+                originalSize: { // The size represented as { width, height } before the resizable is resized
+                  width: this.originalRect.width,
+                  height: this.originalRect.height
+                }
+                */
+            };
+        };
+        this.el = el;
+        this.option = opts;
+        // create var event binding so we can easily remove and still look like TS methods (unlike anonymous functions)
+        this._mouseOver = this._mouseOver.bind(this);
+        this._mouseOut = this._mouseOut.bind(this);
+        this.enable();
+        this._setupAutoHide(this.option.autoHide);
+        this._setupHandlers();
+    }
+    on(event, callback) {
+        super.on(event, callback);
+    }
+    off(event) {
+        super.off(event);
+    }
+    enable() {
+        super.enable();
+        this.el.classList.add('ui-resizable');
+        this.el.classList.remove('ui-resizable-disabled');
+        this._setupAutoHide(this.option.autoHide);
+    }
+    disable() {
+        super.disable();
+        this.el.classList.add('ui-resizable-disabled');
+        this.el.classList.remove('ui-resizable');
+        this._setupAutoHide(false);
+    }
+    destroy() {
+        this._removeHandlers();
+        this._setupAutoHide(false);
+        this.el.classList.remove('ui-resizable');
+        delete this.el;
+        super.destroy();
+    }
+    updateOption(opts) {
+        let updateHandles = (opts.handles && opts.handles !== this.option.handles);
+        let updateAutoHide = (opts.autoHide && opts.autoHide !== this.option.autoHide);
+        Object.keys(opts).forEach(key => this.option[key] = opts[key]);
+        if (updateHandles) {
+            this._removeHandlers();
+            this._setupHandlers();
+        }
+        if (updateAutoHide) {
+            this._setupAutoHide(this.option.autoHide);
+        }
+        return this;
+    }
+    /** @internal turns auto hide on/off */
+    _setupAutoHide(auto) {
+        if (auto) {
+            this.el.classList.add('ui-resizable-autohide');
+            // use mouseover and not mouseenter to get better performance and track for nested cases
+            this.el.addEventListener('mouseover', this._mouseOver);
+            this.el.addEventListener('mouseout', this._mouseOut);
+        }
+        else {
+            this.el.classList.remove('ui-resizable-autohide');
+            this.el.removeEventListener('mouseover', this._mouseOver);
+            this.el.removeEventListener('mouseout', this._mouseOut);
+        }
+        return this;
+    }
+    /** @internal */
+    _mouseOver(e) {
+        // console.log(`${count++} pre-enter ${(this.el as GridItemHTMLElement).gridstackNode._id}`)
+        // already over a child, ignore. Ideally we just call e.stopPropagation() but see https://github.com/gridstack/gridstack.js/issues/2018
+        if (dd_manager_1.DDManager.overResizeElement || dd_manager_1.DDManager.dragElement)
+            return;
+        dd_manager_1.DDManager.overResizeElement = this;
+        // console.log(`${count++} enter ${(this.el as GridItemHTMLElement).gridstackNode._id}`)
+        this.el.classList.remove('ui-resizable-autohide');
+    }
+    /** @internal */
+    _mouseOut(e) {
+        // console.log(`${count++} pre-leave ${(this.el as GridItemHTMLElement).gridstackNode._id}`)
+        if (dd_manager_1.DDManager.overResizeElement !== this)
+            return;
+        delete dd_manager_1.DDManager.overResizeElement;
+        // console.log(`${count++} leave ${(this.el as GridItemHTMLElement).gridstackNode._id}`)
+        this.el.classList.add('ui-resizable-autohide');
+    }
+    /** @internal */
+    _setupHandlers() {
+        let handlerDirection = this.option.handles || 'e,s,se';
+        if (handlerDirection === 'all') {
+            handlerDirection = 'n,e,s,w,se,sw,ne,nw';
+        }
+        this.handlers = handlerDirection.split(',')
+            .map(dir => dir.trim())
+            .map(dir => new dd_resizable_handle_1.DDResizableHandle(this.el, dir, {
+            start: (event) => {
+                this._resizeStart(event);
+            },
+            stop: (event) => {
+                this._resizeStop(event);
+            },
+            move: (event) => {
+                this._resizing(event, dir);
+            }
+        }));
+        return this;
+    }
+    /** @internal */
+    _resizeStart(event) {
+        this.originalRect = this.el.getBoundingClientRect();
+        this.scrollEl = utils_1.Utils.getScrollElement(this.el);
+        this.scrollY = this.scrollEl.scrollTop;
+        this.scrolled = 0;
+        this.startEvent = event;
+        this._setupHelper();
+        this._applyChange();
+        const ev = utils_1.Utils.initEvent(event, { type: 'resizestart', target: this.el });
+        if (this.option.start) {
+            this.option.start(ev, this._ui());
+        }
+        this.el.classList.add('ui-resizable-resizing');
+        this.triggerEvent('resizestart', ev);
+        return this;
+    }
+    /** @internal */
+    _resizing(event, dir) {
+        this.scrolled = this.scrollEl.scrollTop - this.scrollY;
+        this.temporalRect = this._getChange(event, dir);
+        this._applyChange();
+        const ev = utils_1.Utils.initEvent(event, { type: 'resize', target: this.el });
+        if (this.option.resize) {
+            this.option.resize(ev, this._ui());
+        }
+        this.triggerEvent('resize', ev);
+        return this;
+    }
+    /** @internal */
+    _resizeStop(event) {
+        const ev = utils_1.Utils.initEvent(event, { type: 'resizestop', target: this.el });
+        if (this.option.stop) {
+            this.option.stop(ev); // Note: ui() not used by gridstack so don't pass
+        }
+        this.el.classList.remove('ui-resizable-resizing');
+        this.triggerEvent('resizestop', ev);
+        this._cleanHelper();
+        delete this.startEvent;
+        delete this.originalRect;
+        delete this.temporalRect;
+        delete this.scrollY;
+        delete this.scrolled;
+        return this;
+    }
+    /** @internal */
+    _setupHelper() {
+        this.elOriginStyleVal = DDResizable._originStyleProp.map(prop => this.el.style[prop]);
+        this.parentOriginStylePosition = this.el.parentElement.style.position;
+        if (window.getComputedStyle(this.el.parentElement).position.match(/static/)) {
+            this.el.parentElement.style.position = 'relative';
+        }
+        this.el.style.position = 'absolute';
+        this.el.style.opacity = '0.8';
+        return this;
+    }
+    /** @internal */
+    _cleanHelper() {
+        DDResizable._originStyleProp.forEach((prop, i) => {
+            this.el.style[prop] = this.elOriginStyleVal[i] || null;
+        });
+        this.el.parentElement.style.position = this.parentOriginStylePosition || null;
+        return this;
+    }
+    /** @internal */
+    _getChange(event, dir) {
+        const oEvent = this.startEvent;
+        const newRect = {
+            width: this.originalRect.width,
+            height: this.originalRect.height + this.scrolled,
+            left: this.originalRect.left,
+            top: this.originalRect.top - this.scrolled
+        };
+        const offsetX = event.clientX - oEvent.clientX;
+        const offsetY = event.clientY - oEvent.clientY;
+        if (dir.indexOf('e') > -1) {
+            newRect.width += offsetX;
+        }
+        else if (dir.indexOf('w') > -1) {
+            newRect.width -= offsetX;
+            newRect.left += offsetX;
+        }
+        if (dir.indexOf('s') > -1) {
+            newRect.height += offsetY;
+        }
+        else if (dir.indexOf('n') > -1) {
+            newRect.height -= offsetY;
+            newRect.top += offsetY;
+        }
+        const constrain = this._constrainSize(newRect.width, newRect.height);
+        if (Math.round(newRect.width) !== Math.round(constrain.width)) { // round to ignore slight round-off errors
+            if (dir.indexOf('w') > -1) {
+                newRect.left += newRect.width - constrain.width;
+            }
+            newRect.width = constrain.width;
+        }
+        if (Math.round(newRect.height) !== Math.round(constrain.height)) {
+            if (dir.indexOf('n') > -1) {
+                newRect.top += newRect.height - constrain.height;
+            }
+            newRect.height = constrain.height;
+        }
+        return newRect;
+    }
+    /** @internal constrain the size to the set min/max values */
+    _constrainSize(oWidth, oHeight) {
+        const maxWidth = this.option.maxWidth || Number.MAX_SAFE_INTEGER;
+        const minWidth = this.option.minWidth || oWidth;
+        const maxHeight = this.option.maxHeight || Number.MAX_SAFE_INTEGER;
+        const minHeight = this.option.minHeight || oHeight;
+        const width = Math.min(maxWidth, Math.max(minWidth, oWidth));
+        const height = Math.min(maxHeight, Math.max(minHeight, oHeight));
+        return { width, height };
+    }
+    /** @internal */
+    _applyChange() {
+        let containmentRect = { left: 0, top: 0, width: 0, height: 0 };
+        if (this.el.style.position === 'absolute') {
+            const containmentEl = this.el.parentElement;
+            const { left, top } = containmentEl.getBoundingClientRect();
+            containmentRect = { left, top, width: 0, height: 0 };
+        }
+        if (!this.temporalRect)
+            return this;
+        Object.keys(this.temporalRect).forEach(key => {
+            const value = this.temporalRect[key];
+            this.el.style[key] = value - containmentRect[key] + 'px';
+        });
+        return this;
+    }
+    /** @internal */
+    _removeHandlers() {
+        this.handlers.forEach(handle => handle.destroy());
+        delete this.handlers;
+        return this;
+    }
+}
+exports.DDResizable = DDResizable;
+/** @internal */
+DDResizable._originStyleProp = ['width', 'height', 'position', 'left', 'top', 'opacity', 'zIndex'];
+//# sourceMappingURL=dd-resizable.js.map
+
+/***/ }),
+
+/***/ "../../node_modules/gridstack/dist/dd-touch.js":
+/*!*****************************************************!*\
+  !*** ../../node_modules/gridstack/dist/dd-touch.js ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+
+/**
+ * touch.ts 6.0.1
+ * Copyright (c) 2021 Alain Dumesny - see GridStack root license
+ */
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.pointerleave = exports.pointerenter = exports.pointerdown = exports.touchend = exports.touchmove = exports.touchstart = exports.isTouch = void 0;
+const dd_manager_1 = __webpack_require__(/*! ./dd-manager */ "../../node_modules/gridstack/dist/dd-manager.js");
+/**
+ * Detect touch support - Windows Surface devices and other touch devices
+ * should we use this instead ? (what we had for always showing resize handles)
+ * /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+ */
+exports.isTouch = ('ontouchstart' in document
+    || 'ontouchstart' in window
+    // || !!window.TouchEvent // true on Windows 10 Chrome desktop so don't use this
+    || (window.DocumentTouch && document instanceof window.DocumentTouch)
+    || navigator.maxTouchPoints > 0
+    || navigator.msMaxTouchPoints > 0);
+// interface TouchCoord {x: number, y: number};
+class DDTouch {
+}
+/**
+* Get the x,y position of a touch event
+*/
+// function getTouchCoords(e: TouchEvent): TouchCoord {
+//   return {
+//     x: e.changedTouches[0].pageX,
+//     y: e.changedTouches[0].pageY
+//   };
+// }
+/**
+ * Simulate a mouse event based on a corresponding touch event
+ * @param {Object} e A touch event
+ * @param {String} simulatedType The corresponding mouse event
+ */
+function simulateMouseEvent(e, simulatedType) {
+    // Ignore multi-touch events
+    if (e.touches.length > 1)
+        return;
+    // Prevent "Ignored attempt to cancel a touchmove event with cancelable=false" errors
+    if (e.cancelable)
+        e.preventDefault();
+    const touch = e.changedTouches[0], simulatedEvent = document.createEvent('MouseEvents');
+    // Initialize the simulated mouse event using the touch event's coordinates
+    simulatedEvent.initMouseEvent(simulatedType, // type
+    true, // bubbles
+    true, // cancelable
+    window, // view
+    1, // detail
+    touch.screenX, // screenX
+    touch.screenY, // screenY
+    touch.clientX, // clientX
+    touch.clientY, // clientY
+    false, // ctrlKey
+    false, // altKey
+    false, // shiftKey
+    false, // metaKey
+    0, // button
+    null // relatedTarget
+    );
+    // Dispatch the simulated event to the target element
+    e.target.dispatchEvent(simulatedEvent);
+}
+/**
+ * Simulate a mouse event based on a corresponding Pointer event
+ * @param {Object} e A pointer event
+ * @param {String} simulatedType The corresponding mouse event
+ */
+function simulatePointerMouseEvent(e, simulatedType) {
+    // Prevent "Ignored attempt to cancel a touchmove event with cancelable=false" errors
+    if (e.cancelable)
+        e.preventDefault();
+    const simulatedEvent = document.createEvent('MouseEvents');
+    // Initialize the simulated mouse event using the touch event's coordinates
+    simulatedEvent.initMouseEvent(simulatedType, // type
+    true, // bubbles
+    true, // cancelable
+    window, // view
+    1, // detail
+    e.screenX, // screenX
+    e.screenY, // screenY
+    e.clientX, // clientX
+    e.clientY, // clientY
+    false, // ctrlKey
+    false, // altKey
+    false, // shiftKey
+    false, // metaKey
+    0, // button
+    null // relatedTarget
+    );
+    // Dispatch the simulated event to the target element
+    e.target.dispatchEvent(simulatedEvent);
+}
+/**
+ * Handle the touchstart events
+ * @param {Object} e The widget element's touchstart event
+ */
+function touchstart(e) {
+    // Ignore the event if another widget is already being handled
+    if (DDTouch.touchHandled)
+        return;
+    DDTouch.touchHandled = true;
+    // Simulate the mouse events
+    // simulateMouseEvent(e, 'mouseover');
+    // simulateMouseEvent(e, 'mousemove');
+    simulateMouseEvent(e, 'mousedown');
+}
+exports.touchstart = touchstart;
+/**
+ * Handle the touchmove events
+ * @param {Object} e The document's touchmove event
+ */
+function touchmove(e) {
+    // Ignore event if not handled by us
+    if (!DDTouch.touchHandled)
+        return;
+    simulateMouseEvent(e, 'mousemove');
+}
+exports.touchmove = touchmove;
+/**
+ * Handle the touchend events
+ * @param {Object} e The document's touchend event
+ */
+function touchend(e) {
+    // Ignore event if not handled
+    if (!DDTouch.touchHandled)
+        return;
+    // cancel delayed leave event when we release on ourself which happens BEFORE we get this!
+    if (DDTouch.pointerLeaveTimeout) {
+        window.clearTimeout(DDTouch.pointerLeaveTimeout);
+        delete DDTouch.pointerLeaveTimeout;
+    }
+    const wasDragging = !!dd_manager_1.DDManager.dragElement;
+    // Simulate the mouseup event
+    simulateMouseEvent(e, 'mouseup');
+    // simulateMouseEvent(event, 'mouseout');
+    // If the touch interaction did not move, it should trigger a click
+    if (!wasDragging) {
+        simulateMouseEvent(e, 'click');
+    }
+    // Unset the flag to allow other widgets to inherit the touch event
+    DDTouch.touchHandled = false;
+}
+exports.touchend = touchend;
+/**
+ * Note we don't get touchenter/touchleave (which are deprecated)
+ * see https://stackoverflow.com/questions/27908339/js-touch-equivalent-for-mouseenter
+ * so instead of PointerEvent to still get enter/leave and send the matching mouse event.
+ */
+function pointerdown(e) {
+    e.target.releasePointerCapture(e.pointerId); // <- Important!
+}
+exports.pointerdown = pointerdown;
+function pointerenter(e) {
+    // ignore the initial one we get on pointerdown on ourself
+    if (!dd_manager_1.DDManager.dragElement) {
+        // console.log('pointerenter ignored');
+        return;
+    }
+    // console.log('pointerenter');
+    simulatePointerMouseEvent(e, 'mouseenter');
+}
+exports.pointerenter = pointerenter;
+function pointerleave(e) {
+    // ignore the leave on ourself we get before releasing the mouse over ourself
+    // by delaying sending the event and having the up event cancel us
+    if (!dd_manager_1.DDManager.dragElement) {
+        // console.log('pointerleave ignored');
+        return;
+    }
+    DDTouch.pointerLeaveTimeout = window.setTimeout(() => {
+        delete DDTouch.pointerLeaveTimeout;
+        // console.log('pointerleave delayed');
+        simulatePointerMouseEvent(e, 'mouseleave');
+    }, 10);
+}
+exports.pointerleave = pointerleave;
+//# sourceMappingURL=dd-touch.js.map
 
 /***/ }),
 
@@ -21413,8 +22729,8 @@ exports.GridStackDDI = GridStackDDI;
 "use strict";
 
 /**
- * gridstack-engine.ts 5.0
- * Copyright (c) 2021 Alain Dumesny - see GridStack root license
+ * gridstack-engine.ts 6.0.1
+ * Copyright (c) 2021-2022 Alain Dumesny - see GridStack root license
  */
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.GridStackEngine = void 0;
@@ -21430,28 +22746,26 @@ class GridStackEngine {
         this.addedNodes = [];
         this.removedNodes = [];
         this.column = opts.column || 12;
-        this.onChange = opts.onChange;
-        this._float = opts.float;
         this.maxRow = opts.maxRow;
+        this._float = opts.float;
         this.nodes = opts.nodes || [];
+        this.onChange = opts.onChange;
     }
-    batchUpdate() {
-        if (this.batchMode)
+    batchUpdate(flag = true) {
+        if (!!this.batchMode === flag)
             return this;
-        this.batchMode = true;
-        this._prevFloat = this._float;
-        this._float = true; // let things go anywhere for now... commit() will restore and possibly reposition
-        this.saveInitial(); // since begin update (which is called multiple times) won't do this
+        this.batchMode = flag;
+        if (flag) {
+            this._prevFloat = this._float;
+            this._float = true; // let things go anywhere for now... will restore and possibly reposition later
+            this.saveInitial(); // since begin update (which is called multiple times) won't do this
+        }
+        else {
+            this._float = this._prevFloat;
+            delete this._prevFloat;
+            this._packNodes()._notify();
+        }
         return this;
-    }
-    commit() {
-        if (!this.batchMode)
-            return this;
-        this.batchMode = false;
-        this._float = this._prevFloat;
-        delete this._prevFloat;
-        return this._packNodes()
-            ._notify();
     }
     // use entire row for hitting area (will use bottom reverse sorted first) if we not actively moving DOWN and didn't already skip
     _useEntireRowArea(node, nn) {
@@ -21460,7 +22774,7 @@ class GridStackEngine {
     /** @internal fix collision on given 'node', going to given new location 'nn', with optional 'collide' node already found.
      * return true if we moved. */
     _fixCollisions(node, nn = node, collide, opt = {}) {
-        this._sortNodes(-1); // from last to first, so recursive collision move items in the right order
+        this.sortNodes(-1); // from last to first, so recursive collision move items in the right order
         collide = collide || this.collide(node, nn); // REAL area collide for swap and skip if none...
         if (!collide)
             return false;
@@ -21634,7 +22948,7 @@ class GridStackEngine {
         if (this.nodes.length === 0)
             return this;
         this.batchUpdate()
-            ._sortNodes();
+            .sortNodes();
         let copyNodes = this.nodes;
         this.nodes = []; // pretend we have no nodes to conflict layout to start with...
         copyNodes.forEach(node => {
@@ -21644,7 +22958,7 @@ class GridStackEngine {
             this.addNode(node, false); // 'false' for add event trigger
             node._dirty = true; // will force attr update
         });
-        return this.commit();
+        return this.batchUpdate(false);
     }
     /** enable/disable floating widgets (default: `false`) See [example](http://gridstackjs.com/demo/float.html) */
     set float(val) {
@@ -21657,8 +22971,8 @@ class GridStackEngine {
     }
     /** float getter method */
     get float() { return this._float || false; }
-    /** @internal */
-    _sortNodes(dir) {
+    /** sort the nodes array from first to last, or reverse. Called during collision/placement to force an order */
+    sortNodes(dir) {
         this.nodes = utils_1.Utils.sort(this.nodes, dir, this.column);
         return this;
     }
@@ -21667,7 +22981,7 @@ class GridStackEngine {
         if (this.batchMode) {
             return this;
         }
-        this._sortNodes(); // first to last
+        this.sortNodes(); // first to last
         if (this.float) {
             // restore original Y pos
             this.nodes.forEach(n => {
@@ -21818,6 +23132,7 @@ class GridStackEngine {
         }
         return node;
     }
+    /** returns a list of modified nodes from their original values */
     getDirtyNodes(verify) {
         // compare original x,y,w,h instead as _dirty can be a temporary state
         if (verify) {
@@ -21825,13 +23140,12 @@ class GridStackEngine {
         }
         return this.nodes.filter(n => n._dirty);
     }
-    /** @internal call this to call onChange CB with dirty nodes */
-    _notify(nodes, removeDOM = true) {
-        if (this.batchMode)
+    /** @internal call this to call onChange callback with dirty nodes so DOM can be updated */
+    _notify(removedNodes) {
+        if (this.batchMode || !this.onChange)
             return this;
-        nodes = (nodes === undefined ? [] : (Array.isArray(nodes) ? nodes : [nodes]));
-        let dirtyNodes = nodes.concat(this.getDirtyNodes());
-        this.onChange && this.onChange(dirtyNodes, removeDOM);
+        let dirtyNodes = (removedNodes || []).concat(this.getDirtyNodes());
+        this.onChange(dirtyNodes);
         return this;
     }
     /** @internal remove dirty and last tried info */
@@ -21876,7 +23190,7 @@ class GridStackEngine {
         delete node._temporaryRemoved;
         delete node._removeDOM;
         if (node.autoPosition) {
-            this._sortNodes();
+            this.sortNodes();
             for (let i = 0;; ++i) {
                 let x = i % this.column;
                 let y = Math.floor(i / this.column);
@@ -21915,7 +23229,7 @@ class GridStackEngine {
         // don't use 'faster' .splice(findIndex(),1) in case node isn't in our list, or in multiple times.
         this.nodes = this.nodes.filter(n => n !== node);
         return this._packNodes()
-            ._notify(node);
+            ._notify([node]);
     }
     removeAll(removeDOM = true) {
         delete this._layouts;
@@ -21935,7 +23249,7 @@ class GridStackEngine {
             return false;
         o.pack = true;
         // simpler case: move item directly...
-        if (!this.maxRow /* && !this._hasLocked*/) {
+        if (!this.maxRow) {
             return this.moveNode(node, o);
         }
         // complex case: create a clone with NO maxRow (will check for out of bounds at the end)
@@ -21953,17 +23267,14 @@ class GridStackEngine {
         });
         if (!clonedNode)
             return false;
-        let canMove = clone.moveNode(clonedNode, o);
-        // if maxRow make sure we are still valid size
-        if (this.maxRow && canMove) {
-            canMove = (clone.getRow() <= this.maxRow);
-            // turns out we can't grow, then see if we can swap instead (ex: full grid) if we're not resizing
-            if (!canMove && !o.resizing) {
-                let collide = this.collide(node, o);
-                if (collide && this.swap(node, collide)) {
-                    this._notify();
-                    return true;
-                }
+        // make sure we are still valid size
+        let canMove = clone.moveNode(clonedNode, o) && clone.getRow() <= this.maxRow;
+        // turns out we can't grow, then see if we can swap instead (ex: full grid) if we're not resizing
+        if (!canMove && !o.resizing) {
+            let collide = this.collide(node, o);
+            if (collide && this.swap(node, collide)) {
+                this._notify();
+                return true;
             }
         }
         if (!canMove)
@@ -22006,7 +23317,7 @@ class GridStackEngine {
     }
     /** true if x,y or w,h are different after clamping to min/max */
     changedPosConstrain(node, p) {
-        // make sure w,h are set
+        // first make sure w,h are set for caller
         p.w = p.w || node.w;
         p.h = p.h || node.h;
         if (node.x !== p.x || node.y !== p.y)
@@ -22053,13 +23364,8 @@ class GridStackEngine {
         if (utils_1.Utils.samePos(node, o))
             return false;
         let prevPos = utils_1.Utils.copyPos({}, node);
-        // during while() collisions make sure to check entire row so larger items don't leap frog small ones (push them all down)
-        let area = nn;
-        // if (this._useEntireRowArea(node, nn)) {
-        //   area = {x: 0, w: this.column, y: nn.y, h: nn.h};
-        // }
         // check if we will need to fix collision at our new location
-        let collides = this.collideAll(node, area, o.skip);
+        let collides = this.collideAll(node, nn, o.skip);
         let needToMove = true;
         if (collides.length) {
             // now check to make sure we actually collided over 50% surface area while dragging
@@ -22110,7 +23416,7 @@ class GridStackEngine {
         let len = (_a = this._layouts) === null || _a === void 0 ? void 0 : _a.length;
         let layout = len && this.column !== (len - 1) ? this._layouts[len - 1] : null;
         let list = [];
-        this._sortNodes();
+        this.sortNodes();
         this.nodes.forEach(n => {
             let wl = layout === null || layout === void 0 ? void 0 : layout.find(l => l._id === n._id);
             let w = Object.assign({}, n);
@@ -22277,7 +23583,7 @@ class GridStackEngine {
             this.addNode(node, false); // 'false' for add event trigger
             delete node._orig; // make sure the commit doesn't try to restore things back to original
         });
-        this.commit();
+        this.batchUpdate(false);
         delete this._inColumnResize;
         return this;
     }
@@ -22348,20 +23654,18 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.GridStack = void 0;
 /*!
- * GridStack 5.0
+ * GridStack 6.0.1
  * https://gridstackjs.com/
  *
- * Copyright (c) 2021 Alain Dumesny
+ * Copyright (c) 2021-2022 Alain Dumesny
  * see root license https://github.com/gridstack/gridstack.js/tree/master/LICENSE
  */
 const gridstack_engine_1 = __webpack_require__(/*! ./gridstack-engine */ "../../node_modules/gridstack/dist/gridstack-engine.js");
 const utils_1 = __webpack_require__(/*! ./utils */ "../../node_modules/gridstack/dist/utils.js");
-const gridstack_ddi_1 = __webpack_require__(/*! ./gridstack-ddi */ "../../node_modules/gridstack/dist/gridstack-ddi.js");
 // export all dependent file as well to make it easier for users to just import the main file
 __exportStar(__webpack_require__(/*! ./types */ "../../node_modules/gridstack/dist/types.js"), exports);
 __exportStar(__webpack_require__(/*! ./utils */ "../../node_modules/gridstack/dist/utils.js"), exports);
 __exportStar(__webpack_require__(/*! ./gridstack-engine */ "../../node_modules/gridstack/dist/gridstack-engine.js"), exports);
-__exportStar(__webpack_require__(/*! ./gridstack-ddi */ "../../node_modules/gridstack/dist/gridstack-ddi.js"), exports);
 // default values for grid options - used during init and when saving out
 const GridDefaults = {
     column: 12,
@@ -22377,18 +23681,16 @@ const GridDefaults = {
     cellHeightThrottle: 100,
     margin: 10,
     auto: true,
-    minWidth: 768,
+    oneColumnSize: 768,
     float: false,
     staticGrid: false,
     animate: true,
-    alwaysShowResizeHandle: false,
+    alwaysShowResizeHandle: 'mobile',
     resizable: {
-        autoHide: true,
         handles: 'se'
     },
     draggable: {
         handle: '.grid-stack-item-content',
-        scroll: false,
         appendTo: 'body'
     },
     disableDrag: false,
@@ -22401,7 +23703,7 @@ const GridDefaults = {
     marginUnit: 'px',
     cellHeightUnit: 'px',
     disableOneColumnMode: false,
-    oneColumnModeDomSort: false
+    oneColumnModeDomSort: false,
 };
 /**
  * Main gridstack class - you will need to call `GridStack.init()` first to initialize your grid.
@@ -22436,25 +23738,31 @@ class GridStack {
         if (opts.column === 'auto') {
             delete opts.column;
         }
-        // elements attributes override any passed options (like CSS style) - merge the two together
-        let defaults = Object.assign(Object.assign({}, utils_1.Utils.cloneDeep(GridDefaults)), { column: utils_1.Utils.toNumber(el.getAttribute('gs-column')) || 12, minRow: rowAttr ? rowAttr : utils_1.Utils.toNumber(el.getAttribute('gs-min-row')) || 0, maxRow: rowAttr ? rowAttr : utils_1.Utils.toNumber(el.getAttribute('gs-max-row')) || 0, staticGrid: utils_1.Utils.toBool(el.getAttribute('gs-static')) || false, _styleSheetClass: 'grid-stack-instance-' + (Math.random() * 10000).toFixed(0), alwaysShowResizeHandle: opts.alwaysShowResizeHandle || false, resizable: {
-                autoHide: !(opts.alwaysShowResizeHandle || false),
-                handles: 'se'
-            }, draggable: {
-                handle: (opts.handleClass ? '.' + opts.handleClass : (opts.handle ? opts.handle : '')) || '.grid-stack-item-content',
-                scroll: false,
-                appendTo: 'body'
+        // 'minWidth' legacy support in 5.1
+        /* eslint-disable-next-line @typescript-eslint/no-explicit-any */
+        let anyOpts = opts;
+        if (anyOpts.minWidth !== undefined) {
+            opts.oneColumnSize = opts.oneColumnSize || anyOpts.minWidth;
+            delete anyOpts.minWidth;
+        }
+        // save original setting so we can restore on save
+        if (opts.alwaysShowResizeHandle !== undefined) {
+            opts._alwaysShowResizeHandle = opts.alwaysShowResizeHandle;
+        }
+        // elements DOM attributes override any passed options (like CSS style) - merge the two together
+        let defaults = Object.assign(Object.assign({}, utils_1.Utils.cloneDeep(GridDefaults)), { column: utils_1.Utils.toNumber(el.getAttribute('gs-column')) || GridDefaults.column, minRow: rowAttr ? rowAttr : utils_1.Utils.toNumber(el.getAttribute('gs-min-row')) || GridDefaults.minRow, maxRow: rowAttr ? rowAttr : utils_1.Utils.toNumber(el.getAttribute('gs-max-row')) || GridDefaults.maxRow, staticGrid: utils_1.Utils.toBool(el.getAttribute('gs-static')) || GridDefaults.staticGrid, _styleSheetClass: 'grid-stack-instance-' + (Math.random() * 10000).toFixed(0), draggable: {
+                handle: (opts.handleClass ? '.' + opts.handleClass : (opts.handle ? opts.handle : '')) || GridDefaults.draggable.handle,
             }, removableOptions: {
-                accept: '.' + (opts.itemClass || 'grid-stack-item')
+                accept: opts.itemClass ? '.' + opts.itemClass : GridDefaults.removableOptions.accept,
             } });
         if (el.getAttribute('gs-animate')) { // default to true, but if set to false use that instead
             defaults.animate = utils_1.Utils.toBool(el.getAttribute('gs-animate'));
         }
         this.opts = utils_1.Utils.defaults(opts, defaults);
         opts = null; // make sure we use this.opts instead
-        this.initMargin(); // part of settings defaults...
+        this._initMargin(); // part of settings defaults...
         // Now check if we're loading into 1 column mode FIRST so we don't do un-necessary work (like cellHeight = width / 12 then go 1 column)
-        if (this.opts.column !== 1 && !this.opts.disableOneColumnMode && this._widthOrContainer() <= this.opts.minWidth) {
+        if (this.opts.column !== 1 && !this.opts.disableOneColumnMode && this._widthOrContainer() <= this.opts.oneColumnSize) {
             this._prevColumn = this.getColumn();
             this.opts.column = 1;
         }
@@ -22485,9 +23793,14 @@ class GridStack {
             }
             this.cellHeight(this.opts.cellHeight, false);
         }
+        // see if we need to adjust auto-hide
+        if (this.opts.alwaysShowResizeHandle === 'mobile') {
+            this.opts.alwaysShowResizeHandle = dd_touch_1.isTouch;
+        }
         this.el.classList.add(this.opts._styleSheetClass);
         this._setStaticClass();
-        this.engine = new gridstack_engine_1.GridStackEngine({
+        let engineClass = this.opts.engineClass || GridStack.engineClass || gridstack_engine_1.GridStackEngine;
+        this.engine = new engineClass({
             column: this.getColumn(),
             float: this.opts.float,
             maxRow: this.opts.maxRow,
@@ -22523,7 +23836,7 @@ class GridStack {
                 });
             });
             elements.sort((a, b) => a.i - b.i).forEach(e => this._prepareElement(e.el));
-            this.commit();
+            this.batchUpdate(false);
         }
         this.setAnimation(this.opts.animate);
         this._updateStyles();
@@ -22620,6 +23933,13 @@ class GridStack {
             grid.load(children);
         }
         return grid;
+    }
+    /** call this method to register your engine instead of the default one.
+     * See instead `GridStackOptions.engineClass` if you only need to
+     * replace just one instance.
+     */
+    static registerEngine(engineClass) {
+        GridStack.engineClass = engineClass;
     }
     /** @internal create placeholder DIV as needed */
     get placeholder() {
@@ -22767,6 +24087,14 @@ class GridStack {
                 o.column = 'auto';
                 delete o.disableOneColumnMode;
             }
+            const origShow = o._alwaysShowResizeHandle;
+            delete o._alwaysShowResizeHandle;
+            if (origShow !== undefined) {
+                o.alwaysShowResizeHandle = origShow;
+            }
+            else {
+                delete o.alwaysShowResizeHandle;
+            }
             utils_1.Utils.removeInternalAndSame(o, GridDefaults);
             o.children = list;
             return o;
@@ -22833,17 +24161,23 @@ class GridStack {
             }
         });
         this.engine.removedNodes = removed;
-        this.commit();
+        this.batchUpdate(false);
         // after commit, clear that flag
         delete this._ignoreLayoutsNodeChange;
         delete this._insertNotAppend;
         return this;
     }
     /**
-     * Initializes batch updates. You will see no changes until `commit()` method is called.
+     * use before calling a bunch of `addWidget()` to prevent un-necessary relayouts in between (more efficient)
+     * and get a single event callback. You will see no changes until `batchUpdate(false)` is called.
      */
-    batchUpdate() {
-        this.engine.batchUpdate();
+    batchUpdate(flag = true) {
+        this.engine.batchUpdate(flag);
+        if (!flag) {
+            this._triggerRemoveEvent();
+            this._triggerAddEvent();
+            this._triggerChangeEvent();
+        }
         return this;
     }
     /**
@@ -22915,16 +24249,6 @@ class GridStack {
         // use `offsetWidth` or `clientWidth` (no scrollbar) ?
         // https://stackoverflow.com/questions/21064101/understanding-offsetwidth-clientwidth-scrollwidth-and-height-respectively
         return (this.el.clientWidth || this.el.parentElement.clientWidth || window.innerWidth);
-    }
-    /**
-     * Finishes batch updates. Updates DOM nodes. You must call it after batchUpdate.
-     */
-    commit() {
-        this.engine.commit();
-        this._triggerRemoveEvent();
-        this._triggerAddEvent();
-        this._triggerChangeEvent();
-        return this;
     }
     /** re-layout grid items to reclaim any empty space */
     compact() {
@@ -23173,7 +24497,7 @@ class GridStack {
                 return;
             // remove our DOM data (circular link) and drag&drop permanently
             delete el.gridstackNode;
-            gridstack_ddi_1.GridStackDDI.get().remove(el);
+            this._removeDD(el);
             this.engine.removeNode(node, removeDOM, triggerEvent);
             if (removeDOM && el.parentElement) {
                 el.remove(); // in batch mode engine.removeNode doesn't call back to remove DOM
@@ -23193,7 +24517,7 @@ class GridStack {
         // always remove our DOM data (circular link) before list gets emptied and drag&drop permanently
         this.engine.nodes.forEach(n => {
             delete n.el.gridstackNode;
-            gridstack_ddi_1.GridStackDDI.get().remove(n.el);
+            this._removeDD(n.el);
         });
         this.engine.removeAll(removeDOM);
         this._triggerRemoveEvent();
@@ -23314,7 +24638,7 @@ class GridStack {
         // re-use existing margin handling
         this.opts.margin = value;
         this.opts.marginTop = this.opts.marginBottom = this.opts.marginLeft = this.opts.marginRight = undefined;
-        this.initMargin();
+        this._initMargin();
         this._updateStyles(true); // true = force re-create
         return this;
     }
@@ -23598,7 +24922,7 @@ class GridStack {
         }
         else {
             // else check for 1 column in/out behavior
-            let oneColumn = !this.opts.disableOneColumnMode && this.el.clientWidth <= this.opts.minWidth;
+            let oneColumn = !this.opts.disableOneColumnMode && this.el.clientWidth <= this.opts.oneColumnSize;
             if ((this.opts.column === 1) !== oneColumn) {
                 changedColumn = true;
                 if (this.opts.animate) {
@@ -23654,7 +24978,7 @@ class GridStack {
     /** @internal */
     static getGridElements(els) { return utils_1.Utils.getElements(els); }
     /** @internal initialize margin top/bottom/left/right and units */
-    initMargin() {
+    _initMargin() {
         let data;
         let margin = 0;
         // support passing multiple values like CSS (ex: '5px 10px 0 20px')
@@ -23717,7 +25041,7 @@ class GridStack {
         return this;
     }
     /*
-     * drag&drop empty stubs that will be implemented in gridstack-dd.ts for non static grid
+     * drag&drop empty stubs that will be implemented in dd-gridstack.ts for non static grid
      * so we don't incur the load unless needed.
      * NOTE: had to make those methods public in order to define them else as
      *   GridStack.prototype._setupAcceptWidget = function()
@@ -23729,7 +25053,7 @@ class GridStack {
      * Called during GridStack.init() as options, but can also be called directly (last param are cached) in case the toolbar
      * is dynamically create and needs to change later.
      * @param dragIn string selector (ex: '.sidebar .grid-stack-item')
-     * @param dragInOptions options - see DDDragInOpt. (default: {revert: 'invalid', handle: '.grid-stack-item-content', scroll: false, appendTo: 'body'}
+     * @param dragInOptions options - see DDDragInOpt. (default: {handle: '.grid-stack-item-content', appendTo: 'body'}
      **/
     static setupDragIn(dragIn, dragInOptions) { }
     /**
@@ -23772,6 +25096,8 @@ class GridStack {
      * Enables/disables widget resizing. No-op for static grids.
      */
     enableResize(doEnable) { return this; }
+    /** @internal removes any drag&drop present (called during destroy) */
+    _removeDD(el) { return this; }
     /** @internal called to add drag over support to support widgets */
     _setupAcceptWidget() { return this; }
     /** @internal called to setup a trash drop zone if the user specifies it */
@@ -23784,1315 +25110,18 @@ class GridStack {
     _dragOrResize(el, event, ui, node, cellWidth, cellHeight) { return; }
     /** @internal called when a node leaves our area (mouse out or shape outside) **/
     _leave(el, helper) { return; }
+    // legacy method removed
+    commit() { utils_1.obsolete(this, this.batchUpdate(false), 'commit', 'batchUpdate', '5.2'); return this; }
 }
 exports.GridStack = GridStack;
 /** scoping so users can call GridStack.Utils.sort() for example */
 GridStack.Utils = utils_1.Utils;
 /** scoping so users can call new GridStack.Engine(12) for example */
 GridStack.Engine = gridstack_engine_1.GridStackEngine;
+GridStack.GDRev = '6.0.1';
+const dd_touch_1 = __webpack_require__(/*! ./dd-touch */ "../../node_modules/gridstack/dist/dd-touch.js");
+__exportStar(__webpack_require__(/*! ./dd-gridstack */ "../../node_modules/gridstack/dist/dd-gridstack.js"), exports);
 //# sourceMappingURL=gridstack.js.map
-
-/***/ }),
-
-/***/ "../../node_modules/gridstack/dist/h5/dd-base-impl.js":
-/*!************************************************************!*\
-  !*** ../../node_modules/gridstack/dist/h5/dd-base-impl.js ***!
-  \************************************************************/
-/***/ ((__unused_webpack_module, exports) => {
-
-"use strict";
-
-/**
- * dd-base-impl.ts 5.0
- * Copyright (c) 2021 Alain Dumesny - see GridStack root license
- */
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.DDBaseImplement = void 0;
-class DDBaseImplement {
-    constructor() {
-        /** @internal */
-        this._disabled = false;
-        /** @internal */
-        this._eventRegister = {};
-    }
-    /** returns the enable state, but you have to call enable()/disable() to change (as other things need to happen) */
-    get disabled() { return this._disabled; }
-    on(event, callback) {
-        this._eventRegister[event] = callback;
-    }
-    off(event) {
-        delete this._eventRegister[event];
-    }
-    enable() {
-        this._disabled = false;
-    }
-    disable() {
-        this._disabled = true;
-    }
-    destroy() {
-        delete this._eventRegister;
-    }
-    triggerEvent(eventName, event) {
-        if (!this.disabled && this._eventRegister && this._eventRegister[eventName])
-            return this._eventRegister[eventName](event);
-    }
-}
-exports.DDBaseImplement = DDBaseImplement;
-//# sourceMappingURL=dd-base-impl.js.map
-
-/***/ }),
-
-/***/ "../../node_modules/gridstack/dist/h5/dd-draggable.js":
-/*!************************************************************!*\
-  !*** ../../node_modules/gridstack/dist/h5/dd-draggable.js ***!
-  \************************************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-"use strict";
-
-/**
- * dd-draggable.ts 5.0
- * Copyright (c) 2021 Alain Dumesny - see GridStack root license
- */
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.DDDraggable = void 0;
-const dd_manager_1 = __webpack_require__(/*! ./dd-manager */ "../../node_modules/gridstack/dist/h5/dd-manager.js");
-const dd_utils_1 = __webpack_require__(/*! ./dd-utils */ "../../node_modules/gridstack/dist/h5/dd-utils.js");
-const dd_base_impl_1 = __webpack_require__(/*! ./dd-base-impl */ "../../node_modules/gridstack/dist/h5/dd-base-impl.js");
-class DDDraggable extends dd_base_impl_1.DDBaseImplement {
-    constructor(el, option = {}) {
-        super();
-        /** @internal */
-        this.dragging = false;
-        /** @internal TODO: set to public as called by DDDroppable! */
-        this.ui = () => {
-            const containmentEl = this.el.parentElement;
-            const containmentRect = containmentEl.getBoundingClientRect();
-            const offset = this.helper.getBoundingClientRect();
-            return {
-                position: {
-                    top: offset.top - containmentRect.top,
-                    left: offset.left - containmentRect.left
-                }
-                /* not used by GridStack for now...
-                helper: [this.helper], //The object arr representing the helper that's being dragged.
-                offset: { top: offset.top, left: offset.left } // Current offset position of the helper as { top, left } object.
-                */
-            };
-        };
-        this.el = el;
-        this.option = option;
-        // get the element that is actually supposed to be dragged by
-        let className = option.handle.substring(1);
-        this.dragEl = el.classList.contains(className) ? el : el.querySelector(option.handle) || el;
-        // create var event binding so we can easily remove and still look like TS methods (unlike anonymous functions)
-        this._dragStart = this._dragStart.bind(this);
-        this._drag = this._drag.bind(this);
-        this._dragEnd = this._dragEnd.bind(this);
-        this.enable();
-    }
-    on(event, callback) {
-        super.on(event, callback);
-    }
-    off(event) {
-        super.off(event);
-    }
-    enable() {
-        super.enable();
-        this.dragEl.draggable = true;
-        this.dragEl.addEventListener('dragstart', this._dragStart);
-        this.el.classList.remove('ui-draggable-disabled');
-        this.el.classList.add('ui-draggable');
-    }
-    disable(forDestroy = false) {
-        super.disable();
-        this.dragEl.removeAttribute('draggable');
-        this.dragEl.removeEventListener('dragstart', this._dragStart);
-        this.el.classList.remove('ui-draggable');
-        if (!forDestroy)
-            this.el.classList.add('ui-draggable-disabled');
-    }
-    destroy() {
-        if (this.dragging) {
-            // Destroy while dragging should remove dragend listener and manually trigger
-            // dragend, otherwise dragEnd can't perform dragstop because eventRegistry is
-            // destroyed.
-            this._dragEnd({});
-        }
-        this.disable(true);
-        delete this.el;
-        delete this.helper;
-        delete this.option;
-        super.destroy();
-    }
-    updateOption(opts) {
-        Object.keys(opts).forEach(key => this.option[key] = opts[key]);
-        return this;
-    }
-    /** @internal */
-    _dragStart(event) {
-        dd_manager_1.DDManager.dragElement = this;
-        this.helper = this._createHelper(event);
-        this._setupHelperContainmentStyle();
-        this.dragOffset = this._getDragOffset(event, this.el, this.helperContainment);
-        const ev = dd_utils_1.DDUtils.initEvent(event, { target: this.el, type: 'dragstart' });
-        if (this.helper !== this.el) {
-            this._setupDragFollowNodeNotifyStart(ev);
-            // immediately set external helper initial position to avoid flickering behavior and unnecessary looping in `_packNodes()`
-            this._dragFollow(event);
-        }
-        else {
-            this.dragFollowTimer = window.setTimeout(() => {
-                delete this.dragFollowTimer;
-                this._setupDragFollowNodeNotifyStart(ev);
-            }, 0);
-        }
-        this._cancelDragGhost(event);
-    }
-    /** @internal */
-    _setupDragFollowNodeNotifyStart(ev) {
-        this._setupHelperStyle();
-        document.addEventListener('dragover', this._drag, DDDraggable.dragEventListenerOption);
-        this.dragEl.addEventListener('dragend', this._dragEnd);
-        if (this.option.start) {
-            this.option.start(ev, this.ui());
-        }
-        this.dragging = true;
-        this.helper.classList.add('ui-draggable-dragging');
-        this.triggerEvent('dragstart', ev);
-        return this;
-    }
-    /** @internal */
-    _drag(event) {
-        // Safari: prevent default to allow drop to happen instead of reverting back (with animation) and delaying dragend #1541
-        // https://stackoverflow.com/questions/61760755/how-to-fire-dragend-event-immediately
-        event.preventDefault();
-        this._dragFollow(event);
-        const ev = dd_utils_1.DDUtils.initEvent(event, { target: this.el, type: 'drag' });
-        if (this.option.drag) {
-            this.option.drag(ev, this.ui());
-        }
-        this.triggerEvent('drag', ev);
-    }
-    /** @internal */
-    _dragEnd(event) {
-        if (this.dragFollowTimer) {
-            clearTimeout(this.dragFollowTimer);
-            delete this.dragFollowTimer;
-            return;
-        }
-        else {
-            if (this.paintTimer) {
-                cancelAnimationFrame(this.paintTimer);
-            }
-            document.removeEventListener('dragover', this._drag, DDDraggable.dragEventListenerOption);
-            this.dragEl.removeEventListener('dragend', this._dragEnd);
-        }
-        this.dragging = false;
-        this.helper.classList.remove('ui-draggable-dragging');
-        this.helperContainment.style.position = this.parentOriginStylePosition || null;
-        if (this.helper === this.el) {
-            this._removeHelperStyle();
-        }
-        else {
-            this.helper.remove();
-        }
-        const ev = dd_utils_1.DDUtils.initEvent(event, { target: this.el, type: 'dragstop' });
-        if (this.option.stop) {
-            this.option.stop(ev); // Note: ui() not used by gridstack so don't pass
-        }
-        this.triggerEvent('dragstop', ev);
-        delete dd_manager_1.DDManager.dragElement;
-        delete this.helper;
-    }
-    /** @internal create a clone copy (or user defined method) of the original drag item if set */
-    _createHelper(event) {
-        let helper = this.el;
-        if (typeof this.option.helper === 'function') {
-            helper = this.option.helper(event);
-        }
-        else if (this.option.helper === 'clone') {
-            helper = dd_utils_1.DDUtils.clone(this.el);
-        }
-        if (!document.body.contains(helper)) {
-            dd_utils_1.DDUtils.appendTo(helper, this.option.appendTo === 'parent' ? this.el.parentNode : this.option.appendTo);
-        }
-        if (helper === this.el) {
-            this.dragElementOriginStyle = DDDraggable.originStyleProp.map(prop => this.el.style[prop]);
-        }
-        return helper;
-    }
-    /** @internal */
-    _setupHelperStyle() {
-        // TODO: set all at once with style.cssText += ... ? https://stackoverflow.com/questions/3968593
-        const rec = this.helper.getBoundingClientRect();
-        const style = this.helper.style;
-        style.pointerEvents = 'none';
-        style['min-width'] = 0; // since we no longer relative to our parent and we don't resize anyway (normally 100/#column %)
-        style.width = this.dragOffset.width + 'px';
-        style.height = this.dragOffset.height + 'px';
-        style.willChange = 'left, top';
-        style.position = 'fixed'; // let us drag between grids by not clipping as parent .grid-stack is position: 'relative'
-        style.left = rec.left + 'px';
-        style.top = rec.top + 'px';
-        style.transition = 'none'; // show up instantly
-        setTimeout(() => {
-            if (this.helper) {
-                style.transition = null; // recover animation
-            }
-        }, 0);
-        return this;
-    }
-    /** @internal */
-    _removeHelperStyle() {
-        // don't bother restoring styles if we're gonna remove anyway...
-        let node = this.helper ? this.helper.gridstackNode : undefined;
-        if (this.dragElementOriginStyle && (!node || !node._isAboutToRemove)) {
-            DDDraggable.originStyleProp.forEach(prop => {
-                this.helper.style[prop] = this.dragElementOriginStyle[prop] || null;
-            });
-            // show up instantly otherwise we animate to off the grid when switching back to 'absolute' from 'fixed'
-            this.helper.style.transition = 'none';
-            setTimeout(() => {
-                if (this.helper) {
-                    this.helper.style.transition = this.dragElementOriginStyle['transition']; // recover animation
-                }
-            }, 0);
-        }
-        delete this.dragElementOriginStyle;
-        return this;
-    }
-    /** @internal */
-    _dragFollow(event) {
-        if (this.paintTimer) {
-            cancelAnimationFrame(this.paintTimer);
-        }
-        this.paintTimer = requestAnimationFrame(() => {
-            delete this.paintTimer;
-            const offset = this.dragOffset;
-            let containmentRect = { left: 0, top: 0 };
-            if (this.helper.style.position === 'absolute') {
-                const { left, top } = this.helperContainment.getBoundingClientRect();
-                containmentRect = { left, top };
-            }
-            this.helper.style.left = event.clientX + offset.offsetLeft - containmentRect.left + 'px';
-            this.helper.style.top = event.clientY + offset.offsetTop - containmentRect.top + 'px';
-        });
-    }
-    /** @internal */
-    _setupHelperContainmentStyle() {
-        this.helperContainment = this.helper.parentElement;
-        if (this.helper.style.position !== 'fixed') {
-            this.parentOriginStylePosition = this.helperContainment.style.position;
-            if (window.getComputedStyle(this.helperContainment).position.match(/static/)) {
-                this.helperContainment.style.position = 'relative';
-            }
-        }
-        return this;
-    }
-    /** @internal prevent the default ghost image to be created (which has wrong as we move the helper/element instead
-     * (legacy jquery UI code updates the top/left of the item).
-     * TODO: maybe use mouse event instead of HTML5 drag as we have to work around it anyway, or change code to not update
-     * the actual grid-item but move the ghost image around (and special case jq version) ?
-     **/
-    _cancelDragGhost(e) {
-        /* doesn't seem to do anything...
-        let t = e.dataTransfer;
-        t.effectAllowed = 'none';
-        t.dropEffect = 'none';
-        t.setData('text', '');
-        */
-        // NOTE: according to spec (and required by Safari see #1540) the image has to be visible in the browser (in dom and not hidden) so make it a 1px div
-        let img = document.createElement('div');
-        img.style.width = '1px';
-        img.style.height = '1px';
-        img.style.position = 'fixed'; // prevent unwanted scrollbar
-        document.body.appendChild(img);
-        e.dataTransfer.setDragImage(img, 0, 0);
-        setTimeout(() => document.body.removeChild(img)); // nuke once drag had a chance to grab this 'image'
-        e.stopPropagation();
-        return this;
-    }
-    /** @internal */
-    _getDragOffset(event, el, parent) {
-        // in case ancestor has transform/perspective css properties that change the viewpoint
-        let xformOffsetX = 0;
-        let xformOffsetY = 0;
-        if (parent) {
-            const testEl = document.createElement('div');
-            dd_utils_1.DDUtils.addElStyles(testEl, {
-                opacity: '0',
-                position: 'fixed',
-                top: 0 + 'px',
-                left: 0 + 'px',
-                width: '1px',
-                height: '1px',
-                zIndex: '-999999',
-            });
-            parent.appendChild(testEl);
-            const testElPosition = testEl.getBoundingClientRect();
-            parent.removeChild(testEl);
-            xformOffsetX = testElPosition.left;
-            xformOffsetY = testElPosition.top;
-            // TODO: scale ?
-        }
-        const targetOffset = el.getBoundingClientRect();
-        return {
-            left: targetOffset.left,
-            top: targetOffset.top,
-            offsetLeft: -event.clientX + targetOffset.left - xformOffsetX,
-            offsetTop: -event.clientY + targetOffset.top - xformOffsetY,
-            width: targetOffset.width,
-            height: targetOffset.height
-        };
-    }
-}
-exports.DDDraggable = DDDraggable;
-/** @internal #1541 can't have {passive: true} on Safari as otherwise it reverts animate back to old location on drop */
-DDDraggable.dragEventListenerOption = true; // DDUtils.isEventSupportPassiveOption ? { capture: true, passive: true } : true;
-/** @internal */
-DDDraggable.originStyleProp = ['transition', 'pointerEvents', 'position',
-    'left', 'top', 'opacity', 'zIndex', 'width', 'height', 'willChange', 'min-width'];
-//# sourceMappingURL=dd-draggable.js.map
-
-/***/ }),
-
-/***/ "../../node_modules/gridstack/dist/h5/dd-droppable.js":
-/*!************************************************************!*\
-  !*** ../../node_modules/gridstack/dist/h5/dd-droppable.js ***!
-  \************************************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-"use strict";
-
-/**
- * dd-droppable.ts 5.0
- * Copyright (c) 2021 Alain Dumesny - see GridStack root license
- */
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.DDDroppable = void 0;
-const dd_manager_1 = __webpack_require__(/*! ./dd-manager */ "../../node_modules/gridstack/dist/h5/dd-manager.js");
-const dd_base_impl_1 = __webpack_require__(/*! ./dd-base-impl */ "../../node_modules/gridstack/dist/h5/dd-base-impl.js");
-const dd_utils_1 = __webpack_require__(/*! ./dd-utils */ "../../node_modules/gridstack/dist/h5/dd-utils.js");
-// TEST let count = 0;
-class DDDroppable extends dd_base_impl_1.DDBaseImplement {
-    constructor(el, opts = {}) {
-        super();
-        this.el = el;
-        this.option = opts;
-        // create var event binding so we can easily remove and still look like TS methods (unlike anonymous functions)
-        this._dragEnter = this._dragEnter.bind(this);
-        this._dragOver = this._dragOver.bind(this);
-        this._dragLeave = this._dragLeave.bind(this);
-        this._drop = this._drop.bind(this);
-        this.el.classList.add('ui-droppable');
-        this.el.addEventListener('dragenter', this._dragEnter);
-        this._setupAccept();
-    }
-    on(event, callback) {
-        super.on(event, callback);
-    }
-    off(event) {
-        super.off(event);
-    }
-    enable() {
-        if (!this.disabled)
-            return;
-        super.enable();
-        this.el.classList.remove('ui-droppable-disabled');
-        this.el.addEventListener('dragenter', this._dragEnter);
-    }
-    disable(forDestroy = false) {
-        if (this.disabled)
-            return;
-        super.disable();
-        if (!forDestroy)
-            this.el.classList.add('ui-droppable-disabled');
-        this.el.removeEventListener('dragenter', this._dragEnter);
-    }
-    destroy() {
-        this._removeLeaveCallbacks();
-        this.disable(true);
-        this.el.classList.remove('ui-droppable');
-        this.el.classList.remove('ui-droppable-disabled');
-        super.destroy();
-    }
-    updateOption(opts) {
-        Object.keys(opts).forEach(key => this.option[key] = opts[key]);
-        this._setupAccept();
-        return this;
-    }
-    /** @internal called when the cursor enters our area - prepare for a possible drop and track leaving */
-    _dragEnter(event) {
-        // TEST console.log(`${count++} Enter ${(this.el as GridHTMLElement).gridstack.opts.id}`);
-        if (!this._canDrop())
-            return;
-        event.preventDefault();
-        event.stopPropagation();
-        // ignore multiple 'dragenter' as we go over existing items
-        if (this.moving)
-            return;
-        this.moving = true;
-        const ev = dd_utils_1.DDUtils.initEvent(event, { target: this.el, type: 'dropover' });
-        if (this.option.over) {
-            this.option.over(ev, this._ui(dd_manager_1.DDManager.dragElement));
-        }
-        this.triggerEvent('dropover', ev);
-        this.el.addEventListener('dragover', this._dragOver);
-        this.el.addEventListener('drop', this._drop);
-        this.el.addEventListener('dragleave', this._dragLeave);
-        // Update: removed that as it causes nested grids to no receive dragenter events when parent drags and sets this for #992. not seeing cursor flicker (chrome).
-        // this.el.classList.add('ui-droppable-over');
-        // make sure when we enter this, that the last one gets a leave to correctly cleanup as we don't always do
-        if (DDDroppable.lastActive && DDDroppable.lastActive !== this) {
-            DDDroppable.lastActive._dragLeave(event, true);
-        }
-        DDDroppable.lastActive = this;
-    }
-    /** @internal called when an moving to drop item is being dragged over - do nothing but eat the event */
-    _dragOver(event) {
-        event.preventDefault();
-        event.stopPropagation();
-    }
-    /** @internal called when the item is leaving our area, stop tracking if we had moving item */
-    _dragLeave(event, forceLeave) {
-        var _a;
-        // TEST console.log(`${count++} Leave ${(this.el as GridHTMLElement).gridstack.opts.id}`);
-        event.preventDefault();
-        event.stopPropagation();
-        // ignore leave events on our children (we get them when starting to drag our items)
-        // but exclude nested grids since we would still be leaving ourself, 
-        // but don't handle leave if we're dragging a nested grid around
-        if (!forceLeave) {
-            let onChild = dd_utils_1.DDUtils.inside(event, this.el);
-            let drag = dd_manager_1.DDManager.dragElement.el;
-            if (onChild && !((_a = drag.gridstackNode) === null || _a === void 0 ? void 0 : _a.subGrid)) { // dragging a nested grid ?
-                let nestedEl = this.el.gridstack.engine.nodes.filter(n => n.subGrid).map(n => n.subGrid.el);
-                onChild = !nestedEl.some(el => dd_utils_1.DDUtils.inside(event, el));
-            }
-            if (onChild)
-                return;
-        }
-        if (this.moving) {
-            const ev = dd_utils_1.DDUtils.initEvent(event, { target: this.el, type: 'dropout' });
-            if (this.option.out) {
-                this.option.out(ev, this._ui(dd_manager_1.DDManager.dragElement));
-            }
-            this.triggerEvent('dropout', ev);
-        }
-        this._removeLeaveCallbacks();
-        if (DDDroppable.lastActive === this) {
-            delete DDDroppable.lastActive;
-        }
-    }
-    /** @internal item is being dropped on us - call the client drop event */
-    _drop(event) {
-        if (!this.moving)
-            return; // should not have received event...
-        event.preventDefault();
-        const ev = dd_utils_1.DDUtils.initEvent(event, { target: this.el, type: 'drop' });
-        if (this.option.drop) {
-            this.option.drop(ev, this._ui(dd_manager_1.DDManager.dragElement));
-        }
-        this.triggerEvent('drop', ev);
-        this._removeLeaveCallbacks();
-    }
-    /** @internal called to remove callbacks when leaving or dropping */
-    _removeLeaveCallbacks() {
-        if (!this.moving) {
-            return;
-        }
-        delete this.moving;
-        this.el.removeEventListener('dragover', this._dragOver);
-        this.el.removeEventListener('drop', this._drop);
-        this.el.removeEventListener('dragleave', this._dragLeave);
-        // Update: removed that as it causes nested grids to no receive dragenter events when parent drags and sets this for #992. not seeing cursor flicker (chrome).
-        // this.el.classList.remove('ui-droppable-over');
-    }
-    /** @internal */
-    _canDrop() {
-        return dd_manager_1.DDManager.dragElement && (!this.accept || this.accept(dd_manager_1.DDManager.dragElement.el));
-    }
-    /** @internal */
-    _setupAccept() {
-        if (this.option.accept && typeof this.option.accept === 'string') {
-            this.accept = (el) => {
-                return el.matches(this.option.accept);
-            };
-        }
-        else {
-            this.accept = this.option.accept;
-        }
-        return this;
-    }
-    /** @internal */
-    _ui(drag) {
-        return Object.assign({ draggable: drag.el }, drag.ui());
-    }
-}
-exports.DDDroppable = DDDroppable;
-//# sourceMappingURL=dd-droppable.js.map
-
-/***/ }),
-
-/***/ "../../node_modules/gridstack/dist/h5/dd-element.js":
-/*!**********************************************************!*\
-  !*** ../../node_modules/gridstack/dist/h5/dd-element.js ***!
-  \**********************************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-"use strict";
-
-/**
- * dd-elements.ts 5.0
- * Copyright (c) 2021 Alain Dumesny - see GridStack root license
- */
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.DDElement = void 0;
-const dd_resizable_1 = __webpack_require__(/*! ./dd-resizable */ "../../node_modules/gridstack/dist/h5/dd-resizable.js");
-const dd_draggable_1 = __webpack_require__(/*! ./dd-draggable */ "../../node_modules/gridstack/dist/h5/dd-draggable.js");
-const dd_droppable_1 = __webpack_require__(/*! ./dd-droppable */ "../../node_modules/gridstack/dist/h5/dd-droppable.js");
-class DDElement {
-    constructor(el) {
-        this.el = el;
-    }
-    static init(el) {
-        if (!el.ddElement) {
-            el.ddElement = new DDElement(el);
-        }
-        return el.ddElement;
-    }
-    on(eventName, callback) {
-        if (this.ddDraggable && ['drag', 'dragstart', 'dragstop'].indexOf(eventName) > -1) {
-            this.ddDraggable.on(eventName, callback);
-        }
-        else if (this.ddDroppable && ['drop', 'dropover', 'dropout'].indexOf(eventName) > -1) {
-            this.ddDroppable.on(eventName, callback);
-        }
-        else if (this.ddResizable && ['resizestart', 'resize', 'resizestop'].indexOf(eventName) > -1) {
-            this.ddResizable.on(eventName, callback);
-        }
-        return this;
-    }
-    off(eventName) {
-        if (this.ddDraggable && ['drag', 'dragstart', 'dragstop'].indexOf(eventName) > -1) {
-            this.ddDraggable.off(eventName);
-        }
-        else if (this.ddDroppable && ['drop', 'dropover', 'dropout'].indexOf(eventName) > -1) {
-            this.ddDroppable.off(eventName);
-        }
-        else if (this.ddResizable && ['resizestart', 'resize', 'resizestop'].indexOf(eventName) > -1) {
-            this.ddResizable.off(eventName);
-        }
-        return this;
-    }
-    setupDraggable(opts) {
-        if (!this.ddDraggable) {
-            this.ddDraggable = new dd_draggable_1.DDDraggable(this.el, opts);
-        }
-        else {
-            this.ddDraggable.updateOption(opts);
-        }
-        return this;
-    }
-    cleanDraggable() {
-        if (this.ddDraggable) {
-            this.ddDraggable.destroy();
-            delete this.ddDraggable;
-        }
-        return this;
-    }
-    setupResizable(opts) {
-        if (!this.ddResizable) {
-            this.ddResizable = new dd_resizable_1.DDResizable(this.el, opts);
-        }
-        else {
-            this.ddResizable.updateOption(opts);
-        }
-        return this;
-    }
-    cleanResizable() {
-        if (this.ddResizable) {
-            this.ddResizable.destroy();
-            delete this.ddResizable;
-        }
-        return this;
-    }
-    setupDroppable(opts) {
-        if (!this.ddDroppable) {
-            this.ddDroppable = new dd_droppable_1.DDDroppable(this.el, opts);
-        }
-        else {
-            this.ddDroppable.updateOption(opts);
-        }
-        return this;
-    }
-    cleanDroppable() {
-        if (this.ddDroppable) {
-            this.ddDroppable.destroy();
-            delete this.ddDroppable;
-        }
-        return this;
-    }
-}
-exports.DDElement = DDElement;
-//# sourceMappingURL=dd-element.js.map
-
-/***/ }),
-
-/***/ "../../node_modules/gridstack/dist/h5/dd-manager.js":
-/*!**********************************************************!*\
-  !*** ../../node_modules/gridstack/dist/h5/dd-manager.js ***!
-  \**********************************************************/
-/***/ ((__unused_webpack_module, exports) => {
-
-"use strict";
-
-/**
- * dd-manager.ts 5.0
- * Copyright (c) 2021 Alain Dumesny - see GridStack root license
- */
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.DDManager = void 0;
-class DDManager {
-}
-exports.DDManager = DDManager;
-//# sourceMappingURL=dd-manager.js.map
-
-/***/ }),
-
-/***/ "../../node_modules/gridstack/dist/h5/dd-resizable-handle.js":
-/*!*******************************************************************!*\
-  !*** ../../node_modules/gridstack/dist/h5/dd-resizable-handle.js ***!
-  \*******************************************************************/
-/***/ ((__unused_webpack_module, exports) => {
-
-"use strict";
-
-/**
- * dd-resizable-handle.ts 5.0
- * Copyright (c) 2021 Alain Dumesny - see GridStack root license
- */
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.DDResizableHandle = void 0;
-class DDResizableHandle {
-    constructor(host, direction, option) {
-        /** @internal true after we've moved enough pixels to start a resize */
-        this.moving = false;
-        this.host = host;
-        this.dir = direction;
-        this.option = option;
-        // create var event binding so we can easily remove and still look like TS methods (unlike anonymous functions)
-        this._mouseDown = this._mouseDown.bind(this);
-        this._mouseMove = this._mouseMove.bind(this);
-        this._mouseUp = this._mouseUp.bind(this);
-        this._init();
-    }
-    /** @internal */
-    _init() {
-        const el = document.createElement('div');
-        el.classList.add('ui-resizable-handle');
-        el.classList.add(`${DDResizableHandle.prefix}${this.dir}`);
-        el.style.zIndex = '100';
-        el.style.userSelect = 'none';
-        this.el = el;
-        this.host.appendChild(this.el);
-        this.el.addEventListener('mousedown', this._mouseDown);
-        return this;
-    }
-    /** call this when resize handle needs to be removed and cleaned up */
-    destroy() {
-        if (this.moving)
-            this._mouseUp(this.mouseDownEvent);
-        this.el.removeEventListener('mousedown', this._mouseDown);
-        this.host.removeChild(this.el);
-        delete this.el;
-        delete this.host;
-        return this;
-    }
-    /** @internal called on mouse down on us: capture move on the entire document (mouse might not stay on us) until we release the mouse */
-    _mouseDown(e) {
-        e.preventDefault();
-        this.mouseDownEvent = e;
-        document.addEventListener('mousemove', this._mouseMove, true); // capture, not bubble
-        document.addEventListener('mouseup', this._mouseUp);
-    }
-    /** @internal */
-    _mouseMove(e) {
-        let s = this.mouseDownEvent;
-        // don't start unless we've moved at least 3 pixels
-        if (!this.moving && Math.abs(e.x - s.x) + Math.abs(e.y - s.y) > 2) {
-            this.moving = true;
-            this._triggerEvent('start', this.mouseDownEvent);
-        }
-        else if (this.moving) {
-            this._triggerEvent('move', e);
-        }
-    }
-    /** @internal */
-    _mouseUp(e) {
-        if (this.moving) {
-            this._triggerEvent('stop', e);
-        }
-        document.removeEventListener('mousemove', this._mouseMove, true);
-        document.removeEventListener('mouseup', this._mouseUp);
-        delete this.moving;
-        delete this.mouseDownEvent;
-    }
-    /** @internal */
-    _triggerEvent(name, event) {
-        if (this.option[name])
-            this.option[name](event);
-        return this;
-    }
-}
-exports.DDResizableHandle = DDResizableHandle;
-/** @internal */
-DDResizableHandle.prefix = 'ui-resizable-';
-//# sourceMappingURL=dd-resizable-handle.js.map
-
-/***/ }),
-
-/***/ "../../node_modules/gridstack/dist/h5/dd-resizable.js":
-/*!************************************************************!*\
-  !*** ../../node_modules/gridstack/dist/h5/dd-resizable.js ***!
-  \************************************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-"use strict";
-
-/**
- * dd-resizable.ts 5.0
- * Copyright (c) 2021 Alain Dumesny - see GridStack root license
- */
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.DDResizable = void 0;
-const dd_resizable_handle_1 = __webpack_require__(/*! ./dd-resizable-handle */ "../../node_modules/gridstack/dist/h5/dd-resizable-handle.js");
-const dd_base_impl_1 = __webpack_require__(/*! ./dd-base-impl */ "../../node_modules/gridstack/dist/h5/dd-base-impl.js");
-const dd_utils_1 = __webpack_require__(/*! ./dd-utils */ "../../node_modules/gridstack/dist/h5/dd-utils.js");
-const utils_1 = __webpack_require__(/*! ../utils */ "../../node_modules/gridstack/dist/utils.js");
-class DDResizable extends dd_base_impl_1.DDBaseImplement {
-    constructor(el, opts = {}) {
-        super();
-        /** @internal */
-        this._showHandlers = () => {
-            this.el.classList.remove('ui-resizable-autohide');
-        };
-        /** @internal */
-        this._hideHandlers = () => {
-            this.el.classList.add('ui-resizable-autohide');
-        };
-        /** @internal */
-        this._ui = () => {
-            const containmentEl = this.el.parentElement;
-            const containmentRect = containmentEl.getBoundingClientRect();
-            const newRect = {
-                width: this.originalRect.width,
-                height: this.originalRect.height + this.scrolled,
-                left: this.originalRect.left,
-                top: this.originalRect.top - this.scrolled
-            };
-            const rect = this.temporalRect || newRect;
-            return {
-                position: {
-                    left: rect.left - containmentRect.left,
-                    top: rect.top - containmentRect.top
-                },
-                size: {
-                    width: rect.width,
-                    height: rect.height
-                }
-                /* Gridstack ONLY needs position set above... keep around in case.
-                element: [this.el], // The object representing the element to be resized
-                helper: [], // TODO: not support yet - The object representing the helper that's being resized
-                originalElement: [this.el],// we don't wrap here, so simplify as this.el //The object representing the original element before it is wrapped
-                originalPosition: { // The position represented as { left, top } before the resizable is resized
-                  left: this.originalRect.left - containmentRect.left,
-                  top: this.originalRect.top - containmentRect.top
-                },
-                originalSize: { // The size represented as { width, height } before the resizable is resized
-                  width: this.originalRect.width,
-                  height: this.originalRect.height
-                }
-                */
-            };
-        };
-        this.el = el;
-        this.option = opts;
-        this.enable();
-        this._setupAutoHide();
-        this._setupHandlers();
-    }
-    on(event, callback) {
-        super.on(event, callback);
-    }
-    off(event) {
-        super.off(event);
-    }
-    enable() {
-        super.enable();
-        this.el.classList.add('ui-resizable');
-        this.el.classList.remove('ui-resizable-disabled');
-    }
-    disable() {
-        super.disable();
-        this.el.classList.add('ui-resizable-disabled');
-        this.el.classList.remove('ui-resizable');
-    }
-    destroy() {
-        this._removeHandlers();
-        if (this.option.autoHide) {
-            this.el.removeEventListener('mouseover', this._showHandlers);
-            this.el.removeEventListener('mouseout', this._hideHandlers);
-        }
-        this.el.classList.remove('ui-resizable');
-        delete this.el;
-        super.destroy();
-    }
-    updateOption(opts) {
-        let updateHandles = (opts.handles && opts.handles !== this.option.handles);
-        let updateAutoHide = (opts.autoHide && opts.autoHide !== this.option.autoHide);
-        Object.keys(opts).forEach(key => this.option[key] = opts[key]);
-        if (updateHandles) {
-            this._removeHandlers();
-            this._setupHandlers();
-        }
-        if (updateAutoHide) {
-            this._setupAutoHide();
-        }
-        return this;
-    }
-    /** @internal */
-    _setupAutoHide() {
-        if (this.option.autoHide) {
-            this.el.classList.add('ui-resizable-autohide');
-            // use mouseover/mouseout instead of mouseenter/mouseleave to get better performance;
-            this.el.addEventListener('mouseover', this._showHandlers);
-            this.el.addEventListener('mouseout', this._hideHandlers);
-        }
-        else {
-            this.el.classList.remove('ui-resizable-autohide');
-            this.el.removeEventListener('mouseover', this._showHandlers);
-            this.el.removeEventListener('mouseout', this._hideHandlers);
-        }
-        return this;
-    }
-    /** @internal */
-    _setupHandlers() {
-        let handlerDirection = this.option.handles || 'e,s,se';
-        if (handlerDirection === 'all') {
-            handlerDirection = 'n,e,s,w,se,sw,ne,nw';
-        }
-        this.handlers = handlerDirection.split(',')
-            .map(dir => dir.trim())
-            .map(dir => new dd_resizable_handle_1.DDResizableHandle(this.el, dir, {
-            start: (event) => {
-                this._resizeStart(event);
-            },
-            stop: (event) => {
-                this._resizeStop(event);
-            },
-            move: (event) => {
-                this._resizing(event, dir);
-            }
-        }));
-        return this;
-    }
-    /** @internal */
-    _resizeStart(event) {
-        this.originalRect = this.el.getBoundingClientRect();
-        this.scrollEl = utils_1.Utils.getScrollElement(this.el);
-        this.scrollY = this.scrollEl.scrollTop;
-        this.scrolled = 0;
-        this.startEvent = event;
-        this._setupHelper();
-        this._applyChange();
-        const ev = dd_utils_1.DDUtils.initEvent(event, { type: 'resizestart', target: this.el });
-        if (this.option.start) {
-            this.option.start(ev, this._ui());
-        }
-        this.el.classList.add('ui-resizable-resizing');
-        this.triggerEvent('resizestart', ev);
-        return this;
-    }
-    /** @internal */
-    _resizing(event, dir) {
-        this.scrolled = this.scrollEl.scrollTop - this.scrollY;
-        this.temporalRect = this._getChange(event, dir);
-        this._applyChange();
-        const ev = dd_utils_1.DDUtils.initEvent(event, { type: 'resize', target: this.el });
-        if (this.option.resize) {
-            this.option.resize(ev, this._ui());
-        }
-        this.triggerEvent('resize', ev);
-        return this;
-    }
-    /** @internal */
-    _resizeStop(event) {
-        const ev = dd_utils_1.DDUtils.initEvent(event, { type: 'resizestop', target: this.el });
-        if (this.option.stop) {
-            this.option.stop(ev); // Note: ui() not used by gridstack so don't pass
-        }
-        this.el.classList.remove('ui-resizable-resizing');
-        this.triggerEvent('resizestop', ev);
-        this._cleanHelper();
-        delete this.startEvent;
-        delete this.originalRect;
-        delete this.temporalRect;
-        delete this.scrollY;
-        delete this.scrolled;
-        return this;
-    }
-    /** @internal */
-    _setupHelper() {
-        this.elOriginStyleVal = DDResizable._originStyleProp.map(prop => this.el.style[prop]);
-        this.parentOriginStylePosition = this.el.parentElement.style.position;
-        if (window.getComputedStyle(this.el.parentElement).position.match(/static/)) {
-            this.el.parentElement.style.position = 'relative';
-        }
-        this.el.style.position = 'absolute';
-        this.el.style.opacity = '0.8';
-        return this;
-    }
-    /** @internal */
-    _cleanHelper() {
-        DDResizable._originStyleProp.forEach((prop, i) => {
-            this.el.style[prop] = this.elOriginStyleVal[i] || null;
-        });
-        this.el.parentElement.style.position = this.parentOriginStylePosition || null;
-        return this;
-    }
-    /** @internal */
-    _getChange(event, dir) {
-        const oEvent = this.startEvent;
-        const newRect = {
-            width: this.originalRect.width,
-            height: this.originalRect.height + this.scrolled,
-            left: this.originalRect.left,
-            top: this.originalRect.top - this.scrolled
-        };
-        const offsetX = event.clientX - oEvent.clientX;
-        const offsetY = event.clientY - oEvent.clientY;
-        if (dir.indexOf('e') > -1) {
-            newRect.width += offsetX;
-        }
-        else if (dir.indexOf('w') > -1) {
-            newRect.width -= offsetX;
-            newRect.left += offsetX;
-        }
-        if (dir.indexOf('s') > -1) {
-            newRect.height += offsetY;
-        }
-        else if (dir.indexOf('n') > -1) {
-            newRect.height -= offsetY;
-            newRect.top += offsetY;
-        }
-        const constrain = this._constrainSize(newRect.width, newRect.height);
-        if (Math.round(newRect.width) !== Math.round(constrain.width)) { // round to ignore slight round-off errors
-            if (dir.indexOf('w') > -1) {
-                newRect.left += newRect.width - constrain.width;
-            }
-            newRect.width = constrain.width;
-        }
-        if (Math.round(newRect.height) !== Math.round(constrain.height)) {
-            if (dir.indexOf('n') > -1) {
-                newRect.top += newRect.height - constrain.height;
-            }
-            newRect.height = constrain.height;
-        }
-        return newRect;
-    }
-    /** @internal constrain the size to the set min/max values */
-    _constrainSize(oWidth, oHeight) {
-        const maxWidth = this.option.maxWidth || Number.MAX_SAFE_INTEGER;
-        const minWidth = this.option.minWidth || oWidth;
-        const maxHeight = this.option.maxHeight || Number.MAX_SAFE_INTEGER;
-        const minHeight = this.option.minHeight || oHeight;
-        const width = Math.min(maxWidth, Math.max(minWidth, oWidth));
-        const height = Math.min(maxHeight, Math.max(minHeight, oHeight));
-        return { width, height };
-    }
-    /** @internal */
-    _applyChange() {
-        let containmentRect = { left: 0, top: 0, width: 0, height: 0 };
-        if (this.el.style.position === 'absolute') {
-            const containmentEl = this.el.parentElement;
-            const { left, top } = containmentEl.getBoundingClientRect();
-            containmentRect = { left, top, width: 0, height: 0 };
-        }
-        if (!this.temporalRect)
-            return this;
-        Object.keys(this.temporalRect).forEach(key => {
-            const value = this.temporalRect[key];
-            this.el.style[key] = value - containmentRect[key] + 'px';
-        });
-        return this;
-    }
-    /** @internal */
-    _removeHandlers() {
-        this.handlers.forEach(handle => handle.destroy());
-        delete this.handlers;
-        return this;
-    }
-}
-exports.DDResizable = DDResizable;
-/** @internal */
-DDResizable._originStyleProp = ['width', 'height', 'position', 'left', 'top', 'opacity', 'zIndex'];
-//# sourceMappingURL=dd-resizable.js.map
-
-/***/ }),
-
-/***/ "../../node_modules/gridstack/dist/h5/dd-utils.js":
-/*!********************************************************!*\
-  !*** ../../node_modules/gridstack/dist/h5/dd-utils.js ***!
-  \********************************************************/
-/***/ ((__unused_webpack_module, exports) => {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.DDUtils = void 0;
-/**
- * dd-utils.ts 5.0
- * Copyright (c) 2021 Alain Dumesny - see GridStack root license
- */
-class DDUtils {
-    static clone(el) {
-        const node = el.cloneNode(true);
-        node.removeAttribute('id');
-        return node;
-    }
-    static appendTo(el, parent) {
-        let parentNode;
-        if (typeof parent === 'string') {
-            parentNode = document.querySelector(parent);
-        }
-        else {
-            parentNode = parent;
-        }
-        if (parentNode) {
-            parentNode.appendChild(el);
-        }
-    }
-    static setPositionRelative(el) {
-        if (!(/^(?:r|a|f)/).test(window.getComputedStyle(el).position)) {
-            el.style.position = "relative";
-        }
-    }
-    static addElStyles(el, styles) {
-        if (styles instanceof Object) {
-            for (const s in styles) {
-                if (styles.hasOwnProperty(s)) {
-                    if (Array.isArray(styles[s])) {
-                        // support fallback value
-                        styles[s].forEach(val => {
-                            el.style[s] = val;
-                        });
-                    }
-                    else {
-                        el.style[s] = styles[s];
-                    }
-                }
-            }
-        }
-    }
-    static initEvent(e, info) {
-        const evt = { type: info.type };
-        const obj = {
-            button: 0,
-            which: 0,
-            buttons: 1,
-            bubbles: true,
-            cancelable: true,
-            target: info.target ? info.target : e.target
-        };
-        // don't check for `instanceof DragEvent` as Safari use MouseEvent #1540
-        if (e.dataTransfer) {
-            evt['dataTransfer'] = e.dataTransfer; // workaround 'readonly' field.
-        }
-        ['altKey', 'ctrlKey', 'metaKey', 'shiftKey'].forEach(p => evt[p] = e[p]); // keys
-        ['pageX', 'pageY', 'clientX', 'clientY', 'screenX', 'screenY'].forEach(p => evt[p] = e[p]); // point info
-        return Object.assign(Object.assign({}, evt), obj);
-    }
-    /** returns true if event is inside the given element rectangle */
-    // Note: Safari Mac has null event.relatedTarget which causes #1684 so check if DragEvent is inside the coordinates instead
-    //    this.el.contains(event.relatedTarget as HTMLElement)
-    static inside(e, el) {
-        // srcElement, toElement, target: all set to placeholder when leaving simple grid, so we can't use that (Chrome)
-        let target = e.relatedTarget || e.fromElement;
-        if (!target) {
-            const { bottom, left, right, top } = el.getBoundingClientRect();
-            return (e.x < right && e.x > left && e.y < bottom && e.y > top);
-        }
-        return el.contains(target);
-    }
-}
-exports.DDUtils = DDUtils;
-DDUtils.isEventSupportPassiveOption = ((() => {
-    let supportsPassive = false;
-    let passiveTest = () => {
-        // do nothing
-    };
-    document.addEventListener('test', passiveTest, {
-        get passive() {
-            supportsPassive = true;
-            return true;
-        }
-    });
-    document.removeEventListener('test', passiveTest);
-    return supportsPassive;
-})());
-//# sourceMappingURL=dd-utils.js.map
-
-/***/ }),
-
-/***/ "../../node_modules/gridstack/dist/h5/gridstack-dd-native.js":
-/*!*******************************************************************!*\
-  !*** ../../node_modules/gridstack/dist/h5/gridstack-dd-native.js ***!
-  \*******************************************************************/
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
-
-"use strict";
-
-/**
- * gridstack-dd-native.ts 5.0
- * Copyright (c) 2021 Alain Dumesny - see GridStack root license
- */
-var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
-}) : (function(o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    o[k2] = m[k];
-}));
-var __exportStar = (this && this.__exportStar) || function(m, exports) {
-    for (var p in m) if (p !== "default" && !exports.hasOwnProperty(p)) __createBinding(exports, m, p);
-};
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.GridStackDDNative = void 0;
-const dd_manager_1 = __webpack_require__(/*! ./dd-manager */ "../../node_modules/gridstack/dist/h5/dd-manager.js");
-const dd_element_1 = __webpack_require__(/*! ./dd-element */ "../../node_modules/gridstack/dist/h5/dd-element.js");
-const gridstack_dd_1 = __webpack_require__(/*! ../gridstack-dd */ "../../node_modules/gridstack/dist/gridstack-dd.js");
-const utils_1 = __webpack_require__(/*! ../utils */ "../../node_modules/gridstack/dist/utils.js");
-// export our base class (what user should use) and all associated types
-__exportStar(__webpack_require__(/*! ../gridstack-dd */ "../../node_modules/gridstack/dist/gridstack-dd.js"), exports);
-/**
- * HTML 5 Native DragDrop based drag'n'drop plugin.
- */
-class GridStackDDNative extends gridstack_dd_1.GridStackDD {
-    resizable(el, opts, key, value) {
-        this._getDDElements(el).forEach(dEl => {
-            if (opts === 'disable' || opts === 'enable') {
-                dEl.ddResizable && dEl.ddResizable[opts](); // can't create DD as it requires options for setupResizable()
-            }
-            else if (opts === 'destroy') {
-                dEl.ddResizable && dEl.cleanResizable();
-            }
-            else if (opts === 'option') {
-                dEl.setupResizable({ [key]: value });
-            }
-            else {
-                const grid = dEl.el.gridstackNode.grid;
-                let handles = dEl.el.getAttribute('gs-resize-handles') ? dEl.el.getAttribute('gs-resize-handles') : grid.opts.resizable.handles;
-                dEl.setupResizable(Object.assign(Object.assign(Object.assign({}, grid.opts.resizable), { handles: handles }), {
-                    start: opts.start,
-                    stop: opts.stop,
-                    resize: opts.resize
-                }));
-            }
-        });
-        return this;
-    }
-    draggable(el, opts, key, value) {
-        this._getDDElements(el).forEach(dEl => {
-            if (opts === 'disable' || opts === 'enable') {
-                dEl.ddDraggable && dEl.ddDraggable[opts](); // can't create DD as it requires options for setupDraggable()
-            }
-            else if (opts === 'destroy') {
-                dEl.ddDraggable && dEl.cleanDraggable();
-            }
-            else if (opts === 'option') {
-                dEl.setupDraggable({ [key]: value });
-            }
-            else {
-                const grid = dEl.el.gridstackNode.grid;
-                dEl.setupDraggable(Object.assign(Object.assign({}, grid.opts.draggable), {
-                    containment: (grid.opts._isNested && !grid.opts.dragOut)
-                        ? grid.el.parentElement
-                        : (grid.opts.draggable.containment || null),
-                    start: opts.start,
-                    stop: opts.stop,
-                    drag: opts.drag
-                }));
-            }
-        });
-        return this;
-    }
-    dragIn(el, opts) {
-        this._getDDElements(el).forEach(dEl => dEl.setupDraggable(opts));
-        return this;
-    }
-    droppable(el, opts, key, value) {
-        if (typeof opts.accept === 'function' && !opts._accept) {
-            opts._accept = opts.accept;
-            opts.accept = (el) => opts._accept(el);
-        }
-        this._getDDElements(el).forEach(dEl => {
-            if (opts === 'disable' || opts === 'enable') {
-                dEl.ddDroppable && dEl.ddDroppable[opts]();
-            }
-            else if (opts === 'destroy') {
-                if (dEl.ddDroppable) { // error to call destroy if not there
-                    dEl.cleanDroppable();
-                }
-            }
-            else if (opts === 'option') {
-                dEl.setupDroppable({ [key]: value });
-            }
-            else {
-                dEl.setupDroppable(opts);
-            }
-        });
-        return this;
-    }
-    /** true if element is droppable */
-    isDroppable(el) {
-        return !!(el && el.ddElement && el.ddElement.ddDroppable && !el.ddElement.ddDroppable.disabled);
-    }
-    /** true if element is draggable */
-    isDraggable(el) {
-        return !!(el && el.ddElement && el.ddElement.ddDraggable && !el.ddElement.ddDraggable.disabled);
-    }
-    /** true if element is draggable */
-    isResizable(el) {
-        return !!(el && el.ddElement && el.ddElement.ddResizable && !el.ddElement.ddResizable.disabled);
-    }
-    on(el, name, callback) {
-        this._getDDElements(el).forEach(dEl => dEl.on(name, (event) => {
-            callback(event, dd_manager_1.DDManager.dragElement ? dd_manager_1.DDManager.dragElement.el : event.target, dd_manager_1.DDManager.dragElement ? dd_manager_1.DDManager.dragElement.helper : null);
-        }));
-        return this;
-    }
-    off(el, name) {
-        this._getDDElements(el).forEach(dEl => dEl.off(name));
-        return this;
-    }
-    /** @internal returns a list of DD elements, creating them on the fly by default */
-    _getDDElements(els, create = true) {
-        let hosts = utils_1.Utils.getElements(els);
-        if (!hosts.length)
-            return [];
-        let list = hosts.map(e => e.ddElement || (create ? dd_element_1.DDElement.init(e) : null));
-        if (!create) {
-            list.filter(d => d);
-        } // remove nulls
-        return list;
-    }
-}
-exports.GridStackDDNative = GridStackDDNative;
-// finally register ourself
-gridstack_dd_1.GridStackDD.registerPlugin(GridStackDDNative);
-//# sourceMappingURL=gridstack-dd-native.js.map
 
 /***/ }),
 
@@ -25105,7 +25134,7 @@ gridstack_dd_1.GridStackDD.registerPlugin(GridStackDDNative);
 "use strict";
 
 /**
- * types.ts 5.0
+ * types.ts 6.0.1
  * Copyright (c) 2021 Alain Dumesny - see GridStack root license
  */
 Object.defineProperty(exports, "__esModule", ({ value: true }));
@@ -25122,7 +25151,7 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 "use strict";
 
 /**
- * utils.ts 5.0
+ * utils.ts 6.0.1
  * Copyright (c) 2021 Alain Dumesny - see GridStack root license
  */
 Object.defineProperty(exports, "__esModule", ({ value: true }));
@@ -25132,7 +25161,7 @@ exports.Utils = exports.obsoleteAttr = exports.obsoleteOptsDel = exports.obsolet
 function obsolete(self, f, oldName, newName, rev) {
     let wrapper = (...args) => {
         console.warn('gridstack.js: Function `' + oldName + '` is deprecated in ' + rev + ' and has been replaced ' +
-            'with `' + newName + '`. It will be **completely** removed in v1.0');
+            'with `' + newName + '`. It will be **removed** in a future release');
         return f.apply(self, args);
     };
     wrapper.prototype = f.prototype;
@@ -25144,7 +25173,7 @@ function obsoleteOpts(opts, oldName, newName, rev) {
     if (opts[oldName] !== undefined) {
         opts[newName] = opts[oldName];
         console.warn('gridstack.js: Option `' + oldName + '` is deprecated in ' + rev + ' and has been replaced with `' +
-            newName + '`. It will be **completely** removed in v1.0');
+            newName + '`. It will be **removed** in a future release');
     }
 }
 exports.obsoleteOpts = obsoleteOpts;
@@ -25161,7 +25190,7 @@ function obsoleteAttr(el, oldName, newName, rev) {
     if (oldAttr !== null) {
         el.setAttribute(newName, oldAttr);
         console.warn('gridstack.js: attribute `' + oldName + '`=' + oldAttr + ' is deprecated on this object in ' + rev + ' and has been replaced with `' +
-            newName + '`. It will be **completely** removed in v1.0');
+            newName + '`. It will be **removed** in a future release');
     }
 }
 exports.obsoleteAttr = obsoleteAttr;
@@ -25338,21 +25367,21 @@ class Utils {
         return true;
     }
     /** copies over b size & position (GridStackPosition), and possibly min/max as well */
-    static copyPos(a, b, minMax = false) {
+    static copyPos(a, b, doMinMax = false) {
         a.x = b.x;
         a.y = b.y;
         a.w = b.w;
         a.h = b.h;
-        if (!minMax)
-            return a;
-        if (b.minW)
-            a.minW = b.minW;
-        if (b.minH)
-            a.minH = b.minH;
-        if (b.maxW)
-            a.maxW = b.maxW;
-        if (b.maxH)
-            a.maxH = b.maxH;
+        if (doMinMax) {
+            if (b.minW)
+                a.minW = b.minW;
+            if (b.minH)
+                a.minH = b.minH;
+            if (b.maxW)
+                a.maxW = b.maxW;
+            if (b.maxH)
+                a.maxH = b.maxH;
+        }
         return a;
     }
     /** true if a and b has same size & position */
@@ -25512,6 +25541,8 @@ class Utils {
      * Note: this will use as-is any key starting with double __ (and not copy inside) some lib have circular dependencies.
      */
     static cloneDeep(obj) {
+        // list of fields we will skip during cloneDeep (nested objects, other internal)
+        const skipFields = ['_isNested', 'el', 'grid', 'subGrid', 'engine'];
         // return JSON.parse(JSON.stringify(obj)); // doesn't work with date format ?
         const ret = Utils.clone(obj);
         for (const key in ret) {
@@ -25522,10 +25553,66 @@ class Utils {
         }
         return ret;
     }
+    /** deep clone the given HTML node, removing teh unique id field */
+    static cloneNode(el) {
+        const node = el.cloneNode(true);
+        node.removeAttribute('id');
+        return node;
+    }
+    static appendTo(el, parent) {
+        let parentNode;
+        if (typeof parent === 'string') {
+            parentNode = document.querySelector(parent);
+        }
+        else {
+            parentNode = parent;
+        }
+        if (parentNode) {
+            parentNode.appendChild(el);
+        }
+    }
+    // public static setPositionRelative(el: HTMLElement): void {
+    //   if (!(/^(?:r|a|f)/).test(window.getComputedStyle(el).position)) {
+    //     el.style.position = "relative";
+    //   }
+    // }
+    static addElStyles(el, styles) {
+        if (styles instanceof Object) {
+            for (const s in styles) {
+                if (styles.hasOwnProperty(s)) {
+                    if (Array.isArray(styles[s])) {
+                        // support fallback value
+                        styles[s].forEach(val => {
+                            el.style[s] = val;
+                        });
+                    }
+                    else {
+                        el.style[s] = styles[s];
+                    }
+                }
+            }
+        }
+    }
+    static initEvent(e, info) {
+        const evt = { type: info.type };
+        const obj = {
+            button: 0,
+            which: 0,
+            buttons: 1,
+            bubbles: true,
+            cancelable: true,
+            target: info.target ? info.target : e.target
+        };
+        // don't check for `instanceof DragEvent` as Safari use MouseEvent #1540
+        if (e.dataTransfer) {
+            evt['dataTransfer'] = e.dataTransfer; // workaround 'readonly' field.
+        }
+        ['altKey', 'ctrlKey', 'metaKey', 'shiftKey'].forEach(p => evt[p] = e[p]); // keys
+        ['pageX', 'pageY', 'clientX', 'clientY', 'screenX', 'screenY'].forEach(p => evt[p] = e[p]); // point info
+        return Object.assign(Object.assign({}, evt), obj);
+    }
 }
 exports.Utils = Utils;
-// list of fields we will skip during cloneDeep (nested objects, other internal)
-const skipFields = ['_isNested', 'el', 'grid', 'subGrid', 'engine'];
 //# sourceMappingURL=utils.js.map
 
 /***/ }),
@@ -25702,7 +25789,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
   \******************************************************************/
 /***/ ((module, exports, __webpack_require__) => {
 
-var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__, exports, __webpack_require__(/*! tslib */ "../../node_modules/tslib/tslib.es6.js"), __webpack_require__(/*! aurelia-dependency-injection */ "../../node_modules/aurelia-dependency-injection/dist/es2015/aurelia-dependency-injection.js"), __webpack_require__(/*! aurelia-pal */ "../../node_modules/aurelia-pal/dist/es2015/aurelia-pal.js"), __webpack_require__(/*! aurelia-templating */ "../../node_modules/aurelia-templating/dist/es2015/aurelia-templating.js"), __webpack_require__(/*! aurelia-typed-observable-plugin */ "../../node_modules/aurelia-typed-observable-plugin/dist/es2015/index.js"), __webpack_require__(/*! gridstack */ "../../node_modules/gridstack/dist/gridstack.js"), __webpack_require__(/*! gridstack/dist/h5/gridstack-dd-native */ "../../node_modules/gridstack/dist/h5/gridstack-dd-native.js")], __WEBPACK_AMD_DEFINE_RESULT__ = (function (require, exports, tslib_1, aurelia_dependency_injection_1, aurelia_pal_1, aurelia_templating_1, aurelia_typed_observable_plugin_1, gs) {
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__, exports, __webpack_require__(/*! tslib */ "../../node_modules/tslib/tslib.es6.js"), __webpack_require__(/*! aurelia-dependency-injection */ "../../node_modules/aurelia-dependency-injection/dist/es2015/aurelia-dependency-injection.js"), __webpack_require__(/*! aurelia-pal */ "../../node_modules/aurelia-pal/dist/es2015/aurelia-pal.js"), __webpack_require__(/*! aurelia-templating */ "../../node_modules/aurelia-templating/dist/es2015/aurelia-templating.js"), __webpack_require__(/*! aurelia-typed-observable-plugin */ "../../node_modules/aurelia-typed-observable-plugin/dist/es2015/index.js"), __webpack_require__(/*! gridstack */ "../../node_modules/gridstack/dist/gridstack.js")], __WEBPACK_AMD_DEFINE_RESULT__ = (function (require, exports, tslib_1, aurelia_dependency_injection_1, aurelia_pal_1, aurelia_templating_1, aurelia_typed_observable_plugin_1, gs) {
     "use strict";
     Object.defineProperty(exports, "__esModule", ({ value: true }));
     exports.GridStack = void 0;
@@ -25720,6 +25807,13 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
         }
         getFloat() {
             return this.float || this.float === '' ? true : false;
+        }
+        staticChanged() {
+            var _a;
+            (_a = this.grid) === null || _a === void 0 ? void 0 : _a.setStatic(this.getStatic());
+        }
+        getStatic() {
+            return this.static || this.static === '' ? true : false;
         }
         itemsChanged() {
             if (!this.grid || !this.items) {
@@ -25766,6 +25860,10 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
         aurelia_typed_observable_plugin_1.bindable,
         tslib_1.__metadata("design:type", Object)
     ], GridStack.prototype, "float", void 0);
+    tslib_1.__decorate([
+        aurelia_typed_observable_plugin_1.bindable,
+        tslib_1.__metadata("design:type", Object)
+    ], GridStack.prototype, "static", void 0);
     tslib_1.__decorate([
         aurelia_typed_observable_plugin_1.bindable,
         tslib_1.__metadata("design:type", Object)
@@ -26308,4 +26406,4 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGlu
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.c64c07cf105735584c64.bundle.map
+//# sourceMappingURL=app.0cc528392e01526339a9.bundle.map
