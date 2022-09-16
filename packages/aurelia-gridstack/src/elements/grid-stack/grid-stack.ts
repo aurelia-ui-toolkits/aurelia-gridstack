@@ -3,8 +3,6 @@ import { PLATFORM } from 'aurelia-pal';
 import { children, customElement, useView } from 'aurelia-templating';
 import { bindable } from 'aurelia-typed-observable-plugin';
 import * as gs from 'gridstack';
-// eslint-disable-next-line import/no-unassigned-import
-import 'gridstack/dist/h5/gridstack-dd-native';
 import { GridStackItem, IGridStackItemElement } from '../grid-stack-item/grid-stack-item';
 
 @inject(Element)
