@@ -1,13 +1,14 @@
 <require from="gridstack/dist/gridstack.min.css"></require>
 <require from="./app.css"></require>
 <grid-stack min-row="5" float>
-  <grid-stack-item au-slot repeat.for="i of items" x.bind="i.x" y.bind="i.y" w.bind="i.w" h.bind="i.h">
+  <grid-stack-item au-slot repeat.for="i of items" x.bind="i.x" y.bind="i.y" w.bind="i.w" h.bind="i.h" id.bind="i.id">
     <div class="item" au-slot>
       <div>Item ${$index + 1}</div>
       <div>x: ${i.x}</div>
       <div>y: ${i.y}</div>
       <div>w: ${i.w}</div>
       <div>h: ${i.h}</div>
+      <div>id: ${i.id}</div>
     </div>
   </grid-stack-item>
 </grid-stack>

@@ -1,7 +1,7 @@
 import { bindable, BindingMode, customElement, inject } from 'aurelia';
 import { booleanAttr, handlesAttr, number } from '../../interceptors';
 import { GridItemHTMLElement } from 'gridstack';
-import { ResizeHandleType } from 'aurelia-gridstack/src/resource';
+import { ResizeHandleType } from '../../models';
 
 @inject(Element)
 @customElement('grid-stack-item')

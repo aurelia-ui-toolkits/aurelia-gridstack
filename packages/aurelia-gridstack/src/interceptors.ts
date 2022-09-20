@@ -1,4 +1,4 @@
-import { ResizeHandles, ResizeHandleType } from './resource';
+import { ResizeHandles, ResizeHandleType } from './models';
 
 export function number(a: unknown): number {
   return Number(a);
