@@ -1,6 +1,7 @@
 import { bindable, BindingMode, customElement, inject } from 'aurelia';
-import { booleanAttr, number } from '../../interceptors';
+import { booleanAttr, handlesAttr, number } from '../../interceptors';
 import { GridItemHTMLElement } from 'gridstack';
+import { ResizeHandleType } from 'aurelia-gridstack/src/resource';
 
 @inject(Element)
 @customElement('grid-stack-item')
@@ -46,54 +47,54 @@ export class GridStackItem {
       this.root.removeAttribute('gs-h');
     }
   }
-  
-  @bindable.number({ defaultBindingMode: bindingMode.twoWay })
+
+  @bindable({ set: number, mode: BindingMode.twoWay })
   minW?: number;
   minWChanged() {
     if (this.minW !== undefined) {
-      this.root.setAttribute("gs-min-w", this.minW.toString());
+      this.root.setAttribute('gs-min-w', this.minW.toString());
     } else {
-      this.root.removeAttribute("gs-min-w");
+      this.root.removeAttribute('gs-min-w');
     }
   }
 
-  @bindable.number({ defaultBindingMode: bindingMode.twoWay })
+  @bindable({ set: number, mode: BindingMode.twoWay })
   minH?: number;
   minHChanged() {
     if (this.minH !== undefined) {
-      this.root.setAttribute("gs-min-h", this.minH.toString());
+      this.root.setAttribute('gs-min-h', this.minH.toString());
     } else {
-      this.root.removeAttribute("gs-min-h");
+      this.root.removeAttribute('gs-min-h');
     }
   }
 
-  @bindable.number({ defaultBindingMode: bindingMode.twoWay })
+  @bindable({ set: number, mode: BindingMode.twoWay })
   maxW?: number;
   maxWChanged() {
     if (this.maxW !== undefined) {
-      this.root.setAttribute("gs-max-w", this.maxW.toString());
+      this.root.setAttribute('gs-max-w', this.maxW.toString());
     } else {
-      this.root.removeAttribute("gs-max-w");
+      this.root.removeAttribute('gs-max-w');
     }
   }
 
-  @bindable.number({ defaultBindingMode: bindingMode.twoWay })
+  @bindable({ set: number, mode: BindingMode.twoWay })
   maxH?: number;
   maxHChanged() {
     if (this.maxH !== undefined) {
-      this.root.setAttribute("gs-max-h", this.maxH.toString());
+      this.root.setAttribute('gs-max-h', this.maxH.toString());
     } else {
-      this.root.removeAttribute("gs-max-h");
+      this.root.removeAttribute('gs-max-h');
     }
   }
 
-  @bindable.number({ defaultBindingMode: bindingMode.twoWay })
+  @bindable({ set: number, mode: BindingMode.twoWay })
   id?: number;
   idChanged() {
     if (this.id !== undefined) {
-      this.root.setAttribute("gs-id", this.id.toString());
+      this.root.setAttribute('gs-id', this.id.toString());
     } else {
-      this.root.removeAttribute("gs-id");
+      this.root.removeAttribute('gs-id');
     }
   }
 
@@ -127,6 +128,26 @@ export class GridStackItem {
     }
   }
 
+  @bindable({ set: booleanAttr })
+  autoPosition: boolean;
+  autoPositionChanged() {
+    if (this.autoPosition) {
+      this.root.setAttribute('gs-auto-position', 'true');
+    } else {
+      this.root.removeAttribute('gs-auto-position');
+    }
+  }
+
+  @bindable({ set: handlesAttr })
+  resizeHandles?: ResizeHandleType[];
+  resizeHandlesChanged() {
+    if (this.resizeHandles !== undefined) {
+      this.root.setAttribute('gs-resize-handles', this.resizeHandles.toString());
+    } else {
+      this.root.removeAttribute('gs-resize-handles');
+    }
+  }
+
   attached() {
     if (this.x !== undefined) {
       this.xChanged();
@@ -140,6 +161,18 @@ export class GridStackItem {
     if (this.h !== undefined) {
       this.hChanged();
     }
+    if (this.minW !== undefined) {
+      this.minWChanged();
+    }
+    if (this.minH !== undefined) {
+      this.minHChanged();
+    }
+    if (this.maxW !== undefined) {
+      this.maxWChanged();
+    }
+    if (this.maxH !== undefined) {
+      this.maxHChanged();
+    }
     if (this.noMove !== undefined) {
       this.noMoveChanged();
     }
@@ -148,6 +181,15 @@ export class GridStackItem {
     }
     if (this.locked !== undefined) {
       this.lockedChanged();
+    }
+    if (this.id !== undefined) {
+      this.idChanged();
+    }
+    if (this.autoPosition !== undefined) {
+      this.autoPositionChanged();
+    }
+    if (this.resizeHandles !== undefined) {
+      this.resizeHandlesChanged();
     }
   }
 }
