@@ -8,12 +8,12 @@ export function booleanAttr(val: unknown): boolean {
   return val || val === '' ? true : false;
 }
 
-function onlyUnique(value: any, index: number, self: any) {
+function onlyUnique(value: string, index: number, self: string[]) {
   return self.indexOf(value) === index;
 }
 
 export function handlesAttr(handles: unknown): ResizeHandleType[] {
-	const isStringParam = typeof handles === 'string' || handles instanceof String;
+  const isStringParam = typeof handles === 'string' || handles instanceof String;
   const isArrayParam = Array.isArray(handles);
   const isStringOrArray = isStringParam || isArrayParam;
   const handlesArray: ResizeHandleType[] = [];
@@ -22,7 +22,7 @@ export function handlesAttr(handles: unknown): ResizeHandleType[] {
     let allEntries: string[];
 
     if (isStringParam) {
-      allEntries = handles.replace(/\s/g,'').split(',');
+      allEntries = handles.replace(/\s/g, '').split(',');
     } else {
       allEntries = handles;
     }

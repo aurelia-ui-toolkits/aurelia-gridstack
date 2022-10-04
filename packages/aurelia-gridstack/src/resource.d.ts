@@ -7,7 +7,7 @@ declare module '*.html' {
   export const dependencies: string[];
   export const containerless: boolean | undefined;
   export const bindables: Record<string, IBindableDescription>;
-  export const shadowOptions: { mode: 'open' | 'closed'} | undefined;
+  export const shadowOptions: { mode: 'open' | 'closed' } | undefined;
   export function register(container: IContainer);
 }
 
