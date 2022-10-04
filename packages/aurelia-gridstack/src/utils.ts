@@ -1,6 +1,6 @@
 import { ResizeHandles, ResizeHandleType } from './models';
 
-function onlyUnique(value: any, index: number, self: any) {
+function onlyUnique(value: string, index: number, self: string[]) {
   return self.indexOf(value) === index;
 }
 

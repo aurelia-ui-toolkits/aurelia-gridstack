@@ -51,56 +51,6 @@ export class GridStackItem {
       this.root.removeAttribute('gs-h');
     }
   }
-  
-  @bindable.number({ defaultBindingMode: bindingMode.twoWay })
-  minW?: number;
-  minWChanged() {
-    if (this.minW !== undefined) {
-      this.root.setAttribute("gs-min-w", this.minW.toString());
-    } else {
-      this.root.removeAttribute("gs-min-w");
-    }
-  }
-
-  @bindable.number({ defaultBindingMode: bindingMode.twoWay })
-  minH?: number;
-  minHChanged() {
-    if (this.minH !== undefined) {
-      this.root.setAttribute("gs-min-h", this.minH.toString());
-    } else {
-      this.root.removeAttribute("gs-min-h");
-    }
-  }
-
-  @bindable.number({ defaultBindingMode: bindingMode.twoWay })
-  maxW?: number;
-  maxWChanged() {
-    if (this.maxW !== undefined) {
-      this.root.setAttribute("gs-max-w", this.maxW.toString());
-    } else {
-      this.root.removeAttribute("gs-max-w");
-    }
-  }
-
-  @bindable.number({ defaultBindingMode: bindingMode.twoWay })
-  maxH?: number;
-  maxHChanged() {
-    if (this.maxH !== undefined) {
-      this.root.setAttribute("gs-max-h", this.maxH.toString());
-    } else {
-      this.root.removeAttribute("gs-max-h");
-    }
-  }
-
-  @bindable.number({ defaultBindingMode: bindingMode.twoWay })
-  id?: number;
-  idChanged() {
-    if (this.id !== undefined) {
-      this.root.setAttribute("gs-id", this.id.toString());
-    } else {
-      this.root.removeAttribute("gs-id");
-    }
-  }
 
   @bindable.number({ defaultBindingMode: bindingMode.twoWay })
   minW?: number;

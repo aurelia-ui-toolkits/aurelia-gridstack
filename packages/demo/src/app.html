@@ -2,12 +2,7 @@
   <require from="gridstack/dist/gridstack.min.css"></require>
   <require from="./app.css"></require>
   <grid-stack min-row="5" float>
-    <grid-stack-item repeat.for="i of items"
-      x.bind="i.x"
-      y.bind="i.y" 
-      w.bind="i.w"
-      h.bind="i.h"
-      id.bind="i.id"
+    <grid-stack-item repeat.for="i of items" x.bind="i.x" y.bind="i.y" w.bind="i.w" h.bind="i.h" id.bind="i.id"
       resize-handles.bind="i.resizeHandles">
       <div class="item">
         <div>Item ${$index + 1}</div>

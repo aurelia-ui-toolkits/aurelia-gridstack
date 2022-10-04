@@ -10,4 +10,4 @@ export enum ResizeHandles {
 }
 
 export type ResizeHandleType = ResizeHandles.n | ResizeHandles.ne | ResizeHandles.e | ResizeHandles.se |
-                                ResizeHandles.s | ResizeHandles.sw | ResizeHandles.w | ResizeHandles.nw;
+  ResizeHandles.s | ResizeHandles.sw | ResizeHandles.w | ResizeHandles.nw;
