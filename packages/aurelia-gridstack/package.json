@@ -1,6 +1,6 @@
 {
     "name": "aurelia-gridstack",
-    "version": "2.0.0-au2",
+    "version": "2.0.1-au2",
     "publishConfig": {
         "access": "public"
     },
