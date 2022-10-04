@@ -1,3 +1,13 @@
+## [2.0.1](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/compare/v2.0.0...v2.0.1) (2022-10-04)
+
+
+### Features
+
+* add item extra attributes ([84dacc7](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/commit/84dacc7147c53a8c859047895d8583ed3473665f))
+* add missing attributes ([f7a904a](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/commit/f7a904a938aa71f7932a49e515bf91559995bcec))
+
+
+
 # [2.0.0](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/compare/v1.3.1...v2.0.0) (2022-09-16)
 
 
