@@ -1,5 +1,6 @@
 import { bindingMode } from 'aurelia-binding';
 import { inject } from 'aurelia-dependency-injection';
+import { getResizeHandleTypesOnly } from '../../utils';
 import { PLATFORM } from 'aurelia-pal';
 import { customElement, useView } from 'aurelia-templating';
 import { bindable } from 'aurelia-typed-observable-plugin';
@@ -101,6 +102,56 @@ export class GridStackItem {
     }
   }
 
+  @bindable.number({ defaultBindingMode: bindingMode.twoWay })
+  minW?: number;
+  minWChanged() {
+    if (this.minW !== undefined) {
+      this.root.setAttribute('gs-min-w', this.minW.toString());
+    } else {
+      this.root.removeAttribute('gs-min-w');
+    }
+  }
+
+  @bindable.number({ defaultBindingMode: bindingMode.twoWay })
+  minH?: number;
+  minHChanged() {
+    if (this.minH !== undefined) {
+      this.root.setAttribute('gs-min-h', this.minH.toString());
+    } else {
+      this.root.removeAttribute('gs-min-h');
+    }
+  }
+
+  @bindable.number({ defaultBindingMode: bindingMode.twoWay })
+  maxW?: number;
+  maxWChanged() {
+    if (this.maxW !== undefined) {
+      this.root.setAttribute('gs-max-w', this.maxW.toString());
+    } else {
+      this.root.removeAttribute('gs-max-w');
+    }
+  }
+
+  @bindable.number({ defaultBindingMode: bindingMode.twoWay })
+  maxH?: number;
+  maxHChanged() {
+    if (this.maxH !== undefined) {
+      this.root.setAttribute('gs-max-h', this.maxH.toString());
+    } else {
+      this.root.removeAttribute('gs-max-h');
+    }
+  }
+
+  @bindable.number({ defaultBindingMode: bindingMode.twoWay })
+  id?: number;
+  idChanged() {
+    if (this.id !== undefined) {
+      this.root.setAttribute('gs-id', this.id.toString());
+    } else {
+      this.root.removeAttribute('gs-id');
+    }
+  }
+
   @bindable.booleanAttr
   noMove: boolean;
   noMoveChanged() {
@@ -130,6 +181,28 @@ export class GridStackItem {
       this.root.removeAttribute('gs-locked');
     }
   }
+
+  @bindable.booleanAttr
+  autoPosition: boolean;
+  autoPositionChanged() {
+    if (this.autoPosition) {
+      this.root.setAttribute('gs-auto-position', 'true');
+    } else {
+      this.root.removeAttribute('gs-auto-position');
+    }
+  }
+
+  @bindable.string
+  resizeHandles?: string;
+  resizeHandlesChanged() {
+    if (this.resizeHandles !== undefined) {
+      const filteredHandles = getResizeHandleTypesOnly(this.resizeHandles);
+      this.root.setAttribute('gs-resize-handles', filteredHandles.toString());
+    } else {
+      this.root.removeAttribute('gs-resize-handles');
+    }
+  }
+
 }
 
 export interface IGridStackItemElement extends GridItemHTMLElement {
