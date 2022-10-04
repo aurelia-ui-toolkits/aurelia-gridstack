@@ -12,31 +12,31 @@ function onlyUnique(value: string, index: number, self: string[]) {
   return self.indexOf(value) === index;
 }
 
-export function handlesAttr(handles: unknown): ResizeHandleType[] {
-  const isStringParam = typeof handles === 'string' || handles instanceof String;
-  const isArrayParam = Array.isArray(handles);
-  const isStringOrArray = isStringParam || isArrayParam;
-  const handlesArray: ResizeHandleType[] = [];
-
-  if (handles && isStringOrArray && handles.length > 0) {
-    let allEntries: string[];
-
-    if (isStringParam) {
-      allEntries = handles.replace(/\s/g, '').split(',');
-    } else {
-      allEntries = handles;
-    }
-
-    // remove duplicates
-    allEntries = allEntries.filter(onlyUnique);
-
-    // add only ResizeHandleType items
-    allEntries.forEach(child => {
-      if (child in ResizeHandles) {
-        handlesArray.push(child as ResizeHandleType);
-      }
-    });
+export function handlesAttr(handles: string | string[]): ResizeHandleType[] {
+  if (!handles) {
+    return [];
   }
+
+  let allEntries: string[];
+
+  if (typeof handles === 'string') {
+    allEntries = handles.replace(/\s/g, '').split(',');
+  } else if (Array.isArray(handles)) {
+    allEntries = handles;
+  } else {
+    return [];
+  }
+
+  // remove duplicates
+  allEntries = allEntries.filter(onlyUnique);
+
+  // add only ResizeHandleType items
+  const handlesArray: ResizeHandleType[] = [];
+  allEntries.forEach(child => {
+    if (child in ResizeHandles) {
+      handlesArray.push(child as ResizeHandleType);
+    }
+  });
 
   return handlesArray;
 }
