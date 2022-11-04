@@ -53,6 +53,9 @@ export class GridStack {
     if (this.float !== undefined) {
       options.float = this.float;
     }
+    if(this.static !== undefined){
+      options.staticGrid = this.static;
+    }
     this.grid = gs.GridStack.init(options, this.root);
   }
 
