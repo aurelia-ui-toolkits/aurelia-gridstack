@@ -57,7 +57,6 @@ export class GridStack {
         this.updateNodeVmAttributes(x.gridstackNode);
       }
     });
-
   }
 
   attached() {
