@@ -48,6 +48,8 @@ export class GridStack {
     if (!this.grid || !this.items) {
       return;
     }
+    const removed = this.grid.engine.nodes.filter(x => !this.items.find(y => y.root === x.el));
+    removed.forEach(x => this.grid.engine.removeNode(x, false, false));
     const newItems = this.items.map(x => x.root).filter(x => !x.gridstackNode);
     newItems.forEach(x => {
       this.grid.addWidget(x);
@@ -55,8 +57,7 @@ export class GridStack {
         this.updateNodeVmAttributes(x.gridstackNode);
       }
     });
-    const removed = this.grid.engine.nodes.filter(x => !this.items.find(y => y.root === x.el));
-    removed.forEach(x => this.grid.engine.removeNode(x, false, false));
+
   }
 
   attached() {
