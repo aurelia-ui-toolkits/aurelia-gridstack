@@ -26115,6 +26115,8 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
             if (!this.grid || !this.items) {
                 return;
             }
+            const removed = this.grid.engine.nodes.filter(x => !this.items.find(y => y.root === x.el));
+            removed.forEach(x => this.grid.engine.removeNode(x, false, false));
             const newItems = this.items.map(x => x.root).filter(x => !x.gridstackNode);
             newItems.forEach(x => {
                 this.grid.addWidget(x);
@@ -26122,8 +26124,6 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
                     this.updateNodeVmAttributes(x.gridstackNode);
                 }
             });
-            const removed = this.grid.engine.nodes.filter(x => !this.items.find(y => y.root === x.el));
-            removed.forEach(x => this.grid.engine.removeNode(x, false, false));
         }
         attached() {
             var _a;
@@ -26767,4 +26767,4 @@ module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGlu
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.19d84b13937a3212658e.bundle.map
+//# sourceMappingURL=app.e147fceb320134e22334.bundle.map
