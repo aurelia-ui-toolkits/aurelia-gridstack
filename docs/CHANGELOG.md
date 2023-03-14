@@ -1,3 +1,12 @@
+## [3.0.1-au2](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/compare/v3.0.0-au2...v3.0.1-au2) (2023-03-14)
+
+
+### Bug Fixes
+
+* change order of add and remove ([d862ff6](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/commit/d862ff63b818817ebb4c78c23667377f893f8bf0))
+
+
+
 # [3.0.0-au2](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/compare/v2.0.1-au2...v3.0.0-au2) (2022-12-05)
 
 
