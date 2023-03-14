@@ -1,6 +1,6 @@
 {
   "name": "demo",
-  "version": "3.0.0-au2",
+  "version": "3.0.1-au2",
   "private": true,
   "description": "",
   "main": "index.js",
@@ -15,6 +15,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "aurelia-gridstack": "3.0.0-au2"
+    "aurelia-gridstack": "3.0.1-au2"
   }
 }
