@@ -1,3 +1,13 @@
+# [4.0.0](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/compare/v3.0.1...v4.0.0) (2023-08-01)
+
+
+### Features
+
+* update node state when position changes ([6a96247](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/commit/6a962471d2133f058f4213e168ab146f46547b15))
+* upgrade to gridstack@8
+
+
+
 ## [3.0.1](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/compare/v3.0.0...v3.0.1) (2023-03-14)
 
 
