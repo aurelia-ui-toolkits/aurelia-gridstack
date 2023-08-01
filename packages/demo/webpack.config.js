@@ -13,7 +13,7 @@ module.exports = function ({ production = '', stats = 'errors-only' } = {}) {
     output: {
       path: outDir,
       filename: production ? '[name].[chunkhash].bundle.js' : '[name].[fullhash].bundle.js',
-      sourceMapFilename: production ? '[name].[chunkhash].bundle.map' : '[name].[fullhash].bundle.map',
+      sourceMapFilename: production ? '[file].[chunkhash].bundle.map' : '[file].[fullhash].bundle.map',
       chunkFilename: production ? '[name].[chunkhash].chunk.js' : '[name].[fullhash].chunk.js'
     },
     stats: stats,

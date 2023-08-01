@@ -11,7 +11,7 @@ import { GridStackItem, IGridStackItemElement } from '../grid-stack-item/grid-st
 export class GridStack {
   constructor(public root: HTMLElement) { }
 
-  grid: gs.GridStack;
+  grid: gs.GridStack | undefined;
 
   @bindable.number
   minRow: number;
@@ -49,10 +49,10 @@ export class GridStack {
       return;
     }
     const removed = this.grid.engine.nodes.filter(x => !this.items.find(y => y.root === x.el));
-    removed.forEach(x => this.grid.engine.removeNode(x, false, false));
+    removed.forEach(x => this.grid!.engine.removeNode(x, false, false));
     const newItems = this.items.map(x => x.root).filter(x => !x.gridstackNode);
     newItems.forEach(x => {
-      this.grid.addWidget(x);
+      this.grid!.addWidget(x);
       if (x.gridstackNode) {
         this.updateNodeVmAttributes(x.gridstackNode);
       }
@@ -72,7 +72,8 @@ export class GridStack {
   }
 
   detached() {
-    this.grid.destroy();
+    this.grid!.destroy();
+    this.grid = undefined;
   }
 
   handleChange(nodes: gs.GridStackNode[]) {
@@ -81,9 +82,11 @@ export class GridStack {
 
   updateNodeVmAttributes(node: gs.GridStackNode) {
     const itemVm = (node.el as IGridStackItemElement).au.controller.viewModel;
+    itemVm.beginSuppressUpdate();
     itemVm.x = node.x;
     itemVm.y = node.y;
     itemVm.w = node.w;
     itemVm.h = node.h;
+    itemVm.endSuppressUpdate();
   }
 }

@@ -5,12 +5,15 @@ import { PLATFORM } from 'aurelia-pal';
 import { customElement, useView } from 'aurelia-templating';
 import { bindable } from 'aurelia-typed-observable-plugin';
 import { GridItemHTMLElement } from 'gridstack';
+import { GridStack } from '../grid-stack/grid-stack';
 
-@inject(Element)
+@inject(Element, GridStack)
 @customElement('grid-stack-item')
 @useView(PLATFORM.moduleName('./grid-stack-item.html'))
 export class GridStackItem {
-  constructor(public root: IGridStackItemElement) { }
+  constructor(public root: IGridStackItemElement, private gridstack: GridStack) { }
+
+  private suppressGridUpdate = false;
 
   @bindable.number({ defaultBindingMode: bindingMode.twoWay })
   x?: number;
@@ -19,6 +22,9 @@ export class GridStackItem {
       this.root.setAttribute('gs-x', this.x.toString());
     } else {
       this.root.removeAttribute('gs-x');
+    }
+    if (!this.suppressGridUpdate) {
+      this.gridstack.grid?.update(this.root, { x: this.x });
     }
   }
 
@@ -30,6 +36,9 @@ export class GridStackItem {
     } else {
       this.root.removeAttribute('gs-y');
     }
+    if (!this.suppressGridUpdate) {
+      this.gridstack.grid?.update(this.root, { y: this.y });
+    }
   }
 
   @bindable.number({ defaultBindingMode: bindingMode.twoWay })
@@ -40,6 +49,9 @@ export class GridStackItem {
     } else {
       this.root.removeAttribute('gs-w');
     }
+    if (!this.suppressGridUpdate) {
+      this.gridstack.grid?.update(this.root, { w: this.w });
+    }
   }
 
   @bindable.number({ defaultBindingMode: bindingMode.twoWay })
@@ -49,6 +61,9 @@ export class GridStackItem {
       this.root.setAttribute('gs-h', this.h.toString());
     } else {
       this.root.removeAttribute('gs-h');
+    }
+    if (!this.suppressGridUpdate) {
+      this.gridstack.grid?.update(this.root, { h: this.h });
     }
   }
 
@@ -151,6 +166,14 @@ export class GridStackItem {
     } else {
       this.root.removeAttribute('gs-resize-handles');
     }
+  }
+
+  beginSuppressUpdate() {
+    this.suppressGridUpdate = true;
+  }
+
+  endSuppressUpdate() {
+    this.suppressGridUpdate = false;
   }
 
 }
