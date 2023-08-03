@@ -1,14 +1,13 @@
-import { bindable, children, CustomElement, customElement, inject } from 'aurelia';
+import { bindable, children, CustomElement, inject } from 'aurelia';
 import { booleanAttr, number } from '../../interceptors';
 import * as gs from 'gridstack';
 import { GridStackItem } from '../grid-stack-item/grid-stack-item';
 
 @inject(Element)
-@customElement('grid-stack')
 export class GridStack {
   constructor(public root: HTMLElement) { }
 
-  grid: gs.GridStack;
+  grid: gs.GridStack | undefined;
 
   @bindable({ set: number })
   minRow: number;
@@ -38,10 +37,10 @@ export class GridStack {
       return;
     }
     const removed = this.grid.engine.nodes.filter(x => !x.el?.classList.contains('grid-stack-placeholder') && !this.items.find(y => y.root === x.el));
-    removed.forEach(x => this.grid.engine.removeNode(x, false, false));
+    removed.forEach(x => this.grid!.engine.removeNode(x, false, false));
     const newItems = this.items.map(x => x.root).filter(x => !x.gridstackNode);
     newItems.forEach(x => {
-      this.grid.addWidget(x);
+      this.grid!.addWidget(x);
       if (x.gridstackNode) {
         this.updateNodeVmAttributes(x.gridstackNode);
       }
@@ -53,14 +52,15 @@ export class GridStack {
     if (this.float !== undefined) {
       options.float = this.float;
     }
-    if(this.static !== undefined){
+    if (this.static !== undefined) {
       options.staticGrid = this.static;
     }
-    this.grid = gs.GridStack.init(options, this.root);
+    this.grid = gs.GridStack.init(options, this.root as HTMLElement);
   }
 
   detached() {
-    this.grid.destroy();
+    this.grid!.destroy();
+    this.grid = undefined;
   }
 
   handleChange(nodes: gs.GridStackNode[]) {
@@ -70,10 +70,12 @@ export class GridStack {
   updateNodeVmAttributes(node: gs.GridStackNode) {
     if (node.el) {
       const itemVm = CustomElement.for<GridStackItem>(node.el).viewModel;
+      itemVm.beginSuppressUpdate();
       itemVm.x = node.x;
       itemVm.y = node.y;
       itemVm.w = node.w;
       itemVm.h = node.h;
+      itemVm.endSuppressUpdate();
     }
   }
 }

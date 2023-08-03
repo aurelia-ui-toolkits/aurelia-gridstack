@@ -2,11 +2,13 @@ import { bindable, BindingMode, customElement, inject } from 'aurelia';
 import { booleanAttr, handlesAttr, number } from '../../interceptors';
 import { GridItemHTMLElement } from 'gridstack';
 import { ResizeHandleType } from '../../models';
+import { GridStack } from '../grid-stack/grid-stack';
 
-@inject(Element)
-@customElement('grid-stack-item')
+@inject(Element, GridStack)
 export class GridStackItem {
-  constructor(public root: IGridStackItemElement) { }
+  constructor(public root: IGridStackItemElement, private gridstack: GridStack) { }
+
+  private suppressGridUpdate = false;
 
   @bindable({ set: number, mode: BindingMode.twoWay })
   x?: number;
@@ -15,6 +17,9 @@ export class GridStackItem {
       this.root.setAttribute('gs-x', this.x.toString());
     } else {
       this.root.removeAttribute('gs-x');
+    }
+    if (!this.suppressGridUpdate) {
+      this.gridstack.grid?.update(this.root as IGridStackItemElement, { x: this.x });
     }
   }
 
@@ -26,6 +31,9 @@ export class GridStackItem {
     } else {
       this.root.removeAttribute('gs-y');
     }
+    if (!this.suppressGridUpdate) {
+      this.gridstack.grid?.update(this.root as IGridStackItemElement, { y: this.y });
+    }
   }
 
   @bindable({ set: number, mode: BindingMode.twoWay })
@@ -36,6 +44,9 @@ export class GridStackItem {
     } else {
       this.root.removeAttribute('gs-w');
     }
+    if (!this.suppressGridUpdate) {
+      this.gridstack.grid?.update(this.root as IGridStackItemElement, { w: this.w });
+    }
   }
 
   @bindable({ set: number, mode: BindingMode.twoWay })
@@ -45,6 +56,9 @@ export class GridStackItem {
       this.root.setAttribute('gs-h', this.h.toString());
     } else {
       this.root.removeAttribute('gs-h');
+    }
+    if (!this.suppressGridUpdate) {
+      this.gridstack.grid?.update(this.root as IGridStackItemElement, { h: this.h });
     }
   }
 
@@ -192,6 +206,15 @@ export class GridStackItem {
       this.resizeHandlesChanged();
     }
   }
+
+  beginSuppressUpdate() {
+    this.suppressGridUpdate = true;
+  }
+
+  endSuppressUpdate() {
+    this.suppressGridUpdate = false;
+  }
+
 }
 
 export interface IGridStackItemElement extends GridItemHTMLElement {
@@ -201,3 +224,4 @@ export interface IGridStackItemElement extends GridItemHTMLElement {
     };
   };
 }
+
