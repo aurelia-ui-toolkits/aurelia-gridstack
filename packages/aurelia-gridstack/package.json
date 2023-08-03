@@ -29,7 +29,7 @@
     ],
     "scripts": {
         "prebuild": "rimraf dist",
-        "build": "gulp --gulpfile ../../gulpfile.js --cwd ./ build",
+        "build": "webpack --env production",
         "publish:au2": "npm publish --tag au2"
       },
     "peerDependencies": {

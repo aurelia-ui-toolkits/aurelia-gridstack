@@ -92,7 +92,7 @@ module.exports = function (env, { analyze }) {
     externalsPresets: { node: production },
     externals: [
       // Skip npm dependencies in plugin build.
-      production && nodeExternals()
+      production && nodeExternals({ additionalModuleDirs: [path.resolve(__dirname, '../../node_modules')] })
     ].filter(p => p),
     plugins: [
       !production && new HtmlWebpackPlugin({ template: 'index.html', favicon: 'favicon.ico' }),

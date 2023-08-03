@@ -1,4 +1,4 @@
-import { bindable, BindingMode, customElement, inject } from 'aurelia';
+import { bindable, BindingMode, inject } from 'aurelia';
 import { booleanAttr, handlesAttr, number } from '../../interceptors';
 import { GridItemHTMLElement } from 'gridstack';
 import { ResizeHandleType } from '../../models';
@@ -224,4 +224,3 @@ export interface IGridStackItemElement extends GridItemHTMLElement {
     };
   };
 }
-
