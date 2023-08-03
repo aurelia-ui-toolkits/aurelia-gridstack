@@ -1,3 +1,12 @@
+## [4.0.1-au2](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/compare/v4.0.0-au2...v4.0.1-au2) (2023-08-03)
+
+
+### Bug Fixes
+
+* add source map and typings ([0443356](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/commit/044335670ac0d76803215a0e29fff24d3802492e))
+
+
+
 # [4.0.0-au2](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/compare/v3.0.1-au2...v4.0.0-au2) (2023-08-03)
 
 
