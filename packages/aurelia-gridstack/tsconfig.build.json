@@ -1,4 +1,9 @@
 {
+  "compilerOptions": {
+    "sourceMap": true,
+    "declaration": true,
+    "declarationDir": "dist/types"
+  },
   "extends": "../../tsconfig.build.json",
   "include": ["src"]
 }

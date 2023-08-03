@@ -1,6 +1,6 @@
 {
     "name": "aurelia-gridstack",
-    "version": "4.0.0-au2",
+    "version": "4.0.1-au2",
     "publishConfig": {
         "access": "public"
     },
@@ -17,8 +17,8 @@
     "license": "MIT",
     "author": "https://github.com/maximbalaganskiy",
     "contributors": [],
-    "main": "dist/esnext/index.js",
-    "module": "dist/esnext/index.js",
+    "main": "dist/index.js",
+    "module": "dist/index.js",
     "typings": "dist/types/index.d.ts",
       "repository": {
         "type": "git",

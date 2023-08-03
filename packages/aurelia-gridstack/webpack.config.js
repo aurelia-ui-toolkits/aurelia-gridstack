@@ -22,7 +22,7 @@ module.exports = function (env, { analyze }) {
   return {
     target: production ? 'node' : 'web',
     mode: production ? 'production' : 'development',
-    devtool: production ? undefined : 'eval-cheap-source-map',
+    devtool: production ? 'source-map' : 'eval-source-map',
     entry: {
       // Build only plugin in production mode,
       // build dev-app in non-production mode
@@ -72,7 +72,7 @@ module.exports = function (env, { analyze }) {
           issuer: /\.html$/,
           use: [cssLoader, postcssLoader]
         },
-        { test: /\.ts$/i, use: ['ts-loader', '@aurelia/webpack-loader'], exclude: /node_modules/ },
+        { test: /\.ts$/i, use: [{ loader: 'ts-loader', options: { allowTsInNodeModules: false, configFile: 'tsconfig.build.json' } }, '@aurelia/webpack-loader'], exclude: /node_modules/ },
         {
           test: /[/\\](?:src|dev-app)[/\\].+\.html$/i,
           use: {
