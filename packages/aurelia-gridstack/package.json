@@ -1,6 +1,6 @@
 {
     "name": "aurelia-gridstack",
-    "version": "4.0.0",
+    "version": "5.0.0",
     "publishConfig": {
         "access": "public"
     },
@@ -43,7 +43,7 @@
     "peerDependencies": {
         "aurelia-framework": "^1.4.1",
         "aurelia-typed-observable-plugin": "^0.5.1",
-        "gridstack": "^8.0.0",
-        "tslib": "^2.4.0"
+        "gridstack": "^10.1.0",
+        "tslib": "^2.6.2"
       }
 }
