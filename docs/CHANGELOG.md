@@ -1,3 +1,12 @@
+# [5.0.0-au2](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/compare/v4.0.1-au2...v5.0.0-au2) (2024-02-15)
+
+
+### Bug Fixes
+
+* ignore unwanted change events ([028d5f1](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/commit/028d5f19351db718f798fe285d6da7f71856eca1))
+
+
+
 ## [4.0.1-au2](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/compare/v4.0.0-au2...v4.0.1-au2) (2023-08-03)
 
 
