@@ -1,7 +1,7 @@
 {
   "name": "@aurelia-gridstack/monorepo",
   "private": true,
-  "version": "4.0.1-au2",
+  "version": "5.0.0-au2",
   "workspaces": [
     "packages/aurelia-gridstack",
     "packages/demo"
@@ -15,33 +15,33 @@
   },
   "devDependencies": {
     "@aurelia/webpack-loader": "latest",
-    "@typescript-eslint/eslint-plugin": "^6.2.1",
-    "@typescript-eslint/parser": "^6.2.1",
+    "@typescript-eslint/eslint-plugin": "^7.0.1",
+    "@typescript-eslint/parser": "^7.0.1",
     "aurelia": "latest",
-    "autoprefixer": "^10.4.14",
-    "concurrently": "^8.2.0",
-    "conventional-changelog-cli": "^3.0.0",
+    "autoprefixer": "^10.4.17",
+    "concurrently": "^8.2.2",
+    "conventional-changelog-cli": "^4.1.0",
     "copyfiles": "^2.4.1",
-    "css-loader": "^6.8.1",
-    "eslint": "^8.46.0",
-    "eslint-plugin-compat": "^4.1.4",
-    "eslint-plugin-import": "^2.28.0",
-    "gridstack": "^8.4.0",
-    "html-loader": "^4.2.0",
-    "html-webpack-plugin": "^5.5.3",
+    "css-loader": "^6.10.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-compat": "^4.2.0",
+    "eslint-plugin-import": "^2.29.1",
+    "gridstack": "^10.1.0",
+    "html-loader": "^5.0.0",
+    "html-webpack-plugin": "^5.6.0",
     "merge2": "^1.4.1",
-    "postcss-loader": "^7.3.3",
-    "rimraf": "^5.0.1",
-    "ts-loader": "^9.4.4",
-    "tslib": "^2.6.1",
-    "typescript": "^5.1.6",
-    "webpack": "^5.88.2",
-    "webpack-bundle-analyzer": "^4.9.0",
+    "postcss-loader": "^8.1.0",
+    "rimraf": "^5.0.5",
+    "ts-loader": "^9.5.1",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3",
+    "webpack": "^5.90.2",
+    "webpack-bundle-analyzer": "^4.10.1",
     "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^4.15.1",
+    "webpack-dev-server": "^5.0.1",
     "webpack-node-externals": "^3.0.0"
   },
   "dependencies": {
-    "style-loader": "^3.3.3"
+    "style-loader": "^3.3.4"
   }
 }

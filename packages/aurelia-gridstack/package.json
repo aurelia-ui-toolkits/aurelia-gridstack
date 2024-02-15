@@ -1,40 +1,42 @@
 {
-    "name": "aurelia-gridstack",
-    "version": "4.0.1-au2",
-    "publishConfig": {
-        "access": "public"
-    },
-    "description": "Aurelia wrappers for gridstack",
-    "keywords": [
-        "aurelia",
-        "elements",
-        "gridstack"
-    ],
-    "homepage": "http://aurelia.io",
-    "bugs": {
-        "url": "https://github.com/aurelia-ui-toolkits/aurelia-gridstack/issues/issues"
-    },
-    "license": "MIT",
-    "author": "https://github.com/maximbalaganskiy",
-    "contributors": [],
-    "main": "dist/index.js",
-    "module": "dist/index.js",
-    "typings": "dist/types/index.d.ts",
-      "repository": {
-        "type": "git",
-        "url": "https://github.com/aurelia-ui-toolkits/aurelia-gridstack/issues"
-    },
-    "files": [
-        "dist"
-    ],
-    "scripts": {
-        "prebuild": "rimraf dist",
-        "build": "webpack --env production",
-        "publish:au2": "npm publish --tag au2"
-      },
-    "peerDependencies": {
-      "aurelia": "latest",
-      "gridstack": "^8.0.0",
-      "tslib": "^2.5.0"
-    }
+  "name": "aurelia-gridstack",
+  "version": "5.0.0-au2",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "Aurelia wrappers for gridstack",
+  "keywords": [
+    "aurelia",
+    "elements",
+    "gridstack"
+  ],
+  "homepage": "http://aurelia.io",
+  "bugs": {
+    "url": "https://github.com/aurelia-ui-toolkits/aurelia-gridstack/issues/issues"
+  },
+  "license": "MIT",
+  "author": "https://github.com/maximbalaganskiy",
+  "contributors": [],
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "typings": "dist/types/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aurelia-ui-toolkits/aurelia-gridstack/issues"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build:ts": "tsc -p tsconfig.build.json",
+    "build:other": "copyfiles -u 1 src/**/*.html src/**/*.css dist",
+    "build": "npm run build:ts && npm run build:other",
+    "publish:au2": "npm publish --tag au2"
+  },
+  "peerDependencies": {
+    "aurelia": "latest",
+    "gridstack": "^10.1.0",
+    "tslib": "^2.6.2"
+  }
 }

@@ -1,11 +1,12 @@
-import { bindable, children, CustomElement, inject } from 'aurelia';
+import { bindable, children, customElement, CustomElement, inject } from 'aurelia';
 import { booleanAttr, number } from '../../interceptors';
 import * as gs from 'gridstack';
 import { GridStackItem } from '../grid-stack-item/grid-stack-item';
+import template from './grid-stack.html';
 
-@inject(Element)
+@customElement({ name: 'grid-stack', template })
 export class GridStack {
-  constructor(public root: HTMLElement) { }
+  constructor(public root: Element) { }
 
   grid: gs.GridStack | undefined;
 

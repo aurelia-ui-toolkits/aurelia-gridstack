@@ -1,11 +1,11 @@
 {
   "compilerOptions": {
-    "module": "amd",
+    "module": "esnext",
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "target": "ES2017",
+    "target": "ES2018",
     "lib": [
-      "es2017",
+      "ESNext",
       "dom"
     ],
     "noImplicitAny": true,
@@ -20,6 +20,7 @@
     "importHelpers": true,
     "skipLibCheck": true,
     "sourceMap": true,
+    "declaration": true,
     "newLine": "lf",
     "downlevelIteration": true
   },

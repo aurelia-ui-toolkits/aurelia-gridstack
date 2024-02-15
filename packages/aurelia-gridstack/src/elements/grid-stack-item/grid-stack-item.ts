@@ -1,10 +1,12 @@
-import { bindable, BindingMode, inject } from 'aurelia';
+import { bindable, BindingMode, customElement, inject } from 'aurelia';
 import { booleanAttr, handlesAttr, number } from '../../interceptors';
 import { GridItemHTMLElement } from 'gridstack';
 import { ResizeHandleType } from '../../models';
 import { GridStack } from '../grid-stack/grid-stack';
+import template from './grid-stack-item.html';
 
 @inject(Element, GridStack)
+@customElement({ name: 'grid-stack-item', template })
 export class GridStackItem {
   constructor(public root: IGridStackItemElement, private gridstack: GridStack) { }
 

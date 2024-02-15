@@ -1,9 +1,10 @@
 {
-  "compilerOptions": {
-    "sourceMap": true,
-    "declaration": true,
-    "declarationDir": "dist/types"
-  },
   "extends": "../../tsconfig.build.json",
-  "include": ["src"]
+  "compilerOptions": {
+    "outDir": "./dist",
+    "declarationDir": "./dist/types"
+  },
+  "include": [
+    "src"
+  ]
 }

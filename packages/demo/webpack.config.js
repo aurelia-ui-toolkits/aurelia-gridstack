@@ -13,15 +13,6 @@ const sassLoader = {
   }
 };
 
-const postcssLoader = {
-  loader: 'postcss-loader',
-  options: {
-    postcssOptions: {
-      plugins: ['autoprefixer']
-    }
-  }
-};
-
 const outDir = path.resolve(__dirname, 'dist');
 module.exports = function (env, { analyze }) {
   const production = env.production || process.env.NODE_ENV === 'production';
@@ -55,6 +46,7 @@ module.exports = function (env, { analyze }) {
         { test: /\.scss$/i, use: ['style-loader', cssLoader/*, postcssLoader*/, sassLoader] },
         { test: /\.ts$/i, use: ['ts-loader', '@aurelia/webpack-loader'], exclude: /node_modules/ },
         { test: /\.html$/i, use: '@aurelia/webpack-loader', exclude: /node_modules/ }
+        // { test: /aurelia-gridstack[/\\]dist.*\.html$/i, use: '@aurelia/webpack-loader' },
       ]
     },
     plugins: [
