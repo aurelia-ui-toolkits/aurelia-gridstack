@@ -64,7 +64,7 @@ export class GridStack {
     if (this.float !== undefined) {
       options.float = this.getFloat();
     }
-    if(this.static !== undefined){
+    if (this.static !== undefined) {
       options.staticGrid = this.getStatic();
     }
     this.grid = gs.GridStack.init(options, this.root);
@@ -77,6 +77,9 @@ export class GridStack {
   }
 
   handleChange(nodes: gs.GridStackNode[]) {
+    if (!(nodes instanceof Array)) {
+      return;
+    }
     nodes.forEach(x => this.updateNodeVmAttributes(x));
   }
 
