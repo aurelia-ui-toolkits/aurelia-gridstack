@@ -64,6 +64,9 @@ export class GridStack {
   }
 
   handleChange(nodes: gs.GridStackNode[]) {
+    if (!(nodes instanceof Array)) {
+      return;
+    }
     nodes.forEach(x => this.updateNodeVmAttributes(x));
   }
 
