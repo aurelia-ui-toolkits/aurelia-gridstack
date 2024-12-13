@@ -1,3 +1,12 @@
+# [6.0.0](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/compare/v5.0.0...v6.0.0) (2024-12-13)
+
+
+### Bug Fixes
+
+* use explicit coerce function ([08eaf74](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/commit/08eaf743b6bed69649f213755c62764a9e261f37))
+
+
+
 ## [5.0.0](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/compare/v4.0.0...v5.0.0) (2024-02-15)
 
 
