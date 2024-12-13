@@ -43,7 +43,7 @@
     "peerDependencies": {
         "aurelia-framework": "^1.4.1",
         "aurelia-typed-observable-plugin": "^0.5.1",
-        "gridstack": "^10.1.0",
+        "gridstack": "^11.1.2",
         "tslib": "^2.6.2"
       }
 }
