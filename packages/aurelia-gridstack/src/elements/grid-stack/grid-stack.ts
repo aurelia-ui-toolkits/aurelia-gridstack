@@ -19,7 +19,7 @@ export class GridStack {
     this.root.setAttribute('gs-min-row', this.minRow.toString());
   }
 
-  @bindable
+  @bindable.none
   float: string | boolean | undefined;
   floatChanged() {
     this.grid?.float(this.getFloat());
@@ -29,7 +29,7 @@ export class GridStack {
     return this.float || this.float === '' ? true : false;
   }
 
-  @bindable
+  @bindable.none
   static: string | boolean | undefined;
   staticChanged() {
     this.grid?.setStatic(this.getStatic());
@@ -39,7 +39,7 @@ export class GridStack {
     return this.static || this.static === '' ? true : false;
   }
 
-  @bindable
+  @bindable.none
   options: gs.GridStackOptions;
 
   @children('.grid-stack-item')
