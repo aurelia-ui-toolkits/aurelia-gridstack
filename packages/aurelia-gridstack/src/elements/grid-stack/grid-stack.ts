@@ -52,7 +52,7 @@ export class GridStack {
     removed.forEach(x => this.grid!.engine.removeNode(x, false, false));
     const newItems = this.items.map(x => x.root).filter(x => !x.gridstackNode);
     newItems.forEach(x => {
-      this.grid!.addWidget(x);
+      this.grid!.makeWidget(x);
       if (x.gridstackNode) {
         this.updateNodeVmAttributes(x.gridstackNode);
       }

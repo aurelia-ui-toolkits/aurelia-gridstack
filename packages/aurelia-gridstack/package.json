@@ -1,49 +1,49 @@
 {
-    "name": "aurelia-gridstack",
-    "version": "6.0.0",
-    "publishConfig": {
-        "access": "public"
-    },
-    "description": "Aurelia wrappers for gridstack",
-    "keywords": [
-        "aurelia",
-        "elements",
-        "gridstack"
-    ],
-    "homepage": "http://aurelia.io",
-    "bugs": {
-        "url": "https://github.com/aurelia-ui-toolkits/aurelia-gridstack/issues/issues"
-    },
-    "license": "MIT",
-    "author": "https://github.com/maximbalaganskiy",
-    "contributors": [],
-    "main": "dist/commonjs/index.js",
-    "module": "dist/native-modules/index.js",
-    "typings": "dist/types/index.d.ts",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/aurelia-ui-toolkits/aurelia-gridstack/issues"
-    },
-    "files": [
-        "dist"
-    ],
-    "scripts": {
-        "build-ts:amd": "tsc -p tsconfig.build.json -t es5 -m amd      --outDir dist/amd",
-        "build-ts:cjs": "tsc -p tsconfig.build.json -t es5 -m commonjs --outDir dist/commonjs",
-        "build-ts:ntv": "tsc -p tsconfig.build.json -t es5 -m es6      --outDir dist/native-modules",
-        "build-ts:es6": "tsc -p tsconfig.build.json -t es6 -m es6      --outDir dist/es2015",
-        "build-ts:types": "tsc -p tsconfig.build.json --skipLibCheck -d --emitDeclarationOnly --declarationDir dist/types",
-        "build-assets:amd": "copyfiles -u 1 src/**/*.html src/**/*.css dist/amd",
-        "build-assets:cjs": "copyfiles -u 1 src/**/*.html src/**/*.css dist/commonjs",
-        "build-assets:ntv": "copyfiles -u 1 src/**/*.html src/**/*.css dist/native-modules",
-        "build-assets:es6": "copyfiles -u 1 src/**/*.html src/**/*.css dist/es2015",
-        "prebuild": "rimraf dist",
-        "build": "concurrently \"npm:build-ts:*\" && concurrently \"npm:build-assets:*\""
-    },
-    "peerDependencies": {
-        "aurelia-framework": "^1.4.1",
-        "aurelia-typed-observable-plugin": "^0.5.1",
-        "gridstack": "^11.1.2",
-        "tslib": "^2.6.2"
-      }
+  "name": "aurelia-gridstack",
+  "version": "6.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "Aurelia wrappers for gridstack",
+  "keywords": [
+    "aurelia",
+    "elements",
+    "gridstack"
+  ],
+  "homepage": "http://aurelia.io",
+  "bugs": {
+    "url": "https://github.com/aurelia-ui-toolkits/aurelia-gridstack/issues/issues"
+  },
+  "license": "MIT",
+  "author": "https://github.com/maximbalaganskiy",
+  "contributors": [],
+  "main": "dist/commonjs/index.js",
+  "module": "dist/native-modules/index.js",
+  "typings": "dist/types/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aurelia-ui-toolkits/aurelia-gridstack/issues"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build-ts:amd": "tsc -p tsconfig.build.json -t es5 -m amd      --outDir dist/amd",
+    "build-ts:cjs": "tsc -p tsconfig.build.json -t es5 -m commonjs --outDir dist/commonjs",
+    "build-ts:ntv": "tsc -p tsconfig.build.json -t es5 -m es6      --outDir dist/native-modules",
+    "build-ts:es6": "tsc -p tsconfig.build.json -t es6 -m es6      --outDir dist/es2015",
+    "build-ts:types": "tsc -p tsconfig.build.json --skipLibCheck -d --emitDeclarationOnly --declarationDir dist/types",
+    "build-assets:amd": "copyfiles -u 1 src/**/*.html src/**/*.css dist/amd",
+    "build-assets:cjs": "copyfiles -u 1 src/**/*.html src/**/*.css dist/commonjs",
+    "build-assets:ntv": "copyfiles -u 1 src/**/*.html src/**/*.css dist/native-modules",
+    "build-assets:es6": "copyfiles -u 1 src/**/*.html src/**/*.css dist/es2015",
+    "prebuild": "rimraf dist",
+    "build": "concurrently \"npm:build-ts:*\" && concurrently \"npm:build-assets:*\""
+  },
+  "peerDependencies": {
+    "aurelia-framework": "^1.4.1",
+    "aurelia-typed-observable-plugin": "^0.5.1",
+    "gridstack": "^11.3.0",
+    "tslib": "^2.8.1"
+  }
 }
