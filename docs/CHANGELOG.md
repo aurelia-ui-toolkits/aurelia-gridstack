@@ -1,3 +1,13 @@
+# [6.0.0](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/compare/v5.0.0...v6.0.0) (2025-02-19)
+
+
+### Bug Fixes
+
+* use correct method to notify gridstack of new items ([97dc6d8](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/commit/97dc6d8153768ed22b782c540031a288dac63432))
+* use explicit coerce function ([08eaf74](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/commit/08eaf743b6bed69649f213755c62764a9e261f37))
+
+
+
 # [6.0.0](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/compare/v5.0.0...v6.0.0) (2024-12-13)
 
 
