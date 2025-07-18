@@ -5329,7 +5329,8 @@ function createLoader() {
     if (aurelia_pal__WEBPACK_IMPORTED_MODULE_1__.PLATFORM.Loader) {
         return Promise.resolve(new aurelia_pal__WEBPACK_IMPORTED_MODULE_1__.PLATFORM.Loader());
     }
-    if (false) {}
+    if (false) // removed by dead control flow
+{}
     return Promise.reject('No PLATFORM.Loader is defined and there is neither a System API (ES6) or a Require API (AMD) globally available to load your app.');
 }
 function initializePal(loader) {
@@ -6219,7 +6220,8 @@ class WebpackLoader extends aurelia_loader__WEBPACK_IMPORTED_MODULE_0__.Loader {
         this.addPlugin('template-registry-entry', {
             fetch: (moduleId) => __awaiter(this, void 0, void 0, function* () {
                 // HMR:
-                if (false) {}
+                if (false) // removed by dead control flow
+{}
                 const entry = this.getOrCreateTemplateRegistryEntry(moduleId);
                 if (!entry.templateIsLoaded) {
                     yield this.templateLoader.loadTemplate(this, entry);
@@ -6254,16 +6256,19 @@ class WebpackLoader extends aurelia_loader__WEBPACK_IMPORTED_MODULE_0__.Loader {
                 if (!plugin) {
                     throw new Error(`Plugin ${loaderPlugin} is not registered in the loader.`);
                 }
-                if (false) {}
+                if (false) // removed by dead control flow
+{}
                 return yield plugin.fetch(moduleId);
             }
             if (__webpack_require__.m[moduleId]) {
-                if (defaultHMR && module.hot && 0) {}
+                if (defaultHMR && module.hot && 0) // removed by dead control flow
+{}
                 return __webpack_require__(moduleId);
             }
             const asyncModuleId = `async!${moduleId}`;
             if (__webpack_require__.m[asyncModuleId]) {
-                if (defaultHMR && module.hot && 0) {}
+                if (defaultHMR && module.hot && 0) // removed by dead control flow
+{}
                 const callback = __webpack_require__(asyncModuleId);
                 return yield new Promise(callback);
             }
@@ -27567,4 +27572,4 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=app.8737e44e95335a9176d9.bundle.js.8737e44e95335a9176d9.bundle.map
+//# sourceMappingURL=app.462e8b2bbe99bcf94880.bundle.js.462e8b2bbe99bcf94880.bundle.map
