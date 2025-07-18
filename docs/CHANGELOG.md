@@ -1,3 +1,12 @@
+# [7.0.0](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/compare/v5.0.0...v7.0.0) (2025-07-18)
+
+
+### Features
+
+* upgrade gridstack ([56b953b](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/commit/56b953bc714c85e7fcbab03e44125c5ae7c1af24))
+
+
+
 # [6.1.0](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/compare/v5.0.0...v6.1.0) (2025-02-19)
 
 
