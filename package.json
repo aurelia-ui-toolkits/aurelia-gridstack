@@ -1,7 +1,7 @@
 {
   "name": "@aurelia-gridstack/monorepo",
   "private": true,
-  "version": "5.0.0-au2",
+  "version": "8.0.0",
   "workspaces": [
     "packages/*"
   ],
