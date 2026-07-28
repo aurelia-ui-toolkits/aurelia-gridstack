@@ -120,9 +120,26 @@ jobs:
             exit 0
           fi
 
+          previous_tag=$(git describe --tags --abbrev=0 HEAD^ 2>/dev/null || true)
+
+          {
+            echo "## What's Changed"
+            echo
+
+            if [ -n "$previous_tag" ]; then
+              git log --no-merges --pretty=format:'- %s (`%h`)' "$previous_tag..$GITHUB_SHA"
+              echo
+              echo
+              echo "**Full Changelog**: https://github.com/$GITHUB_REPOSITORY/compare/$previous_tag...$tag"
+            else
+              git log --no-merges --pretty=format:'- %s (`%h`)' "$GITHUB_SHA"
+              echo
+            fi
+          } > release-notes.md
+
           if git rev-parse "$tag" >/dev/null 2>&1; then
             echo "Tag $tag already exists; creating release for existing tag."
-            gh release create "$tag" --generate-notes
+            gh release create "$tag" --notes-file release-notes.md
           else
-            gh release create "$tag" --target "$GITHUB_SHA" --generate-notes
+            gh release create "$tag" --target "$GITHUB_SHA" --notes-file release-notes.md
           fi
