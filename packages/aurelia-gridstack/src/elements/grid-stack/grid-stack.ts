@@ -1,10 +1,10 @@
-import { bindable, children, CustomElement } from 'aurelia';
+import { bindable, children, CustomElement, resolve } from 'aurelia';
 import { booleanAttr, number } from '../../interceptors';
 import * as gs from 'gridstack';
 import { GridStackItem } from '../grid-stack-item/grid-stack-item';
 
 export class GridStack {
-  constructor(public root: Element) { }
+  public readonly root = resolve(Element);
 
   grid: gs.GridStack | undefined;
 

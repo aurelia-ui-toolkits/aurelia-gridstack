@@ -1,12 +1,12 @@
-import { bindable, BindingMode, inject } from 'aurelia';
+import { bindable, BindingMode, resolve } from 'aurelia';
 import { booleanAttr, handlesAttr, number } from '../../interceptors';
 import { GridItemHTMLElement } from 'gridstack';
 import { ResizeHandleType } from '../../models';
 import { GridStack } from '../grid-stack/grid-stack';
 
-@inject(Element, GridStack)
 export class GridStackItem {
-  constructor(public root: IGridStackItemElement, private gridstack: GridStack) { }
+  public readonly root = resolve(Element) as IGridStackItemElement;
+  private readonly gridstack = resolve(GridStack);
 
   private suppressGridUpdate = false;
 
