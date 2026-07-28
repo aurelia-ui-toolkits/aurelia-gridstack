@@ -127,12 +127,14 @@ jobs:
             echo
 
             if [ -n "$previous_tag" ]; then
-              git log --no-merges --pretty=format:'- %s (`%h`)' "$previous_tag..$GITHUB_SHA"
+              git log --no-merges --pretty=format:'- %s (`%h`)' "$previous_tag..$GITHUB_SHA" \
+                | grep -E -- '^- (feat|fix|perf|revert)(\([^)]*\))?!?: ' || true
               echo
               echo
               echo "**Full Changelog**: https://github.com/$GITHUB_REPOSITORY/compare/$previous_tag...$tag"
             else
-              git log --no-merges --pretty=format:'- %s (`%h`)' "$GITHUB_SHA"
+              git log --no-merges --pretty=format:'- %s (`%h`)' "$GITHUB_SHA" \
+                | grep -E -- '^- (feat|fix|perf|revert)(\([^)]*\))?!?: ' || true
               echo
             fi
           } > release-notes.md
