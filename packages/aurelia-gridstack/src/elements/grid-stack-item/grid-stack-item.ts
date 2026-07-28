@@ -162,7 +162,10 @@ export class GridStackItem {
     }
   }
 
-  attached() {
+  // stamp the gs-* attributes before the element can reach the DOM: the grid registers items by
+  // reading them at GridStack.init/makeWidget time, which can precede attached() when an item's
+  // content activates asynchronously
+  binding() {
     if (this.x !== undefined) {
       this.xChanged();
     }
