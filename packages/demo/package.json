@@ -1,20 +1,14 @@
 {
-  "name": "demo",
-  "version": "4.0.1-au2",
+  "name": "@aurelia-gridstack/demo",
   "private": true,
-  "description": "",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "webpack serve --progress",
-    "prebuild": "rimraf dist/*.{js,css,map,html}",
-    "build:app": "npm run prebuild && webpack --progress",
-    "analyze": "npm run prebuild && webpack --env production --analyze",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "vite",
+    "build": "vite build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
   "dependencies": {
-    "aurelia-gridstack": "4.0.1-au2"
+    "aurelia": ">=2.0.0-rc.1",
+    "aurelia-gridstack": "*",
+    "gridstack": "^13.0.2"
   }
 }

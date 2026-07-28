@@ -12,7 +12,7 @@ function onlyUnique(value: string, index: number, self: string[]) {
   return self.indexOf(value) === index;
 }
 
-export function handlesAttr(handles: string | string[]): ResizeHandleType[] {
+export function handlesAttr(handles: unknown): ResizeHandleType[] {
   if (!handles) {
     return [];
   }
@@ -21,7 +21,7 @@ export function handlesAttr(handles: string | string[]): ResizeHandleType[] {
 
   if (typeof handles === 'string') {
     allEntries = handles.replace(/\s/g, '').split(',');
-  } else if (Array.isArray(handles)) {
+  } else if (Array.isArray(handles) && handles.every(handle => typeof handle === 'string')) {
     allEntries = handles;
   } else {
     return [];

@@ -1,15 +1,15 @@
 {
-  "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "baseUrl": ".",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+    "target": "es2022",
+    "lib": ["esnext", "dom"],
+    "strict": true,
+    "skipLibCheck": true,
     "paths": {
-      "aurelia-gridstack": ["../aurelia-gridstack/src"]
-    },
-    "resolveJsonModule": true,
-    "noUnusedLocals": false,
-    "noUnusedParameters": false,
-    "newLine": "lf"
+      "aurelia-gridstack": ["../aurelia-gridstack/src/index.ts"]
+    }
   },
-  "exclude": []
+  "include": ["src"]
 }

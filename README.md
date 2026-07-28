@@ -1,22 +1,26 @@
 # aurelia-gridstack
-Aurelia wrapper for [gridstack](https://github.com/gridstack/gridstack.js)
+
+Aurelia 2 wrapper for [GridStack](https://github.com/gridstack/gridstack.js).
 
 [Demo app](https://aurelia-ui-toolkits.github.io/aurelia-gridstack/)
 
 ## Installation
 
-```
-npm i gridstack aurelia-gridstack aurelia-typed-observable-plugin tslib --save
+```sh
+npm install aurelia-gridstack gridstack
 ```
 
 ## Configuration
 
-```typescript
-// main.ts
-export function configure(aurelia: Aurelia) {
-    aurelia.use.plugin(PLATFORM.moduleName("aurelia-gridstack"));
-    // the rest of your configuration...
-}
+```ts
+import Aurelia from 'aurelia';
+import { GridStackConfiguration } from 'aurelia-gridstack';
+import { App } from './app';
+
+Aurelia
+  .register(GridStackConfiguration)
+  .app(App)
+  .start();
 ```
 
 ## Usage
@@ -59,4 +63,10 @@ items = [
 
 ## Contribution
 
-If you feel that something is missing please submit an issue or better yet a PR.
+```sh
+npm install
+npm start
+```
+
+Use `npm run build` to build the plugin and `npm run lint` to lint the
+TypeScript sources.

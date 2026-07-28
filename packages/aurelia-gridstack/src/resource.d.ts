@@ -16,7 +16,7 @@ declare module '*.css' {
   export default value;
 }
 
-declare module '*.scss' {
+declare module '*.css' {
   const value: Record<string, string>;
   export default value;
 }

@@ -1,12 +1,10 @@
-import { bindable, BindingMode, customElement, inject } from 'aurelia';
+import { bindable, BindingMode, inject } from 'aurelia';
 import { booleanAttr, handlesAttr, number } from '../../interceptors';
 import { GridItemHTMLElement } from 'gridstack';
 import { ResizeHandleType } from '../../models';
 import { GridStack } from '../grid-stack/grid-stack';
-import template from './grid-stack-item.html';
 
 @inject(Element, GridStack)
-@customElement({ name: 'grid-stack-item', template })
 export class GridStackItem {
   constructor(public root: IGridStackItemElement, private gridstack: GridStack) { }
 
@@ -115,7 +113,7 @@ export class GridStackItem {
   }
 
   @bindable({ set: booleanAttr })
-  noMove: boolean;
+  noMove?: boolean;
   noMoveChanged() {
     if (this.noMove) {
       this.root.setAttribute('gs-no-move', 'true');
@@ -125,7 +123,7 @@ export class GridStackItem {
   }
 
   @bindable({ set: booleanAttr })
-  noResize: boolean;
+  noResize?: boolean;
   noResizeChanged() {
     if (this.noResize) {
       this.root.setAttribute('gs-no-resize', 'true');
@@ -135,7 +133,7 @@ export class GridStackItem {
   }
 
   @bindable({ set: booleanAttr })
-  locked: boolean;
+  locked?: boolean;
   lockedChanged() {
     if (this.locked) {
       this.root.setAttribute('gs-locked', 'true');
@@ -145,7 +143,7 @@ export class GridStackItem {
   }
 
   @bindable({ set: booleanAttr })
-  autoPosition: boolean;
+  autoPosition?: boolean;
   autoPositionChanged() {
     if (this.autoPosition) {
       this.root.setAttribute('gs-auto-position', 'true');

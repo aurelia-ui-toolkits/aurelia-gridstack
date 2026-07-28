@@ -1,28 +1,27 @@
 {
   "compilerOptions": {
-    "module": "esnext",
-    "moduleResolution": "node",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
     "esModuleInterop": true,
-    "target": "ES2018",
+    "target": "es2022",
     "lib": [
       "ESNext",
       "dom"
     ],
     "noImplicitAny": true,
-    "noUnusedLocals": false,
+    "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "strictNullChecks": true,
     "forceConsistentCasingInFileNames": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
     "noEmitHelpers": true,
     "importHelpers": true,
     "skipLibCheck": true,
     "sourceMap": true,
     "declaration": true,
+    "declarationDir": "dist/types",
     "newLine": "lf",
-    "downlevelIteration": true
+    "isolatedModules": true
   },
   "exclude": [
     ".vscode",
