@@ -27,7 +27,7 @@ Aurelia
 
 ```html
 <require from="gridstack/dist/gridstack.min.css"></require>
-<grid-stack min-row="5" float>
+<grid-stack min-row="5" mode="float">
   <grid-stack-item x="0" y="0" w="2" h="1">
     <div class="item">Item1</div>
   </grid-stack-item>
@@ -40,7 +40,7 @@ Aurelia
 </grid-stack>
 
 Or with bindings
-<grid-stack min-row="5" float>
+<grid-stack min-row="5" mode="float">
   <grid-stack-item repeat.for="i of items" x.bind="i.x" y.bind="i.y" w.bind="i.w" h.bind="i.h">
     <div class="item">
       <div>Item ${$index + 1}</div>
@@ -60,6 +60,10 @@ items = [
   { x: 3, y: 2, w: 1, h: 2 }
 ];
 ```
+
+GridStack 14 replaces the boolean `float` option with `mode`. Supported values are `top`, `float`,
+`list`, and `compact`. The former `<grid-stack float>` binding remains available as a deprecated
+compatibility alias.
 
 ## Contribution
 

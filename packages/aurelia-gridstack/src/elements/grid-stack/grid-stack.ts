@@ -18,11 +18,22 @@ export class GridStack {
     }
   }
 
+  @bindable
+  mode?: gs.GridStackOptions['mode'];
+  modeChanged() {
+    if (this.mode !== undefined) {
+      this.grid?.mode(this.mode);
+    } else if (this.float !== undefined) {
+      this.grid?.mode(this.float ? 'float' : 'top');
+    }
+  }
+
+  /** @deprecated Use mode instead. */
   @bindable({ set: booleanAttr })
   float?: boolean;
   floatChanged() {
-    if (this.float !== undefined) {
-      this.grid?.float(this.float);
+    if (this.float !== undefined && this.mode === undefined) {
+      this.grid?.mode(this.float ? 'float' : 'top');
     }
   }
 
@@ -58,8 +69,10 @@ export class GridStack {
 
   attached() {
     const options = this.options ?? {};
-    if (this.float !== undefined) {
-      options.float = this.float;
+    if (this.mode !== undefined) {
+      options.mode = this.mode;
+    } else if (this.float !== undefined) {
+      options.mode = this.float ? 'float' : 'top';
     }
     if (this.static !== undefined) {
       options.staticGrid = this.static;
