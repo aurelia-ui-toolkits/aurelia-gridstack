@@ -9,6 +9,6 @@
   "dependencies": {
     "aurelia": ">=2.0.0-rc.1",
     "aurelia-gridstack": "*",
-    "gridstack": "^13.0.2"
+    "gridstack": "^14.0.0"
   }
 }

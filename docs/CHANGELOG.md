@@ -1,3 +1,24 @@
+# [9.0.0](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/compare/v8.0.1...v9.0.0) (2026-09-22)
+
+
+### Breaking Changes
+
+* require GridStack 14 and use its `mode` layout API instead of the removed `float` API
+
+
+### Features
+
+* add the GridStack 14 `mode` binding while retaining `float` as a deprecated compatibility alias
+* update the demo and usage documentation for GridStack 14
+
+
+### Maintenance
+
+* update Aurelia, Babel, ESLint, Rolldown, and Vite dependencies
+* fix Vite config typing and native config-loader compatibility
+* keep TypeScript on the latest version supported by typescript-eslint
+
+
 # [5.0.0-au2](https://github.com/aurelia-ui-toolkits/aurelia-gridstack/compare/v4.0.1-au2...v5.0.0-au2) (2024-02-15)
 
 

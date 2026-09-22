@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite';
 import aurelia from '@aurelia/vite-plugin';
-import babel from '@rolldown/plugin-babel';
+import babel, { defineRolldownBabelPreset } from '@rolldown/plugin-babel';
 
 const externalPackages = [
   '@aurelia',
@@ -13,24 +13,22 @@ function isExternal(id: string): boolean {
   return externalPackages.some(pkg => id === pkg || id.startsWith(`${pkg}/`));
 }
 
-function decoratorPreset(options: Record<string, unknown>) {
-  return {
-    preset: () => ({
-      plugins: [['@babel/plugin-proposal-decorators', options]],
-    }),
-    rolldown: {
-      filter: {
-        code: '@',
-      },
+const decoratorPreset = defineRolldownBabelPreset({
+  preset: () => ({
+    plugins: [['@babel/plugin-proposal-decorators', { version: '2023-11' }]],
+  }),
+  rolldown: {
+    filter: {
+      code: '@',
     },
-  };
-}
+  },
+});
 
 export default defineConfig({
   root: 'src',
   plugins: [
     aurelia({ include: '**/*.{ts,js,html}' }),
-    babel({ presets: [decoratorPreset({ version: '2023-11' })] }),
+    babel({ presets: [decoratorPreset] }),
   ],
   build: {
     outDir: '../dist',
